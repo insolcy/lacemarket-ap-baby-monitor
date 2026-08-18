@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-18T22:11:52.236Z",
+  "lastSuccessfulCheckAt": "2026-08-18T22:32:42.613Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/toy-s-donut-diner-jsk-headband-set-sax-blue-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-picnic-party-jsk-2c27bdd2-98f5-4b99-89bc-812ac2ba3266",
         "https://egl.circlly.com/auctions/hinaichigo-op-set-rozen-maiden-20th-in-laforet-special-nwt",
         "https://egl.circlly.com/auctions/travel-bear-jsk-only",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/with-beret-nwot-ap-chess-emblem-jsk-and-beret",
         "https://egl.circlly.com/auctions/angelic-pretty-cosmic-jsk-in-ivory-29acb0fb-806e-4e3d-ba63-9a1cdf678b6b",
         "https://egl.circlly.com/auctions/ap-retro-cafe-op-in-sax",
-        "https://egl.circlly.com/auctions/doll-s-tea-party-op-4fcee8bb-56ad-470b-a549-f31aab2f78fb",
-        "https://egl.circlly.com/auctions/ap-strawberry-doll-fc408199-f3fb-4fc4-a67f-80ee0e9bf00b"
+        "https://egl.circlly.com/auctions/doll-s-tea-party-op-4fcee8bb-56ad-470b-a549-f31aab2f78fb"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/toy-s-donut-diner-jsk-headband-set-sax-blue-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-picnic-party-jsk-2c27bdd2-98f5-4b99-89bc-812ac2ba3266",
         "https://egl.circlly.com/auctions/hinaichigo-op-set-rozen-maiden-20th-in-laforet-special-nwt",
         "https://egl.circlly.com/auctions/travel-bear-jsk-only",
