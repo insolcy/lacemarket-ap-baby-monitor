@@ -33,6 +33,27 @@ const brands = {
   },
 };
 
+const blockedThirdPartyHosts = [
+  "criteo.com",
+  "doubleclick.net",
+  "freestar.com",
+  "google-analytics.com",
+  "googleadservices.com",
+  "googlesyndication.com",
+  "googletagmanager.com",
+];
+
+function shouldBlockResource(request) {
+  if (["font", "image", "media"].includes(request.resourceType())) {
+    return true;
+  }
+
+  const hostname = new URL(request.url()).hostname;
+  return blockedThirdPartyHosts.some(
+    (blockedHost) => hostname === blockedHost || hostname.endsWith(`.${blockedHost}`),
+  );
+}
+
 function requireProductionEnvironment() {
   if (dryRun) {
     return;
@@ -272,6 +293,13 @@ async function main() {
   const context = await browser.newContext({
     locale: "en-US",
     timezoneId: "America/Los_Angeles",
+  });
+  await context.route("**/*", async (route) => {
+    if (shouldBlockResource(route.request())) {
+      await route.abort("blockedbyclient");
+      return;
+    }
+    await route.continue();
   });
 
   try {
