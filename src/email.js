@@ -7,6 +7,16 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
+export function buildRecipients(sender, additionalRecipients = "") {
+  return [
+    ...new Set(
+      [sender, ...String(additionalRecipients).split(",")]
+        .map((recipient) => recipient.trim())
+        .filter(Boolean),
+    ),
+  ];
+}
+
 export function buildAlertEmail(listings) {
   const groups = Map.groupBy(listings, (listing) => listing.brandKey);
   const subject = `[Lace Market 上新] AP/BABY 裙装（${listings.length}件）`;

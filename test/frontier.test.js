@@ -1,8 +1,9 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { buildAlertEmail } from "../src/email.js";
+import { buildAlertEmail, buildRecipients } from "../src/email.js";
 import { findCandidatesBeforeAnchor, isListingUrl, mergeSeen, uniqueListings } from "../src/frontier.js";
+import { isUnitedStatesSellerLocation } from "../src/location.js";
 import { isChallengeResponse } from "../src/navigation.js";
 
 test("recognizes real listing URLs and rejects search URLs", () => {
@@ -80,6 +81,22 @@ test("email includes listing details and clickable URLs", () => {
   assert.match(message.text, /Test OP/);
   assert.match(message.text, /https:\/\/egl\.circlly\.com\/auctions\/test-op/);
   assert.match(message.html, /href="https:\/\/egl\.circlly\.com\/auctions\/test-op"/);
+});
+
+test("always emails the sender and adds configured recipients without duplicates", () => {
+  assert.deepEqual(buildRecipients("owner@gmail.com", "joy@example.com, owner@gmail.com"), [
+    "owner@gmail.com",
+    "joy@example.com",
+  ]);
+});
+
+test("recognizes US seller locations without matching shipping text", () => {
+  assert.equal(isUnitedStatesSellerLocation("93003 USA"), true);
+  assert.equal(isUnitedStatesSellerLocation("United States"), true);
+  assert.equal(isUnitedStatesSellerLocation("California, U.S.A."), true);
+  assert.equal(isUnitedStatesSellerLocation("(Tariff free shipping!) East Asia EastAsia"), false);
+  assert.equal(isUnitedStatesSellerLocation("Tariff free shipping to the US available EastAsia"), false);
+  assert.equal(isUnitedStatesSellerLocation("未提供"), false);
 });
 
 test("recognizes Cloudflare block and rate-limit variants", () => {

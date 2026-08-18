@@ -6,8 +6,9 @@ import { fileURLToPath } from "node:url";
 import nodemailer from "nodemailer";
 import { chromium } from "playwright";
 
-import { buildAlertEmail } from "./email.js";
+import { buildAlertEmail, buildRecipients } from "./email.js";
 import { findCandidatesBeforeAnchor, mergeSeen, uniqueListings } from "./frontier.js";
+import { isUnitedStatesSellerLocation } from "./location.js";
 import { isChallengeResponse } from "./navigation.js";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -268,7 +269,7 @@ async function sendAlert(listings) {
 
   await transporter.sendMail({
     from: `Lace Market Monitor <${process.env.SMTP_USER}>`,
-    to: process.env.ALERT_EMAIL || process.env.SMTP_USER,
+    to: buildRecipients(process.env.SMTP_USER, process.env.ALERT_EMAIL),
     subject: mail.subject,
     text: mail.text,
     html: mail.html,
@@ -308,21 +309,41 @@ async function main() {
       scans.push(await scanBrand(context, brandKey, brand, state.brands[brandKey]));
     }
 
-    const details = [];
+    const candidateDetails = [];
     for (const scan of scans) {
       for (const candidate of scan.candidates) {
-        details.push(await readListingDetails(context, candidate, scan.brandKey, brands[scan.brandKey]));
+        candidateDetails.push(
+          await readListingDetails(context, candidate, scan.brandKey, brands[scan.brandKey]),
+        );
       }
     }
 
+    const details = candidateDetails.filter((listing) =>
+      isUnitedStatesSellerLocation(listing.sellerLocation),
+    );
+    const skippedNonUsListings = candidateDetails.filter(
+      (listing) => !isUnitedStatesSellerLocation(listing.sellerLocation),
+    );
+
     if (details.length > 0) {
       if (dryRun) {
-        console.log(JSON.stringify({ dryRun: true, newListings: details }, null, 2));
+        console.log(
+          JSON.stringify({ dryRun: true, newListings: details, skippedNonUsListings }, null, 2),
+        );
       } else {
         await sendAlert(details);
       }
     } else {
-      console.log("No new listings found.");
+      console.log("No new US seller listings found.");
+      if (dryRun && skippedNonUsListings.length > 0) {
+        console.log(JSON.stringify({ dryRun: true, skippedNonUsListings }, null, 2));
+      }
+    }
+
+    if (skippedNonUsListings.length > 0) {
+      console.log(
+        `Skipped ${skippedNonUsListings.length} non-US listing(s); they will be recorded as seen.`,
+      );
     }
 
     if (!dryRun) {
