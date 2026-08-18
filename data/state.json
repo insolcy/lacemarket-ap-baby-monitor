@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-18T17:42:28.511Z",
+  "lastSuccessfulCheckAt": "2026-08-18T17:59:12.209Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/twinkle-carnival-halterneck-jsk-ivory",
         "https://egl.circlly.com/auctions/sugar-hearts-round-switching-jsk",
         "https://egl.circlly.com/auctions/cream-cookie-high-waist-jsk-in-sax",
         "https://egl.circlly.com/auctions/with-kc-ap-chocolate-rosette-jsk-and-kc-angelic-pretty-e9ca418c-d9ac-48be-895f-df1477292d56",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/ap-strawberry-doll-fc408199-f3fb-4fc4-a67f-80ee0e9bf00b",
         "https://egl.circlly.com/auctions/ap-daydream-bed-8e39ae69-ce79-4d2b-a3a1-1ab5e19f55ad",
         "https://egl.circlly.com/auctions/ap-merry-bunny-op-cfe10493-1c65-4501-b58f-2149b3e0e491",
-        "https://egl.circlly.com/auctions/ap-elegant-nightie",
-        "https://egl.circlly.com/auctions/ap-melty-cream-doughnut-7dae114d-628e-4e59-b7b5-022902d407be"
+        "https://egl.circlly.com/auctions/ap-elegant-nightie"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/twinkle-carnival-halterneck-jsk-ivory",
         "https://egl.circlly.com/auctions/sugar-hearts-round-switching-jsk",
         "https://egl.circlly.com/auctions/cream-cookie-high-waist-jsk-in-sax",
         "https://egl.circlly.com/auctions/with-kc-ap-chocolate-rosette-jsk-and-kc-angelic-pretty-e9ca418c-d9ac-48be-895f-df1477292d56",
