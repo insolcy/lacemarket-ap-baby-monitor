@@ -237,7 +237,10 @@ async function sendAlert(listings) {
 async function main() {
   requireProductionEnvironment();
   const state = await loadState();
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({
+    headless: true,
+    ...(process.env.BROWSER_CHANNEL ? { channel: process.env.BROWSER_CHANNEL } : {}),
+  });
   const context = await browser.newContext({
     locale: "en-US",
     timezoneId: "America/Los_Angeles",

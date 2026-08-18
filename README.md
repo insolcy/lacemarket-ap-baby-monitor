@@ -21,6 +21,8 @@ Gmail 应用专用密码需要 Google 账号启用两步验证。不要将密码
 
 配置 Secrets 后，在 **Actions → Monitor Lace Market → Run workflow** 手动运行一次。之后 GitHub Actions 会按计划继续运行，无需保持本地电脑开机。
 
+GitHub 的计划任务可能因平台负载出现少量延迟，因此“每 10 分钟”表示计划频率，不保证精确到某一秒。
+
 ## 本地验证
 
 ```bash
