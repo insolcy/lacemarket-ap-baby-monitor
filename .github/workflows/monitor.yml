@@ -1,8 +1,6 @@
 name: Monitor Lace Market
 
 on:
-  schedule:
-    - cron: "3-59/10 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -55,6 +53,9 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
           ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
+          PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }}
+          PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
           BROWSER_CHANNEL: chrome
         run: npm run monitor

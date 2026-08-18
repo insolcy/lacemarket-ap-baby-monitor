@@ -237,9 +237,17 @@ async function sendAlert(listings) {
 async function main() {
   requireProductionEnvironment();
   const state = await loadState();
+  const proxy = process.env.PROXY_SERVER
+    ? {
+        server: process.env.PROXY_SERVER,
+        ...(process.env.PROXY_USERNAME ? { username: process.env.PROXY_USERNAME } : {}),
+        ...(process.env.PROXY_PASSWORD ? { password: process.env.PROXY_PASSWORD } : {}),
+      }
+    : undefined;
   const browser = await chromium.launch({
     headless: true,
     ...(process.env.BROWSER_CHANNEL ? { channel: process.env.BROWSER_CHANNEL } : {}),
+    ...(proxy ? { proxy } : {}),
   });
   const context = await browser.newContext({
     locale: "en-US",

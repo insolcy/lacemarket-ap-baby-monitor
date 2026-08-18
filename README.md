@@ -16,10 +16,13 @@
 | `SMTP_USER` | 是 | 用于发信的 Gmail 地址，也是默认收件人 |
 | `SMTP_APP_PASSWORD` | 是 | Gmail 应用专用密码，不是 Gmail 登录密码 |
 | `ALERT_EMAIL` | 否 | 若希望发送到另一邮箱，可填写该地址 |
+| `PROXY_SERVER` | 云端运行需要 | 站点允许访问的可信 HTTP/HTTPS/SOCKS 代理地址 |
+| `PROXY_USERNAME` | 视代理而定 | 代理用户名 |
+| `PROXY_PASSWORD` | 视代理而定 | 代理密码 |
 
 Gmail 应用专用密码需要 Google 账号启用两步验证。不要将密码写入代码、Issue 或 Actions 日志。
 
-配置 Secrets 后，在 **Actions → Monitor Lace Market → Run workflow** 手动运行一次。之后 GitHub Actions 会按计划继续运行，无需保持本地电脑开机。
+配置 Secrets 后，在 **Actions → Monitor Lace Market → Run workflow** 选择 `dry_run` 手动运行一次。确认云端检查成功后，再恢复每 10 分钟的 `schedule`；在代理尚未配置前，计划触发保持暂停，以免持续产生 Cloudflare 403 失败任务。
 
 GitHub 的计划任务可能因平台负载出现少量延迟，因此“每 10 分钟”表示计划频率，不保证精确到某一秒。
 
