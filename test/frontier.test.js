@@ -3,6 +3,7 @@ import test from "node:test";
 
 import { buildAlertEmail } from "../src/email.js";
 import { findCandidatesBeforeAnchor, isListingUrl, mergeSeen, uniqueListings } from "../src/frontier.js";
+import { isChallengeResponse } from "../src/navigation.js";
 
 test("recognizes real listing URLs and rejects search URLs", () => {
   assert.equal(isListingUrl("https://egl.circlly.com/auctions/new-dress"), true);
@@ -79,4 +80,38 @@ test("email includes listing details and clickable URLs", () => {
   assert.match(message.text, /Test OP/);
   assert.match(message.text, /https:\/\/egl\.circlly\.com\/auctions\/test-op/);
   assert.match(message.html, /href="https:\/\/egl\.circlly\.com\/auctions\/test-op"/);
+});
+
+test("recognizes Cloudflare block and rate-limit variants", () => {
+  assert.equal(
+    isChallengeResponse({ status: 429, title: "Just a moment...", url: "https://egl.circlly.com", bodyText: "" }),
+    true,
+  );
+  assert.equal(
+    isChallengeResponse({
+      status: 403,
+      title: "Attention Required! | Cloudflare",
+      url: "https://egl.circlly.com",
+      bodyText: "Sorry, you have been blocked",
+    }),
+    true,
+  );
+  assert.equal(
+    isChallengeResponse({
+      status: 200,
+      title: "Just a moment...",
+      url: "https://egl.circlly.com/?__cf_chl_rt_tk=token",
+      bodyText: "",
+    }),
+    true,
+  );
+  assert.equal(
+    isChallengeResponse({
+      status: 200,
+      title: "Angelic Pretty Dresses",
+      url: "https://egl.circlly.com/angelic-pretty/dresses",
+      bodyText: "Created Date ▼",
+    }),
+    false,
+  );
 });

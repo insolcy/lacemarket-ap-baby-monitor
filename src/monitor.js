@@ -8,6 +8,7 @@ import { chromium } from "playwright";
 
 import { buildAlertEmail } from "./email.js";
 import { findCandidatesBeforeAnchor, mergeSeen, uniqueListings } from "./frontier.js";
+import { isChallengeResponse } from "./navigation.js";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const statePath = process.env.STATE_PATH || path.join(projectRoot, "data", "state.json");
@@ -61,7 +62,7 @@ async function waitForNavigationSlot(page) {
   }
 }
 
-async function gotoWithRetry(page, url, label) {
+async function gotoWithRetry(page, url, label, validatePage) {
   let lastError;
 
   for (let attempt = 1; attempt <= navigationRetries; attempt += 1) {
@@ -71,15 +72,16 @@ async function gotoWithRetry(page, url, label) {
       lastNavigationAt = Date.now();
       const title = await page.title();
       const bodyText = await page.locator("body").innerText({ timeout: 20_000 });
-      if (
-        [403, 429].includes(response?.status()) ||
-        /Attention Required/i.test(title) ||
-        /Just a moment/i.test(title) ||
-        /Sorry, you have been blocked/i.test(bodyText) ||
-        /__cf_chl_/i.test(page.url())
-      ) {
-        throw new Error(`${label}: the site returned a Cloudflare block or rate-limit page`);
+      const status = response?.status();
+      const finalUrl = page.url();
+      if (isChallengeResponse({ status, title, url: finalUrl, bodyText })) {
+        const rayId = response?.headers()["cf-ray"] || "unknown";
+        throw new Error(
+          `${label}: Cloudflare challenge (status=${status ?? "unknown"}, title=${JSON.stringify(title)}, url=${finalUrl}, cf-ray=${rayId})`,
+        );
       }
+
+      await validatePage?.(page, bodyText);
 
       return bodyText;
     } catch (error) {
@@ -106,8 +108,9 @@ async function assertUsableListingPage(page, brand, bodyText) {
 }
 
 async function readListingPage(page, url, brand) {
-  const bodyText = await gotoWithRetry(page, url, brand.label);
-  await assertUsableListingPage(page, brand, bodyText);
+  await gotoWithRetry(page, url, brand.label, (currentPage, bodyText) =>
+    assertUsableListingPage(currentPage, brand, bodyText),
+  );
   await page.locator('a[href*="/auctions/"]').first().waitFor({ state: "attached", timeout: 20_000 });
 
   const rawListings = await page.locator('a[href*="/auctions/"]').evaluateAll((anchors) =>
@@ -172,7 +175,13 @@ async function readListingDetails(context, candidate, brandKey, brand) {
   const page = await context.newPage();
 
   try {
-    await gotoWithRetry(page, candidate.url, candidate.url);
+    await gotoWithRetry(page, candidate.url, candidate.url, async (currentPage) => {
+      await currentPage.locator("h2").first().waitFor({ state: "visible", timeout: 20_000 });
+      await currentPage.locator("strong").filter({ hasText: /^\s*Brand:\s*$/i }).first().waitFor({
+        state: "visible",
+        timeout: 20_000,
+      });
+    });
 
     const title = (await page.locator("h2").first().innerText({ timeout: 20_000 })).trim();
     const brandText = await readLabelledText(page, "strong", "Brand");
