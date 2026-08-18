@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-18T19:32:45.174Z",
+  "lastSuccessfulCheckAt": "2026-08-18T19:50:05.965Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/hinaichigo-op-set-rozen-maiden-20th-in-laforet-special-nwt",
+        "https://egl.circlly.com/auctions/travel-bear-jsk-only",
         "https://egl.circlly.com/auctions/twinkle-carnival-halterneck-jsk-ivory",
         "https://egl.circlly.com/auctions/sugar-hearts-round-switching-jsk",
         "https://egl.circlly.com/auctions/cream-cookie-high-waist-jsk-in-sax",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/ap-retro-cafe-op-in-sax",
         "https://egl.circlly.com/auctions/doll-s-tea-party-op-4fcee8bb-56ad-470b-a549-f31aab2f78fb",
         "https://egl.circlly.com/auctions/ap-strawberry-doll-fc408199-f3fb-4fc4-a67f-80ee0e9bf00b",
-        "https://egl.circlly.com/auctions/ap-daydream-bed-8e39ae69-ce79-4d2b-a3a1-1ab5e19f55ad",
-        "https://egl.circlly.com/auctions/ap-merry-bunny-op-cfe10493-1c65-4501-b58f-2149b3e0e491",
-        "https://egl.circlly.com/auctions/ap-elegant-nightie"
+        "https://egl.circlly.com/auctions/ap-daydream-bed-8e39ae69-ce79-4d2b-a3a1-1ab5e19f55ad"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/hinaichigo-op-set-rozen-maiden-20th-in-laforet-special-nwt",
+        "https://egl.circlly.com/auctions/travel-bear-jsk-only",
         "https://egl.circlly.com/auctions/twinkle-carnival-halterneck-jsk-ivory",
         "https://egl.circlly.com/auctions/sugar-hearts-round-switching-jsk",
         "https://egl.circlly.com/auctions/cream-cookie-high-waist-jsk-in-sax",
@@ -44,6 +46,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/baby-hanamomo-shangri-la-oriental-jsk-taobao-hair-clips",
         "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-dc179bb6-beeb-434c-a2bb-4a584367e06b",
         "https://egl.circlly.com/auctions/btssb-afternoon-op-338484ed-dd43-4808-aa5e-43eb6ff7fa60",
         "https://egl.circlly.com/auctions/btssb-op-pink-74c925df-4d0b-4add-8964-bfe1489aa286",
@@ -54,10 +57,10 @@
         "https://egl.circlly.com/auctions/poodle-fur-bunny-ears-op-coat",
         "https://egl.circlly.com/auctions/baby-2f2dd1a8-899c-4ec7-b28f-83d0528fb568",
         "https://egl.circlly.com/auctions/baby-ave-maria-heavenly-princess-and-madonna-lily-one-piece",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-shirring-jsk-2009-in-black-white",
-        "https://egl.circlly.com/auctions/baby-the-star-shine-bright-shirring-jsk-in-black-white-lace-261cec9d-15e9-4169-b667-04569f3c6d94"
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-shirring-jsk-2009-in-black-white"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/baby-hanamomo-shangri-la-oriental-jsk-taobao-hair-clips",
         "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-dc179bb6-beeb-434c-a2bb-4a584367e06b",
         "https://egl.circlly.com/auctions/btssb-afternoon-op-338484ed-dd43-4808-aa5e-43eb6ff7fa60",
         "https://egl.circlly.com/auctions/btssb-op-pink-74c925df-4d0b-4add-8964-bfe1489aa286",
