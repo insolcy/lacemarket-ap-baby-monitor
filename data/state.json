@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-18T16:00:23.225Z",
+  "lastSuccessfulCheckAt": "2026-08-18T16:30:53.281Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-cosmic-jsk-in-ivory-29acb0fb-806e-4e3d-ba63-9a1cdf678b6b",
         "https://egl.circlly.com/auctions/ap-retro-cafe-op-in-sax",
         "https://egl.circlly.com/auctions/doll-s-tea-party-op-4fcee8bb-56ad-470b-a549-f31aab2f78fb",
         "https://egl.circlly.com/auctions/ap-strawberry-doll-fc408199-f3fb-4fc4-a67f-80ee0e9bf00b",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-op-ea0a941f-74c1-4659-a0c0-903c732c2fc3",
         "https://egl.circlly.com/auctions/ap-british-crown",
         "https://egl.circlly.com/auctions/milky-cross-f55a0b07-8f74-4676-b2be-d0a7e055030c",
-        "https://egl.circlly.com/auctions/ap-milky-swan",
-        "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-ap-preppy-sweet-school-uniform-academy-sweet-classic"
+        "https://egl.circlly.com/auctions/ap-milky-swan"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-cosmic-jsk-in-ivory-29acb0fb-806e-4e3d-ba63-9a1cdf678b6b",
         "https://egl.circlly.com/auctions/ap-retro-cafe-op-in-sax",
         "https://egl.circlly.com/auctions/doll-s-tea-party-op-4fcee8bb-56ad-470b-a549-f31aab2f78fb",
         "https://egl.circlly.com/auctions/ap-strawberry-doll-fc408199-f3fb-4fc4-a67f-80ee0e9bf00b",
