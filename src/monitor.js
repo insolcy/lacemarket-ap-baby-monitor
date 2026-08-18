@@ -168,8 +168,21 @@ async function readLabelledText(page, selector, label) {
     return "未提供";
   }
 
-  const value = await element.evaluate((node) => node.parentElement?.innerText || node.textContent || "");
-  return value.replace(new RegExp(`^\\s*${label}:?\\s*`, "i"), "").trim() || "未提供";
+  const value = await element.evaluate((node) => {
+    const chunks = [];
+    for (let sibling = node.nextSibling; sibling; sibling = sibling.nextSibling) {
+      if (sibling.nodeType === 1 && sibling.nodeName === "HR") {
+        break;
+      }
+
+      const text = sibling.textContent?.replace(/\s+/g, " ").trim();
+      if (text) {
+        chunks.push(text);
+      }
+    }
+    return chunks.join(" ");
+  });
+  return value.trim() || "未提供";
 }
 
 async function readListingDetails(context, candidate, brandKey, brand) {
