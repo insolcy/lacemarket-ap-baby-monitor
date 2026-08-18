@@ -14,6 +14,11 @@ const statePath = process.env.STATE_PATH || path.join(projectRoot, "data", "stat
 const dryRun = process.env.DRY_RUN === "true";
 const maxPages = Number.parseInt(process.env.MAX_SCAN_PAGES || "10", 10);
 const navigationRetries = Number.parseInt(process.env.NAVIGATION_RETRIES || "3", 10);
+const minimumNavigationIntervalMs = Number.parseInt(
+  process.env.MIN_NAVIGATION_INTERVAL_MS || "10000",
+  10,
+);
+let lastNavigationAt = 0;
 
 const brands = {
   ap: {
@@ -47,27 +52,40 @@ async function saveState(state) {
   await fs.rename(temporaryPath, statePath);
 }
 
+async function waitForNavigationSlot(page) {
+  const jitterMs = Math.floor(Math.random() * 2_500);
+  const elapsedMs = Date.now() - lastNavigationAt;
+  const waitMs = minimumNavigationIntervalMs + jitterMs - elapsedMs;
+  if (waitMs > 0) {
+    await page.waitForTimeout(waitMs);
+  }
+}
+
 async function gotoWithRetry(page, url, label) {
   let lastError;
 
   for (let attempt = 1; attempt <= navigationRetries; attempt += 1) {
     try {
+      await waitForNavigationSlot(page);
       const response = await page.goto(url, { timeout: 60_000, waitUntil: "domcontentloaded" });
+      lastNavigationAt = Date.now();
       const title = await page.title();
       const bodyText = await page.locator("body").innerText({ timeout: 20_000 });
       if (
-        response?.status() === 403 ||
+        [403, 429].includes(response?.status()) ||
         /Attention Required/i.test(title) ||
-        /Sorry, you have been blocked/i.test(bodyText)
+        /Just a moment/i.test(title) ||
+        /Sorry, you have been blocked/i.test(bodyText) ||
+        /__cf_chl_/i.test(page.url())
       ) {
-        throw new Error(`${label}: the site returned a Cloudflare block page`);
+        throw new Error(`${label}: the site returned a Cloudflare block or rate-limit page`);
       }
 
       return bodyText;
     } catch (error) {
       lastError = error;
       if (attempt < navigationRetries) {
-        await page.waitForTimeout(attempt * 15_000);
+        await page.waitForTimeout(attempt * 20_000);
       }
     }
   }
@@ -220,7 +238,6 @@ async function main() {
     const scans = [];
     for (const [brandKey, brand] of Object.entries(brands)) {
       scans.push(await scanBrand(context, brandKey, brand, state.brands[brandKey]));
-      await new Promise((resolve) => setTimeout(resolve, 2_000));
     }
 
     const details = [];
