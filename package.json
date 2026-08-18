@@ -1,0 +1,19 @@
+{
+  "name": "lacemarket-ap-baby-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Monitor Lace Market for new Angelic Pretty and Baby, the Stars Shine Bright dress listings.",
+  "scripts": {
+    "monitor": "node src/monitor.js",
+    "monitor:dry-run": "DRY_RUN=true node src/monitor.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "nodemailer": "^9.0.5",
+    "playwright": "^1.62.1"
+  }
+}

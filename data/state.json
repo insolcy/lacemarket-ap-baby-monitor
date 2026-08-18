@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
+  "lastSuccessfulCheckAt": "2026-08-18T16:00:23.225Z",
+  "brands": {
+    "ap": {
+      "inventoryCountAtBaseline": 529,
+      "frontier": [
+        "https://egl.circlly.com/auctions/ap-retro-cafe-op-in-sax",
+        "https://egl.circlly.com/auctions/doll-s-tea-party-op-4fcee8bb-56ad-470b-a549-f31aab2f78fb",
+        "https://egl.circlly.com/auctions/ap-strawberry-doll-fc408199-f3fb-4fc4-a67f-80ee0e9bf00b",
+        "https://egl.circlly.com/auctions/ap-daydream-bed-8e39ae69-ce79-4d2b-a3a1-1ab5e19f55ad",
+        "https://egl.circlly.com/auctions/ap-merry-bunny-op-cfe10493-1c65-4501-b58f-2149b3e0e491",
+        "https://egl.circlly.com/auctions/ap-elegant-nightie",
+        "https://egl.circlly.com/auctions/ap-melty-cream-doughnut-7dae114d-628e-4e59-b7b5-022902d407be",
+        "https://egl.circlly.com/auctions/angelic-pretty-op-ea0a941f-74c1-4659-a0c0-903c732c2fc3",
+        "https://egl.circlly.com/auctions/ap-british-crown",
+        "https://egl.circlly.com/auctions/milky-cross-f55a0b07-8f74-4676-b2be-d0a7e055030c",
+        "https://egl.circlly.com/auctions/ap-milky-swan",
+        "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-ap-preppy-sweet-school-uniform-academy-sweet-classic"
+      ],
+      "seen": [
+        "https://egl.circlly.com/auctions/ap-retro-cafe-op-in-sax",
+        "https://egl.circlly.com/auctions/doll-s-tea-party-op-4fcee8bb-56ad-470b-a549-f31aab2f78fb",
+        "https://egl.circlly.com/auctions/ap-strawberry-doll-fc408199-f3fb-4fc4-a67f-80ee0e9bf00b",
+        "https://egl.circlly.com/auctions/ap-daydream-bed-8e39ae69-ce79-4d2b-a3a1-1ab5e19f55ad",
+        "https://egl.circlly.com/auctions/ap-merry-bunny-op-cfe10493-1c65-4501-b58f-2149b3e0e491",
+        "https://egl.circlly.com/auctions/ap-elegant-nightie",
+        "https://egl.circlly.com/auctions/ap-melty-cream-doughnut-7dae114d-628e-4e59-b7b5-022902d407be",
+        "https://egl.circlly.com/auctions/angelic-pretty-op-ea0a941f-74c1-4659-a0c0-903c732c2fc3",
+        "https://egl.circlly.com/auctions/ap-british-crown",
+        "https://egl.circlly.com/auctions/milky-cross-f55a0b07-8f74-4676-b2be-d0a7e055030c",
+        "https://egl.circlly.com/auctions/ap-milky-swan",
+        "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-ap-preppy-sweet-school-uniform-academy-sweet-classic"
+      ]
+    },
+    "baby": {
+      "inventoryCountAtBaseline": 148,
+      "frontier": [
+        "https://egl.circlly.com/auctions/btssb-afternoon-op-338484ed-dd43-4808-aa5e-43eb6ff7fa60",
+        "https://egl.circlly.com/auctions/btssb-op-pink-74c925df-4d0b-4add-8964-bfe1489aa286",
+        "https://egl.circlly.com/auctions/btssb-op-4a8f7add-5fa9-4b16-a3aa-9a189c4b1486",
+        "https://egl.circlly.com/auctions/btssb-mon-chouchou-hemritage-amelie-jsk-set-with-kc-and-bonnet",
+        "https://egl.circlly.com/auctions/btssb-ribbon-ribbon-op",
+        "https://egl.circlly.com/auctions/btssb-dessert-op-black-x-black-3203baef-dac0-4e7c-972d-5e380659ea18",
+        "https://egl.circlly.com/auctions/btssb-salon-de-the-minette-op-ef89b8da-23c9-42f6-bc4d-900e876fd4e3",
+        "https://egl.circlly.com/auctions/poodle-fur-bunny-ears-op-coat",
+        "https://egl.circlly.com/auctions/baby-2f2dd1a8-899c-4ec7-b28f-83d0528fb568",
+        "https://egl.circlly.com/auctions/baby-ave-maria-heavenly-princess-and-madonna-lily-one-piece",
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-shirring-jsk-2009-in-black-white",
+        "https://egl.circlly.com/auctions/baby-the-star-shine-bright-shirring-jsk-in-black-white-lace-261cec9d-15e9-4169-b667-04569f3c6d94"
+      ],
+      "seen": [
+        "https://egl.circlly.com/auctions/btssb-afternoon-op-338484ed-dd43-4808-aa5e-43eb6ff7fa60",
+        "https://egl.circlly.com/auctions/btssb-op-pink-74c925df-4d0b-4add-8964-bfe1489aa286",
+        "https://egl.circlly.com/auctions/btssb-op-4a8f7add-5fa9-4b16-a3aa-9a189c4b1486",
+        "https://egl.circlly.com/auctions/btssb-mon-chouchou-hemritage-amelie-jsk-set-with-kc-and-bonnet",
+        "https://egl.circlly.com/auctions/btssb-ribbon-ribbon-op",
+        "https://egl.circlly.com/auctions/btssb-dessert-op-black-x-black-3203baef-dac0-4e7c-972d-5e380659ea18",
+        "https://egl.circlly.com/auctions/btssb-salon-de-the-minette-op-ef89b8da-23c9-42f6-bc4d-900e876fd4e3",
+        "https://egl.circlly.com/auctions/poodle-fur-bunny-ears-op-coat",
+        "https://egl.circlly.com/auctions/baby-2f2dd1a8-899c-4ec7-b28f-83d0528fb568",
+        "https://egl.circlly.com/auctions/baby-ave-maria-heavenly-princess-and-madonna-lily-one-piece",
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-shirring-jsk-2009-in-black-white",
+        "https://egl.circlly.com/auctions/baby-the-star-shine-bright-shirring-jsk-in-black-white-lace-261cec9d-15e9-4169-b667-04569f3c6d94"
+      ]
+    }
+  }
+}
