@@ -187,8 +187,14 @@ async function readListingDetails(context, candidate, brandKey, brand) {
     const title = (await page.locator("h2").first().innerText({ timeout: 20_000 })).trim();
     const brandText = await readLabelledText(page, "strong", "Brand");
     const categoryText = await readLabelledText(page, "strong", "Category");
-    if (!brandText.toLowerCase().includes(brand.label.toLowerCase()) || !/Dresses/i.test(categoryText)) {
-      throw new Error(`${candidate.url}: detail page brand/category validation failed`);
+    const isDressCategory = /Dresses|Jumperskirt|One Piece|Salopette|Strapless(?:\/Other)?/i.test(
+      categoryText,
+    );
+    if (!brandText.toLowerCase().includes(brand.label.toLowerCase()) || !isDressCategory) {
+      throw new Error(
+        `${candidate.url}: detail page brand/category validation failed ` +
+          `(brand=${JSON.stringify(brandText)}, category=${JSON.stringify(categoryText)})`,
+      );
     }
 
     const condition = await readLabelledText(page, "strong", "Condition");
