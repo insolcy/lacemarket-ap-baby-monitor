@@ -13,6 +13,7 @@ import { isChallengeResponse } from "./navigation.js";
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const statePath = process.env.STATE_PATH || path.join(projectRoot, "data", "state.json");
 const dryRun = process.env.DRY_RUN === "true";
+const headless = process.env.HEADLESS !== "false";
 const maxPages = Number.parseInt(process.env.MAX_SCAN_PAGES || "10", 10);
 const navigationRetries = Number.parseInt(process.env.NAVIGATION_RETRIES || "3", 10);
 const minimumNavigationIntervalMs = Number.parseInt(
@@ -245,7 +246,7 @@ async function main() {
       }
     : undefined;
   const browser = await chromium.launch({
-    headless: true,
+    headless,
     ...(process.env.BROWSER_CHANNEL ? { channel: process.env.BROWSER_CHANNEL } : {}),
     ...(proxy ? { proxy } : {}),
   });

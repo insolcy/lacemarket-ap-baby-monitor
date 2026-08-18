@@ -58,7 +58,8 @@ jobs:
           PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
           BROWSER_CHANNEL: chrome
-        run: npm run monitor
+          HEADLESS: "false"
+        run: xvfb-run -a npm run monitor
 
       - name: Persist monitor state
         if: ${{ github.event_name != 'workflow_dispatch' || !inputs.dry_run }}
