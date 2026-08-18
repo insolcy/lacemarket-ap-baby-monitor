@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-18T19:15:33.441Z",
+  "lastSuccessfulCheckAt": "2026-08-18T19:32:45.174Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -47,7 +47,6 @@
         "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-dc179bb6-beeb-434c-a2bb-4a584367e06b",
         "https://egl.circlly.com/auctions/btssb-afternoon-op-338484ed-dd43-4808-aa5e-43eb6ff7fa60",
         "https://egl.circlly.com/auctions/btssb-op-pink-74c925df-4d0b-4add-8964-bfe1489aa286",
-        "https://egl.circlly.com/auctions/btssb-op-4a8f7add-5fa9-4b16-a3aa-9a189c4b1486",
         "https://egl.circlly.com/auctions/btssb-mon-chouchou-hemritage-amelie-jsk-set-with-kc-and-bonnet",
         "https://egl.circlly.com/auctions/btssb-ribbon-ribbon-op",
         "https://egl.circlly.com/auctions/btssb-dessert-op-black-x-black-3203baef-dac0-4e7c-972d-5e380659ea18",
@@ -55,7 +54,8 @@
         "https://egl.circlly.com/auctions/poodle-fur-bunny-ears-op-coat",
         "https://egl.circlly.com/auctions/baby-2f2dd1a8-899c-4ec7-b28f-83d0528fb568",
         "https://egl.circlly.com/auctions/baby-ave-maria-heavenly-princess-and-madonna-lily-one-piece",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-shirring-jsk-2009-in-black-white"
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-shirring-jsk-2009-in-black-white",
+        "https://egl.circlly.com/auctions/baby-the-star-shine-bright-shirring-jsk-in-black-white-lace-261cec9d-15e9-4169-b667-04569f3c6d94"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-dc179bb6-beeb-434c-a2bb-4a584367e06b",
