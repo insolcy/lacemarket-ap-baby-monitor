@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-19T10:01:30.882Z",
+  "lastSuccessfulCheckAt": "2026-08-19T10:20:18.340Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/2015-angelic-pretty-dreamy-luna-rapunzel-op",
         "https://egl.circlly.com/auctions/ap-merry-bunny-op-free-shipping-usa",
         "https://egl.circlly.com/auctions/angelic-pretty-misty-sky-full-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-moco-moco-bunnys-op-in-sax-like-new",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/un-birthday-op-sax",
         "https://egl.circlly.com/auctions/botanical-garden-op-c69db081-2387-4dbc-b9d8-426b785cb606",
         "https://egl.circlly.com/auctions/toy-s-donut-diner-jsk-headband-set-sax-blue-angelic-pretty",
-        "https://egl.circlly.com/auctions/angelic-pretty-bunny-picnic-party-jsk-2c27bdd2-98f5-4b99-89bc-812ac2ba3266",
-        "https://egl.circlly.com/auctions/hinaichigo-op-set-rozen-maiden-20th-in-laforet-special-nwt"
+        "https://egl.circlly.com/auctions/angelic-pretty-bunny-picnic-party-jsk-2c27bdd2-98f5-4b99-89bc-812ac2ba3266"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/2015-angelic-pretty-dreamy-luna-rapunzel-op",
         "https://egl.circlly.com/auctions/ap-merry-bunny-op-free-shipping-usa",
         "https://egl.circlly.com/auctions/angelic-pretty-misty-sky-full-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-milky-planet-full-jsk-set",
