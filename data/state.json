@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-19T05:52:29.797Z",
+  "lastSuccessfulCheckAt": "2026-08-19T06:14:04.212Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-milky-planet-full-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-moco-moco-bunnys-op-in-sax-like-new",
         "https://egl.circlly.com/auctions/angelic-pretty-honey-bear-s-cafe-op",
         "https://egl.circlly.com/auctions/angelic-pretty-cherry-stamp-jsk-cherry-stamp-head-bow-bnwt",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/toy-s-donut-diner-jsk-headband-set-sax-blue-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-picnic-party-jsk-2c27bdd2-98f5-4b99-89bc-812ac2ba3266",
         "https://egl.circlly.com/auctions/hinaichigo-op-set-rozen-maiden-20th-in-laforet-special-nwt",
-        "https://egl.circlly.com/auctions/travel-bear-jsk-only",
-        "https://egl.circlly.com/auctions/twinkle-carnival-halterneck-jsk-ivory"
+        "https://egl.circlly.com/auctions/travel-bear-jsk-only"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-milky-planet-full-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-moco-moco-bunnys-op-in-sax-like-new",
         "https://egl.circlly.com/auctions/angelic-pretty-honey-bear-s-cafe-op",
         "https://egl.circlly.com/auctions/angelic-pretty-cherry-stamp-jsk-cherry-stamp-head-bow-bnwt",
