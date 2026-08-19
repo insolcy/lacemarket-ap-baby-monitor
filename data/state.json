@@ -1,25 +1,32 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-19T14:33:56.438Z",
+  "lastSuccessfulCheckAt": "2026-08-19T14:55:28.690Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-girly-leopard-op-in-black",
+        "https://egl.circlly.com/auctions/set-angelic-pretty-british-keys-op-and-beret-in-black-c92cc42c-2bba-4635-8a80-d12e5307002b",
+        "https://egl.circlly.com/auctions/glass-school-op-in-ivory",
+        "https://egl.circlly.com/auctions/little-witch-op-hb-angelic-pretty",
+        "https://egl.circlly.com/auctions/magic-princess-napoleon-jsk-purple",
+        "https://egl.circlly.com/auctions/fancy-hospital-jsk-angelic-pretty",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-flower-garden-teatime-jsk-black",
         "https://egl.circlly.com/auctions/angelic-pretty-dolly-cat-lavender-jsk-set-angelic-pretty-jewelry-girl-lavender-set-angelic-pretty-neon-diner-skirt",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-fancy-whip-op-aaea9928-59d2-49b8-bf83-a0790ffb91dc",
         "https://egl.circlly.com/auctions/2015-angelic-pretty-dreamy-luna-rapunzel-op",
-        "https://egl.circlly.com/auctions/ap-merry-bunny-op-free-shipping-usa",
-        "https://egl.circlly.com/auctions/angelic-pretty-misty-sky-full-jsk-set",
-        "https://egl.circlly.com/auctions/angelic-pretty-moco-moco-bunnys-op-in-sax-like-new",
-        "https://egl.circlly.com/auctions/angelic-pretty-honey-bear-s-cafe-op",
-        "https://egl.circlly.com/auctions/angelic-pretty-cherry-stamp-jsk-cherry-stamp-head-bow-bnwt",
-        "https://egl.circlly.com/auctions/angelic-pretty-happy-park-carnival-op-bnwt-navy",
-        "https://egl.circlly.com/auctions/angelic-pretty-comic-toys-op-lavender-in-store-exclusive-bnwt",
-        "https://egl.circlly.com/auctions/un-birthday-op-sax"
+        "https://egl.circlly.com/auctions/ap-merry-bunny-op-free-shipping-usa"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-girly-leopard-op-in-black",
+        "https://egl.circlly.com/auctions/set-angelic-pretty-british-keys-op-and-beret-in-black-c92cc42c-2bba-4635-8a80-d12e5307002b",
+        "https://egl.circlly.com/auctions/glass-school-op-in-ivory",
+        "https://egl.circlly.com/auctions/little-witch-op-hb-angelic-pretty",
+        "https://egl.circlly.com/auctions/magic-princess-napoleon-jsk-purple",
+        "https://egl.circlly.com/auctions/fancy-hospital-jsk-angelic-pretty",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-flower-garden-teatime-jsk-black",
         "https://egl.circlly.com/auctions/angelic-pretty-dolly-cat-lavender-jsk-set-angelic-pretty-jewelry-girl-lavender-set-angelic-pretty-neon-diner-skirt",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-fancy-whip-op-aaea9928-59d2-49b8-bf83-a0790ffb91dc",
