@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-19T13:02:06.431Z",
+  "lastSuccessfulCheckAt": "2026-08-19T13:29:17.408Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-dolly-cat-lavender-jsk-set-angelic-pretty-jewelry-girl-lavender-set-angelic-pretty-neon-diner-skirt",
+        "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-fancy-whip-op-aaea9928-59d2-49b8-bf83-a0790ffb91dc",
         "https://egl.circlly.com/auctions/2015-angelic-pretty-dreamy-luna-rapunzel-op",
         "https://egl.circlly.com/auctions/ap-merry-bunny-op-free-shipping-usa",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/angelic-pretty-cherry-stamp-jsk-cherry-stamp-head-bow-bnwt",
         "https://egl.circlly.com/auctions/angelic-pretty-happy-park-carnival-op-bnwt-navy",
         "https://egl.circlly.com/auctions/angelic-pretty-comic-toys-op-lavender-in-store-exclusive-bnwt",
-        "https://egl.circlly.com/auctions/un-birthday-op-sax",
-        "https://egl.circlly.com/auctions/botanical-garden-op-c69db081-2387-4dbc-b9d8-426b785cb606",
-        "https://egl.circlly.com/auctions/toy-s-donut-diner-jsk-headband-set-sax-blue-angelic-pretty"
+        "https://egl.circlly.com/auctions/un-birthday-op-sax"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-dolly-cat-lavender-jsk-set-angelic-pretty-jewelry-girl-lavender-set-angelic-pretty-neon-diner-skirt",
+        "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-fancy-whip-op-aaea9928-59d2-49b8-bf83-a0790ffb91dc",
         "https://egl.circlly.com/auctions/2015-angelic-pretty-dreamy-luna-rapunzel-op",
         "https://egl.circlly.com/auctions/ap-merry-bunny-op-free-shipping-usa",
@@ -65,7 +67,6 @@
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-btssb-tartan-check-babydoll-jsk-princess-drop-headdress-set",
         "https://egl.circlly.com/auctions/btssb-merry-sweet-castle-jsk-2009-01d33646-8f50-459b-b333-9ef9902b8905",
         "https://egl.circlly.com/auctions/btssb-mon-petit-chouchou-doll-jsk",
-        "https://egl.circlly.com/auctions/moi-meme-moitie-nun-long-op-c40824d2-f506-4299-935a-8d8e2856a441",
         "https://egl.circlly.com/auctions/btssb-sister-maria-s-humming-birds-jsk-8567af05-c1b5-4a05-9b0c-03934ab93b82",
         "https://egl.circlly.com/auctions/polka-dot-ribbon-jsk-2009",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-x-disney-snow-white-frill-jsk-ivory",
