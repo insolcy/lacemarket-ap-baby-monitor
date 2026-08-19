@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-19T20:19:49.446Z",
+  "lastSuccessfulCheckAt": "2026-08-19T20:38:14.762Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/iso-damaged-egl",
         "https://egl.circlly.com/auctions/angelic-pretty-romantic-rose-letter-tiered-jsk-set-6a823d88-370d-49cf-bf2a-46c1fc1ddbcd",
         "https://egl.circlly.com/auctions/angelic-pretty-little-witch-e69ed7f4-4cac-4470-a98d-e75a44a3f3c2",
         "https://egl.circlly.com/auctions/angelic-pretty-mercator-antique-shop-08b86496-20de-4c90-b2d7-7957364f3049",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-ghost-night-bride-op-lavender-8e03b251-80b7-42cc-a7f4-2342940b9cf2",
         "https://egl.circlly.com/auctions/angelic-pretty-dolls-collection-jsk-headdress-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-lovely-check-skirt-apron-red",
-        "https://egl.circlly.com/auctions/angelic-pretty-lovely-check-skirt-black-apron-old-school-inspired",
-        "https://egl.circlly.com/auctions/angelic-pretty-first-release-ap-day-dream-carnival-tiered-jsk-set"
+        "https://egl.circlly.com/auctions/angelic-pretty-lovely-check-skirt-black-apron-old-school-inspired"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/iso-damaged-egl",
         "https://egl.circlly.com/auctions/angelic-pretty-romantic-rose-letter-tiered-jsk-set-6a823d88-370d-49cf-bf2a-46c1fc1ddbcd",
         "https://egl.circlly.com/auctions/angelic-pretty-romantic-rose-letter-tiered-jsk-set-45f5b23d-78bd-4e14-9ee5-7989023b7cf7",
         "https://egl.circlly.com/auctions/angelic-pretty-little-witch-e69ed7f4-4cac-4470-a98d-e75a44a3f3c2",
