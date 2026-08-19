@@ -2,7 +2,13 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import { buildAlertEmail, buildRecipients } from "../src/email.js";
-import { findCandidatesBeforeAnchor, isListingUrl, mergeSeen, uniqueListings } from "../src/frontier.js";
+import {
+  findCandidatesBeforeAnchor,
+  hasNewListingBadge,
+  isListingUrl,
+  mergeSeen,
+  uniqueListings,
+} from "../src/frontier.js";
 import { isUnitedStatesSellerLocation } from "../src/location.js";
 import { isChallengeResponse } from "../src/navigation.js";
 
@@ -25,6 +31,15 @@ test("keeps listing order while preferring the longest title", () => {
       { title: "Dress Two", url: "https://egl.circlly.com/auctions/two" },
     ],
   );
+});
+
+test("only recognizes the site's exact New ribbon as a first-time listing", () => {
+  assert.equal(hasNewListingBadge({ ribbonText: "New" }), true);
+  assert.equal(hasNewListingBadge({ ribbonText: " NEW " }), true);
+  assert.equal(hasNewListingBadge({ ribbonText: "-10%" }), false);
+  assert.equal(hasNewListingBadge({ ribbonText: "Relisted" }), false);
+  assert.equal(hasNewListingBadge({ ribbonText: "" }), false);
+  assert.equal(hasNewListingBadge({}), false);
 });
 
 test("only treats URLs before the first known waterline URL as new", () => {

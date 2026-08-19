@@ -25,6 +25,10 @@ export function uniqueListings(listings) {
   return [...byUrl.values()];
 }
 
+export function hasNewListingBadge(listing) {
+  return String(listing.ribbonText || "").trim().toLowerCase() === "new";
+}
+
 export function findCandidatesBeforeAnchor(pages, frontierUrls, seenUrls) {
   const known = new Set([...frontierUrls, ...seenUrls]);
   const candidates = [];

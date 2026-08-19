@@ -7,7 +7,12 @@ import nodemailer from "nodemailer";
 import { chromium } from "playwright";
 
 import { buildAlertEmail, buildRecipients } from "./email.js";
-import { findCandidatesBeforeAnchor, mergeSeen, uniqueListings } from "./frontier.js";
+import {
+  findCandidatesBeforeAnchor,
+  hasNewListingBadge,
+  mergeSeen,
+  uniqueListings,
+} from "./frontier.js";
 import { isUnitedStatesSellerLocation } from "./location.js";
 import { isChallengeResponse } from "./navigation.js";
 
@@ -134,13 +139,21 @@ async function readListingPage(page, url, brand) {
   await gotoWithRetry(page, url, brand.label, (currentPage, bodyText) =>
     assertUsableListingPage(currentPage, brand, bodyText),
   );
-  await page.locator('a[href*="/auctions/"]').first().waitFor({ state: "attached", timeout: 20_000 });
+  await page.locator(".grid-list-item-content").first().waitFor({
+    state: "attached",
+    timeout: 20_000,
+  });
 
-  const rawListings = await page.locator('a[href*="/auctions/"]').evaluateAll((anchors) =>
-    anchors.map((anchor) => ({
-      title: (anchor.textContent || "").replace(/\s+/g, " ").trim(),
-      url: anchor.href,
-    })),
+  const rawListings = await page.locator(".grid-list-item-content").evaluateAll((cards) =>
+    cards.map((card) => {
+      const anchor = card.querySelector('a.auction-title[href*="/auctions/"]');
+      const ribbon = card.querySelector(":scope > .ribbon > span");
+      return {
+        title: (anchor?.textContent || "").replace(/\s+/g, " ").trim(),
+        url: anchor?.href || "",
+        ribbonText: (ribbon?.textContent || "").replace(/\s+/g, " ").trim(),
+      };
+    }),
   );
   const listings = uniqueListings(rawListings);
   if (listings.length === 0) {
@@ -310,8 +323,14 @@ async function main() {
     }
 
     const candidateDetails = [];
+    const skippedRelistListings = [];
     for (const scan of scans) {
       for (const candidate of scan.candidates) {
+        if (!hasNewListingBadge(candidate)) {
+          skippedRelistListings.push({ ...candidate, brandKey: scan.brandKey });
+          continue;
+        }
+
         candidateDetails.push(
           await readListingDetails(context, candidate, scan.brandKey, brands[scan.brandKey]),
         );
@@ -328,21 +347,38 @@ async function main() {
     if (details.length > 0) {
       if (dryRun) {
         console.log(
-          JSON.stringify({ dryRun: true, newListings: details, skippedNonUsListings }, null, 2),
+          JSON.stringify(
+            { dryRun: true, newListings: details, skippedNonUsListings, skippedRelistListings },
+            null,
+            2,
+          ),
         );
       } else {
         await sendAlert(details);
       }
     } else {
-      console.log("No new US seller listings found.");
-      if (dryRun && skippedNonUsListings.length > 0) {
-        console.log(JSON.stringify({ dryRun: true, skippedNonUsListings }, null, 2));
+      console.log("No first-time New listings from US sellers found.");
+      if (dryRun && (skippedNonUsListings.length > 0 || skippedRelistListings.length > 0)) {
+        console.log(
+          JSON.stringify(
+            { dryRun: true, skippedNonUsListings, skippedRelistListings },
+            null,
+            2,
+          ),
+        );
       }
+    }
+
+    const seenStatus = dryRun ? "would be recorded as seen" : "were recorded as seen";
+    if (skippedRelistListings.length > 0) {
+      console.log(
+        `Skipped ${skippedRelistListings.length} relisted listing(s); they ${seenStatus}.`,
+      );
     }
 
     if (skippedNonUsListings.length > 0) {
       console.log(
-        `Skipped ${skippedNonUsListings.length} non-US listing(s); they will be recorded as seen.`,
+        `Skipped ${skippedNonUsListings.length} non-US listing(s); they ${seenStatus}.`,
       );
     }
 
