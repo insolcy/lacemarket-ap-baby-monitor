@@ -1,12 +1,11 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-19T19:13:31.456Z",
+  "lastSuccessfulCheckAt": "2026-08-19T19:32:38.634Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
-        "https://egl.circlly.com/auctions/angelic-pretty-romantic-rose-letter-tiered-jsk-set-45f5b23d-78bd-4e14-9ee5-7989023b7cf7",
         "https://egl.circlly.com/auctions/angelic-pretty-little-witch-e69ed7f4-4cac-4470-a98d-e75a44a3f3c2",
         "https://egl.circlly.com/auctions/angelic-pretty-mercator-antique-shop-08b86496-20de-4c90-b2d7-7957364f3049",
         "https://egl.circlly.com/auctions/angelic-pretty-cat-s-tea-party-jsk-and-headbow-rerelease-in-grey-02154a70-ae1f-49b0-9969-ffd64ad797e8",
@@ -17,7 +16,8 @@
         "https://egl.circlly.com/auctions/angelic-pretty-dolls-collection-jsk-headdress-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-lovely-check-skirt-apron-red",
         "https://egl.circlly.com/auctions/angelic-pretty-lovely-check-skirt-black-apron-old-school-inspired",
-        "https://egl.circlly.com/auctions/angelic-pretty-first-release-ap-day-dream-carnival-tiered-jsk-set"
+        "https://egl.circlly.com/auctions/angelic-pretty-first-release-ap-day-dream-carnival-tiered-jsk-set",
+        "https://egl.circlly.com/auctions/angelic-pretty-ice-cream-parlor-jsk-3cbcbe20-a704-4458-9e7a-8eeccdc2ec58"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/angelic-pretty-romantic-rose-letter-tiered-jsk-set-45f5b23d-78bd-4e14-9ee5-7989023b7cf7",
