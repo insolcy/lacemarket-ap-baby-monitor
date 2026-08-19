@@ -1,26 +1,29 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-19T15:52:20.086Z",
+  "lastSuccessfulCheckAt": "2026-08-19T16:09:55.608Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-lovely-check-skirt-apron-red",
+        "https://egl.circlly.com/auctions/angelic-pretty-lovely-check-skirt-black-apron-old-school-inspired",
         "https://egl.circlly.com/auctions/angelic-pretty-first-release-ap-day-dream-carnival-tiered-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-ice-cream-parlor-jsk-3cbcbe20-a704-4458-9e7a-8eeccdc2ec58",
+        "https://egl.circlly.com/auctions/urgent-sale-nwot-dorotee-sweetlips-dark-hollows-jsk",
+        "https://egl.circlly.com/auctions/angelic-pretty-tea-party-very-good-condition",
         "https://egl.circlly.com/auctions/chess-emblem-jsk-red-angelic-pretty",
         "https://egl.circlly.com/auctions/set-drink-me-jsk-ribbon-hair-clip-champagne-colour-angelic-pretty",
-        "https://egl.circlly.com/auctions/urgent-sale-nwot-dorotee-sweetlips-dark-hollows-jsk",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-chocolate-rosette",
         "https://egl.circlly.com/auctions/angelic-pretty-f69fa490-1862-445d-9f01-fdbd0521103c",
         "https://egl.circlly.com/auctions/angelic-pretty-dolly-damask-jsk-pink",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-cirque-du-l-etoile-jsk-kc-set",
         "https://egl.circlly.com/auctions/angelic-pretty-girly-leopard-op-in-black",
-        "https://egl.circlly.com/auctions/set-angelic-pretty-british-keys-op-and-beret-in-black-c92cc42c-2bba-4635-8a80-d12e5307002b",
-        "https://egl.circlly.com/auctions/glass-school-op-in-ivory",
-        "https://egl.circlly.com/auctions/little-witch-op-hb-angelic-pretty"
+        "https://egl.circlly.com/auctions/set-angelic-pretty-british-keys-op-and-beret-in-black-c92cc42c-2bba-4635-8a80-d12e5307002b"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-lovely-check-skirt-apron-red",
+        "https://egl.circlly.com/auctions/angelic-pretty-lovely-check-skirt-black-apron-old-school-inspired",
         "https://egl.circlly.com/auctions/angelic-pretty-first-release-ap-day-dream-carnival-tiered-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-ice-cream-parlor-jsk-3cbcbe20-a704-4458-9e7a-8eeccdc2ec58",
         "https://egl.circlly.com/auctions/chess-emblem-jsk-red-angelic-pretty",
@@ -80,6 +83,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-juno-s-bouquet-dot-jsk-2015",
         "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
         "https://egl.circlly.com/auctions/the-muse-of-rose-drop-sky-baby-doll-jsk",
         "https://egl.circlly.com/auctions/btssb-best-wishes-sailor-jsk",
@@ -90,10 +94,10 @@
         "https://egl.circlly.com/auctions/polka-dot-ribbon-jsk-2009",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-x-disney-snow-white-frill-jsk-ivory",
         "https://egl.circlly.com/auctions/baby-hanamomo-shangri-la-oriental-jsk-taobao-hair-clips",
-        "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-dc179bb6-beeb-434c-a2bb-4a584367e06b",
-        "https://egl.circlly.com/auctions/btssb-afternoon-op-338484ed-dd43-4808-aa5e-43eb6ff7fa60"
+        "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-dc179bb6-beeb-434c-a2bb-4a584367e06b"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-juno-s-bouquet-dot-jsk-2015",
         "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
         "https://egl.circlly.com/auctions/the-muse-of-rose-drop-sky-baby-doll-jsk",
         "https://egl.circlly.com/auctions/btssb-best-wishes-sailor-jsk",
