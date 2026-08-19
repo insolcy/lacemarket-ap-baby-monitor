@@ -1,13 +1,16 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-19T16:26:06.880Z",
+  "lastSuccessfulCheckAt": "2026-08-19T16:44:31.884Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-ghost-night-bride-op-lavender-8e03b251-80b7-42cc-a7f4-2342940b9cf2",
+        "https://egl.circlly.com/auctions/angelic-pretty-dolls-collection-jsk-headdress-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-lovely-check-skirt-apron-red",
         "https://egl.circlly.com/auctions/angelic-pretty-lovely-check-skirt-black-apron-old-school-inspired",
+        "https://egl.circlly.com/auctions/new-angelic-pretty-ice-cream-parlor-jsk-barette-set-pink",
         "https://egl.circlly.com/auctions/angelic-pretty-first-release-ap-day-dream-carnival-tiered-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-ice-cream-parlor-jsk-3cbcbe20-a704-4458-9e7a-8eeccdc2ec58",
         "https://egl.circlly.com/auctions/chess-emblem-jsk-red-angelic-pretty",
@@ -15,11 +18,11 @@
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-chocolate-rosette",
         "https://egl.circlly.com/auctions/angelic-pretty-f69fa490-1862-445d-9f01-fdbd0521103c",
         "https://egl.circlly.com/auctions/angelic-pretty-dolly-damask-jsk-pink",
-        "https://egl.circlly.com/auctions/nwt-angelic-pretty-cirque-du-l-etoile-jsk-kc-set",
-        "https://egl.circlly.com/auctions/angelic-pretty-girly-leopard-op-in-black",
-        "https://egl.circlly.com/auctions/set-angelic-pretty-british-keys-op-and-beret-in-black-c92cc42c-2bba-4635-8a80-d12e5307002b"
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-cirque-du-l-etoile-jsk-kc-set"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-ghost-night-bride-op-lavender-8e03b251-80b7-42cc-a7f4-2342940b9cf2",
+        "https://egl.circlly.com/auctions/angelic-pretty-dolls-collection-jsk-headdress-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-lovely-check-skirt-apron-red",
         "https://egl.circlly.com/auctions/angelic-pretty-lovely-check-skirt-black-apron-old-school-inspired",
         "https://egl.circlly.com/auctions/angelic-pretty-first-release-ap-day-dream-carnival-tiered-jsk-set",
