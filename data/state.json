@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-19T22:50:16.895Z",
+  "lastSuccessfulCheckAt": "2026-08-19T23:02:10.313Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -94,6 +94,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-juno-s-blessing-and-aria-of-birds-jsk-ivory-lavender",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-2006-old-release-butter-yellow",
         "https://egl.circlly.com/auctions/btssb-my-sweet-mate-kumya-s-trick-or-treat-judy-jsk-headbow-in-navy-630ea868-23bc-45d8-9b2c-77f512f470f6",
         "https://egl.circlly.com/auctions/btsst-velveteen-babydoll-jsk-and-headdress-set-baby-the-stars-shine-bright-239c4756-572c-4cf3-b9e9-a434e935d593",
@@ -104,10 +105,10 @@
         "https://egl.circlly.com/auctions/btssb-best-wishes-sailor-jsk",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-btssb-tartan-check-babydoll-jsk-princess-drop-headdress-set",
         "https://egl.circlly.com/auctions/btssb-merry-sweet-castle-jsk-2009-01d33646-8f50-459b-b333-9ef9902b8905",
-        "https://egl.circlly.com/auctions/btssb-mon-petit-chouchou-doll-jsk",
-        "https://egl.circlly.com/auctions/btssb-sister-maria-s-humming-birds-jsk-8567af05-c1b5-4a05-9b0c-03934ab93b82"
+        "https://egl.circlly.com/auctions/btssb-mon-petit-chouchou-doll-jsk"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-juno-s-blessing-and-aria-of-birds-jsk-ivory-lavender",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-2006-old-release-butter-yellow",
         "https://egl.circlly.com/auctions/btssb-my-sweet-mate-kumya-s-trick-or-treat-judy-jsk-headbow-in-navy-630ea868-23bc-45d8-9b2c-77f512f470f6",
         "https://egl.circlly.com/auctions/btsst-velveteen-babydoll-jsk-and-headdress-set-baby-the-stars-shine-bright-239c4756-572c-4cf3-b9e9-a434e935d593",
