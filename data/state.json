@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-19T00:25:25.066Z",
+  "lastSuccessfulCheckAt": "2026-08-19T00:50:21.522Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/un-birthday-op-sax",
+        "https://egl.circlly.com/auctions/botanical-garden-op-c69db081-2387-4dbc-b9d8-426b785cb606",
         "https://egl.circlly.com/auctions/toy-s-donut-diner-jsk-headband-set-sax-blue-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-picnic-party-jsk-2c27bdd2-98f5-4b99-89bc-812ac2ba3266",
         "https://egl.circlly.com/auctions/hinaichigo-op-set-rozen-maiden-20th-in-laforet-special-nwt",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/cream-cookie-high-waist-jsk-in-sax",
         "https://egl.circlly.com/auctions/with-kc-ap-chocolate-rosette-jsk-and-kc-angelic-pretty-e9ca418c-d9ac-48be-895f-df1477292d56",
         "https://egl.circlly.com/auctions/with-beret-nwot-ap-chess-emblem-jsk-and-beret",
-        "https://egl.circlly.com/auctions/angelic-pretty-cosmic-jsk-in-ivory-29acb0fb-806e-4e3d-ba63-9a1cdf678b6b",
-        "https://egl.circlly.com/auctions/ap-retro-cafe-op-in-sax",
-        "https://egl.circlly.com/auctions/doll-s-tea-party-op-4fcee8bb-56ad-470b-a549-f31aab2f78fb"
+        "https://egl.circlly.com/auctions/angelic-pretty-cosmic-jsk-in-ivory-29acb0fb-806e-4e3d-ba63-9a1cdf678b6b"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/un-birthday-op-sax",
+        "https://egl.circlly.com/auctions/botanical-garden-op-c69db081-2387-4dbc-b9d8-426b785cb606",
         "https://egl.circlly.com/auctions/toy-s-donut-diner-jsk-headband-set-sax-blue-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-picnic-party-jsk-2c27bdd2-98f5-4b99-89bc-812ac2ba3266",
         "https://egl.circlly.com/auctions/hinaichigo-op-set-rozen-maiden-20th-in-laforet-special-nwt",
@@ -52,8 +54,6 @@
         "https://egl.circlly.com/auctions/btssb-sister-maria-s-humming-birds-jsk-8567af05-c1b5-4a05-9b0c-03934ab93b82",
         "https://egl.circlly.com/auctions/polka-dot-ribbon-jsk-2009",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-x-disney-snow-white-frill-jsk-ivory",
-        "https://egl.circlly.com/auctions/plus-size-dreaming-heart-lemon-lace-up-jsk-headdress-set-2026",
-        "https://egl.circlly.com/auctions/etc-chocolate-hoodie-dress",
         "https://egl.circlly.com/auctions/baby-hanamomo-shangri-la-oriental-jsk-taobao-hair-clips",
         "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-dc179bb6-beeb-434c-a2bb-4a584367e06b",
         "https://egl.circlly.com/auctions/btssb-afternoon-op-338484ed-dd43-4808-aa5e-43eb6ff7fa60",
