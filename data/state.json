@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-19T21:26:04.559Z",
+  "lastSuccessfulCheckAt": "2026-08-19T21:41:15.628Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-polka-dot-chocolate-op-in-brown",
+        "https://egl.circlly.com/auctions/angelic-pretty-cecilia-cross-op-2016-old-release-in-black",
         "https://egl.circlly.com/auctions/iso-damaged-egl",
         "https://egl.circlly.com/auctions/angelic-pretty-romantic-rose-letter-tiered-jsk-set-6a823d88-370d-49cf-bf2a-46c1fc1ddbcd",
         "https://egl.circlly.com/auctions/angelic-pretty-little-witch-e69ed7f4-4cac-4470-a98d-e75a44a3f3c2",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/full-back-shirring-ap-twinkle-tonight-jsk-angelic-pretty",
         "https://egl.circlly.com/auctions/sax-from-2005-angelic-pretty-layered-lace-frill-jsk-b861e197-84f5-4f93-ad7b-e0d74fb8a05a",
         "https://egl.circlly.com/auctions/angelic-pretty-ghost-night-bride-op-lavender-8e03b251-80b7-42cc-a7f4-2342940b9cf2",
-        "https://egl.circlly.com/auctions/angelic-pretty-dolls-collection-jsk-headdress-sax",
-        "https://egl.circlly.com/auctions/angelic-pretty-lovely-check-skirt-apron-red",
-        "https://egl.circlly.com/auctions/angelic-pretty-lovely-check-skirt-black-apron-old-school-inspired"
+        "https://egl.circlly.com/auctions/angelic-pretty-dolls-collection-jsk-headdress-sax"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-polka-dot-chocolate-op-in-brown",
+        "https://egl.circlly.com/auctions/angelic-pretty-cecilia-cross-op-2016-old-release-in-black",
         "https://egl.circlly.com/auctions/iso-damaged-egl",
         "https://egl.circlly.com/auctions/angelic-pretty-romantic-rose-letter-tiered-jsk-set-6a823d88-370d-49cf-bf2a-46c1fc1ddbcd",
         "https://egl.circlly.com/auctions/angelic-pretty-romantic-rose-letter-tiered-jsk-set-45f5b23d-78bd-4e14-9ee5-7989023b7cf7",
@@ -92,6 +94,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-2006-old-release-butter-yellow",
         "https://egl.circlly.com/auctions/btssb-my-sweet-mate-kumya-s-trick-or-treat-judy-jsk-headbow-in-navy-630ea868-23bc-45d8-9b2c-77f512f470f6",
         "https://egl.circlly.com/auctions/btsst-velveteen-babydoll-jsk-and-headdress-set-baby-the-stars-shine-bright-239c4756-572c-4cf3-b9e9-a434e935d593",
         "https://egl.circlly.com/auctions/with-headddress-set-baby-the-stars-shine-bright-velveteen-babydoll-jsk-and-headdress-d7fd38f4-5d1b-4b62-9345-5268a34a0b41",
@@ -102,10 +105,10 @@
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-btssb-tartan-check-babydoll-jsk-princess-drop-headdress-set",
         "https://egl.circlly.com/auctions/btssb-merry-sweet-castle-jsk-2009-01d33646-8f50-459b-b333-9ef9902b8905",
         "https://egl.circlly.com/auctions/btssb-mon-petit-chouchou-doll-jsk",
-        "https://egl.circlly.com/auctions/btssb-sister-maria-s-humming-birds-jsk-8567af05-c1b5-4a05-9b0c-03934ab93b82",
-        "https://egl.circlly.com/auctions/polka-dot-ribbon-jsk-2009"
+        "https://egl.circlly.com/auctions/btssb-sister-maria-s-humming-birds-jsk-8567af05-c1b5-4a05-9b0c-03934ab93b82"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-2006-old-release-butter-yellow",
         "https://egl.circlly.com/auctions/btssb-my-sweet-mate-kumya-s-trick-or-treat-judy-jsk-headbow-in-navy-630ea868-23bc-45d8-9b2c-77f512f470f6",
         "https://egl.circlly.com/auctions/btsst-velveteen-babydoll-jsk-and-headdress-set-baby-the-stars-shine-bright-239c4756-572c-4cf3-b9e9-a434e935d593",
         "https://egl.circlly.com/auctions/with-headddress-set-baby-the-stars-shine-bright-velveteen-babydoll-jsk-and-headdress-d7fd38f4-5d1b-4b62-9345-5268a34a0b41",
