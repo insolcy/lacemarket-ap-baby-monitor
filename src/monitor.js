@@ -148,10 +148,13 @@ async function readListingPage(page, url, brand) {
     cards.map((card) => {
       const anchor = card.querySelector('a.auction-title[href*="/auctions/"]');
       const ribbon = card.querySelector(":scope > .ribbon > span");
+      const image = card.querySelector(".auction-image");
       return {
         title: (anchor?.textContent || "").replace(/\s+/g, " ").trim(),
         url: anchor?.href || "",
         ribbonText: (ribbon?.textContent || "").replace(/\s+/g, " ").trim(),
+        imageUrl:
+          image?.getAttribute("data-lazy-load") || image?.getAttribute("data-src") || "",
       };
     }),
   );
@@ -260,6 +263,7 @@ async function readListingDetails(context, candidate, brandKey, brand) {
       price: priceTexts[0] || "请查看商品页面",
       condition,
       sellerLocation,
+      imageUrl: candidate.imageUrl,
       url: candidate.url,
     };
   } finally {

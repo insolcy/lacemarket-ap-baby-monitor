@@ -17,6 +17,15 @@ export function buildRecipients(sender, additionalRecipients = "") {
   ];
 }
 
+function safeImageUrl(value) {
+  try {
+    const url = new URL(String(value || ""));
+    return url.protocol === "https:" ? url.href : null;
+  } catch {
+    return null;
+  }
+}
+
 export function buildAlertEmail(listings) {
   const groups = Map.groupBy(listings, (listing) => listing.brandKey);
   const subject = `[Lace Market 上新] AP/BABY 裙装（${listings.length}件）`;
@@ -28,8 +37,10 @@ export function buildAlertEmail(listings) {
     textSections.push(
       `${brandName}\n${brandListings
         .map(
-          (listing) =>
-            `- ${listing.title}\n  价格：${listing.price}\n  状态：${listing.condition}\n  卖家地区：${listing.sellerLocation}\n  链接：${listing.url}`,
+          (listing) => {
+            const imageUrl = safeImageUrl(listing.imageUrl);
+            return `- ${listing.title}\n  价格：${listing.price}\n  状态：${listing.condition}\n  卖家地区：${listing.sellerLocation}${imageUrl ? `\n  图片：${imageUrl}` : ""}\n  链接：${listing.url}`;
+          },
         )
         .join("\n\n")}`,
     );
@@ -38,16 +49,22 @@ export function buildAlertEmail(listings) {
       <h2>${escapeHtml(brandName)}</h2>
       <ul>
         ${brandListings
-          .map(
-            (listing) => `
+          .map((listing) => {
+            const imageUrl = safeImageUrl(listing.imageUrl);
+            return `
               <li style="margin-bottom: 18px">
                 <a href="${escapeHtml(listing.url)}"><strong>${escapeHtml(listing.title)}</strong></a><br>
+                ${
+                  imageUrl
+                    ? `<a href="${escapeHtml(listing.url)}"><img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(listing.title)}" width="280" style="display:block;max-width:100%;height:auto;margin:10px 0;border-radius:6px"></a>`
+                    : ""
+                }
                 价格：${escapeHtml(listing.price)}<br>
                 状态：${escapeHtml(listing.condition)}<br>
                 卖家地区：${escapeHtml(listing.sellerLocation)}<br>
                 <a href="${escapeHtml(listing.url)}">打开商品页面</a>
-              </li>`,
-          )
+              </li>`;
+          })
           .join("")}
       </ul>`);
   }

@@ -88,6 +88,7 @@ test("email includes listing details and clickable URLs", () => {
       price: "Buy It Now: $200",
       condition: "New Without Tag",
       sellerLocation: "USA",
+      imageUrl: "https://d2ieorefj5ilau.cloudfront.net/uploads/test/thumb/dress.jpg",
       url: "https://egl.circlly.com/auctions/test-op",
     },
   ]);
@@ -95,7 +96,30 @@ test("email includes listing details and clickable URLs", () => {
   assert.match(message.subject, /1件/);
   assert.match(message.text, /Test OP/);
   assert.match(message.text, /https:\/\/egl\.circlly\.com\/auctions\/test-op/);
+  assert.match(message.text, /图片：https:\/\/d2ieorefj5ilau\.cloudfront\.net\/uploads\/test\/thumb\/dress\.jpg/);
   assert.match(message.html, /href="https:\/\/egl\.circlly\.com\/auctions\/test-op"/);
+  assert.match(
+    message.html,
+    /<img src="https:\/\/d2ieorefj5ilau\.cloudfront\.net\/uploads\/test\/thumb\/dress\.jpg"/,
+  );
+  assert.match(message.html, /alt="Test OP"/);
+});
+
+test("does not render unsafe image URLs", () => {
+  const message = buildAlertEmail([
+    {
+      brandKey: "ap",
+      title: "Unsafe Image Test",
+      price: "$1",
+      condition: "New",
+      sellerLocation: "USA",
+      imageUrl: "javascript:alert(1)",
+      url: "https://egl.circlly.com/auctions/unsafe-image-test",
+    },
+  ]);
+
+  assert.doesNotMatch(message.html, /<img/);
+  assert.doesNotMatch(message.text, /javascript:/);
 });
 
 test("always emails the sender and adds configured recipients without duplicates", () => {
