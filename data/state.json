@@ -1,25 +1,35 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-19T15:12:05.046Z",
+  "lastSuccessfulCheckAt": "2026-08-19T15:52:20.086Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-first-release-ap-day-dream-carnival-tiered-jsk-set",
+        "https://egl.circlly.com/auctions/angelic-pretty-ice-cream-parlor-jsk-3cbcbe20-a704-4458-9e7a-8eeccdc2ec58",
+        "https://egl.circlly.com/auctions/chess-emblem-jsk-red-angelic-pretty",
+        "https://egl.circlly.com/auctions/set-drink-me-jsk-ribbon-hair-clip-champagne-colour-angelic-pretty",
+        "https://egl.circlly.com/auctions/urgent-sale-nwot-dorotee-sweetlips-dark-hollows-jsk",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-chocolate-rosette",
+        "https://egl.circlly.com/auctions/angelic-pretty-f69fa490-1862-445d-9f01-fdbd0521103c",
+        "https://egl.circlly.com/auctions/angelic-pretty-dolly-damask-jsk-pink",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-cirque-du-l-etoile-jsk-kc-set",
         "https://egl.circlly.com/auctions/angelic-pretty-girly-leopard-op-in-black",
         "https://egl.circlly.com/auctions/set-angelic-pretty-british-keys-op-and-beret-in-black-c92cc42c-2bba-4635-8a80-d12e5307002b",
         "https://egl.circlly.com/auctions/glass-school-op-in-ivory",
-        "https://egl.circlly.com/auctions/little-witch-op-hb-angelic-pretty",
-        "https://egl.circlly.com/auctions/magic-princess-napoleon-jsk-purple",
-        "https://egl.circlly.com/auctions/fancy-hospital-jsk-angelic-pretty",
-        "https://egl.circlly.com/auctions/nwt-angelic-pretty-flower-garden-teatime-jsk-black",
-        "https://egl.circlly.com/auctions/angelic-pretty-dolly-cat-lavender-jsk-set-angelic-pretty-jewelry-girl-lavender-set-angelic-pretty-neon-diner-skirt",
-        "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-jsk-set",
-        "https://egl.circlly.com/auctions/angelic-pretty-fancy-whip-op-aaea9928-59d2-49b8-bf83-a0790ffb91dc",
-        "https://egl.circlly.com/auctions/2015-angelic-pretty-dreamy-luna-rapunzel-op",
-        "https://egl.circlly.com/auctions/ap-merry-bunny-op-free-shipping-usa"
+        "https://egl.circlly.com/auctions/little-witch-op-hb-angelic-pretty"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-first-release-ap-day-dream-carnival-tiered-jsk-set",
+        "https://egl.circlly.com/auctions/angelic-pretty-ice-cream-parlor-jsk-3cbcbe20-a704-4458-9e7a-8eeccdc2ec58",
+        "https://egl.circlly.com/auctions/chess-emblem-jsk-red-angelic-pretty",
+        "https://egl.circlly.com/auctions/set-drink-me-jsk-ribbon-hair-clip-champagne-colour-angelic-pretty",
+        "https://egl.circlly.com/auctions/urgent-sale-nwot-dorotee-sweetlips-dark-hollows-jsk",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-chocolate-rosette",
+        "https://egl.circlly.com/auctions/angelic-pretty-f69fa490-1862-445d-9f01-fdbd0521103c",
+        "https://egl.circlly.com/auctions/angelic-pretty-dolly-damask-jsk-pink",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-cirque-du-l-etoile-jsk-kc-set",
         "https://egl.circlly.com/auctions/angelic-pretty-girly-leopard-op-in-black",
         "https://egl.circlly.com/auctions/set-angelic-pretty-british-keys-op-and-beret-in-black-c92cc42c-2bba-4635-8a80-d12e5307002b",
         "https://egl.circlly.com/auctions/glass-school-op-in-ivory",
@@ -70,6 +80,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
         "https://egl.circlly.com/auctions/the-muse-of-rose-drop-sky-baby-doll-jsk",
         "https://egl.circlly.com/auctions/btssb-best-wishes-sailor-jsk",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-btssb-tartan-check-babydoll-jsk-princess-drop-headdress-set",
@@ -80,10 +91,10 @@
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-x-disney-snow-white-frill-jsk-ivory",
         "https://egl.circlly.com/auctions/baby-hanamomo-shangri-la-oriental-jsk-taobao-hair-clips",
         "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-dc179bb6-beeb-434c-a2bb-4a584367e06b",
-        "https://egl.circlly.com/auctions/btssb-afternoon-op-338484ed-dd43-4808-aa5e-43eb6ff7fa60",
-        "https://egl.circlly.com/auctions/btssb-op-pink-74c925df-4d0b-4add-8964-bfe1489aa286"
+        "https://egl.circlly.com/auctions/btssb-afternoon-op-338484ed-dd43-4808-aa5e-43eb6ff7fa60"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
         "https://egl.circlly.com/auctions/the-muse-of-rose-drop-sky-baby-doll-jsk",
         "https://egl.circlly.com/auctions/btssb-best-wishes-sailor-jsk",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-btssb-tartan-check-babydoll-jsk-princess-drop-headdress-set",
