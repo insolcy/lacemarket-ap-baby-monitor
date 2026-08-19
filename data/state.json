@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-19T17:49:41.778Z",
+  "lastSuccessfulCheckAt": "2026-08-19T18:00:58.552Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/full-back-shirring-ap-twinkle-tonight-jsk-angelic-pretty",
         "https://egl.circlly.com/auctions/sax-from-2005-angelic-pretty-layered-lace-frill-jsk-b861e197-84f5-4f93-ad7b-e0d74fb8a05a",
         "https://egl.circlly.com/auctions/angelic-pretty-ghost-night-bride-op-lavender-8e03b251-80b7-42cc-a7f4-2342940b9cf2",
         "https://egl.circlly.com/auctions/angelic-pretty-dolls-collection-jsk-headdress-sax",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/chess-emblem-jsk-red-angelic-pretty",
         "https://egl.circlly.com/auctions/set-drink-me-jsk-ribbon-hair-clip-champagne-colour-angelic-pretty",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-chocolate-rosette",
-        "https://egl.circlly.com/auctions/angelic-pretty-f69fa490-1862-445d-9f01-fdbd0521103c",
-        "https://egl.circlly.com/auctions/angelic-pretty-dolly-damask-jsk-pink"
+        "https://egl.circlly.com/auctions/angelic-pretty-f69fa490-1862-445d-9f01-fdbd0521103c"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/full-back-shirring-ap-twinkle-tonight-jsk-angelic-pretty",
         "https://egl.circlly.com/auctions/sax-from-2005-angelic-pretty-layered-lace-frill-jsk-b861e197-84f5-4f93-ad7b-e0d74fb8a05a",
         "https://egl.circlly.com/auctions/angelic-pretty-ghost-night-bride-op-lavender-8e03b251-80b7-42cc-a7f4-2342940b9cf2",
         "https://egl.circlly.com/auctions/angelic-pretty-dolls-collection-jsk-headdress-sax",
@@ -84,9 +85,12 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btsst-velveteen-babydoll-jsk-and-headdress-set-baby-the-stars-shine-bright-239c4756-572c-4cf3-b9e9-a434e935d593",
         "https://egl.circlly.com/auctions/with-headddress-set-baby-the-stars-shine-bright-velveteen-babydoll-jsk-and-headdress-d7fd38f4-5d1b-4b62-9345-5268a34a0b41",
         "https://egl.circlly.com/auctions/btssb-juno-s-bouquet-dot-jsk-2015",
         "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
+        "https://egl.circlly.com/auctions/urgent-sale-nwot-dorotee-sweetlips-dark-hollows-jsk",
+        "https://egl.circlly.com/auctions/closet-clean-shoe-collection",
         "https://egl.circlly.com/auctions/the-muse-of-rose-drop-sky-baby-doll-jsk",
         "https://egl.circlly.com/auctions/btssb-best-wishes-sailor-jsk",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-btssb-tartan-check-babydoll-jsk-princess-drop-headdress-set",
@@ -94,10 +98,10 @@
         "https://egl.circlly.com/auctions/btssb-mon-petit-chouchou-doll-jsk",
         "https://egl.circlly.com/auctions/btssb-sister-maria-s-humming-birds-jsk-8567af05-c1b5-4a05-9b0c-03934ab93b82",
         "https://egl.circlly.com/auctions/polka-dot-ribbon-jsk-2009",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-x-disney-snow-white-frill-jsk-ivory",
-        "https://egl.circlly.com/auctions/baby-hanamomo-shangri-la-oriental-jsk-taobao-hair-clips"
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-x-disney-snow-white-frill-jsk-ivory"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btsst-velveteen-babydoll-jsk-and-headdress-set-baby-the-stars-shine-bright-239c4756-572c-4cf3-b9e9-a434e935d593",
         "https://egl.circlly.com/auctions/with-headddress-set-baby-the-stars-shine-bright-velveteen-babydoll-jsk-and-headdress-d7fd38f4-5d1b-4b62-9345-5268a34a0b41",
         "https://egl.circlly.com/auctions/btssb-juno-s-bouquet-dot-jsk-2015",
         "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
