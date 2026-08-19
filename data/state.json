@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-19T04:54:35.276Z",
+  "lastSuccessfulCheckAt": "2026-08-19T05:33:31.777Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -10,14 +10,14 @@
         "https://egl.circlly.com/auctions/angelic-pretty-cherry-stamp-jsk-cherry-stamp-head-bow-bnwt",
         "https://egl.circlly.com/auctions/angelic-pretty-happy-park-carnival-op-bnwt-navy",
         "https://egl.circlly.com/auctions/angelic-pretty-comic-toys-op-lavender-in-store-exclusive-bnwt",
-        "https://egl.circlly.com/auctions/dream-cat-go-round-jsk-and-headbow",
         "https://egl.circlly.com/auctions/un-birthday-op-sax",
         "https://egl.circlly.com/auctions/botanical-garden-op-c69db081-2387-4dbc-b9d8-426b785cb606",
         "https://egl.circlly.com/auctions/toy-s-donut-diner-jsk-headband-set-sax-blue-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-picnic-party-jsk-2c27bdd2-98f5-4b99-89bc-812ac2ba3266",
         "https://egl.circlly.com/auctions/hinaichigo-op-set-rozen-maiden-20th-in-laforet-special-nwt",
         "https://egl.circlly.com/auctions/travel-bear-jsk-only",
-        "https://egl.circlly.com/auctions/twinkle-carnival-halterneck-jsk-ivory"
+        "https://egl.circlly.com/auctions/twinkle-carnival-halterneck-jsk-ivory",
+        "https://egl.circlly.com/auctions/sugar-hearts-round-switching-jsk"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/angelic-pretty-honey-bear-s-cafe-op",
