@@ -22,7 +22,7 @@
 
 云端任务会在每次运行时创建新的 8 位 IPRoyal sticky session。若 Lace Market 返回
 Cloudflare 403、429、503 或挑战页，程序会关闭当前浏览器、切换代理 IP，并从未变更的
-水位线重新扫描；默认最多额外切换 3 次。代理密码和 session ID 都不会写入日志。
+当前失败页面继续扫描；默认最多额外切换 10 次。代理密码和 session ID 都不会写入日志。
 
 Gmail 应用专用密码需要 Google 账号启用两步验证。不要将密码写入代码、Issue 或 Actions 日志。
 
