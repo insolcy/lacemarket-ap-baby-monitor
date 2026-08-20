@@ -1,18 +1,18 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-20T01:27:40.190Z",
+  "lastSuccessfulCheckAt": "2026-08-20T02:02:34.398Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/free-ship-us-vintage-tulle-op",
         "https://egl.circlly.com/auctions/sweet-lacy-basket-op-in-pink",
         "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-shirring-jsk-hb",
         "https://egl.circlly.com/auctions/angelic-pretty-neon-star-diner-jsk-set-skirt",
         "https://egl.circlly.com/auctions/ap-nakayoshi-bunny-jsk-bnt-set-red-bnwt",
         "https://egl.circlly.com/auctions/angelic-pretty-polka-dot-chocolate-op-in-brown",
         "https://egl.circlly.com/auctions/angelic-pretty-cecilia-cross-op-2016-old-release-in-black",
-        "https://egl.circlly.com/auctions/angelic-pretty-romantic-rose-letter-tiered-jsk-set-6a823d88-370d-49cf-bf2a-46c1fc1ddbcd",
         "https://egl.circlly.com/auctions/angelic-pretty-little-witch-e69ed7f4-4cac-4470-a98d-e75a44a3f3c2",
         "https://egl.circlly.com/auctions/angelic-pretty-mercator-antique-shop-08b86496-20de-4c90-b2d7-7957364f3049",
         "https://egl.circlly.com/auctions/angelic-pretty-cat-s-tea-party-jsk-and-headbow-rerelease-in-grey-02154a70-ae1f-49b0-9969-ffd64ad797e8",
@@ -20,6 +20,7 @@
         "https://egl.circlly.com/auctions/full-back-shirring-ap-twinkle-tonight-jsk-angelic-pretty"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/free-ship-us-vintage-tulle-op",
         "https://egl.circlly.com/auctions/sweet-lacy-basket-op-in-pink",
         "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-shirring-jsk-hb",
         "https://egl.circlly.com/auctions/angelic-pretty-neon-star-diner-jsk-set-skirt",
