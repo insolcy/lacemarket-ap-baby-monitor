@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-20T03:02:50.717Z",
+  "lastSuccessfulCheckAt": "2026-08-20T03:28:05.358Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-pretty-school-jsk-wine-bordeaux",
+        "https://egl.circlly.com/auctions/angelic-pretty-pretty-school-jsk-and-headbow-grey",
         "https://egl.circlly.com/auctions/angelic-pretty-candy-chan-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-jsk-set-8e77ceac-0541-4558-b589-49e3951e1efd",
         "https://egl.circlly.com/auctions/angelic-pretty-princess-cat-special-jsk-set-f76fe57c-0763-469c-b521-ccbfc780eeba",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/free-ship-us-vintage-tulle-op",
         "https://egl.circlly.com/auctions/sweet-lacy-basket-op-in-pink",
         "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-shirring-jsk-hb",
-        "https://egl.circlly.com/auctions/angelic-pretty-neon-star-diner-jsk-set-skirt",
-        "https://egl.circlly.com/auctions/ap-nakayoshi-bunny-jsk-bnt-set-red-bnwt",
-        "https://egl.circlly.com/auctions/angelic-pretty-polka-dot-chocolate-op-in-brown"
+        "https://egl.circlly.com/auctions/angelic-pretty-neon-star-diner-jsk-set-skirt"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-pretty-school-jsk-wine-bordeaux",
+        "https://egl.circlly.com/auctions/angelic-pretty-pretty-school-jsk-and-headbow-grey",
         "https://egl.circlly.com/auctions/angelic-pretty-candy-chan-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-jsk-set-8e77ceac-0541-4558-b589-49e3951e1efd",
         "https://egl.circlly.com/auctions/angelic-pretty-princess-cat-special-jsk-set-f76fe57c-0763-469c-b521-ccbfc780eeba",
