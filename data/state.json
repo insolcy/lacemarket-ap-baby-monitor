@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-20T14:57:09.916Z",
+  "lastSuccessfulCheckAt": "2026-08-20T15:14:50.244Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/free-shipping-angelic-pretty-baby-toys-jsk-hb-white",
         "https://egl.circlly.com/auctions/angelic-pretty-be-my-valentine-jsk-red",
         "https://egl.circlly.com/auctions/set-ap-mto-honey-cake-jsk-otks-headbow",
         "https://egl.circlly.com/auctions/ap-gingham-shirring-jsk-2011-in-pink",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-b9bb3191-8dbd-4e61-9424-de42ba78eaec",
         "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-op-pink",
         "https://egl.circlly.com/auctions/rare-nwt-angelic-pretty-horror-candy-shop-jsk-in-orange",
-        "https://egl.circlly.com/auctions/new-angelic-pretty-cherry-stamp-jsk-red-c520dfe2-afeb-4a33-a9c7-67e8b52a5430",
-        "https://egl.circlly.com/auctions/angelic-pretty-sweetie-violet-jsk-in-pink-ribbon-clip-optional"
+        "https://egl.circlly.com/auctions/new-angelic-pretty-cherry-stamp-jsk-red-c520dfe2-afeb-4a33-a9c7-67e8b52a5430"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/free-shipping-angelic-pretty-baby-toys-jsk-hb-white",
         "https://egl.circlly.com/auctions/angelic-pretty-be-my-valentine-jsk-red",
         "https://egl.circlly.com/auctions/set-ap-mto-honey-cake-jsk-otks-headbow",
         "https://egl.circlly.com/auctions/ap-gingham-shirring-jsk-2011-in-pink",
@@ -145,7 +146,7 @@
         "https://egl.circlly.com/auctions/ap-milky-swan",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-ap-preppy-sweet-school-uniform-academy-sweet-classic"
       ],
-      "lastPagesScanned": 4
+      "lastPagesScanned": 1
     },
     "baby": {
       "inventoryCountAtBaseline": 148,
