@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-20T23:41:32.492Z",
+  "lastSuccessfulCheckAt": "2026-08-20T23:57:55.725Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/ap-milky-way-princess-jsk-in-navy",
         "https://egl.circlly.com/auctions/ap-4d53e0f7-065f-47d9-98e9-600f510fd50d",
         "https://egl.circlly.com/auctions/ap-dream-doll-jsk-in-pink",
         "https://egl.circlly.com/auctions/angelic-pretty-lacy-pansy-jsk-in-mint-green",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/ap-memorial-tea-museum-jsk-angelic-pretty",
         "https://egl.circlly.com/auctions/ap-princess-classical-jsk-angelic-pretty",
         "https://egl.circlly.com/auctions/ap-crescendo-tiered-jsk-angelic-pretty",
-        "https://egl.circlly.com/auctions/very-rare-2008-ap-chandelier-print-op-angelic-pretty",
-        "https://egl.circlly.com/auctions/shirring-at-back-ap-twinkle-sky-jsk-angelic-pretty-656d29fd-0d79-404a-bf92-11b6427e5022"
+        "https://egl.circlly.com/auctions/very-rare-2008-ap-chandelier-print-op-angelic-pretty"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/ap-milky-way-princess-jsk-in-navy",
         "https://egl.circlly.com/auctions/ap-4d53e0f7-065f-47d9-98e9-600f510fd50d",
         "https://egl.circlly.com/auctions/ap-dream-doll-jsk-in-pink",
         "https://egl.circlly.com/auctions/angelic-pretty-lacy-pansy-jsk-in-mint-green",
