@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-20T18:11:38.030Z",
+  "lastSuccessfulCheckAt": "2026-08-20T18:34:39.153Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-lacy-pansy-jsk-in-mint-green",
         "https://egl.circlly.com/auctions/set-antique-chocolaterie-op",
         "https://egl.circlly.com/auctions/ap-sweetie-violet-op-angelic-pretty-b0956bdf-d52c-49f0-b2ad-31e017a10dd4",
         "https://egl.circlly.com/auctions/ap-sugar-sky-jsk-angelic-pretty",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/very-rare-2008-ap-chandelier-print-op-angelic-pretty",
         "https://egl.circlly.com/auctions/shirring-at-back-ap-twinkle-sky-jsk-angelic-pretty-656d29fd-0d79-404a-bf92-11b6427e5022",
         "https://egl.circlly.com/auctions/payment-plan-ok-2008-ap-strawberry-princess-op-angelic-pretty-payment-plan-ok-2008-ap-strawberry-princess-op-angelic-pretty",
-        "https://egl.circlly.com/auctions/set-ap-magical-horoscope-jsk-and-kc-angelic-pretty",
-        "https://egl.circlly.com/auctions/plus-size-friendly-ap-photogenic-pallet-salopette-angelic-pretty-3e9f0b32-8205-4e91-aa88-129a646c1b78"
+        "https://egl.circlly.com/auctions/set-ap-magical-horoscope-jsk-and-kc-angelic-pretty"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-lacy-pansy-jsk-in-mint-green",
         "https://egl.circlly.com/auctions/set-antique-chocolaterie-op",
         "https://egl.circlly.com/auctions/ap-sweetie-violet-op-angelic-pretty-b0956bdf-d52c-49f0-b2ad-31e017a10dd4",
         "https://egl.circlly.com/auctions/ap-sugar-sky-jsk-angelic-pretty",
