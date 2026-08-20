@@ -14,7 +14,8 @@ import {
   uniqueListings,
 } from "./frontier.js";
 import { isUnitedStatesSellerLocation } from "./location.js";
-import { isChallengeResponse } from "./navigation.js";
+import { CloudflareChallengeError, isChallengeResponse } from "./navigation.js";
+import { createIPRoyalSessionId, withIPRoyalSession } from "./proxy.js";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const statePath = process.env.STATE_PATH || path.join(projectRoot, "data", "state.json");
@@ -26,6 +27,11 @@ const minimumNavigationIntervalMs = Number.parseInt(
   process.env.MIN_NAVIGATION_INTERVAL_MS || "10000",
   10,
 );
+const configuredMaxProxyRotations = Number.parseInt(process.env.MAX_PROXY_ROTATIONS || "10", 10);
+const maxProxyRotations =
+  Number.isInteger(configuredMaxProxyRotations) && configuredMaxProxyRotations >= 0
+    ? configuredMaxProxyRotations
+    : 10;
 let lastNavigationAt = 0;
 
 const brands = {
@@ -98,13 +104,20 @@ async function gotoWithRetry(page, url, label, validatePage) {
       await waitForNavigationSlot(page);
       const response = await page.goto(url, { timeout: 60_000, waitUntil: "domcontentloaded" });
       lastNavigationAt = Date.now();
-      const title = await page.title();
-      const bodyText = await page.locator("body").innerText({ timeout: 20_000 });
       const status = response?.status();
       const finalUrl = page.url();
+      const title = await page.title();
+      if (isChallengeResponse({ status, title, url: finalUrl, bodyText: "" })) {
+        const rayId = response?.headers()["cf-ray"] || "unknown";
+        throw new CloudflareChallengeError(
+          `${label}: Cloudflare challenge (status=${status ?? "unknown"}, title=${JSON.stringify(title)}, url=${finalUrl}, cf-ray=${rayId})`,
+        );
+      }
+
+      const bodyText = await page.locator("body").innerText({ timeout: 20_000 });
       if (isChallengeResponse({ status, title, url: finalUrl, bodyText })) {
         const rayId = response?.headers()["cf-ray"] || "unknown";
-        throw new Error(
+        throw new CloudflareChallengeError(
           `${label}: Cloudflare challenge (status=${status ?? "unknown"}, title=${JSON.stringify(title)}, url=${finalUrl}, cf-ray=${rayId})`,
         );
       }
@@ -114,6 +127,9 @@ async function gotoWithRetry(page, url, label, validatePage) {
       return bodyText;
     } catch (error) {
       lastError = error;
+      if (error instanceof CloudflareChallengeError) {
+        throw error;
+      }
       if (attempt < navigationRetries) {
         await page.waitForTimeout(attempt * 20_000);
       }
@@ -135,66 +151,64 @@ async function assertUsableListingPage(page, brand, bodyText) {
   }
 }
 
-async function readListingPage(page, url, brand) {
-  await gotoWithRetry(page, url, brand.label, (currentPage, bodyText) =>
-    assertUsableListingPage(currentPage, brand, bodyText),
-  );
-  await page.locator(".grid-list-item-content").first().waitFor({
-    state: "attached",
-    timeout: 20_000,
+async function readListingPage(navigator, url, brand) {
+  return navigator.withPage(async (page) => {
+    await gotoWithRetry(page, url, brand.label, (currentPage, bodyText) =>
+      assertUsableListingPage(currentPage, brand, bodyText),
+    );
+    await page.locator(".grid-list-item-content").first().waitFor({
+      state: "attached",
+      timeout: 20_000,
+    });
+
+    const rawListings = await page.locator(".grid-list-item-content").evaluateAll((cards) =>
+      cards.map((card) => {
+        const anchor = card.querySelector('a.auction-title[href*="/auctions/"]');
+        const ribbon = card.querySelector(":scope > .ribbon > span");
+        const image = card.querySelector(".auction-image");
+        return {
+          title: (anchor?.textContent || "").replace(/\s+/g, " ").trim(),
+          url: anchor?.href || "",
+          ribbonText: (ribbon?.textContent || "").replace(/\s+/g, " ").trim(),
+          imageUrl:
+            image?.getAttribute("data-lazy-load") || image?.getAttribute("data-src") || "",
+        };
+      }),
+    );
+    const listings = uniqueListings(rawListings);
+    if (listings.length === 0) {
+      throw new Error(`${brand.label}: no listing links found`);
+    }
+
+    const nextLink = page.getByRole("link", { name: "Next →", exact: true });
+    const nextUrl =
+      (await nextLink.count()) > 0 ? await nextLink.first().getAttribute("href") : null;
+    return {
+      listings,
+      nextUrl: nextUrl ? new URL(nextUrl, page.url()).href : null,
+    };
   });
-
-  const rawListings = await page.locator(".grid-list-item-content").evaluateAll((cards) =>
-    cards.map((card) => {
-      const anchor = card.querySelector('a.auction-title[href*="/auctions/"]');
-      const ribbon = card.querySelector(":scope > .ribbon > span");
-      const image = card.querySelector(".auction-image");
-      return {
-        title: (anchor?.textContent || "").replace(/\s+/g, " ").trim(),
-        url: anchor?.href || "",
-        ribbonText: (ribbon?.textContent || "").replace(/\s+/g, " ").trim(),
-        imageUrl:
-          image?.getAttribute("data-lazy-load") || image?.getAttribute("data-src") || "",
-      };
-    }),
-  );
-  const listings = uniqueListings(rawListings);
-  if (listings.length === 0) {
-    throw new Error(`${brand.label}: no listing links found`);
-  }
-
-  const nextLink = page.getByRole("link", { name: "Next →", exact: true });
-  const nextUrl = (await nextLink.count()) > 0 ? await nextLink.first().getAttribute("href") : null;
-  return {
-    listings,
-    nextUrl: nextUrl ? new URL(nextUrl, page.url()).href : null,
-  };
 }
 
-async function scanBrand(context, brandKey, brand, brandState) {
-  const page = await context.newPage();
+async function scanBrand(navigator, brandKey, brand, brandState) {
   const pages = [];
   let nextUrl = brand.url;
 
-  try {
-    for (let pageNumber = 1; pageNumber <= maxPages && nextUrl; pageNumber += 1) {
-      const result = await readListingPage(page, nextUrl, brand);
-      pages.push(result.listings);
+  for (let pageNumber = 1; pageNumber <= maxPages && nextUrl; pageNumber += 1) {
+    const result = await readListingPage(navigator, nextUrl, brand);
+    pages.push(result.listings);
 
-      const detection = findCandidatesBeforeAnchor(pages, brandState.frontier, brandState.seen);
-      if (detection.anchorFound) {
-        return {
-          brandKey,
-          candidates: detection.candidates,
-          frontier: pages[0].map((listing) => listing.url),
-          pagesScanned: pageNumber,
-        };
-      }
-
-      nextUrl = result.nextUrl;
+    const detection = findCandidatesBeforeAnchor(pages, brandState.frontier, brandState.seen);
+    if (detection.anchorFound) {
+      return {
+        brandKey,
+        candidates: detection.candidates,
+        frontier: pages[0].map((listing) => listing.url),
+        pagesScanned: pageNumber,
+      };
     }
-  } finally {
-    await page.close();
+
+    nextUrl = result.nextUrl;
   }
 
   throw new Error(`${brand.label}: no known waterline URL found within ${maxPages} pages`);
@@ -223,10 +237,8 @@ async function readLabelledText(page, selector, label) {
   return value.trim() || "未提供";
 }
 
-async function readListingDetails(context, candidate, brandKey, brand) {
-  const page = await context.newPage();
-
-  try {
+async function readListingDetails(navigator, candidate, brandKey, brand) {
+  return navigator.withPage(async (page) => {
     await gotoWithRetry(page, candidate.url, candidate.url, async (currentPage) => {
       await currentPage.locator("h2").first().waitFor({ state: "visible", timeout: 20_000 });
       await currentPage.locator("strong").filter({ hasText: /^\s*Brand:\s*$/i }).first().waitFor({
@@ -266,9 +278,7 @@ async function readListingDetails(context, candidate, brandKey, brand) {
       imageUrl: candidate.imageUrl,
       url: candidate.url,
     };
-  } finally {
-    await page.close();
-  }
+  });
 }
 
 async function sendAlert(listings) {
@@ -293,116 +303,223 @@ async function sendAlert(listings) {
   });
 }
 
+function buildProxy(rotationMode) {
+  if (!process.env.PROXY_SERVER) {
+    if (rotationMode === "iproyal") {
+      throw new Error("IPRoyal session rotation requires PROXY_SERVER");
+    }
+    return undefined;
+  }
+
+  const password =
+    rotationMode === "iproyal"
+      ? withIPRoyalSession(process.env.PROXY_PASSWORD, createIPRoyalSessionId())
+      : process.env.PROXY_PASSWORD;
+
+  return {
+    server: process.env.PROXY_SERVER,
+    ...(process.env.PROXY_USERNAME ? { username: process.env.PROXY_USERNAME } : {}),
+    ...(password ? { password } : {}),
+  };
+}
+
+class RotatingNavigator {
+  constructor(rotationMode, rotationsAllowed) {
+    this.rotationMode = rotationMode;
+    this.rotationsAllowed = rotationsAllowed;
+    this.rotation = 0;
+    this.browser = undefined;
+    this.context = undefined;
+  }
+
+  async start() {
+    await this.openSession();
+  }
+
+  async openSession() {
+    const proxy = buildProxy(this.rotationMode);
+    const browser = await chromium.launch({
+      headless,
+      ...(process.env.BROWSER_CHANNEL ? { channel: process.env.BROWSER_CHANNEL } : {}),
+      ...(proxy ? { proxy } : {}),
+    });
+
+    try {
+      this.context = await browser.newContext({
+        locale: "en-US",
+        timezoneId: "America/Los_Angeles",
+      });
+      await this.context.route("**/*", async (route) => {
+        if (shouldBlockResource(route.request())) {
+          await route.abort("blockedbyclient");
+          return;
+        }
+        await route.continue();
+      });
+      this.browser = browser;
+      lastNavigationAt = 0;
+
+      if (this.rotationMode === "iproyal") {
+        console.log(
+          `Started a fresh IPRoyal session ` +
+            `(${this.rotation + 1}/${this.rotationsAllowed + 1}).`,
+        );
+      }
+    } catch (error) {
+      await browser.close().catch(() => {});
+      throw error;
+    }
+  }
+
+  async closeSession() {
+    const context = this.context;
+    const browser = this.browser;
+    this.context = undefined;
+    this.browser = undefined;
+    await context?.close().catch(() => {});
+    await browser?.close().catch(() => {});
+  }
+
+  async rotate(error) {
+    console.warn(error.message);
+    console.warn(
+      `Cloudflare blocked the current proxy IP; switching IP and retrying the current page ` +
+        `(${this.rotation + 1}/${this.rotationsAllowed}).`,
+    );
+    await this.closeSession();
+    this.rotation += 1;
+    await this.openSession();
+  }
+
+  async withPage(operation) {
+    for (;;) {
+      if (!this.context) {
+        throw new Error("Browser session is not available");
+      }
+
+      const page = await this.context.newPage();
+      try {
+        return await operation(page);
+      } catch (error) {
+        const canRotate =
+          error instanceof CloudflareChallengeError &&
+          this.rotationMode === "iproyal" &&
+          this.rotation < this.rotationsAllowed;
+        if (!canRotate) {
+          throw error;
+        }
+
+        await this.rotate(error);
+      } finally {
+        await page.close().catch(() => {});
+      }
+    }
+  }
+
+  async close() {
+    await this.closeSession();
+  }
+}
+
+async function runMonitorAttempt(state, navigator) {
+  const scans = [];
+  for (const [brandKey, brand] of Object.entries(brands)) {
+    scans.push(await scanBrand(navigator, brandKey, brand, state.brands[brandKey]));
+  }
+
+  const candidateDetails = [];
+  const skippedRelistListings = [];
+  for (const scan of scans) {
+    for (const candidate of scan.candidates) {
+      if (!hasNewListingBadge(candidate)) {
+        skippedRelistListings.push({ ...candidate, brandKey: scan.brandKey });
+        continue;
+      }
+
+      candidateDetails.push(
+        await readListingDetails(navigator, candidate, scan.brandKey, brands[scan.brandKey]),
+      );
+    }
+  }
+
+  const details = candidateDetails.filter((listing) =>
+    isUnitedStatesSellerLocation(listing.sellerLocation),
+  );
+  const skippedNonUsListings = candidateDetails.filter(
+    (listing) => !isUnitedStatesSellerLocation(listing.sellerLocation),
+  );
+
+  if (details.length > 0) {
+    if (dryRun) {
+      console.log(
+        JSON.stringify(
+          { dryRun: true, newListings: details, skippedNonUsListings, skippedRelistListings },
+          null,
+          2,
+        ),
+      );
+    } else {
+      await sendAlert(details);
+    }
+  } else {
+    console.log("No first-time New listings from US sellers found.");
+    if (dryRun && (skippedNonUsListings.length > 0 || skippedRelistListings.length > 0)) {
+      console.log(
+        JSON.stringify(
+          { dryRun: true, skippedNonUsListings, skippedRelistListings },
+          null,
+          2,
+        ),
+      );
+    }
+  }
+
+  const seenStatus = dryRun ? "would be recorded as seen" : "were recorded as seen";
+  if (skippedRelistListings.length > 0) {
+    console.log(
+      `Skipped ${skippedRelistListings.length} relisted listing(s); they ${seenStatus}.`,
+    );
+  }
+
+  if (skippedNonUsListings.length > 0) {
+    console.log(
+      `Skipped ${skippedNonUsListings.length} non-US listing(s); they ${seenStatus}.`,
+    );
+  }
+
+  if (!dryRun) {
+    for (const scan of scans) {
+      const brandState = state.brands[scan.brandKey];
+      brandState.frontier = scan.frontier;
+      brandState.seen = mergeSeen(
+        brandState.seen,
+        scan.candidates.map((candidate) => candidate.url),
+      );
+      brandState.lastPagesScanned = scan.pagesScanned;
+    }
+
+    state.lastSuccessfulCheckAt = new Date().toISOString();
+    await saveState(state);
+  }
+}
+
 async function main() {
   requireProductionEnvironment();
   const state = await loadState();
-  const proxy = process.env.PROXY_SERVER
-    ? {
-        server: process.env.PROXY_SERVER,
-        ...(process.env.PROXY_USERNAME ? { username: process.env.PROXY_USERNAME } : {}),
-        ...(process.env.PROXY_PASSWORD ? { password: process.env.PROXY_PASSWORD } : {}),
-      }
-    : undefined;
-  const browser = await chromium.launch({
-    headless,
-    ...(process.env.BROWSER_CHANNEL ? { channel: process.env.BROWSER_CHANNEL } : {}),
-    ...(proxy ? { proxy } : {}),
-  });
-  const context = await browser.newContext({
-    locale: "en-US",
-    timezoneId: "America/Los_Angeles",
-  });
-  await context.route("**/*", async (route) => {
-    if (shouldBlockResource(route.request())) {
-      await route.abort("blockedbyclient");
-      return;
-    }
-    await route.continue();
-  });
+  const rotationMode = (process.env.PROXY_ROTATION_MODE || "").toLowerCase();
+  if (rotationMode && rotationMode !== "iproyal") {
+    throw new Error(`Unsupported PROXY_ROTATION_MODE: ${rotationMode}`);
+  }
 
+  const navigator = new RotatingNavigator(
+    rotationMode,
+    rotationMode === "iproyal" ? maxProxyRotations : 0,
+  );
   try {
-    const scans = [];
-    for (const [brandKey, brand] of Object.entries(brands)) {
-      scans.push(await scanBrand(context, brandKey, brand, state.brands[brandKey]));
-    }
-
-    const candidateDetails = [];
-    const skippedRelistListings = [];
-    for (const scan of scans) {
-      for (const candidate of scan.candidates) {
-        if (!hasNewListingBadge(candidate)) {
-          skippedRelistListings.push({ ...candidate, brandKey: scan.brandKey });
-          continue;
-        }
-
-        candidateDetails.push(
-          await readListingDetails(context, candidate, scan.brandKey, brands[scan.brandKey]),
-        );
-      }
-    }
-
-    const details = candidateDetails.filter((listing) =>
-      isUnitedStatesSellerLocation(listing.sellerLocation),
-    );
-    const skippedNonUsListings = candidateDetails.filter(
-      (listing) => !isUnitedStatesSellerLocation(listing.sellerLocation),
-    );
-
-    if (details.length > 0) {
-      if (dryRun) {
-        console.log(
-          JSON.stringify(
-            { dryRun: true, newListings: details, skippedNonUsListings, skippedRelistListings },
-            null,
-            2,
-          ),
-        );
-      } else {
-        await sendAlert(details);
-      }
-    } else {
-      console.log("No first-time New listings from US sellers found.");
-      if (dryRun && (skippedNonUsListings.length > 0 || skippedRelistListings.length > 0)) {
-        console.log(
-          JSON.stringify(
-            { dryRun: true, skippedNonUsListings, skippedRelistListings },
-            null,
-            2,
-          ),
-        );
-      }
-    }
-
-    const seenStatus = dryRun ? "would be recorded as seen" : "were recorded as seen";
-    if (skippedRelistListings.length > 0) {
-      console.log(
-        `Skipped ${skippedRelistListings.length} relisted listing(s); they ${seenStatus}.`,
-      );
-    }
-
-    if (skippedNonUsListings.length > 0) {
-      console.log(
-        `Skipped ${skippedNonUsListings.length} non-US listing(s); they ${seenStatus}.`,
-      );
-    }
-
-    if (!dryRun) {
-      for (const scan of scans) {
-        const brandState = state.brands[scan.brandKey];
-        brandState.frontier = scan.frontier;
-        brandState.seen = mergeSeen(
-          brandState.seen,
-          scan.candidates.map((candidate) => candidate.url),
-        );
-        brandState.lastPagesScanned = scan.pagesScanned;
-      }
-
-      state.lastSuccessfulCheckAt = new Date().toISOString();
-      await saveState(state);
-    }
+    await navigator.start();
+    await runMonitorAttempt(state, navigator);
   } finally {
-    await context.close();
-    await browser.close();
+    await navigator.close();
   }
 }
 

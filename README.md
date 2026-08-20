@@ -18,7 +18,11 @@
 | `ALERT_EMAIL` | 否 | 额外收件人；多个地址用英文逗号分隔，不会替代 `SMTP_USER` |
 | `PROXY_SERVER` | 云端运行需要 | 站点允许访问的可信 HTTP/HTTPS/SOCKS 代理地址 |
 | `PROXY_USERNAME` | 视代理而定 | 代理用户名 |
-| `PROXY_PASSWORD` | 视代理而定 | 代理密码 |
+| `PROXY_PASSWORD` | 是 | IPRoyal Residential 代理密码；程序会保留国家、城市和 lifetime 参数，只更换 session ID |
+
+云端任务会在每次运行时创建新的 8 位 IPRoyal sticky session。若 Lace Market 返回
+Cloudflare 403、429、503 或挑战页，程序会关闭当前浏览器、切换代理 IP，并从未变更的
+当前失败页面继续扫描；默认最多额外切换 10 次。代理密码和 session ID 都不会写入日志。
 
 Gmail 应用专用密码需要 Google 账号启用两步验证。不要将密码写入代码、Issue 或 Actions 日志。
 
