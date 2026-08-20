@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-20T16:11:52.995Z",
+  "lastSuccessfulCheckAt": "2026-08-20T16:33:52.925Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -163,7 +163,7 @@
         "https://egl.circlly.com/auctions/ap-milky-swan",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-ap-preppy-sweet-school-uniform-academy-sweet-classic"
       ],
-      "lastPagesScanned": 2
+      "lastPagesScanned": 1
     },
     "baby": {
       "inventoryCountAtBaseline": 148,
