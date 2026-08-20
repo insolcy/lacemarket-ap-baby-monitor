@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-20T23:09:41.869Z",
+  "lastSuccessfulCheckAt": "2026-08-20T23:25:14.172Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -172,6 +172,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-cat-tea-salon-de-the-minette-caline-op-baby-the-stars-shine-bright-sweet-teacup-sax-blue",
         "https://egl.circlly.com/auctions/btssb-milky-sugar-op-jsk-in-black-7b8d3f85-fae4-47bc-ab7d-2d13605d3ffa",
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-baby-the-stars-shine-bright",
         "https://egl.circlly.com/auctions/btssb-soiree-au-chat-noir-star-jsk-baby-the-stars-shine-bright-da87d9b1-d6fd-4f40-9743-8ebf84aac743",
@@ -182,10 +183,10 @@
         "https://egl.circlly.com/auctions/accept-offers-bbtsb-romantic-dream-rose-jsk-with-kc-rose-pink-and-accessories-lot",
         "https://egl.circlly.com/auctions/btssb-original-tartan-check-babydoll-jsk-headband-set",
         "https://egl.circlly.com/auctions/cinderella-brilliant-ball-of-magic-op-and-kc",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-ruban-le-lien-a-la-mode-petit-sleeve-jsk",
-        "https://egl.circlly.com/auctions/btssb-flower-leno-fabric-op"
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-ruban-le-lien-a-la-mode-petit-sleeve-jsk"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-cat-tea-salon-de-the-minette-caline-op-baby-the-stars-shine-bright-sweet-teacup-sax-blue",
         "https://egl.circlly.com/auctions/btssb-milky-sugar-op-jsk-in-black-7b8d3f85-fae4-47bc-ab7d-2d13605d3ffa",
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-baby-the-stars-shine-bright",
         "https://egl.circlly.com/auctions/btssb-soiree-au-chat-noir-star-jsk-baby-the-stars-shine-bright-da87d9b1-d6fd-4f40-9743-8ebf84aac743",
