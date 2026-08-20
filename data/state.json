@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-20T04:35:52.296Z",
+  "lastSuccessfulCheckAt": "2026-08-20T04:55:39.971Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -106,6 +106,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/2010-baby-the-stars-shine-bright-star-chiffon-jsk",
         "https://egl.circlly.com/auctions/btssb-pui-pui-molcar-rosette-jsk-pink",
         "https://egl.circlly.com/auctions/btssb-pink-shirring-baby-doll-jumper-skirt",
         "https://egl.circlly.com/auctions/brand-new-bless-from-michael-jsk",
@@ -116,10 +117,10 @@
         "https://egl.circlly.com/auctions/btsst-velveteen-babydoll-jsk-and-headdress-set-baby-the-stars-shine-bright-239c4756-572c-4cf3-b9e9-a434e935d593",
         "https://egl.circlly.com/auctions/with-headddress-set-baby-the-stars-shine-bright-velveteen-babydoll-jsk-and-headdress-d7fd38f4-5d1b-4b62-9345-5268a34a0b41",
         "https://egl.circlly.com/auctions/btssb-juno-s-bouquet-dot-jsk-2015",
-        "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
-        "https://egl.circlly.com/auctions/the-muse-of-rose-drop-sky-baby-doll-jsk"
+        "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/2010-baby-the-stars-shine-bright-star-chiffon-jsk",
         "https://egl.circlly.com/auctions/btssb-pui-pui-molcar-rosette-jsk-pink",
         "https://egl.circlly.com/auctions/btssb-pink-shirring-baby-doll-jumper-skirt",
         "https://egl.circlly.com/auctions/brand-new-bless-from-michael-jsk",
