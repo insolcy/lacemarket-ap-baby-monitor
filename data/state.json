@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-20T15:14:50.244Z",
+  "lastSuccessfulCheckAt": "2026-08-20T15:34:28.845Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-wonder-fortune-jsk-ee3f5dbe-55ea-4887-a956-8ed7af2a1321",
         "https://egl.circlly.com/auctions/free-shipping-angelic-pretty-baby-toys-jsk-hb-white",
         "https://egl.circlly.com/auctions/angelic-pretty-be-my-valentine-jsk-red",
         "https://egl.circlly.com/auctions/set-ap-mto-honey-cake-jsk-otks-headbow",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-ec267b16-4345-4634-aac9-362708c4729a",
         "https://egl.circlly.com/auctions/angelic-pretty-b9bb3191-8dbd-4e61-9424-de42ba78eaec",
         "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-op-pink",
-        "https://egl.circlly.com/auctions/rare-nwt-angelic-pretty-horror-candy-shop-jsk-in-orange",
-        "https://egl.circlly.com/auctions/new-angelic-pretty-cherry-stamp-jsk-red-c520dfe2-afeb-4a33-a9c7-67e8b52a5430"
+        "https://egl.circlly.com/auctions/rare-nwt-angelic-pretty-horror-candy-shop-jsk-in-orange"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-wonder-fortune-jsk-ee3f5dbe-55ea-4887-a956-8ed7af2a1321",
         "https://egl.circlly.com/auctions/free-shipping-angelic-pretty-baby-toys-jsk-hb-white",
         "https://egl.circlly.com/auctions/angelic-pretty-be-my-valentine-jsk-red",
         "https://egl.circlly.com/auctions/set-ap-mto-honey-cake-jsk-otks-headbow",
@@ -151,6 +152,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/baby-marie-s-sailor-op-in-brown",
         "https://egl.circlly.com/auctions/accept-offers-bbtsb-romantic-dream-rose-jsk-with-kc-rose-pink-and-accessories-lot",
         "https://egl.circlly.com/auctions/btssb-original-tartan-check-babydoll-jsk-headband-set",
         "https://egl.circlly.com/auctions/cinderella-brilliant-ball-of-magic-op-and-kc",
@@ -161,10 +163,10 @@
         "https://egl.circlly.com/auctions/btssb-pink-shirring-baby-doll-jumper-skirt",
         "https://egl.circlly.com/auctions/brand-new-bless-from-michael-jsk",
         "https://egl.circlly.com/auctions/2008-btssb-chiffon-polka-dot-ribbon-jsk-pink",
-        "https://egl.circlly.com/auctions/btssb-juno-s-blessing-and-aria-of-birds-jsk-ivory-lavender",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-2006-old-release-butter-yellow"
+        "https://egl.circlly.com/auctions/btssb-juno-s-blessing-and-aria-of-birds-jsk-ivory-lavender"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/baby-marie-s-sailor-op-in-brown",
         "https://egl.circlly.com/auctions/accept-offers-bbtsb-romantic-dream-rose-jsk-with-kc-rose-pink-and-accessories-lot",
         "https://egl.circlly.com/auctions/btssb-original-tartan-check-babydoll-jsk-headband-set",
         "https://egl.circlly.com/auctions/cinderella-brilliant-ball-of-magic-op-and-kc",
