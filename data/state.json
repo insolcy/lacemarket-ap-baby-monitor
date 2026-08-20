@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-20T03:28:05.358Z",
+  "lastSuccessfulCheckAt": "2026-08-20T03:51:35.021Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-lyrical-party-going-out-set-ec4431d0-533b-4e21-afb7-38527a82e275",
         "https://egl.circlly.com/auctions/angelic-pretty-pretty-school-jsk-wine-bordeaux",
         "https://egl.circlly.com/auctions/angelic-pretty-pretty-school-jsk-and-headbow-grey",
         "https://egl.circlly.com/auctions/angelic-pretty-candy-chan-jsk-set",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-nakayoshi-ginger-cookie-jsk-set-6f2c24ff-bc30-44e0-bf26-4a893ee3e3c9",
         "https://egl.circlly.com/auctions/free-ship-us-vintage-tulle-op",
         "https://egl.circlly.com/auctions/sweet-lacy-basket-op-in-pink",
-        "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-shirring-jsk-hb",
-        "https://egl.circlly.com/auctions/angelic-pretty-neon-star-diner-jsk-set-skirt"
+        "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-shirring-jsk-hb"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-lyrical-party-going-out-set-ec4431d0-533b-4e21-afb7-38527a82e275",
         "https://egl.circlly.com/auctions/angelic-pretty-pretty-school-jsk-wine-bordeaux",
         "https://egl.circlly.com/auctions/angelic-pretty-pretty-school-jsk-and-headbow-grey",
         "https://egl.circlly.com/auctions/angelic-pretty-candy-chan-jsk-set",
