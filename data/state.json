@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-20T15:34:28.845Z",
+  "lastSuccessfulCheckAt": "2026-08-20T15:53:05.901Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-bunny-picnic-party-op-in-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-wonder-fortune-jsk-ee3f5dbe-55ea-4887-a956-8ed7af2a1321",
         "https://egl.circlly.com/auctions/free-shipping-angelic-pretty-baby-toys-jsk-hb-white",
         "https://egl.circlly.com/auctions/angelic-pretty-be-my-valentine-jsk-red",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-candy-sprinkle-salopette-in-pink-1f0d6bbe-63d2-45d8-bec9-47d81b9c62d3",
         "https://egl.circlly.com/auctions/angelic-pretty-ec267b16-4345-4634-aac9-362708c4729a",
         "https://egl.circlly.com/auctions/angelic-pretty-b9bb3191-8dbd-4e61-9424-de42ba78eaec",
-        "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-op-pink",
-        "https://egl.circlly.com/auctions/rare-nwt-angelic-pretty-horror-candy-shop-jsk-in-orange"
+        "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-op-pink"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-bunny-picnic-party-op-in-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-wonder-fortune-jsk-ee3f5dbe-55ea-4887-a956-8ed7af2a1321",
         "https://egl.circlly.com/auctions/free-shipping-angelic-pretty-baby-toys-jsk-hb-white",
         "https://egl.circlly.com/auctions/angelic-pretty-be-my-valentine-jsk-red",
