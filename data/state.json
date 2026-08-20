@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-20T00:00:07.095Z",
+  "lastSuccessfulCheckAt": "2026-08-20T00:23:13.179Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -10,7 +10,6 @@
         "https://egl.circlly.com/auctions/angelic-pretty-neon-star-diner-jsk-set-skirt",
         "https://egl.circlly.com/auctions/ap-nakayoshi-bunny-jsk-bnt-set-red-bnwt",
         "https://egl.circlly.com/auctions/angelic-pretty-polka-dot-chocolate-op-in-brown",
-        "https://egl.circlly.com/auctions/urgent-sale-nwot-dorotee-sweetlips-dark-hollows-jsk",
         "https://egl.circlly.com/auctions/angelic-pretty-cecilia-cross-op-2016-old-release-in-black",
         "https://egl.circlly.com/auctions/iso-damaged-egl",
         "https://egl.circlly.com/auctions/angelic-pretty-romantic-rose-letter-tiered-jsk-set-6a823d88-370d-49cf-bf2a-46c1fc1ddbcd",
@@ -98,22 +97,21 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-pink-shirring-baby-doll-jumper-skirt",
         "https://egl.circlly.com/auctions/brand-new-bless-from-michael-jsk",
         "https://egl.circlly.com/auctions/2008-btssb-chiffon-polka-dot-ribbon-jsk-pink",
         "https://egl.circlly.com/auctions/btssb-juno-s-blessing-and-aria-of-birds-jsk-ivory-lavender",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-2006-old-release-butter-yellow",
-        "https://egl.circlly.com/auctions/plus-size-dreaming-heart-lemon-lace-up-jsk-headdress-set-2026",
-        "https://egl.circlly.com/auctions/brown-pigtail-clip",
         "https://egl.circlly.com/auctions/btssb-my-sweet-mate-kumya-s-trick-or-treat-judy-jsk-headbow-in-navy-630ea868-23bc-45d8-9b2c-77f512f470f6",
         "https://egl.circlly.com/auctions/btsst-velveteen-babydoll-jsk-and-headdress-set-baby-the-stars-shine-bright-239c4756-572c-4cf3-b9e9-a434e935d593",
         "https://egl.circlly.com/auctions/with-headddress-set-baby-the-stars-shine-bright-velveteen-babydoll-jsk-and-headdress-d7fd38f4-5d1b-4b62-9345-5268a34a0b41",
         "https://egl.circlly.com/auctions/btssb-juno-s-bouquet-dot-jsk-2015",
         "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
         "https://egl.circlly.com/auctions/the-muse-of-rose-drop-sky-baby-doll-jsk",
-        "https://egl.circlly.com/auctions/btssb-best-wishes-sailor-jsk",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-btssb-tartan-check-babydoll-jsk-princess-drop-headdress-set"
+        "https://egl.circlly.com/auctions/btssb-best-wishes-sailor-jsk"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-pink-shirring-baby-doll-jumper-skirt",
         "https://egl.circlly.com/auctions/brand-new-bless-from-michael-jsk",
         "https://egl.circlly.com/auctions/2008-btssb-chiffon-polka-dot-ribbon-jsk-pink",
         "https://egl.circlly.com/auctions/btssb-juno-s-blessing-and-aria-of-birds-jsk-ivory-lavender",
