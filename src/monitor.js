@@ -14,7 +14,8 @@ import {
   uniqueListings,
 } from "./frontier.js";
 import { isUnitedStatesSellerLocation } from "./location.js";
-import { isChallengeResponse } from "./navigation.js";
+import { CloudflareChallengeError, isChallengeResponse } from "./navigation.js";
+import { createIPRoyalSessionId, withIPRoyalSession } from "./proxy.js";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const statePath = process.env.STATE_PATH || path.join(projectRoot, "data", "state.json");
@@ -26,6 +27,11 @@ const minimumNavigationIntervalMs = Number.parseInt(
   process.env.MIN_NAVIGATION_INTERVAL_MS || "10000",
   10,
 );
+const configuredMaxProxyRotations = Number.parseInt(process.env.MAX_PROXY_ROTATIONS || "3", 10);
+const maxProxyRotations =
+  Number.isInteger(configuredMaxProxyRotations) && configuredMaxProxyRotations >= 0
+    ? configuredMaxProxyRotations
+    : 3;
 let lastNavigationAt = 0;
 
 const brands = {
@@ -98,13 +104,20 @@ async function gotoWithRetry(page, url, label, validatePage) {
       await waitForNavigationSlot(page);
       const response = await page.goto(url, { timeout: 60_000, waitUntil: "domcontentloaded" });
       lastNavigationAt = Date.now();
-      const title = await page.title();
-      const bodyText = await page.locator("body").innerText({ timeout: 20_000 });
       const status = response?.status();
       const finalUrl = page.url();
+      const title = await page.title();
+      if (isChallengeResponse({ status, title, url: finalUrl, bodyText: "" })) {
+        const rayId = response?.headers()["cf-ray"] || "unknown";
+        throw new CloudflareChallengeError(
+          `${label}: Cloudflare challenge (status=${status ?? "unknown"}, title=${JSON.stringify(title)}, url=${finalUrl}, cf-ray=${rayId})`,
+        );
+      }
+
+      const bodyText = await page.locator("body").innerText({ timeout: 20_000 });
       if (isChallengeResponse({ status, title, url: finalUrl, bodyText })) {
         const rayId = response?.headers()["cf-ray"] || "unknown";
-        throw new Error(
+        throw new CloudflareChallengeError(
           `${label}: Cloudflare challenge (status=${status ?? "unknown"}, title=${JSON.stringify(title)}, url=${finalUrl}, cf-ray=${rayId})`,
         );
       }
@@ -114,6 +127,9 @@ async function gotoWithRetry(page, url, label, validatePage) {
       return bodyText;
     } catch (error) {
       lastError = error;
+      if (error instanceof CloudflareChallengeError) {
+        throw error;
+      }
       if (attempt < navigationRetries) {
         await page.waitForTimeout(attempt * 20_000);
       }
@@ -293,34 +309,48 @@ async function sendAlert(listings) {
   });
 }
 
-async function main() {
-  requireProductionEnvironment();
-  const state = await loadState();
-  const proxy = process.env.PROXY_SERVER
-    ? {
-        server: process.env.PROXY_SERVER,
-        ...(process.env.PROXY_USERNAME ? { username: process.env.PROXY_USERNAME } : {}),
-        ...(process.env.PROXY_PASSWORD ? { password: process.env.PROXY_PASSWORD } : {}),
-      }
-    : undefined;
+function buildProxy(rotationMode) {
+  if (!process.env.PROXY_SERVER) {
+    if (rotationMode === "iproyal") {
+      throw new Error("IPRoyal session rotation requires PROXY_SERVER");
+    }
+    return undefined;
+  }
+
+  const password =
+    rotationMode === "iproyal"
+      ? withIPRoyalSession(process.env.PROXY_PASSWORD, createIPRoyalSessionId())
+      : process.env.PROXY_PASSWORD;
+
+  return {
+    server: process.env.PROXY_SERVER,
+    ...(process.env.PROXY_USERNAME ? { username: process.env.PROXY_USERNAME } : {}),
+    ...(password ? { password } : {}),
+  };
+}
+
+async function runMonitorAttempt(state, proxy) {
+  lastNavigationAt = 0;
   const browser = await chromium.launch({
     headless,
     ...(process.env.BROWSER_CHANNEL ? { channel: process.env.BROWSER_CHANNEL } : {}),
     ...(proxy ? { proxy } : {}),
   });
-  const context = await browser.newContext({
-    locale: "en-US",
-    timezoneId: "America/Los_Angeles",
-  });
-  await context.route("**/*", async (route) => {
-    if (shouldBlockResource(route.request())) {
-      await route.abort("blockedbyclient");
-      return;
-    }
-    await route.continue();
-  });
+  let context;
 
   try {
+    context = await browser.newContext({
+      locale: "en-US",
+      timezoneId: "America/Los_Angeles",
+    });
+    await context.route("**/*", async (route) => {
+      if (shouldBlockResource(route.request())) {
+        await route.abort("blockedbyclient");
+        return;
+      }
+      await route.continue();
+    });
+
     const scans = [];
     for (const [brandKey, brand] of Object.entries(brands)) {
       scans.push(await scanBrand(context, brandKey, brand, state.brands[brandKey]));
@@ -401,8 +431,44 @@ async function main() {
       await saveState(state);
     }
   } finally {
-    await context.close();
+    await context?.close();
     await browser.close();
+  }
+}
+
+async function main() {
+  requireProductionEnvironment();
+  const state = await loadState();
+  const rotationMode = (process.env.PROXY_ROTATION_MODE || "").toLowerCase();
+  if (rotationMode && rotationMode !== "iproyal") {
+    throw new Error(`Unsupported PROXY_ROTATION_MODE: ${rotationMode}`);
+  }
+
+  const rotationsAllowed = rotationMode === "iproyal" ? maxProxyRotations : 0;
+  for (let rotation = 0; rotation <= rotationsAllowed; rotation += 1) {
+    const proxy = buildProxy(rotationMode);
+    if (rotationMode === "iproyal") {
+      console.log(
+        `Starting monitor with a fresh IPRoyal session (${rotation + 1}/${rotationsAllowed + 1}).`,
+      );
+    }
+
+    try {
+      await runMonitorAttempt(state, proxy);
+      return;
+    } catch (error) {
+      const canRotate =
+        error instanceof CloudflareChallengeError && rotation < rotationsAllowed;
+      if (!canRotate) {
+        throw error;
+      }
+
+      console.warn(error.message);
+      console.warn(
+        `Cloudflare blocked the current proxy IP; switching IP and restarting the scan ` +
+          `(${rotation + 1}/${rotationsAllowed}).`,
+      );
+    }
   }
 }
 

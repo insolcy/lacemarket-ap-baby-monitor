@@ -10,7 +10,8 @@ import {
   uniqueListings,
 } from "../src/frontier.js";
 import { isUnitedStatesSellerLocation } from "../src/location.js";
-import { isChallengeResponse } from "../src/navigation.js";
+import { CloudflareChallengeError, isChallengeResponse } from "../src/navigation.js";
+import { createIPRoyalSessionId, withIPRoyalSession } from "../src/proxy.js";
 
 test("recognizes real listing URLs and rejects search URLs", () => {
   assert.equal(isListingUrl("https://egl.circlly.com/auctions/new-dress"), true);
@@ -170,4 +171,44 @@ test("recognizes Cloudflare block and rate-limit variants", () => {
     }),
     false,
   );
+});
+
+test("creates an eight-character alphanumeric IPRoyal session ID", () => {
+  const values = [0, 1, 2, 3, 4, 5, 60, 61];
+  const sessionId = createIPRoyalSessionId(() => values.shift());
+
+  assert.equal(sessionId, "ABCDEF89");
+  assert.match(sessionId, /^[A-Za-z0-9]{8}$/);
+});
+
+test("rotates only the IPRoyal session while preserving proxy options", () => {
+  assert.equal(
+    withIPRoyalSession(
+      "secret_country-us_session-Old12345_lifetime-24h_streaming-1",
+      "New67890",
+    ),
+    "secret_country-us_session-New67890_lifetime-24h_streaming-1",
+  );
+});
+
+test("adds an IPRoyal session before an existing lifetime option", () => {
+  assert.equal(
+    withIPRoyalSession("secret_country-us_lifetime-24h", "Ab12Cd34"),
+    "secret_country-us_session-Ab12Cd34_lifetime-24h",
+  );
+});
+
+test("adds a one-hour lifetime when the IPRoyal password has no session options", () => {
+  assert.equal(
+    withIPRoyalSession("secret_country-us_", "Ab12Cd34"),
+    "secret_country-us_session-Ab12Cd34_lifetime-1h",
+  );
+});
+
+test("rejects invalid IPRoyal session IDs", () => {
+  assert.throws(
+    () => withIPRoyalSession("secret", "too-short"),
+    /exactly 8 letters or digits/,
+  );
+  assert.equal(new CloudflareChallengeError("blocked").name, "CloudflareChallengeError");
 });

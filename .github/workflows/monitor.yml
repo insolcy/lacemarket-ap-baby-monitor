@@ -58,6 +58,8 @@ jobs:
           PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
           PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }}
           PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
+          PROXY_ROTATION_MODE: iproyal
+          MAX_PROXY_ROTATIONS: "3"
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
           BROWSER_CHANNEL: chrome
           HEADLESS: "false"
