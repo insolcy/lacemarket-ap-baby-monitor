@@ -1,25 +1,31 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-20T02:02:34.398Z",
+  "lastSuccessfulCheckAt": "2026-08-20T02:34:43.596Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-candy-chan-jsk-set",
+        "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-jsk-set-8e77ceac-0541-4558-b589-49e3951e1efd",
+        "https://egl.circlly.com/auctions/angelic-pretty-princess-cat-special-jsk-set-f76fe57c-0763-469c-b521-ccbfc780eeba",
+        "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-op-set-3861f625-cd16-43d0-b273-9aeb0fadccd9",
+        "https://egl.circlly.com/auctions/urgent-sale-nwot-dorotee-sweetlips-dark-hollows-jsk",
+        "https://egl.circlly.com/auctions/krad-lanrete-le-retentissement-de-versailles-jsk-ii-white-s",
+        "https://egl.circlly.com/auctions/anelic-pretty-poodle-jsk",
+        "https://egl.circlly.com/auctions/angelic-pretty-nakayoshi-ginger-cookie-jsk-set-6f2c24ff-bc30-44e0-bf26-4a893ee3e3c9",
         "https://egl.circlly.com/auctions/free-ship-us-vintage-tulle-op",
         "https://egl.circlly.com/auctions/sweet-lacy-basket-op-in-pink",
         "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-shirring-jsk-hb",
         "https://egl.circlly.com/auctions/angelic-pretty-neon-star-diner-jsk-set-skirt",
         "https://egl.circlly.com/auctions/ap-nakayoshi-bunny-jsk-bnt-set-red-bnwt",
-        "https://egl.circlly.com/auctions/angelic-pretty-polka-dot-chocolate-op-in-brown",
-        "https://egl.circlly.com/auctions/angelic-pretty-cecilia-cross-op-2016-old-release-in-black",
-        "https://egl.circlly.com/auctions/angelic-pretty-little-witch-e69ed7f4-4cac-4470-a98d-e75a44a3f3c2",
-        "https://egl.circlly.com/auctions/angelic-pretty-mercator-antique-shop-08b86496-20de-4c90-b2d7-7957364f3049",
-        "https://egl.circlly.com/auctions/angelic-pretty-cat-s-tea-party-jsk-and-headbow-rerelease-in-grey-02154a70-ae1f-49b0-9969-ffd64ad797e8",
-        "https://egl.circlly.com/auctions/sugary-carnival-mto-full-set-sax",
-        "https://egl.circlly.com/auctions/full-back-shirring-ap-twinkle-tonight-jsk-angelic-pretty"
+        "https://egl.circlly.com/auctions/angelic-pretty-polka-dot-chocolate-op-in-brown"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-candy-chan-jsk-set",
+        "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-jsk-set-8e77ceac-0541-4558-b589-49e3951e1efd",
+        "https://egl.circlly.com/auctions/angelic-pretty-princess-cat-special-jsk-set-f76fe57c-0763-469c-b521-ccbfc780eeba",
+        "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-op-set-3861f625-cd16-43d0-b273-9aeb0fadccd9",
         "https://egl.circlly.com/auctions/free-ship-us-vintage-tulle-op",
         "https://egl.circlly.com/auctions/sweet-lacy-basket-op-in-pink",
         "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-shirring-jsk-hb",
@@ -99,9 +105,12 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-pui-pui-molcar-rosette-jsk-pink",
         "https://egl.circlly.com/auctions/btssb-pink-shirring-baby-doll-jumper-skirt",
         "https://egl.circlly.com/auctions/brand-new-bless-from-michael-jsk",
         "https://egl.circlly.com/auctions/2008-btssb-chiffon-polka-dot-ribbon-jsk-pink",
+        "https://egl.circlly.com/auctions/urgent-sale-nwot-dorotee-sweetlips-dark-hollows-jsk",
+        "https://egl.circlly.com/auctions/angelic-pretty-melty-chocolate-crew-length-socks-2024-brand-new",
         "https://egl.circlly.com/auctions/btssb-juno-s-blessing-and-aria-of-birds-jsk-ivory-lavender",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-2006-old-release-butter-yellow",
         "https://egl.circlly.com/auctions/btssb-my-sweet-mate-kumya-s-trick-or-treat-judy-jsk-headbow-in-navy-630ea868-23bc-45d8-9b2c-77f512f470f6",
@@ -109,10 +118,10 @@
         "https://egl.circlly.com/auctions/with-headddress-set-baby-the-stars-shine-bright-velveteen-babydoll-jsk-and-headdress-d7fd38f4-5d1b-4b62-9345-5268a34a0b41",
         "https://egl.circlly.com/auctions/btssb-juno-s-bouquet-dot-jsk-2015",
         "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
-        "https://egl.circlly.com/auctions/the-muse-of-rose-drop-sky-baby-doll-jsk",
-        "https://egl.circlly.com/auctions/btssb-best-wishes-sailor-jsk"
+        "https://egl.circlly.com/auctions/the-muse-of-rose-drop-sky-baby-doll-jsk"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-pui-pui-molcar-rosette-jsk-pink",
         "https://egl.circlly.com/auctions/btssb-pink-shirring-baby-doll-jumper-skirt",
         "https://egl.circlly.com/auctions/brand-new-bless-from-michael-jsk",
         "https://egl.circlly.com/auctions/2008-btssb-chiffon-polka-dot-ribbon-jsk-pink",
