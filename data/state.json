@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-21T08:26:14.244Z",
+  "lastSuccessfulCheckAt": "2026-08-21T08:48:47.757Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -196,6 +196,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-soft-pink-musical-motif-empire-waist-jsk-set-with-headdress",
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-ivory-pale-yellow-pink-baby-the-stars-shine-bright-old-school-plus-size-friendly",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-rose-bloom-jsk-pink-old-school-lace-btssb-classic",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-sweetie-gingham-border-jsk-i-7a526c59-98f0-421f-853f-b8fc404e7744",
@@ -206,10 +207,10 @@
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-baby-the-stars-shine-bright",
         "https://egl.circlly.com/auctions/btssb-soiree-au-chat-noir-star-jsk-baby-the-stars-shine-bright-da87d9b1-d6fd-4f40-9743-8ebf84aac743",
         "https://egl.circlly.com/auctions/nwt-btssb-soiree-au-chat-noir-scallop-jsk-baby-the-stars-shine-bright",
-        "https://egl.circlly.com/auctions/very-rare-5-items-full-set-btssb-haru-chan-s-ange-gardien-jsk-blouse-tulle-gown-comb-and-chocker-bdbb1629-a444-4f30-b9b2-520d34a7d5a6",
-        "https://egl.circlly.com/auctions/btssb-slow-motion-bouquet-my-emotion-on-that-day-babydoll-jsk-baby-the-stars-shine-bright"
+        "https://egl.circlly.com/auctions/very-rare-5-items-full-set-btssb-haru-chan-s-ange-gardien-jsk-blouse-tulle-gown-comb-and-chocker-bdbb1629-a444-4f30-b9b2-520d34a7d5a6"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-soft-pink-musical-motif-empire-waist-jsk-set-with-headdress",
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-ivory-pale-yellow-pink-baby-the-stars-shine-bright-old-school-plus-size-friendly",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-rose-bloom-jsk-pink-old-school-lace-btssb-classic",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-sweetie-gingham-border-jsk-i-7a526c59-98f0-421f-853f-b8fc404e7744",
