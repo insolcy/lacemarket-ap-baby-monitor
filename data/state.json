@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-21T22:13:07.594Z",
+  "lastSuccessfulCheckAt": "2026-08-21T22:32:23.901Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-baby-room-op-kc-with-stars",
         "https://egl.circlly.com/auctions/ap-girly-room-jsk-kc-a7ce2510-2f35-45b4-8c9b-f6b87ac080b9",
         "https://egl.circlly.com/auctions/ap-silky-lady-op-mint",
         "https://egl.circlly.com/auctions/holy-lantern-jsk-otk-and-hairclip",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/fantastic-dolly-with-free-blouse",
         "https://egl.circlly.com/auctions/angelic-pretty-chocolate-teatime-op",
         "https://egl.circlly.com/auctions/cosmic-sailor-jsk-otk",
-        "https://egl.circlly.com/auctions/lady-lace-angelic-pretty-op",
-        "https://egl.circlly.com/auctions/full-set-ap-eternal-doll-op-headband-and-tote-bag-set-angelic-pretty"
+        "https://egl.circlly.com/auctions/lady-lace-angelic-pretty-op"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-baby-room-op-kc-with-stars",
         "https://egl.circlly.com/auctions/ap-girly-room-jsk-kc-a7ce2510-2f35-45b4-8c9b-f6b87ac080b9",
         "https://egl.circlly.com/auctions/ap-silky-lady-op-mint",
         "https://egl.circlly.com/auctions/holy-lantern-jsk-otk-and-hairclip",
