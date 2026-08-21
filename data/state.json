@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-21T00:24:14.532Z",
+  "lastSuccessfulCheckAt": "2026-08-21T00:50:49.619Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-fairytale-carriage-lilac-jsk-matching-tights-set-sweet-lolita",
         "https://egl.circlly.com/auctions/ap-milky-way-princess-jsk-in-navy",
         "https://egl.circlly.com/auctions/ap-4d53e0f7-065f-47d9-98e9-600f510fd50d",
         "https://egl.circlly.com/auctions/ap-dream-doll-jsk-in-pink",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/ap-toy-harmony-jsk-angelic-pretty-d7a15607-f4ca-446a-9c86-595fe9f41923",
         "https://egl.circlly.com/auctions/ap-memorial-tea-museum-jsk-angelic-pretty",
         "https://egl.circlly.com/auctions/ap-princess-classical-jsk-angelic-pretty",
-        "https://egl.circlly.com/auctions/ap-crescendo-tiered-jsk-angelic-pretty",
-        "https://egl.circlly.com/auctions/very-rare-2008-ap-chandelier-print-op-angelic-pretty"
+        "https://egl.circlly.com/auctions/ap-crescendo-tiered-jsk-angelic-pretty"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-fairytale-carriage-lilac-jsk-matching-tights-set-sweet-lolita",
         "https://egl.circlly.com/auctions/ap-milky-way-princess-jsk-in-navy",
         "https://egl.circlly.com/auctions/ap-4d53e0f7-065f-47d9-98e9-600f510fd50d",
         "https://egl.circlly.com/auctions/ap-dream-doll-jsk-in-pink",
