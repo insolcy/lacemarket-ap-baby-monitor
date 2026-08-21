@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-21T03:33:03.670Z",
+  "lastSuccessfulCheckAt": "2026-08-21T03:59:06.778Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-lilac-castle-print-ribbon-laced-jsk-sweet-lolita",
+        "https://egl.circlly.com/auctions/angelic-pretty-sax-blue-horse-carriage-pearl-jsk-old-school-sweet-lolita",
         "https://egl.circlly.com/auctions/angelic-pretty-red-tartan-teddy-bear-jsk-set-headbow-tights",
         "https://egl.circlly.com/auctions/angelic-pretty-castle-mirage-jsk-head-clip-otk-full-set-in-navy",
         "https://egl.circlly.com/auctions/2017-angelic-pretty-toy-harmony-jsk-pink-plus-size-friendly-back-shirring-ap-sweet-cat-bunny-piano-print",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-parfait-op-in-white-e17fdabe-f757-4870-bc58-708e67b43d3b",
         "https://egl.circlly.com/auctions/plus-size-friendly-angelic-pretty-fluffy-milky-bear-fleece-op-in-sax-cutsew",
         "https://egl.circlly.com/auctions/angelic-pretty-fairytale-carriage-sax-jsk-sweet-lolita",
-        "https://egl.circlly.com/auctions/angelic-pretty-fairytale-carriage-lilac-jsk-matching-tights-set-sweet-lolita",
-        "https://egl.circlly.com/auctions/ap-milky-way-princess-jsk-in-navy",
-        "https://egl.circlly.com/auctions/ap-4d53e0f7-065f-47d9-98e9-600f510fd50d"
+        "https://egl.circlly.com/auctions/angelic-pretty-fairytale-carriage-lilac-jsk-matching-tights-set-sweet-lolita"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-lilac-castle-print-ribbon-laced-jsk-sweet-lolita",
+        "https://egl.circlly.com/auctions/angelic-pretty-sax-blue-horse-carriage-pearl-jsk-old-school-sweet-lolita",
         "https://egl.circlly.com/auctions/angelic-pretty-red-tartan-teddy-bear-jsk-set-headbow-tights",
         "https://egl.circlly.com/auctions/angelic-pretty-castle-mirage-jsk-head-clip-otk-full-set-in-navy",
         "https://egl.circlly.com/auctions/2017-angelic-pretty-toy-harmony-jsk-pink-plus-size-friendly-back-shirring-ap-sweet-cat-bunny-piano-print",
