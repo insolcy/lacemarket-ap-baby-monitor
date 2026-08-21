@@ -1,11 +1,15 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-21T01:25:12.610Z",
+  "lastSuccessfulCheckAt": "2026-08-21T02:06:44.068Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-sax-carousel-op-sweet-lolita-one-piece-dress",
+        "https://egl.circlly.com/auctions/milky-berry-op-in-mint",
+        "https://egl.circlly.com/auctions/angelic-pretty-lilac-carousel-op-sweet-lolita-one-piece-dress",
+        "https://egl.circlly.com/auctions/angelic-pretty-toy-fantasy-bonnet-jsk-nwt",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-parfait-op-in-white-e17fdabe-f757-4870-bc58-708e67b43d3b",
         "https://egl.circlly.com/auctions/plus-size-friendly-angelic-pretty-fluffy-milky-bear-fleece-op-in-sax-cutsew",
         "https://egl.circlly.com/auctions/angelic-pretty-fairytale-carriage-sax-jsk-sweet-lolita",
@@ -13,13 +17,13 @@
         "https://egl.circlly.com/auctions/ap-milky-way-princess-jsk-in-navy",
         "https://egl.circlly.com/auctions/ap-4d53e0f7-065f-47d9-98e9-600f510fd50d",
         "https://egl.circlly.com/auctions/ap-dream-doll-jsk-in-pink",
-        "https://egl.circlly.com/auctions/angelic-pretty-lacy-pansy-jsk-in-mint-green",
-        "https://egl.circlly.com/auctions/set-antique-chocolaterie-op",
-        "https://egl.circlly.com/auctions/ap-sweetie-violet-op-angelic-pretty-b0956bdf-d52c-49f0-b2ad-31e017a10dd4",
-        "https://egl.circlly.com/auctions/ap-sugar-sky-jsk-angelic-pretty",
-        "https://egl.circlly.com/auctions/ap-toy-harmony-jsk-angelic-pretty-d7a15607-f4ca-446a-9c86-595fe9f41923"
+        "https://egl.circlly.com/auctions/angelic-pretty-lacy-pansy-jsk-in-mint-green"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-sax-carousel-op-sweet-lolita-one-piece-dress",
+        "https://egl.circlly.com/auctions/milky-berry-op-in-mint",
+        "https://egl.circlly.com/auctions/angelic-pretty-lilac-carousel-op-sweet-lolita-one-piece-dress",
+        "https://egl.circlly.com/auctions/angelic-pretty-toy-fantasy-bonnet-jsk-nwt",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-parfait-op-in-white-e17fdabe-f757-4870-bc58-708e67b43d3b",
         "https://egl.circlly.com/auctions/plus-size-friendly-angelic-pretty-fluffy-milky-bear-fleece-op-in-sax-cutsew",
         "https://egl.circlly.com/auctions/angelic-pretty-fairytale-carriage-sax-jsk-sweet-lolita",
