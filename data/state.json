@@ -1,25 +1,32 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-21T17:10:57.560Z",
+  "lastSuccessfulCheckAt": "2026-08-21T21:35:40.905Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/ap-girly-room-jsk-kc-a7ce2510-2f35-45b4-8c9b-f6b87ac080b9",
+        "https://egl.circlly.com/auctions/ap-silky-lady-op-mint",
+        "https://egl.circlly.com/auctions/holy-lantern-jsk-otk-and-hairclip",
+        "https://egl.circlly.com/auctions/ap-holy-wolf-white-op",
+        "https://egl.circlly.com/auctions/ap-x-disney-crystal-dream-mermaid-ariel-flounder-op",
+        "https://egl.circlly.com/auctions/ap-fairy-season-disney-princess-jsk-2015",
+        "https://egl.circlly.com/auctions/angelic-pretty-girl-s-heart-skirt-3-matching-bows-plus-size-friendly",
         "https://egl.circlly.com/auctions/fantastic-dolly-with-free-blouse",
         "https://egl.circlly.com/auctions/angelic-pretty-chocolate-teatime-op",
         "https://egl.circlly.com/auctions/cosmic-sailor-jsk-otk",
         "https://egl.circlly.com/auctions/lady-lace-angelic-pretty-op",
-        "https://egl.circlly.com/auctions/full-set-ap-eternal-doll-op-headband-and-tote-bag-set-angelic-pretty",
-        "https://egl.circlly.com/auctions/angelic-pretty-sax-floral-applique-babydoll-jsk-sweet-lolita-jumper-skirt",
-        "https://egl.circlly.com/auctions/angelic-pretty-mint-floral-applique-babydoll-jsk-sweet-lolita",
-        "https://egl.circlly.com/auctions/angelic-pretty-petit-heart-op-40f0d7bb-8c4e-4997-9e0b-d1c59d1569bc",
-        "https://egl.circlly.com/auctions/angelic-pretty-vintage-marine-op",
-        "https://egl.circlly.com/auctions/angelic-pretty-lilac-floral-applique-babydoll-jsk-sweet-lolita-jumper-skirt",
-        "https://egl.circlly.com/auctions/angelic-pretty-cirque-de-l-etoile-green-tartan-horse-jsk-set-classic-lolita",
-        "https://egl.circlly.com/auctions/angelic-pretty-cirque-de-l-etoile-burgundy-tartan-horse-jsk-set-classic-lolita"
+        "https://egl.circlly.com/auctions/full-set-ap-eternal-doll-op-headband-and-tote-bag-set-angelic-pretty"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/ap-girly-room-jsk-kc-a7ce2510-2f35-45b4-8c9b-f6b87ac080b9",
+        "https://egl.circlly.com/auctions/ap-silky-lady-op-mint",
+        "https://egl.circlly.com/auctions/holy-lantern-jsk-otk-and-hairclip",
+        "https://egl.circlly.com/auctions/ap-holy-wolf-white-op",
+        "https://egl.circlly.com/auctions/ap-x-disney-crystal-dream-mermaid-ariel-flounder-op",
+        "https://egl.circlly.com/auctions/ap-fairy-season-disney-princess-jsk-2015",
+        "https://egl.circlly.com/auctions/angelic-pretty-girl-s-heart-skirt-3-matching-bows-plus-size-friendly",
         "https://egl.circlly.com/auctions/fantastic-dolly-with-free-blouse",
         "https://egl.circlly.com/auctions/angelic-pretty-chocolate-teatime-op",
         "https://egl.circlly.com/auctions/cosmic-sailor-jsk-otk",
@@ -201,6 +208,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-baroque-jsk-green-nwt",
         "https://egl.circlly.com/auctions/btssb-alice-s-portrait-jsk-ba4b732f-d94e-4a3f-bd23-212c8e7dd350",
         "https://egl.circlly.com/auctions/2006-baby-the-stars-shine-bright-millefeuille-jsk-old-school",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-navy-cross-applique-ribbon-jsk-old-school-lolita",
@@ -211,10 +219,10 @@
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-sweetie-gingham-border-jsk-i-7a526c59-98f0-421f-853f-b8fc404e7744",
         "https://egl.circlly.com/auctions/btssb-effeuiller-la-marguerite-whereabouts-of-maiden-s-love-babydoll-jsk",
         "https://egl.circlly.com/auctions/btssb-heart-shaped-fairy-topialium-jsk-in-sax-a381f968-644e-4b28-8299-7b5c835cedbe",
-        "https://egl.circlly.com/auctions/btssb-cat-tea-salon-de-the-minette-caline-op-baby-the-stars-shine-bright-sweet-teacup-sax-blue",
-        "https://egl.circlly.com/auctions/btssb-milky-sugar-op-jsk-in-black-7b8d3f85-fae4-47bc-ab7d-2d13605d3ffa"
+        "https://egl.circlly.com/auctions/btssb-cat-tea-salon-de-the-minette-caline-op-baby-the-stars-shine-bright-sweet-teacup-sax-blue"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-baroque-jsk-green-nwt",
         "https://egl.circlly.com/auctions/btssb-alice-s-portrait-jsk-ba4b732f-d94e-4a3f-bd23-212c8e7dd350",
         "https://egl.circlly.com/auctions/2006-baby-the-stars-shine-bright-millefeuille-jsk-old-school",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-navy-cross-applique-ribbon-jsk-old-school-lolita",
