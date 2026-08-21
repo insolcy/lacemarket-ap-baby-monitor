@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-21T23:20:21.172Z",
+  "lastSuccessfulCheckAt": "2026-08-21T23:35:50.405Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-triple-frill-or-tiered-jsk",
+        "https://egl.circlly.com/auctions/angelic-pretty-girly-sticker-jsk-set-6867bad9-b374-4040-9005-29e4b2b76d9b",
         "https://egl.circlly.com/auctions/angelic-pretty-halloween-treats-6de8e790-45b4-4415-9846-0fcda59c62b6",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-jsk-set-e8d583aa-543d-4b59-9481-567bdd0d85be",
         "https://egl.circlly.com/auctions/mto-angelic-pretty-candy-fairy-op-2021",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/angelic-pretty-into-a-dream-carnival-op-set-377e36ca-b68b-4850-985d-baa9e2dc1087",
         "https://egl.circlly.com/auctions/angelic-pretty-baby-room-op-kc-with-stars",
         "https://egl.circlly.com/auctions/ap-girly-room-jsk-kc-a7ce2510-2f35-45b4-8c9b-f6b87ac080b9",
-        "https://egl.circlly.com/auctions/ap-silky-lady-op-mint",
-        "https://egl.circlly.com/auctions/holy-lantern-jsk-otk-and-hairclip",
-        "https://egl.circlly.com/auctions/ap-holy-wolf-white-op"
+        "https://egl.circlly.com/auctions/ap-silky-lady-op-mint"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-triple-frill-or-tiered-jsk",
+        "https://egl.circlly.com/auctions/angelic-pretty-girly-sticker-jsk-set-6867bad9-b374-4040-9005-29e4b2b76d9b",
         "https://egl.circlly.com/auctions/angelic-pretty-halloween-treats-6de8e790-45b4-4415-9846-0fcda59c62b6",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-jsk-set-e8d583aa-543d-4b59-9481-567bdd0d85be",
         "https://egl.circlly.com/auctions/mto-angelic-pretty-candy-fairy-op-2021",
@@ -216,6 +218,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-sweetie-gingham-border-jsk-ii-675d2dd2-6f4c-42e7-845a-e34f8ae09c9a",
         "https://egl.circlly.com/auctions/btssb-cheryl-lacy-jsk-2025",
         "https://egl.circlly.com/auctions/btssb-lumiere-eclatante-ribbon-ribbon-op-b06ac261-2aa4-44f3-8cc7-9e57548d1991",
         "https://egl.circlly.com/auctions/bnwt-princess-henrietta-ball-gown-op-canotier",
@@ -226,10 +229,10 @@
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-navy-cross-applique-ribbon-jsk-old-school-lolita",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-baby-girl-jsk-2018-30th-anniversary-light-ivory",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-soft-pink-musical-motif-empire-waist-jsk-set-with-headdress",
-        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-ivory-pale-yellow-pink-baby-the-stars-shine-bright-old-school-plus-size-friendly",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-rose-bloom-jsk-pink-old-school-lace-btssb-classic"
+        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-ivory-pale-yellow-pink-baby-the-stars-shine-bright-old-school-plus-size-friendly"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-sweetie-gingham-border-jsk-ii-675d2dd2-6f4c-42e7-845a-e34f8ae09c9a",
         "https://egl.circlly.com/auctions/btssb-cheryl-lacy-jsk-2025",
         "https://egl.circlly.com/auctions/btssb-lumiere-eclatante-ribbon-ribbon-op-b06ac261-2aa4-44f3-8cc7-9e57548d1991",
         "https://egl.circlly.com/auctions/bnwt-princess-henrietta-ball-gown-op-canotier",
