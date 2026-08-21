@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-21T12:14:35.170Z",
+  "lastSuccessfulCheckAt": "2026-08-21T12:34:48.464Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/lady-lace-angelic-pretty-op",
         "https://egl.circlly.com/auctions/full-set-ap-eternal-doll-op-headband-and-tote-bag-set-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-sax-floral-applique-babydoll-jsk-sweet-lolita-jumper-skirt",
         "https://egl.circlly.com/auctions/angelic-pretty-mint-floral-applique-babydoll-jsk-sweet-lolita",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-cirque-de-l-etoile-burgundy-tartan-horse-jsk-set-classic-lolita",
         "https://egl.circlly.com/auctions/2015-angelic-pretty-elisabeth-unicorn-op-pink-ap-sweet-royal-crown-star",
         "https://egl.circlly.com/auctions/angelic-pretty-baroque-rose-print-jsk-lilac-blue-rose-classic-lolita",
-        "https://egl.circlly.com/auctions/angelic-pretty-navy-milky-planet-salopette",
-        "https://egl.circlly.com/auctions/angelic-pretty-lilac-castle-print-ribbon-laced-jsk-sweet-lolita"
+        "https://egl.circlly.com/auctions/angelic-pretty-navy-milky-planet-salopette"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/lady-lace-angelic-pretty-op",
         "https://egl.circlly.com/auctions/full-set-ap-eternal-doll-op-headband-and-tote-bag-set-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-sax-floral-applique-babydoll-jsk-sweet-lolita-jumper-skirt",
         "https://egl.circlly.com/auctions/angelic-pretty-mint-floral-applique-babydoll-jsk-sweet-lolita",
