@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-21T07:50:24.031Z",
+  "lastSuccessfulCheckAt": "2026-08-21T08:09:50.410Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-sax-floral-applique-babydoll-jsk-sweet-lolita-jumper-skirt",
+        "https://egl.circlly.com/auctions/angelic-pretty-mint-floral-applique-babydoll-jsk-sweet-lolita",
         "https://egl.circlly.com/auctions/angelic-pretty-petit-heart-op-40f0d7bb-8c4e-4997-9e0b-d1c59d1569bc",
         "https://egl.circlly.com/auctions/angelic-pretty-vintage-marine-op",
         "https://egl.circlly.com/auctions/angelic-pretty-lilac-floral-applique-babydoll-jsk-sweet-lolita-jumper-skirt",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/angelic-pretty-baroque-rose-print-jsk-lilac-blue-rose-classic-lolita",
         "https://egl.circlly.com/auctions/angelic-pretty-navy-milky-planet-salopette",
         "https://egl.circlly.com/auctions/angelic-pretty-lilac-castle-print-ribbon-laced-jsk-sweet-lolita",
-        "https://egl.circlly.com/auctions/angelic-pretty-sax-blue-horse-carriage-pearl-jsk-old-school-sweet-lolita",
-        "https://egl.circlly.com/auctions/angelic-pretty-red-tartan-teddy-bear-jsk-set-headbow-tights",
-        "https://egl.circlly.com/auctions/angelic-pretty-castle-mirage-jsk-head-clip-otk-full-set-in-navy"
+        "https://egl.circlly.com/auctions/angelic-pretty-sax-blue-horse-carriage-pearl-jsk-old-school-sweet-lolita"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-sax-floral-applique-babydoll-jsk-sweet-lolita-jumper-skirt",
+        "https://egl.circlly.com/auctions/angelic-pretty-mint-floral-applique-babydoll-jsk-sweet-lolita",
         "https://egl.circlly.com/auctions/angelic-pretty-petit-heart-op-40f0d7bb-8c4e-4997-9e0b-d1c59d1569bc",
         "https://egl.circlly.com/auctions/angelic-pretty-vintage-marine-op",
         "https://egl.circlly.com/auctions/angelic-pretty-lilac-floral-applique-babydoll-jsk-sweet-lolita-jumper-skirt",
@@ -194,6 +196,8 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-ivory-pale-yellow-pink-baby-the-stars-shine-bright-old-school-plus-size-friendly",
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-rose-bloom-jsk-pink-old-school-lace-btssb-classic",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-sweetie-gingham-border-jsk-i-7a526c59-98f0-421f-853f-b8fc404e7744",
         "https://egl.circlly.com/auctions/btssb-effeuiller-la-marguerite-whereabouts-of-maiden-s-love-babydoll-jsk",
         "https://egl.circlly.com/auctions/btssb-heart-shaped-fairy-topialium-jsk-in-sax-a381f968-644e-4b28-8299-7b5c835cedbe",
@@ -203,11 +207,11 @@
         "https://egl.circlly.com/auctions/btssb-soiree-au-chat-noir-star-jsk-baby-the-stars-shine-bright-da87d9b1-d6fd-4f40-9743-8ebf84aac743",
         "https://egl.circlly.com/auctions/nwt-btssb-soiree-au-chat-noir-scallop-jsk-baby-the-stars-shine-bright",
         "https://egl.circlly.com/auctions/very-rare-5-items-full-set-btssb-haru-chan-s-ange-gardien-jsk-blouse-tulle-gown-comb-and-chocker-bdbb1629-a444-4f30-b9b2-520d34a7d5a6",
-        "https://egl.circlly.com/auctions/btssb-slow-motion-bouquet-my-emotion-on-that-day-babydoll-jsk-baby-the-stars-shine-bright",
-        "https://egl.circlly.com/auctions/baby-marie-s-sailor-op-in-brown",
-        "https://egl.circlly.com/auctions/accept-offers-bbtsb-romantic-dream-rose-jsk-with-kc-rose-pink-and-accessories-lot"
+        "https://egl.circlly.com/auctions/btssb-slow-motion-bouquet-my-emotion-on-that-day-babydoll-jsk-baby-the-stars-shine-bright"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-ivory-pale-yellow-pink-baby-the-stars-shine-bright-old-school-plus-size-friendly",
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-rose-bloom-jsk-pink-old-school-lace-btssb-classic",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-sweetie-gingham-border-jsk-i-7a526c59-98f0-421f-853f-b8fc404e7744",
         "https://egl.circlly.com/auctions/free-us-ship-btssb-snow-dot-mini-sleeve-op",
         "https://egl.circlly.com/auctions/btssb-effeuiller-la-marguerite-whereabouts-of-maiden-s-love-babydoll-jsk",
