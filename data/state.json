@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-21T02:38:53.642Z",
+  "lastSuccessfulCheckAt": "2026-08-21T03:08:30.795Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-castle-mirage-jsk-head-clip-otk-full-set-in-navy",
         "https://egl.circlly.com/auctions/2017-angelic-pretty-toy-harmony-jsk-pink-plus-size-friendly-back-shirring-ap-sweet-cat-bunny-piano-print",
         "https://egl.circlly.com/auctions/angelic-pretty-sax-carousel-op-sweet-lolita-one-piece-dress",
         "https://egl.circlly.com/auctions/angelic-pretty-lilac-carousel-op-sweet-lolita-one-piece-dress",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-fairytale-carriage-lilac-jsk-matching-tights-set-sweet-lolita",
         "https://egl.circlly.com/auctions/ap-milky-way-princess-jsk-in-navy",
         "https://egl.circlly.com/auctions/ap-4d53e0f7-065f-47d9-98e9-600f510fd50d",
-        "https://egl.circlly.com/auctions/ap-dream-doll-jsk-in-pink",
-        "https://egl.circlly.com/auctions/angelic-pretty-lacy-pansy-jsk-in-mint-green"
+        "https://egl.circlly.com/auctions/ap-dream-doll-jsk-in-pink"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-castle-mirage-jsk-head-clip-otk-full-set-in-navy",
         "https://egl.circlly.com/auctions/2017-angelic-pretty-toy-harmony-jsk-pink-plus-size-friendly-back-shirring-ap-sweet-cat-bunny-piano-print",
         "https://egl.circlly.com/auctions/angelic-pretty-sax-carousel-op-sweet-lolita-one-piece-dress",
         "https://egl.circlly.com/auctions/milky-berry-op-in-mint",
@@ -182,6 +183,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/free-us-ship-btssb-snow-dot-mini-sleeve-op",
         "https://egl.circlly.com/auctions/btssb-effeuiller-la-marguerite-whereabouts-of-maiden-s-love-babydoll-jsk",
         "https://egl.circlly.com/auctions/btssb-heart-shaped-fairy-topialium-jsk-in-sax-a381f968-644e-4b28-8299-7b5c835cedbe",
         "https://egl.circlly.com/auctions/btssb-cat-tea-salon-de-the-minette-caline-op-baby-the-stars-shine-bright-sweet-teacup-sax-blue",
@@ -192,10 +194,10 @@
         "https://egl.circlly.com/auctions/very-rare-5-items-full-set-btssb-haru-chan-s-ange-gardien-jsk-blouse-tulle-gown-comb-and-chocker-bdbb1629-a444-4f30-b9b2-520d34a7d5a6",
         "https://egl.circlly.com/auctions/btssb-slow-motion-bouquet-my-emotion-on-that-day-babydoll-jsk-baby-the-stars-shine-bright",
         "https://egl.circlly.com/auctions/baby-marie-s-sailor-op-in-brown",
-        "https://egl.circlly.com/auctions/accept-offers-bbtsb-romantic-dream-rose-jsk-with-kc-rose-pink-and-accessories-lot",
-        "https://egl.circlly.com/auctions/btssb-original-tartan-check-babydoll-jsk-headband-set"
+        "https://egl.circlly.com/auctions/accept-offers-bbtsb-romantic-dream-rose-jsk-with-kc-rose-pink-and-accessories-lot"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/free-us-ship-btssb-snow-dot-mini-sleeve-op",
         "https://egl.circlly.com/auctions/btssb-effeuiller-la-marguerite-whereabouts-of-maiden-s-love-babydoll-jsk",
         "https://egl.circlly.com/auctions/btssb-heart-shaped-fairy-topialium-jsk-in-sax-a381f968-644e-4b28-8299-7b5c835cedbe",
         "https://egl.circlly.com/auctions/btssb-cat-tea-salon-de-the-minette-caline-op-baby-the-stars-shine-bright-sweet-teacup-sax-blue",
