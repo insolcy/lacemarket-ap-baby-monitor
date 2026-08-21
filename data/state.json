@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-21T04:20:26.823Z",
+  "lastSuccessfulCheckAt": "2026-08-21T04:40:11.297Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-cirque-de-l-etoile-burgundy-tartan-horse-jsk-set-classic-lolita",
         "https://egl.circlly.com/auctions/2015-angelic-pretty-elisabeth-unicorn-op-pink-ap-sweet-royal-crown-star",
         "https://egl.circlly.com/auctions/angelic-pretty-baroque-rose-print-jsk-lilac-blue-rose-classic-lolita",
         "https://egl.circlly.com/auctions/angelic-pretty-navy-milky-planet-salopette",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/2017-angelic-pretty-toy-harmony-jsk-pink-plus-size-friendly-back-shirring-ap-sweet-cat-bunny-piano-print",
         "https://egl.circlly.com/auctions/angelic-pretty-sax-carousel-op-sweet-lolita-one-piece-dress",
         "https://egl.circlly.com/auctions/angelic-pretty-lilac-carousel-op-sweet-lolita-one-piece-dress",
-        "https://egl.circlly.com/auctions/angelic-pretty-toy-fantasy-bonnet-jsk-nwt",
-        "https://egl.circlly.com/auctions/angelic-pretty-dreamy-parfait-op-in-white-e17fdabe-f757-4870-bc58-708e67b43d3b"
+        "https://egl.circlly.com/auctions/angelic-pretty-toy-fantasy-bonnet-jsk-nwt"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-cirque-de-l-etoile-burgundy-tartan-horse-jsk-set-classic-lolita",
         "https://egl.circlly.com/auctions/2015-angelic-pretty-elisabeth-unicorn-op-pink-ap-sweet-royal-crown-star",
         "https://egl.circlly.com/auctions/angelic-pretty-baroque-rose-print-jsk-lilac-blue-rose-classic-lolita",
         "https://egl.circlly.com/auctions/angelic-pretty-navy-milky-planet-salopette",
