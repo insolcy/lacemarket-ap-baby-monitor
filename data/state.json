@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-21T16:10:43.525Z",
+  "lastSuccessfulCheckAt": "2026-08-21T16:34:01.606Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/fantastic-dolly-with-free-blouse",
         "https://egl.circlly.com/auctions/angelic-pretty-chocolate-teatime-op",
         "https://egl.circlly.com/auctions/cosmic-sailor-jsk-otk",
         "https://egl.circlly.com/auctions/lady-lace-angelic-pretty-op",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-vintage-marine-op",
         "https://egl.circlly.com/auctions/angelic-pretty-lilac-floral-applique-babydoll-jsk-sweet-lolita-jumper-skirt",
         "https://egl.circlly.com/auctions/angelic-pretty-cirque-de-l-etoile-green-tartan-horse-jsk-set-classic-lolita",
-        "https://egl.circlly.com/auctions/angelic-pretty-cirque-de-l-etoile-burgundy-tartan-horse-jsk-set-classic-lolita",
-        "https://egl.circlly.com/auctions/2015-angelic-pretty-elisabeth-unicorn-op-pink-ap-sweet-royal-crown-star"
+        "https://egl.circlly.com/auctions/angelic-pretty-cirque-de-l-etoile-burgundy-tartan-horse-jsk-set-classic-lolita"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/fantastic-dolly-with-free-blouse",
         "https://egl.circlly.com/auctions/angelic-pretty-chocolate-teatime-op",
         "https://egl.circlly.com/auctions/cosmic-sailor-jsk-otk",
         "https://egl.circlly.com/auctions/lady-lace-angelic-pretty-op",
