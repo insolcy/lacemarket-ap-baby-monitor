@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-21T13:29:26.234Z",
+  "lastSuccessfulCheckAt": "2026-08-21T13:53:00.928Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -199,6 +199,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-alice-s-portrait-jsk-ba4b732f-d94e-4a3f-bd23-212c8e7dd350",
         "https://egl.circlly.com/auctions/2006-baby-the-stars-shine-bright-millefeuille-jsk-old-school",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-navy-cross-applique-ribbon-jsk-old-school-lolita",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-baby-girl-jsk-2018-30th-anniversary-light-ivory",
@@ -209,10 +210,10 @@
         "https://egl.circlly.com/auctions/btssb-effeuiller-la-marguerite-whereabouts-of-maiden-s-love-babydoll-jsk",
         "https://egl.circlly.com/auctions/btssb-heart-shaped-fairy-topialium-jsk-in-sax-a381f968-644e-4b28-8299-7b5c835cedbe",
         "https://egl.circlly.com/auctions/btssb-cat-tea-salon-de-the-minette-caline-op-baby-the-stars-shine-bright-sweet-teacup-sax-blue",
-        "https://egl.circlly.com/auctions/btssb-milky-sugar-op-jsk-in-black-7b8d3f85-fae4-47bc-ab7d-2d13605d3ffa",
-        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-baby-the-stars-shine-bright"
+        "https://egl.circlly.com/auctions/btssb-milky-sugar-op-jsk-in-black-7b8d3f85-fae4-47bc-ab7d-2d13605d3ffa"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-alice-s-portrait-jsk-ba4b732f-d94e-4a3f-bd23-212c8e7dd350",
         "https://egl.circlly.com/auctions/2006-baby-the-stars-shine-bright-millefeuille-jsk-old-school",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-navy-cross-applique-ribbon-jsk-old-school-lolita",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-baby-girl-jsk-2018-30th-anniversary-light-ivory",
