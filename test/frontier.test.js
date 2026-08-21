@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
+import { classifyListingDetails } from "../src/classification.js";
 import { buildAlertEmail, buildRecipients } from "../src/email.js";
 import {
   findCandidatesBeforeAnchor,
@@ -137,6 +138,49 @@ test("recognizes US seller locations without matching shipping text", () => {
   assert.equal(isUnitedStatesSellerLocation("(Tariff free shipping!) East Asia EastAsia"), false);
   assert.equal(isUnitedStatesSellerLocation("Tariff free shipping to the US available EastAsia"), false);
   assert.equal(isUnitedStatesSellerLocation("未提供"), false);
+});
+
+test("classifies explicit non-dress categories as skippable", () => {
+  assert.equal(
+    classifyListingDetails({
+      brandText: "Angelic Pretty",
+      categoryText: "Skirts",
+      expectedBrand: "Angelic Pretty",
+    }),
+    "non-dress",
+  );
+});
+
+test("keeps invalid brands and missing categories as hard validation failures", () => {
+  assert.equal(
+    classifyListingDetails({
+      brandText: "Other Brand",
+      categoryText: "Dresses > Jumperskirt",
+      expectedBrand: "Angelic Pretty",
+    }),
+    "invalid-brand",
+  );
+  assert.equal(
+    classifyListingDetails({
+      brandText: "Angelic Pretty",
+      categoryText: "未提供",
+      expectedBrand: "Angelic Pretty",
+    }),
+    "missing-category",
+  );
+});
+
+test("accepts the supported Lace Market dress subcategories", () => {
+  for (const categoryText of ["Dresses", "Jumperskirt", "One Piece", "Salopette", "Strapless/Other"]) {
+    assert.equal(
+      classifyListingDetails({
+        brandText: "Baby the Stars Shine Bright",
+        categoryText,
+        expectedBrand: "Baby the Stars Shine Bright",
+      }),
+      "dress",
+    );
+  }
 });
 
 test("recognizes Cloudflare block and rate-limit variants", () => {

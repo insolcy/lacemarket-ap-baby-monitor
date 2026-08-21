@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 import nodemailer from "nodemailer";
 import { chromium } from "playwright";
 
+import { classifyListingDetails } from "./classification.js";
 import { buildAlertEmail, buildRecipients } from "./email.js";
 import {
   findCandidatesBeforeAnchor,
@@ -250,14 +251,27 @@ async function readListingDetails(navigator, candidate, brandKey, brand) {
     const title = (await page.locator("h2").first().innerText({ timeout: 20_000 })).trim();
     const brandText = await readLabelledText(page, "strong", "Brand");
     const categoryText = await readLabelledText(page, "strong", "Category");
-    const isDressCategory = /Dresses|Jumperskirt|One Piece|Salopette|Strapless(?:\/Other)?/i.test(
+    const classification = classifyListingDetails({
+      brandText,
       categoryText,
-    );
-    if (!brandText.toLowerCase().includes(brand.label.toLowerCase()) || !isDressCategory) {
+      expectedBrand: brand.label,
+    });
+    if (classification === "invalid-brand" || classification === "missing-category") {
       throw new Error(
         `${candidate.url}: detail page brand/category validation failed ` +
           `(brand=${JSON.stringify(brandText)}, category=${JSON.stringify(categoryText)})`,
       );
+    }
+
+    if (classification === "non-dress") {
+      return {
+        skippedNonDress: true,
+        brandKey,
+        brand: brandText,
+        title: title || candidate.title || "未命名商品",
+        category: categoryText,
+        url: candidate.url,
+      };
     }
 
     const condition = await readLabelledText(page, "strong", "Condition");
@@ -429,6 +443,7 @@ async function runMonitorAttempt(state, navigator) {
 
   const candidateDetails = [];
   const skippedRelistListings = [];
+  const skippedNonDressListings = [];
   for (const scan of scans) {
     for (const candidate of scan.candidates) {
       if (!hasNewListingBadge(candidate)) {
@@ -436,9 +451,17 @@ async function runMonitorAttempt(state, navigator) {
         continue;
       }
 
-      candidateDetails.push(
-        await readListingDetails(navigator, candidate, scan.brandKey, brands[scan.brandKey]),
+      const detail = await readListingDetails(
+        navigator,
+        candidate,
+        scan.brandKey,
+        brands[scan.brandKey],
       );
+      if (detail.skippedNonDress) {
+        skippedNonDressListings.push(detail);
+      } else {
+        candidateDetails.push(detail);
+      }
     }
   }
 
@@ -453,7 +476,13 @@ async function runMonitorAttempt(state, navigator) {
     if (dryRun) {
       console.log(
         JSON.stringify(
-          { dryRun: true, newListings: details, skippedNonUsListings, skippedRelistListings },
+          {
+            dryRun: true,
+            newListings: details,
+            skippedNonUsListings,
+            skippedNonDressListings,
+            skippedRelistListings,
+          },
           null,
           2,
         ),
@@ -463,10 +492,15 @@ async function runMonitorAttempt(state, navigator) {
     }
   } else {
     console.log("No first-time New listings from US sellers found.");
-    if (dryRun && (skippedNonUsListings.length > 0 || skippedRelistListings.length > 0)) {
+    if (
+      dryRun &&
+      (skippedNonUsListings.length > 0 ||
+        skippedNonDressListings.length > 0 ||
+        skippedRelistListings.length > 0)
+    ) {
       console.log(
         JSON.stringify(
-          { dryRun: true, skippedNonUsListings, skippedRelistListings },
+          { dryRun: true, skippedNonUsListings, skippedNonDressListings, skippedRelistListings },
           null,
           2,
         ),
@@ -484,6 +518,12 @@ async function runMonitorAttempt(state, navigator) {
   if (skippedNonUsListings.length > 0) {
     console.log(
       `Skipped ${skippedNonUsListings.length} non-US listing(s); they ${seenStatus}.`,
+    );
+  }
+
+  if (skippedNonDressListings.length > 0) {
+    console.log(
+      `Skipped ${skippedNonDressListings.length} non-dress listing(s); they ${seenStatus}.`,
     );
   }
 
