@@ -1,11 +1,14 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-21T03:59:06.778Z",
+  "lastSuccessfulCheckAt": "2026-08-21T04:20:26.823Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/2015-angelic-pretty-elisabeth-unicorn-op-pink-ap-sweet-royal-crown-star",
+        "https://egl.circlly.com/auctions/angelic-pretty-baroque-rose-print-jsk-lilac-blue-rose-classic-lolita",
+        "https://egl.circlly.com/auctions/angelic-pretty-navy-milky-planet-salopette",
         "https://egl.circlly.com/auctions/angelic-pretty-lilac-castle-print-ribbon-laced-jsk-sweet-lolita",
         "https://egl.circlly.com/auctions/angelic-pretty-sax-blue-horse-carriage-pearl-jsk-old-school-sweet-lolita",
         "https://egl.circlly.com/auctions/angelic-pretty-red-tartan-teddy-bear-jsk-set-headbow-tights",
@@ -14,12 +17,12 @@
         "https://egl.circlly.com/auctions/angelic-pretty-sax-carousel-op-sweet-lolita-one-piece-dress",
         "https://egl.circlly.com/auctions/angelic-pretty-lilac-carousel-op-sweet-lolita-one-piece-dress",
         "https://egl.circlly.com/auctions/angelic-pretty-toy-fantasy-bonnet-jsk-nwt",
-        "https://egl.circlly.com/auctions/angelic-pretty-dreamy-parfait-op-in-white-e17fdabe-f757-4870-bc58-708e67b43d3b",
-        "https://egl.circlly.com/auctions/plus-size-friendly-angelic-pretty-fluffy-milky-bear-fleece-op-in-sax-cutsew",
-        "https://egl.circlly.com/auctions/angelic-pretty-fairytale-carriage-sax-jsk-sweet-lolita",
-        "https://egl.circlly.com/auctions/angelic-pretty-fairytale-carriage-lilac-jsk-matching-tights-set-sweet-lolita"
+        "https://egl.circlly.com/auctions/angelic-pretty-dreamy-parfait-op-in-white-e17fdabe-f757-4870-bc58-708e67b43d3b"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/2015-angelic-pretty-elisabeth-unicorn-op-pink-ap-sweet-royal-crown-star",
+        "https://egl.circlly.com/auctions/angelic-pretty-baroque-rose-print-jsk-lilac-blue-rose-classic-lolita",
+        "https://egl.circlly.com/auctions/angelic-pretty-navy-milky-planet-salopette",
         "https://egl.circlly.com/auctions/angelic-pretty-lilac-castle-print-ribbon-laced-jsk-sweet-lolita",
         "https://egl.circlly.com/auctions/angelic-pretty-sax-blue-horse-carriage-pearl-jsk-old-school-sweet-lolita",
         "https://egl.circlly.com/auctions/angelic-pretty-red-tartan-teddy-bear-jsk-set-headbow-tights",
