@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T15:20:44.910Z",
+  "lastSuccessfulCheckAt": "2026-08-22T15:35:12.903Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -272,6 +272,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-shirring-jsk-2004",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-poodle-frill-frill-jsk-lavender-2009",
         "https://egl.circlly.com/auctions/ecrin-d-or-de-antoinette",
         "https://egl.circlly.com/auctions/marie-s-sailor-jsk-baby-the-star-shine-brights",
@@ -282,10 +283,10 @@
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-in-red-x-red-e05b3ac1-b3ae-40ba-843e-4478d62e8056",
         "https://egl.circlly.com/auctions/btssb-usakumya-s-stylish-sweet-time-babydoll-jsk-black",
         "https://egl.circlly.com/auctions/btssb-ivory-b146ca76-b440-4acf-bb29-fb0d5308b0c1",
-        "https://egl.circlly.com/auctions/btssb-baby-lace-frill-2023-bordeaux",
-        "https://egl.circlly.com/auctions/btssb-209a8003-622b-4319-ba89-b38599147ed8"
+        "https://egl.circlly.com/auctions/btssb-baby-lace-frill-2023-bordeaux"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-shirring-jsk-2004",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-poodle-frill-frill-jsk-lavender-2009",
         "https://egl.circlly.com/auctions/ecrin-d-or-de-antoinette",
         "https://egl.circlly.com/auctions/marie-s-sailor-jsk-baby-the-star-shine-brights",
