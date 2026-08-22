@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T16:25:55.978Z",
+  "lastSuccessfulCheckAt": "2026-08-22T16:41:41.308Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-eternal-carnival-op-525e93e1-a4f3-41cf-873d-caaf40fb20d6",
         "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-85bd6022-76e1-4c9f-baab-adb565fed378",
         "https://egl.circlly.com/auctions/angelic-pretty-decoration-ice-cream-jsk-like-new",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-like-new",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelicpretty-sweet-berry-op-in-sax-2006-solid-version-old-school",
         "https://egl.circlly.com/auctions/angelicpretty-flower-garden-teatime-op-in-sax-nwt",
         "https://egl.circlly.com/auctions/angelicpretty-lyrical-bunny-parlor-op-half-bonnet-in-yellow",
-        "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-op-in-lavender-189229c0-9d71-42c8-92a2-39c0ea7b899f",
-        "https://egl.circlly.com/auctions/angelicpretty-be-my-valentine-jsk-hb-lavender"
+        "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-op-in-lavender-189229c0-9d71-42c8-92a2-39c0ea7b899f"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-eternal-carnival-op-525e93e1-a4f3-41cf-873d-caaf40fb20d6",
         "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-85bd6022-76e1-4c9f-baab-adb565fed378",
         "https://egl.circlly.com/auctions/angelic-pretty-decoration-ice-cream-jsk-like-new",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-like-new",
