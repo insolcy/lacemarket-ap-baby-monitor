@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T17:24:03.418Z",
+  "lastSuccessfulCheckAt": "2026-08-22T17:39:53.280Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/sweetie-violet-op-set-in-pink-43a9db81-f7b3-4684-b9e8-b0add551af49",
+        "https://egl.circlly.com/auctions/angelic-pretty-melody-doll-jsk",
         "https://egl.circlly.com/auctions/angelic-pretty-eternal-carnival-op-525e93e1-a4f3-41cf-873d-caaf40fb20d6",
         "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-85bd6022-76e1-4c9f-baab-adb565fed378",
         "https://egl.circlly.com/auctions/angelic-pretty-decoration-ice-cream-jsk-like-new",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/angelicpretty-playing-cards-glitter-trump-op-in-sax",
         "https://egl.circlly.com/auctions/angelicpretty-lovely-bakery-op-beret-in-ivory-x-chocolate",
         "https://egl.circlly.com/auctions/angelicpretty-sweet-berry-op-in-sax-2006-solid-version-old-school",
-        "https://egl.circlly.com/auctions/angelicpretty-flower-garden-teatime-op-in-sax-nwt",
-        "https://egl.circlly.com/auctions/angelicpretty-lyrical-bunny-parlor-op-half-bonnet-in-yellow",
-        "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-op-in-lavender-189229c0-9d71-42c8-92a2-39c0ea7b899f"
+        "https://egl.circlly.com/auctions/angelicpretty-flower-garden-teatime-op-in-sax-nwt"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/sweetie-violet-op-set-in-pink-43a9db81-f7b3-4684-b9e8-b0add551af49",
+        "https://egl.circlly.com/auctions/angelic-pretty-melody-doll-jsk",
         "https://egl.circlly.com/auctions/angelic-pretty-eternal-carnival-op-525e93e1-a4f3-41cf-873d-caaf40fb20d6",
         "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-85bd6022-76e1-4c9f-baab-adb565fed378",
         "https://egl.circlly.com/auctions/angelic-pretty-decoration-ice-cream-jsk-like-new",
@@ -285,6 +287,8 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-disney-alice-in-wonderland-episode-of-the-tea-party-op-headbow-set",
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-petite-cherie-camelia-coffret-ribbon-jsk",
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-2019-sax",
         "https://egl.circlly.com/auctions/the-night-of-starry-flowers-op-and-hb-in-mint",
         "https://egl.circlly.com/auctions/btssb-shirring-jsk-2004",
@@ -294,11 +298,11 @@
         "https://egl.circlly.com/auctions/charmaine-op-2019-pink-btssb-d21d6910-559e-4a28-996a-f63db311223d",
         "https://egl.circlly.com/auctions/favorite-ribbon-jsk-bow-combs-set-pink-btssb",
         "https://egl.circlly.com/auctions/chained-berry-memoir-maria-jsk-93ced2fa-36b1-428b-add9-3c3710752a43",
-        "https://egl.circlly.com/auctions/btssb-kumya-clothes-stardust-fantasia-horoscope-of-twins-star-kittens-jsk-i-in-sax",
-        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-in-red-x-red-e05b3ac1-b3ae-40ba-843e-4478d62e8056",
-        "https://egl.circlly.com/auctions/btssb-usakumya-s-stylish-sweet-time-babydoll-jsk-black"
+        "https://egl.circlly.com/auctions/btssb-kumya-clothes-stardust-fantasia-horoscope-of-twins-star-kittens-jsk-i-in-sax"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-disney-alice-in-wonderland-episode-of-the-tea-party-op-headbow-set",
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-petite-cherie-camelia-coffret-ribbon-jsk",
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-2019-sax",
         "https://egl.circlly.com/auctions/the-night-of-starry-flowers-op-and-hb-in-mint",
         "https://egl.circlly.com/auctions/btssb-shirring-jsk-2004",
