@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T18:45:21.613Z",
+  "lastSuccessfulCheckAt": "2026-08-22T19:01:05.371Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-victorian-tassel-jsk-black-62881134-de9d-407b-8f91-1fc8ab33017b",
         "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-jsk-mint",
         "https://egl.circlly.com/auctions/sweetie-violet-op-set-in-pink-43a9db81-f7b3-4684-b9e8-b0add551af49",
         "https://egl.circlly.com/auctions/angelic-pretty-melody-doll-jsk",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-vintage-tulle-op-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-nakayoshi-ginger-cookie-salopette-2213fce5-e9ae-4232-8894-17b835808656",
         "https://egl.circlly.com/auctions/angelicpretty-playing-cards-glitter-trump-op-in-sax",
-        "https://egl.circlly.com/auctions/angelicpretty-lovely-bakery-op-beret-in-ivory-x-chocolate",
-        "https://egl.circlly.com/auctions/angelicpretty-sweet-berry-op-in-sax-2006-solid-version-old-school"
+        "https://egl.circlly.com/auctions/angelicpretty-lovely-bakery-op-beret-in-ivory-x-chocolate"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-victorian-tassel-jsk-black-62881134-de9d-407b-8f91-1fc8ab33017b",
         "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-jsk-mint",
         "https://egl.circlly.com/auctions/sweetie-violet-op-set-in-pink-43a9db81-f7b3-4684-b9e8-b0add551af49",
         "https://egl.circlly.com/auctions/angelic-pretty-melody-doll-jsk",
