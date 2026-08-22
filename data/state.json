@@ -1,25 +1,30 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T11:51:29.234Z",
+  "lastSuccessfulCheckAt": "2026-08-22T12:08:40.188Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/mercator-antique-shop-op-2017",
+        "https://egl.circlly.com/auctions/sweetie-violet-op-in-sax",
+        "https://egl.circlly.com/auctions/fruity-lemon-jsk",
+        "https://egl.circlly.com/auctions/misty-sky-brilliant-color-jsk-set-in-gray-pink",
+        "https://egl.circlly.com/auctions/horoscope-carnival-cutsew-op-cb360c0a-176c-44b3-94f7-f54f464efa55",
         "https://egl.circlly.com/auctions/be-my-valentine-jsk-hb-set-angelic-pretty-pink",
         "https://egl.circlly.com/auctions/perfume-in-wonderland-big-set-blouse-jsk-hb-socks-angelic-pretty",
         "https://egl.circlly.com/auctions/full-set-diner-doll-op-apron-headbow-socks-sax-mint-angelic-pretty",
         "https://egl.circlly.com/auctions/misty-sky-jsk-hair-clip-angelic-pretty-navy",
         "https://egl.circlly.com/auctions/british-crown-neck-tie-op-angelic-pretty",
         "https://egl.circlly.com/auctions/mademoiselle-de-paris-special-jsk-clip-angelic-pretty-white-ab5d6263-09f7-4c2b-8b2c-56cd5b5a7a2a",
-        "https://egl.circlly.com/auctions/charlotte-s-bear-jsk-angelic-pretty-nwt-e1302cad-29cb-4926-909e-216cec2d02da",
-        "https://egl.circlly.com/auctions/nwt-angelic-pretty-romantic-rose-letter-jsk-hb-set-in-sax-27969d93-fd4e-47d4-b0bb-cf0a9afbe537",
-        "https://egl.circlly.com/auctions/angelic-pretty-lacy-heart-garden-op-576e655e-f049-40c5-b357-1adfecc50352",
-        "https://egl.circlly.com/auctions/angelic-pretty-misty-sky-lavender-jsk-white-lace-3452bc8e-34a2-47b2-8459-73c52f919c26",
-        "https://egl.circlly.com/auctions/angelic-pretty-magical-trick-school-set-magical-trick-school-set",
-        "https://egl.circlly.com/auctions/innocent-world-georges-rose-jsk-green-9d5cfdee-b70f-46d6-9a96-a658f9f6e239"
+        "https://egl.circlly.com/auctions/charlotte-s-bear-jsk-angelic-pretty-nwt-e1302cad-29cb-4926-909e-216cec2d02da"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/mercator-antique-shop-op-2017",
+        "https://egl.circlly.com/auctions/sweetie-violet-op-in-sax",
+        "https://egl.circlly.com/auctions/fruity-lemon-jsk",
+        "https://egl.circlly.com/auctions/misty-sky-brilliant-color-jsk-set-in-gray-pink",
+        "https://egl.circlly.com/auctions/horoscope-carnival-cutsew-op-cb360c0a-176c-44b3-94f7-f54f464efa55",
         "https://egl.circlly.com/auctions/be-my-valentine-jsk-hb-set-angelic-pretty-pink",
         "https://egl.circlly.com/auctions/perfume-in-wonderland-big-set-blouse-jsk-hb-socks-angelic-pretty",
         "https://egl.circlly.com/auctions/full-set-diner-doll-op-apron-headbow-socks-sax-mint-angelic-pretty",
