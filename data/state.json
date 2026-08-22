@@ -1,11 +1,15 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T15:59:02.008Z",
+  "lastSuccessfulCheckAt": "2026-08-22T16:10:20.245Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-decoration-ice-cream-jsk-like-new",
+        "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-like-new",
+        "https://egl.circlly.com/auctions/angelic-pretty-vintage-tulle-op-sax",
+        "https://egl.circlly.com/auctions/angelic-pretty-nakayoshi-ginger-cookie-salopette-2213fce5-e9ae-4232-8894-17b835808656",
         "https://egl.circlly.com/auctions/angelicpretty-playing-cards-glitter-trump-op-in-sax",
         "https://egl.circlly.com/auctions/angelicpretty-lovely-bakery-op-beret-in-ivory-x-chocolate",
         "https://egl.circlly.com/auctions/angelicpretty-sweet-berry-op-in-sax-2006-solid-version-old-school",
@@ -13,13 +17,13 @@
         "https://egl.circlly.com/auctions/angelicpretty-lyrical-bunny-parlor-op-half-bonnet-in-yellow",
         "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-op-in-lavender-189229c0-9d71-42c8-92a2-39c0ea7b899f",
         "https://egl.circlly.com/auctions/angelicpretty-be-my-valentine-jsk-hb-lavender",
-        "https://egl.circlly.com/auctions/petit-heart-and-strawberry-diner-bundle",
-        "https://egl.circlly.com/auctions/mercator-antique-shop-op-2017",
-        "https://egl.circlly.com/auctions/sweetie-violet-op-in-sax",
-        "https://egl.circlly.com/auctions/fruity-lemon-jsk",
-        "https://egl.circlly.com/auctions/misty-sky-brilliant-color-jsk-set-in-gray-pink"
+        "https://egl.circlly.com/auctions/petit-heart-and-strawberry-diner-bundle"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-decoration-ice-cream-jsk-like-new",
+        "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-like-new",
+        "https://egl.circlly.com/auctions/angelic-pretty-vintage-tulle-op-sax",
+        "https://egl.circlly.com/auctions/angelic-pretty-nakayoshi-ginger-cookie-salopette-2213fce5-e9ae-4232-8894-17b835808656",
         "https://egl.circlly.com/auctions/angelicpretty-playing-cards-glitter-trump-op-in-sax",
         "https://egl.circlly.com/auctions/angelicpretty-lovely-bakery-op-beret-in-ivory-x-chocolate",
         "https://egl.circlly.com/auctions/angelicpretty-sweet-berry-op-in-sax-2006-solid-version-old-school",
