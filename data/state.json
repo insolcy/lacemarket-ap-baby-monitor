@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T21:09:14.017Z",
+  "lastSuccessfulCheckAt": "2026-08-22T21:23:43.607Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-strawberry-cake-party-shirring-jsk-3-pieces-set",
         "https://egl.circlly.com/auctions/free-us-shipping-unbirthday-pink-set-3-kira-imai-x-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-victorian-tassel-jsk-black-62881134-de9d-407b-8f91-1fc8ab33017b",
         "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-jsk-mint",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-decoration-ice-cream-jsk-like-new",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-like-new",
         "https://egl.circlly.com/auctions/angelic-pretty-vintage-tulle-op-sax",
-        "https://egl.circlly.com/auctions/angelic-pretty-nakayoshi-ginger-cookie-salopette-2213fce5-e9ae-4232-8894-17b835808656",
-        "https://egl.circlly.com/auctions/angelicpretty-playing-cards-glitter-trump-op-in-sax"
+        "https://egl.circlly.com/auctions/angelic-pretty-nakayoshi-ginger-cookie-salopette-2213fce5-e9ae-4232-8894-17b835808656"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-strawberry-cake-party-shirring-jsk-3-pieces-set",
         "https://egl.circlly.com/auctions/free-us-shipping-unbirthday-pink-set-3-kira-imai-x-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-victorian-tassel-jsk-black-62881134-de9d-407b-8f91-1fc8ab33017b",
         "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-jsk-mint",
