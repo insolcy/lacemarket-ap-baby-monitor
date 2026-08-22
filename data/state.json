@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T01:24:03.842Z",
+  "lastSuccessfulCheckAt": "2026-08-22T02:01:56.204Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -229,10 +229,10 @@
         "https://egl.circlly.com/auctions/btssb-baroque-jsk-green-nwt",
         "https://egl.circlly.com/auctions/btssb-alice-s-portrait-jsk-ba4b732f-d94e-4a3f-bd23-212c8e7dd350",
         "https://egl.circlly.com/auctions/2006-baby-the-stars-shine-bright-millefeuille-jsk-old-school",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-navy-cross-applique-ribbon-jsk-old-school-lolita",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-baby-girl-jsk-2018-30th-anniversary-light-ivory",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-soft-pink-musical-motif-empire-waist-jsk-set-with-headdress",
-        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-ivory-pale-yellow-pink-baby-the-stars-shine-bright-old-school-plus-size-friendly"
+        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-ivory-pale-yellow-pink-baby-the-stars-shine-bright-old-school-plus-size-friendly",
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-rose-bloom-jsk-pink-old-school-lace-btssb-classic",
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-sweetie-gingham-border-jsk-i-7a526c59-98f0-421f-853f-b8fc404e7744",
+        "https://egl.circlly.com/auctions/btssb-effeuiller-la-marguerite-whereabouts-of-maiden-s-love-babydoll-jsk"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/btssb-sweetie-gingham-border-jsk-ii-675d2dd2-6f4c-42e7-845a-e34f8ae09c9a",
