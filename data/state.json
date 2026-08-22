@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T04:45:06.597Z",
+  "lastSuccessfulCheckAt": "2026-08-22T05:03:09.904Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -245,6 +245,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-usakumya-s-stylish-sweet-time-babydoll-jsk-black",
         "https://egl.circlly.com/auctions/btssb-ivory-b146ca76-b440-4acf-bb29-fb0d5308b0c1",
         "https://egl.circlly.com/auctions/btssb-baby-lace-frill-2023-bordeaux",
         "https://egl.circlly.com/auctions/btssb-209a8003-622b-4319-ba89-b38599147ed8",
@@ -255,10 +256,10 @@
         "https://egl.circlly.com/auctions/bnwt-princess-henrietta-ball-gown-op-canotier",
         "https://egl.circlly.com/auctions/bnwt-baby-the-stars-shine-bright-la-robe-vert-clair-op",
         "https://egl.circlly.com/auctions/btssb-baroque-jsk-green-nwt",
-        "https://egl.circlly.com/auctions/btssb-alice-s-portrait-jsk-ba4b732f-d94e-4a3f-bd23-212c8e7dd350",
-        "https://egl.circlly.com/auctions/2006-baby-the-stars-shine-bright-millefeuille-jsk-old-school"
+        "https://egl.circlly.com/auctions/btssb-alice-s-portrait-jsk-ba4b732f-d94e-4a3f-bd23-212c8e7dd350"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-usakumya-s-stylish-sweet-time-babydoll-jsk-black",
         "https://egl.circlly.com/auctions/btssb-ivory-b146ca76-b440-4acf-bb29-fb0d5308b0c1",
         "https://egl.circlly.com/auctions/btssb-baby-lace-frill-2023-bordeaux",
         "https://egl.circlly.com/auctions/btssb-209a8003-622b-4319-ba89-b38599147ed8",
