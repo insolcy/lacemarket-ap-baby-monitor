@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T00:00:22.499Z",
+  "lastSuccessfulCheckAt": "2026-08-22T00:23:34.491Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-horror-candy-shop-jsk-set-f280ca04-bd28-482a-820c-93aa4a083141",
         "https://egl.circlly.com/auctions/ap-celestial-jsk-major-dmg-and-change",
         "https://egl.circlly.com/auctions/angelic-pretty-triple-frill-or-tiered-jsk",
         "https://egl.circlly.com/auctions/angelic-pretty-girly-sticker-jsk-set-6867bad9-b374-4040-9005-29e4b2b76d9b",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-toy-doll-box-jsk-red-bnwt",
         "https://egl.circlly.com/auctions/angelic-pretty-into-a-dream-carnival-op-set-377e36ca-b68b-4850-985d-baa9e2dc1087",
         "https://egl.circlly.com/auctions/angelic-pretty-baby-room-op-kc-with-stars",
-        "https://egl.circlly.com/auctions/ap-girly-room-jsk-kc-a7ce2510-2f35-45b4-8c9b-f6b87ac080b9",
-        "https://egl.circlly.com/auctions/ap-silky-lady-op-mint"
+        "https://egl.circlly.com/auctions/ap-girly-room-jsk-kc-a7ce2510-2f35-45b4-8c9b-f6b87ac080b9"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-horror-candy-shop-jsk-set-f280ca04-bd28-482a-820c-93aa4a083141",
         "https://egl.circlly.com/auctions/ap-celestial-jsk-major-dmg-and-change",
         "https://egl.circlly.com/auctions/angelic-pretty-triple-frill-or-tiered-jsk",
         "https://egl.circlly.com/auctions/angelic-pretty-girly-sticker-jsk-set-6867bad9-b374-4040-9005-29e4b2b76d9b",
