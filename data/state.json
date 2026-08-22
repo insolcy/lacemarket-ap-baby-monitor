@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T05:37:12.368Z",
+  "lastSuccessfulCheckAt": "2026-08-22T05:52:09.634Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/milky-planet-op-black-55916246-e8e8-4a35-9de9-cf9babc56e3c",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-toy-s-donut-diner-jsk-hb-set-dark-pink",
         "https://egl.circlly.com/auctions/angelic-pretty-soap-bubbles-op-kc-set-in-white",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-parfait-jsk-in-pink",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-honey-cake-switching-jsk-in-yellow",
         "https://egl.circlly.com/auctions/angelic-pretty-romantic-rose-letter-jsk-kc-set-in-sax",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-melody-toys-jsk-kc-set",
-        "https://egl.circlly.com/auctions/new-angelic-pretty-castle-mirage-jsk-canotier-clip-set-lavender",
-        "https://egl.circlly.com/auctions/angelic-pretty-horror-candy-shop-jsk-clip-set-free-socks-in-lavender-halloween"
+        "https://egl.circlly.com/auctions/new-angelic-pretty-castle-mirage-jsk-canotier-clip-set-lavender"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/milky-planet-op-black-55916246-e8e8-4a35-9de9-cf9babc56e3c",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-toy-s-donut-diner-jsk-hb-set-dark-pink",
         "https://egl.circlly.com/auctions/angelic-pretty-soap-bubbles-op-kc-set-in-white",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-parfait-jsk-in-pink",
