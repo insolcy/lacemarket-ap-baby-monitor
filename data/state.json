@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T08:25:42.826Z",
+  "lastSuccessfulCheckAt": "2026-08-22T08:45:00.876Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -250,6 +250,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/chained-berry-memoir-maria-jsk-93ced2fa-36b1-428b-add9-3c3710752a43",
         "https://egl.circlly.com/auctions/btssb-kumya-clothes-stardust-fantasia-horoscope-of-twins-star-kittens-jsk-i-in-sax",
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-in-red-x-red-e05b3ac1-b3ae-40ba-843e-4478d62e8056",
         "https://egl.circlly.com/auctions/btssb-usakumya-s-stylish-sweet-time-babydoll-jsk-black",
@@ -260,10 +261,10 @@
         "https://egl.circlly.com/auctions/btssb-sweetie-gingham-border-jsk-ii-675d2dd2-6f4c-42e7-845a-e34f8ae09c9a",
         "https://egl.circlly.com/auctions/btssb-cheryl-lacy-jsk-2025",
         "https://egl.circlly.com/auctions/btssb-lumiere-eclatante-ribbon-ribbon-op-b06ac261-2aa4-44f3-8cc7-9e57548d1991",
-        "https://egl.circlly.com/auctions/bnwt-princess-henrietta-ball-gown-op-canotier",
-        "https://egl.circlly.com/auctions/bnwt-baby-the-stars-shine-bright-la-robe-vert-clair-op"
+        "https://egl.circlly.com/auctions/bnwt-princess-henrietta-ball-gown-op-canotier"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/chained-berry-memoir-maria-jsk-93ced2fa-36b1-428b-add9-3c3710752a43",
         "https://egl.circlly.com/auctions/btssb-kumya-clothes-stardust-fantasia-horoscope-of-twins-star-kittens-jsk-i-in-sax",
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-in-red-x-red-e05b3ac1-b3ae-40ba-843e-4478d62e8056",
         "https://egl.circlly.com/auctions/btssb-usakumya-s-stylish-sweet-time-babydoll-jsk-black",
