@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T10:07:43.961Z",
+  "lastSuccessfulCheckAt": "2026-08-22T10:22:29.860Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-moon-night-theater-pleated-jsk-green",
+        "https://egl.circlly.com/auctions/angelic-pretty-rabbit-s-happy-flower-banquet-op-c2f9cbc7-b7fc-4ac4-a1d3-6377de0a608b",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-my-melody-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-angelina-op-0ff8a1c4-7929-40c9-8981-060716b08c27",
         "https://egl.circlly.com/auctions/ap-celestial-op-set-in-sax",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/angelic-pretty-soap-bubbles-op-kc-set-in-white",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-parfait-jsk-in-pink",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-decoration-ice-cream-jsk-kc-set-pink",
-        "https://egl.circlly.com/auctions/nwt-angelic-pretty-nakayoshi-bunny-jsk-bonnet-set",
-        "https://egl.circlly.com/auctions/nwt-angelic-pretty-little-bunny-strawberry-jsk-kc-set-white-584621e0-f5e3-4d03-9d0e-f187c8d35afd",
-        "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-jsk-black-a7d11148-48cf-4adf-b89f-9a04557d0496"
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-nakayoshi-bunny-jsk-bonnet-set"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-moon-night-theater-pleated-jsk-green",
+        "https://egl.circlly.com/auctions/angelic-pretty-rabbit-s-happy-flower-banquet-op-c2f9cbc7-b7fc-4ac4-a1d3-6377de0a608b",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-my-melody-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-angelina-op-0ff8a1c4-7929-40c9-8981-060716b08c27",
         "https://egl.circlly.com/auctions/ap-celestial-op-set-in-sax",
