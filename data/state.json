@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T03:02:30.470Z",
+  "lastSuccessfulCheckAt": "2026-08-22T03:26:02.223Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -240,11 +240,14 @@
         "https://egl.circlly.com/auctions/ap-milky-swan",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-ap-preppy-sweet-school-uniform-academy-sweet-classic"
       ],
-      "lastPagesScanned": 3
+      "lastPagesScanned": 1
     },
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-ivory-b146ca76-b440-4acf-bb29-fb0d5308b0c1",
+        "https://egl.circlly.com/auctions/btssb-baby-lace-frill-2023-bordeaux",
+        "https://egl.circlly.com/auctions/btssb-209a8003-622b-4319-ba89-b38599147ed8",
         "https://egl.circlly.com/auctions/btssb-dancing-baby-bear-cherry-jsk-in-black",
         "https://egl.circlly.com/auctions/btssb-sweetie-gingham-border-jsk-ii-675d2dd2-6f4c-42e7-845a-e34f8ae09c9a",
         "https://egl.circlly.com/auctions/btssb-cheryl-lacy-jsk-2025",
@@ -253,12 +256,12 @@
         "https://egl.circlly.com/auctions/bnwt-baby-the-stars-shine-bright-la-robe-vert-clair-op",
         "https://egl.circlly.com/auctions/btssb-baroque-jsk-green-nwt",
         "https://egl.circlly.com/auctions/btssb-alice-s-portrait-jsk-ba4b732f-d94e-4a3f-bd23-212c8e7dd350",
-        "https://egl.circlly.com/auctions/2006-baby-the-stars-shine-bright-millefeuille-jsk-old-school",
-        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-ivory-pale-yellow-pink-baby-the-stars-shine-bright-old-school-plus-size-friendly",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-rose-bloom-jsk-pink-old-school-lace-btssb-classic",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-sweetie-gingham-border-jsk-i-7a526c59-98f0-421f-853f-b8fc404e7744"
+        "https://egl.circlly.com/auctions/2006-baby-the-stars-shine-bright-millefeuille-jsk-old-school"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-ivory-b146ca76-b440-4acf-bb29-fb0d5308b0c1",
+        "https://egl.circlly.com/auctions/btssb-baby-lace-frill-2023-bordeaux",
+        "https://egl.circlly.com/auctions/btssb-209a8003-622b-4319-ba89-b38599147ed8",
         "https://egl.circlly.com/auctions/btssb-dancing-baby-bear-cherry-jsk-in-black",
         "https://egl.circlly.com/auctions/btssb-sweetie-gingham-border-jsk-ii-675d2dd2-6f4c-42e7-845a-e34f8ae09c9a",
         "https://egl.circlly.com/auctions/btssb-cheryl-lacy-jsk-2025",
