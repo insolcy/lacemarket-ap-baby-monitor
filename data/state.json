@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T17:09:50.141Z",
+  "lastSuccessfulCheckAt": "2026-08-22T17:24:03.418Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -285,6 +285,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-2019-sax",
         "https://egl.circlly.com/auctions/the-night-of-starry-flowers-op-and-hb-in-mint",
         "https://egl.circlly.com/auctions/btssb-shirring-jsk-2004",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-poodle-frill-frill-jsk-lavender-2009",
@@ -295,10 +296,10 @@
         "https://egl.circlly.com/auctions/chained-berry-memoir-maria-jsk-93ced2fa-36b1-428b-add9-3c3710752a43",
         "https://egl.circlly.com/auctions/btssb-kumya-clothes-stardust-fantasia-horoscope-of-twins-star-kittens-jsk-i-in-sax",
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-in-red-x-red-e05b3ac1-b3ae-40ba-843e-4478d62e8056",
-        "https://egl.circlly.com/auctions/btssb-usakumya-s-stylish-sweet-time-babydoll-jsk-black",
-        "https://egl.circlly.com/auctions/btssb-ivory-b146ca76-b440-4acf-bb29-fb0d5308b0c1"
+        "https://egl.circlly.com/auctions/btssb-usakumya-s-stylish-sweet-time-babydoll-jsk-black"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-2019-sax",
         "https://egl.circlly.com/auctions/the-night-of-starry-flowers-op-and-hb-in-mint",
         "https://egl.circlly.com/auctions/btssb-shirring-jsk-2004",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-poodle-frill-frill-jsk-lavender-2009",
