@@ -1,25 +1,49 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T02:34:07.252Z",
+  "lastSuccessfulCheckAt": "2026-08-22T03:02:30.470Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
-        "https://egl.circlly.com/auctions/angelic-pretty-horror-candy-shop-jsk-set-1e936ec4-85aa-48c4-a025-abf3d8eeebd2",
-        "https://egl.circlly.com/auctions/ap-celestial-jsk-major-dmg-and-change",
-        "https://egl.circlly.com/auctions/angelic-pretty-triple-frill-or-tiered-jsk",
-        "https://egl.circlly.com/auctions/angelic-pretty-girly-sticker-jsk-set-6867bad9-b374-4040-9005-29e4b2b76d9b",
-        "https://egl.circlly.com/auctions/angelic-pretty-halloween-treats-6de8e790-45b4-4415-9846-0fcda59c62b6",
-        "https://egl.circlly.com/auctions/mto-angelic-pretty-candy-fairy-op-2021",
-        "https://egl.circlly.com/auctions/angelic-pretty-bunny-ribbon-parfaiteria-op-set",
-        "https://egl.circlly.com/auctions/angelic-pretty-toy-doll-box-jsk-red-bnwt",
-        "https://egl.circlly.com/auctions/angelic-pretty-into-a-dream-carnival-op-set-377e36ca-b68b-4850-985d-baa9e2dc1087",
-        "https://egl.circlly.com/auctions/angelic-pretty-baby-room-op-kc-with-stars",
-        "https://egl.circlly.com/auctions/ap-girly-room-jsk-kc-a7ce2510-2f35-45b4-8c9b-f6b87ac080b9",
-        "https://egl.circlly.com/auctions/ap-silky-lady-op-mint"
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-toy-s-donut-diner-jsk-hb-set-dark-pink",
+        "https://egl.circlly.com/auctions/angelic-pretty-soap-bubbles-op-kc-set-in-white",
+        "https://egl.circlly.com/auctions/angelic-pretty-dreamy-parfait-jsk-in-pink",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-decoration-ice-cream-jsk-kc-set-pink",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-nakayoshi-bunny-jsk-bonnet-set",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-little-bunny-strawberry-jsk-kc-set-white-584621e0-f5e3-4d03-9d0e-f187c8d35afd",
+        "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-jsk-black-a7d11148-48cf-4adf-b89f-9a04557d0496",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-honey-cake-switching-jsk-in-yellow",
+        "https://egl.circlly.com/auctions/angelic-pretty-romantic-rose-letter-jsk-kc-set-in-sax",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-melody-toys-jsk-kc-set",
+        "https://egl.circlly.com/auctions/new-angelic-pretty-castle-mirage-jsk-canotier-clip-set-lavender",
+        "https://egl.circlly.com/auctions/angelic-pretty-horror-candy-shop-jsk-clip-set-free-socks-in-lavender-halloween"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-toy-s-donut-diner-jsk-hb-set-dark-pink",
+        "https://egl.circlly.com/auctions/angelic-pretty-soap-bubbles-op-kc-set-in-white",
+        "https://egl.circlly.com/auctions/angelic-pretty-dreamy-parfait-jsk-in-pink",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-decoration-ice-cream-jsk-kc-set-pink",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-nakayoshi-bunny-jsk-bonnet-set",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-little-bunny-strawberry-jsk-kc-set-white-584621e0-f5e3-4d03-9d0e-f187c8d35afd",
+        "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-jsk-black-a7d11148-48cf-4adf-b89f-9a04557d0496",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-honey-cake-switching-jsk-in-yellow",
+        "https://egl.circlly.com/auctions/angelic-pretty-romantic-rose-letter-jsk-kc-set-in-sax",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-melody-toys-jsk-kc-set",
+        "https://egl.circlly.com/auctions/new-angelic-pretty-castle-mirage-jsk-canotier-clip-set-lavender",
+        "https://egl.circlly.com/auctions/angelic-pretty-horror-candy-shop-jsk-clip-set-free-socks-in-lavender-halloween",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-flower-kitten-jsk-kc-set-mint-f873ec89-7a03-4639-aa33-7d667fbb9a1c",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-dolly-dot-op-kc-set-pink-mto",
+        "https://egl.circlly.com/auctions/bnwt-angelic-pretty-flower-garden-teatime-jsk-bunny-kc-set-in-yellow",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-travel-bear-special-collared-jsk-set-yokohama-happy-x-happy-special",
+        "https://egl.circlly.com/auctions/angelic-pretty-pretty-frill-jsk-gingham-in-pink",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-jelly-candy-toys-heart-jsk-barrette-set-in-pink",
+        "https://egl.circlly.com/auctions/angelic-pretty-melty-sky-jsk-in-pink-8990d3c0-802b-4637-a59a-f6a47316a7ba",
+        "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-op-pink",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-toy-s-donut-diner-jsk-hb-set-pink",
+        "https://egl.circlly.com/auctions/angelic-pretty-fruity-lemon-jsk-in-white-778e4546-b595-4d88-b088-4eeeef33fad8",
+        "https://egl.circlly.com/auctions/angelic-pretty-jelly-candy-toys-jsk-in-lavender",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-melody-toys-high-waist-jsk-kc-set",
         "https://egl.circlly.com/auctions/angelic-pretty-horror-candy-shop-jsk-set-1e936ec4-85aa-48c4-a025-abf3d8eeebd2",
         "https://egl.circlly.com/auctions/angelic-pretty-horror-candy-shop-jsk-set-f280ca04-bd28-482a-820c-93aa4a083141",
         "https://egl.circlly.com/auctions/ap-celestial-jsk-major-dmg-and-change",
@@ -216,11 +240,12 @@
         "https://egl.circlly.com/auctions/ap-milky-swan",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-ap-preppy-sweet-school-uniform-academy-sweet-classic"
       ],
-      "lastPagesScanned": 1
+      "lastPagesScanned": 3
     },
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-dancing-baby-bear-cherry-jsk-in-black",
         "https://egl.circlly.com/auctions/btssb-sweetie-gingham-border-jsk-ii-675d2dd2-6f4c-42e7-845a-e34f8ae09c9a",
         "https://egl.circlly.com/auctions/btssb-cheryl-lacy-jsk-2025",
         "https://egl.circlly.com/auctions/btssb-lumiere-eclatante-ribbon-ribbon-op-b06ac261-2aa4-44f3-8cc7-9e57548d1991",
@@ -231,10 +256,10 @@
         "https://egl.circlly.com/auctions/2006-baby-the-stars-shine-bright-millefeuille-jsk-old-school",
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-ivory-pale-yellow-pink-baby-the-stars-shine-bright-old-school-plus-size-friendly",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-rose-bloom-jsk-pink-old-school-lace-btssb-classic",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-sweetie-gingham-border-jsk-i-7a526c59-98f0-421f-853f-b8fc404e7744",
-        "https://egl.circlly.com/auctions/btssb-effeuiller-la-marguerite-whereabouts-of-maiden-s-love-babydoll-jsk"
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-sweetie-gingham-border-jsk-i-7a526c59-98f0-421f-853f-b8fc404e7744"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-dancing-baby-bear-cherry-jsk-in-black",
         "https://egl.circlly.com/auctions/btssb-sweetie-gingham-border-jsk-ii-675d2dd2-6f4c-42e7-845a-e34f8ae09c9a",
         "https://egl.circlly.com/auctions/btssb-cheryl-lacy-jsk-2025",
         "https://egl.circlly.com/auctions/btssb-lumiere-eclatante-ribbon-ribbon-op-b06ac261-2aa4-44f3-8cc7-9e57548d1991",
