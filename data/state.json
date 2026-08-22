@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T06:34:28.496Z",
+  "lastSuccessfulCheckAt": "2026-08-22T06:57:50.334Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/ap-celestial-op-set-in-sax",
         "https://egl.circlly.com/auctions/nwt-ap-secret-daisy-garden-op-in-sax",
         "https://egl.circlly.com/auctions/ap-horror-candy-shop-jsk-in-pink-e87f8442-4718-46d0-9c1a-d451931d3d90",
         "https://egl.circlly.com/auctions/milky-planet-op-black-55916246-e8e8-4a35-9de9-cf9babc56e3c",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-nakayoshi-bunny-jsk-bonnet-set",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-little-bunny-strawberry-jsk-kc-set-white-584621e0-f5e3-4d03-9d0e-f187c8d35afd",
         "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-jsk-black-a7d11148-48cf-4adf-b89f-9a04557d0496",
-        "https://egl.circlly.com/auctions/nwt-angelic-pretty-honey-cake-switching-jsk-in-yellow",
-        "https://egl.circlly.com/auctions/angelic-pretty-romantic-rose-letter-jsk-kc-set-in-sax"
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-honey-cake-switching-jsk-in-yellow"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/ap-celestial-op-set-in-sax",
         "https://egl.circlly.com/auctions/nwt-ap-secret-daisy-garden-op-in-sax",
         "https://egl.circlly.com/auctions/ap-horror-candy-shop-jsk-in-pink-e87f8442-4718-46d0-9c1a-d451931d3d90",
         "https://egl.circlly.com/auctions/milky-planet-op-black-55916246-e8e8-4a35-9de9-cf9babc56e3c",
