@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-21T23:49:19.865Z",
+  "lastSuccessfulCheckAt": "2026-08-22T00:00:22.499Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -10,14 +10,14 @@
         "https://egl.circlly.com/auctions/angelic-pretty-triple-frill-or-tiered-jsk",
         "https://egl.circlly.com/auctions/angelic-pretty-girly-sticker-jsk-set-6867bad9-b374-4040-9005-29e4b2b76d9b",
         "https://egl.circlly.com/auctions/angelic-pretty-halloween-treats-6de8e790-45b4-4415-9846-0fcda59c62b6",
-        "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-jsk-set-e8d583aa-543d-4b59-9481-567bdd0d85be",
         "https://egl.circlly.com/auctions/mto-angelic-pretty-candy-fairy-op-2021",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-ribbon-parfaiteria-op-set",
         "https://egl.circlly.com/auctions/angelic-pretty-chocolate-rosette-jsk-set-2025-kyoto-special",
         "https://egl.circlly.com/auctions/angelic-pretty-toy-doll-box-jsk-red-bnwt",
         "https://egl.circlly.com/auctions/angelic-pretty-into-a-dream-carnival-op-set-377e36ca-b68b-4850-985d-baa9e2dc1087",
         "https://egl.circlly.com/auctions/angelic-pretty-baby-room-op-kc-with-stars",
-        "https://egl.circlly.com/auctions/ap-girly-room-jsk-kc-a7ce2510-2f35-45b4-8c9b-f6b87ac080b9"
+        "https://egl.circlly.com/auctions/ap-girly-room-jsk-kc-a7ce2510-2f35-45b4-8c9b-f6b87ac080b9",
+        "https://egl.circlly.com/auctions/ap-silky-lady-op-mint"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/ap-celestial-jsk-major-dmg-and-change",
