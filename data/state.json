@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-22T19:33:37.945Z",
+  "lastSuccessfulCheckAt": "2026-08-22T19:47:53.753Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/free-us-shipping-unbirthday-pink-set-3-kira-imai-x-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-victorian-tassel-jsk-black-62881134-de9d-407b-8f91-1fc8ab33017b",
         "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-jsk-mint",
         "https://egl.circlly.com/auctions/sweetie-violet-op-set-in-pink-43a9db81-f7b3-4684-b9e8-b0add551af49",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-like-new",
         "https://egl.circlly.com/auctions/angelic-pretty-vintage-tulle-op-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-nakayoshi-ginger-cookie-salopette-2213fce5-e9ae-4232-8894-17b835808656",
-        "https://egl.circlly.com/auctions/angelicpretty-playing-cards-glitter-trump-op-in-sax",
-        "https://egl.circlly.com/auctions/angelicpretty-lovely-bakery-op-beret-in-ivory-x-chocolate"
+        "https://egl.circlly.com/auctions/angelicpretty-playing-cards-glitter-trump-op-in-sax"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/free-us-shipping-unbirthday-pink-set-3-kira-imai-x-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-victorian-tassel-jsk-black-62881134-de9d-407b-8f91-1fc8ab33017b",
         "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-jsk-mint",
         "https://egl.circlly.com/auctions/sweetie-violet-op-set-in-pink-43a9db81-f7b3-4684-b9e8-b0add551af49",
@@ -300,7 +301,7 @@
         "https://egl.circlly.com/auctions/charmaine-op-2019-pink-btssb-d21d6910-559e-4a28-996a-f63db311223d",
         "https://egl.circlly.com/auctions/favorite-ribbon-jsk-bow-combs-set-pink-btssb",
         "https://egl.circlly.com/auctions/chained-berry-memoir-maria-jsk-93ced2fa-36b1-428b-add9-3c3710752a43",
-        "https://egl.circlly.com/auctions/btssb-kumya-clothes-stardust-fantasia-horoscope-of-twins-star-kittens-jsk-i-in-sax"
+        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-in-red-x-red-e05b3ac1-b3ae-40ba-843e-4478d62e8056"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-disney-alice-in-wonderland-episode-of-the-tea-party-op-headbow-set",
