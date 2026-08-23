@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-23T15:34:47.710Z",
+  "lastSuccessfulCheckAt": "2026-08-23T15:48:33.162Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/ap-milky-planet-jsk-angelic-pretty",
+        "https://egl.circlly.com/auctions/ap-photogenic-pallet-salopette-black-e29c1480-13d4-4d22-9822-cef82a894b06",
         "https://egl.circlly.com/auctions/ap-vintage-marine-jsk",
         "https://egl.circlly.com/auctions/ap-cosmic-jsk-ivory",
         "https://egl.circlly.com/auctions/ap-astro-regimen-frill-jsk-in-navy-0abac34b-6f3b-45c4-ae3e-498df4036d10",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/ap-misty-sky-brilliant-jsk-set-in-pink-x-grey-5910b58c-7078-45e9-bf76-27e4eeb16fa7",
         "https://egl.circlly.com/auctions/ap-rococo-princess-jsk-kc-set",
         "https://egl.circlly.com/auctions/ap-diner-doll-jsk-in-pink-e9f9a9b1-6b84-4d3e-a913-bbcceaed8760",
-        "https://egl.circlly.com/auctions/ap-chocolate-rosette-jsk-kc-set-in-brown",
-        "https://egl.circlly.com/auctions/ap-be-my-valentine-jsk-in-pink-be8b2d6b-f512-4663-a6a1-c68e02794b33",
-        "https://egl.circlly.com/auctions/ap-sailor-marine-kitten-jsk-in-navy"
+        "https://egl.circlly.com/auctions/ap-chocolate-rosette-jsk-kc-set-in-brown"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/ap-milky-planet-jsk-angelic-pretty",
+        "https://egl.circlly.com/auctions/ap-photogenic-pallet-salopette-black-e29c1480-13d4-4d22-9822-cef82a894b06",
         "https://egl.circlly.com/auctions/ap-vintage-marine-jsk",
         "https://egl.circlly.com/auctions/ap-cosmic-jsk-ivory",
         "https://egl.circlly.com/auctions/ap-astro-regimen-frill-jsk-in-navy-0abac34b-6f3b-45c4-ae3e-498df4036d10",
@@ -344,6 +346,8 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-scallop-hem-jsk-0e2df724-fcf5-4beb-a99c-1e5369205794",
+        "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-2e60e72c-57a9-472c-b9f8-8107616e4be4",
         "https://egl.circlly.com/auctions/btssb-gingham-rumine-jsk-de5a0d3e-1e1d-4a97-a914-84f3150cc201",
         "https://egl.circlly.com/auctions/btssb-velveteen-babydoll-jsk-headdress-set-in-red",
         "https://egl.circlly.com/auctions/btssb-angels-and-roses-jsk-in-black",
@@ -353,11 +357,11 @@
         "https://egl.circlly.com/auctions/btssb-trianon-op-in-lavender-5b246524-44f8-4065-82cc-ddcf4328ef07",
         "https://egl.circlly.com/auctions/btssb-elizabeth-jsk-in-white",
         "https://egl.circlly.com/auctions/btssb-kumya-s-cherry-strawberry-jsk-in-pin",
-        "https://egl.circlly.com/auctions/alice-s-tea-party-jsk",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-disney-alice-in-wonderland-episode-of-the-tea-party-op-headbow-set",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-petite-cherie-camelia-coffret-ribbon-jsk"
+        "https://egl.circlly.com/auctions/alice-s-tea-party-jsk"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-scallop-hem-jsk-0e2df724-fcf5-4beb-a99c-1e5369205794",
+        "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-2e60e72c-57a9-472c-b9f8-8107616e4be4",
         "https://egl.circlly.com/auctions/btssb-gingham-rumine-jsk-de5a0d3e-1e1d-4a97-a914-84f3150cc201",
         "https://egl.circlly.com/auctions/btssb-velveteen-babydoll-jsk-headdress-set-in-red",
         "https://egl.circlly.com/auctions/btssb-angels-and-roses-jsk-in-black",
