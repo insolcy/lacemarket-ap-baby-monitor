@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-23T04:38:46.071Z",
+  "lastSuccessfulCheckAt": "2026-08-23T04:57:11.962Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/university-op-green",
         "https://egl.circlly.com/auctions/angelic-pretty-puppet-circus-op-in-red",
         "https://egl.circlly.com/auctions/candy-chan-on-a-walk-osanpo-candy-chan-jsk-in-red-imai-kira",
         "https://egl.circlly.com/auctions/angelic-pretty-mode-girl-jsk-14d074ab-efc5-48d1-ad33-41ea21481309",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/sweetie-violet-op-set-in-pink-43a9db81-f7b3-4684-b9e8-b0add551af49",
         "https://egl.circlly.com/auctions/angelic-pretty-melody-doll-jsk",
         "https://egl.circlly.com/auctions/angelic-pretty-eternal-carnival-op-525e93e1-a4f3-41cf-873d-caaf40fb20d6",
-        "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-85bd6022-76e1-4c9f-baab-adb565fed378",
-        "https://egl.circlly.com/auctions/angelic-pretty-decoration-ice-cream-jsk-like-new"
+        "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-85bd6022-76e1-4c9f-baab-adb565fed378"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/university-op-green",
         "https://egl.circlly.com/auctions/angelic-pretty-puppet-circus-op-in-red",
         "https://egl.circlly.com/auctions/candy-chan-on-a-walk-osanpo-candy-chan-jsk-in-red-imai-kira",
         "https://egl.circlly.com/auctions/angelic-pretty-mode-girl-jsk-14d074ab-efc5-48d1-ad33-41ea21481309",
