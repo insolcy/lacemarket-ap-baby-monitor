@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-23T13:58:34.139Z",
+  "lastSuccessfulCheckAt": "2026-08-23T14:10:53.252Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/ap-vintage-marine-jsk",
+        "https://egl.circlly.com/auctions/ap-cosmic-jsk-ivory",
         "https://egl.circlly.com/auctions/ap-astro-regimen-frill-jsk-in-navy-0abac34b-6f3b-45c4-ae3e-498df4036d10",
         "https://egl.circlly.com/auctions/ap-loyal-rosette-green-plaid-jsk-headbow",
         "https://egl.circlly.com/auctions/ap-toy-fantasy-jsk-in-sax-52d97c51-b42b-475b-baf2-7883a5dbab6c",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/ap-diner-doll-jsk-in-pink-e9f9a9b1-6b84-4d3e-a913-bbcceaed8760",
         "https://egl.circlly.com/auctions/ap-chocolate-rosette-jsk-kc-set-in-brown",
         "https://egl.circlly.com/auctions/ap-be-my-valentine-jsk-in-pink-be8b2d6b-f512-4663-a6a1-c68e02794b33",
-        "https://egl.circlly.com/auctions/ap-sailor-marine-kitten-jsk-in-navy",
-        "https://egl.circlly.com/auctions/ap-french-cafe-jsk-kc-in-pink",
-        "https://egl.circlly.com/auctions/ap-happy-treat-party-jsk-kc-cuffs-set-in-lavender"
+        "https://egl.circlly.com/auctions/ap-sailor-marine-kitten-jsk-in-navy"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/ap-vintage-marine-jsk",
+        "https://egl.circlly.com/auctions/ap-cosmic-jsk-ivory",
         "https://egl.circlly.com/auctions/ap-astro-regimen-frill-jsk-in-navy-0abac34b-6f3b-45c4-ae3e-498df4036d10",
         "https://egl.circlly.com/auctions/ap-loyal-rosette-green-plaid-jsk-headbow",
         "https://egl.circlly.com/auctions/ap-toy-fantasy-jsk-in-sax-52d97c51-b42b-475b-baf2-7883a5dbab6c",
