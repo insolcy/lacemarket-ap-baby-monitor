@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-23T17:19:15.042Z",
+  "lastSuccessfulCheckAt": "2026-08-23T17:32:43.160Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/holy-lantern-jsk-pink-7a46b0b6-3fad-4303-8bac-ec202084ab21",
+        "https://egl.circlly.com/auctions/holy-lantern-jsk-ribbon-clip-set-wine-bordeaux",
         "https://egl.circlly.com/auctions/angelic-pretty-maroon-and-red-dreaming-present-op-nwt",
         "https://egl.circlly.com/auctions/angelic-pretty-cornflower-blue-sax-sweet-bakery-op-nwt",
         "https://egl.circlly.com/auctions/angelic-pretty-dusty-sax-blue-un-birthday-op-nwt",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/with-clip-ap-ap-moco-moco-bunnys-salopette-and-clip-set-angelic-pretty",
         "https://egl.circlly.com/auctions/rare-2010-ap-fantastic-heart-jsk-angelic-pretty",
         "https://egl.circlly.com/auctions/all-listings-free-shipping-kc-jsk-set-ap-ghost-night-bride-jsk-and-head-bow-angelic-pretty",
-        "https://egl.circlly.com/auctions/lacy-pansy-jsk-pink",
-        "https://egl.circlly.com/auctions/strawberry-doll-jsk-white",
-        "https://egl.circlly.com/auctions/ap-loyal-rosette-jsk-set-95f0649a-14c7-4143-b573-7db96a50391e"
+        "https://egl.circlly.com/auctions/lacy-pansy-jsk-pink"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/holy-lantern-jsk-pink-7a46b0b6-3fad-4303-8bac-ec202084ab21",
+        "https://egl.circlly.com/auctions/holy-lantern-jsk-ribbon-clip-set-wine-bordeaux",
         "https://egl.circlly.com/auctions/angelic-pretty-maroon-and-red-dreaming-present-op-nwt",
         "https://egl.circlly.com/auctions/angelic-pretty-cornflower-blue-sax-sweet-bakery-op-nwt",
         "https://egl.circlly.com/auctions/angelic-pretty-dusty-sax-blue-un-birthday-op-nwt",
