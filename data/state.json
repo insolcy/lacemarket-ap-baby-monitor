@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-23T23:48:25.381Z",
+  "lastSuccessfulCheckAt": "2026-08-23T23:59:06.308Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -10,8 +10,6 @@
         "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-op-in-lavender",
         "https://egl.circlly.com/auctions/free-ship-us-sweet-frill-angelic-pretty",
         "https://egl.circlly.com/auctions/holy-lantern-jsk-pink-7a46b0b6-3fad-4303-8bac-ec202084ab21",
-        "https://egl.circlly.com/auctions/new-sweet-heart-lace-wrist-cuffs",
-        "https://egl.circlly.com/auctions/tears-of-aquamarine-mermaid-themed-jsk-set-new",
         "https://egl.circlly.com/auctions/holy-lantern-jsk-ribbon-clip-set-wine-bordeaux",
         "https://egl.circlly.com/auctions/angelic-pretty-maroon-and-red-dreaming-present-op-nwt",
         "https://egl.circlly.com/auctions/angelic-pretty-cornflower-blue-sax-sweet-bakery-op-nwt",
@@ -416,22 +414,21 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-stretched-straps",
         "https://egl.circlly.com/auctions/btssb-strawberry-and-cherry-ruffle-jsk-2010",
         "https://egl.circlly.com/auctions/btssb-royal-kingdom-velveteen-jsk-in-red",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-ivory-marie-s-salior-op-used-very-good",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-off-white-my-anniversary-op-with-chess-ribbon-nwot",
-        "https://egl.circlly.com/auctions/new-sweet-heart-lace-wrist-cuffs",
-        "https://egl.circlly.com/auctions/btssb-sucre-transparent-knitting-cardigan-sax",
         "https://egl.circlly.com/auctions/set-btssb-velveteen-babydoll-jsk-and-headdress-baby-the-stars-shine-bright",
         "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-fe11b596-18f1-43db-80e3-92838b178459",
         "https://egl.circlly.com/auctions/btssb-tartan-check-babydoll-jsk-dark-pink-89bde28f-e576-4b7a-a00e-5979899407ad",
         "https://egl.circlly.com/auctions/read-description-btssb-tartan-check-babydoll-jsk",
         "https://egl.circlly.com/auctions/btssb-doki-doki-strawberry-magic-jsk-ii-43460fe5-f86e-4257-bf69-944ffe1ffafb",
         "https://egl.circlly.com/auctions/btssb-karami-3-tier-jsk-bdb9b033-ae32-4920-9ae8-e49587f088fe",
-        "https://egl.circlly.com/auctions/btssb-fall-in-love-with-the-sweet-magic-of-scent-perfume-jsk-set-bc9cfd1b-f0e3-4cb8-beda-8e469e6244e2",
-        "https://egl.circlly.com/auctions/btssb-dancing-baby-bear-cherry-set-in-pink-69126c2c-5783-4ddd-96a6-38b1c01b59ad"
+        "https://egl.circlly.com/auctions/btssb-fall-in-love-with-the-sweet-magic-of-scent-perfume-jsk-set-bc9cfd1b-f0e3-4cb8-beda-8e469e6244e2"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-stretched-straps",
         "https://egl.circlly.com/auctions/btssb-strawberry-and-cherry-ruffle-jsk-2010",
         "https://egl.circlly.com/auctions/btssb-royal-kingdom-velveteen-jsk-in-red",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-ivory-marie-s-salior-op-used-very-good",
