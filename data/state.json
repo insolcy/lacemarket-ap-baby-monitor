@@ -1,11 +1,14 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-23T05:51:40.678Z",
+  "lastSuccessfulCheckAt": "2026-08-23T06:12:26.698Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/quick-sale-free-ship-nwt-daisy-doll-op-and-headdress-set-in-ivory-by-angelic-pretty",
+        "https://egl.circlly.com/auctions/free-ship-marquise-jsk-in-lavender-by-angelic-pretty",
+        "https://egl.circlly.com/auctions/limited-offer-free-ship-dressy-tulle-jsk-in-lavender-by-angelic-pretty",
         "https://egl.circlly.com/auctions/toy-dream-jsk-and-head-bow-in-white",
         "https://egl.circlly.com/auctions/university-op-green",
         "https://egl.circlly.com/auctions/angelic-pretty-puppet-circus-op-in-red",
@@ -14,12 +17,12 @@
         "https://egl.circlly.com/auctions/angelic-pretty-strawberry-cake-party-shirring-jsk-3-pieces-set",
         "https://egl.circlly.com/auctions/free-us-shipping-unbirthday-pink-set-3-kira-imai-x-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-victorian-tassel-jsk-black-62881134-de9d-407b-8f91-1fc8ab33017b",
-        "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-jsk-mint",
-        "https://egl.circlly.com/auctions/sweetie-violet-op-set-in-pink-43a9db81-f7b3-4684-b9e8-b0add551af49",
-        "https://egl.circlly.com/auctions/angelic-pretty-melody-doll-jsk",
-        "https://egl.circlly.com/auctions/angelic-pretty-eternal-carnival-op-525e93e1-a4f3-41cf-873d-caaf40fb20d6"
+        "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-jsk-mint"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/quick-sale-free-ship-nwt-daisy-doll-op-and-headdress-set-in-ivory-by-angelic-pretty",
+        "https://egl.circlly.com/auctions/free-ship-marquise-jsk-in-lavender-by-angelic-pretty",
+        "https://egl.circlly.com/auctions/limited-offer-free-ship-dressy-tulle-jsk-in-lavender-by-angelic-pretty",
         "https://egl.circlly.com/auctions/toy-dream-jsk-and-head-bow-in-white",
         "https://egl.circlly.com/auctions/university-op-green",
         "https://egl.circlly.com/auctions/angelic-pretty-puppet-circus-op-in-red",
