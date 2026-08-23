@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-23T16:00:05.891Z",
+  "lastSuccessfulCheckAt": "2026-08-23T16:11:38.251Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/lacy-pansy-jsk-pink",
+        "https://egl.circlly.com/auctions/strawberry-doll-jsk-white",
         "https://egl.circlly.com/auctions/ap-loyal-rosette-jsk-set-95f0649a-14c7-4143-b573-7db96a50391e",
         "https://egl.circlly.com/auctions/ap-horror-candy-shop-op-in-pink-629c191e-5e66-4c8d-ac87-1e07f1604824",
         "https://egl.circlly.com/auctions/ap-happy-treat-party-jsk-lavender",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/ap-little-witch-op-a9622704-1f28-4274-bfcd-19e6b4299960",
         "https://egl.circlly.com/auctions/ap-celestial-shanghai-special-jsk-set-9e2052c2-865b-4103-bc53-bb500cb9f16b",
         "https://egl.circlly.com/auctions/ap-holy-lantern-op-3c2b7806-7d71-4d72-9eaa-63121aefa04d",
-        "https://egl.circlly.com/auctions/ap-charlotte-s-bear-special-jsk-set-50cc9608-0ac3-4c95-9d53-08cfb61db918",
-        "https://egl.circlly.com/auctions/ap-milky-swan-jsk-0cf388da-fa36-49f0-bef1-b801c62e6a5a",
-        "https://egl.circlly.com/auctions/ap-fruity-lemon-jsk-headbow-set-696fc341-a4b7-4711-8609-18aba86966e9"
+        "https://egl.circlly.com/auctions/ap-charlotte-s-bear-special-jsk-set-50cc9608-0ac3-4c95-9d53-08cfb61db918"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/lacy-pansy-jsk-pink",
+        "https://egl.circlly.com/auctions/strawberry-doll-jsk-white",
         "https://egl.circlly.com/auctions/ap-loyal-rosette-jsk-set-95f0649a-14c7-4143-b573-7db96a50391e",
         "https://egl.circlly.com/auctions/ap-horror-candy-shop-op-in-pink-629c191e-5e66-4c8d-ac87-1e07f1604824",
         "https://egl.circlly.com/auctions/ap-happy-treat-party-jsk-lavender",
@@ -393,7 +395,7 @@
         "https://egl.circlly.com/auctions/ap-milky-swan",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-ap-preppy-sweet-school-uniform-academy-sweet-classic"
       ],
-      "lastPagesScanned": 5
+      "lastPagesScanned": 1
     },
     "baby": {
       "inventoryCountAtBaseline": 148,
