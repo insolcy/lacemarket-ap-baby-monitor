@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-23T17:32:43.160Z",
+  "lastSuccessfulCheckAt": "2026-08-23T17:47:57.317Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -411,6 +411,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-royal-kingdom-velveteen-jsk-in-red",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-ivory-marie-s-salior-op-used-very-good",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-off-white-my-anniversary-op-with-chess-ribbon-nwot",
         "https://egl.circlly.com/auctions/set-btssb-velveteen-babydoll-jsk-and-headdress-baby-the-stars-shine-bright",
@@ -421,10 +422,10 @@
         "https://egl.circlly.com/auctions/btssb-karami-3-tier-jsk-bdb9b033-ae32-4920-9ae8-e49587f088fe",
         "https://egl.circlly.com/auctions/btssb-fall-in-love-with-the-sweet-magic-of-scent-perfume-jsk-set-bc9cfd1b-f0e3-4cb8-beda-8e469e6244e2",
         "https://egl.circlly.com/auctions/btssb-dancing-baby-bear-cherry-set-in-pink-69126c2c-5783-4ddd-96a6-38b1c01b59ad",
-        "https://egl.circlly.com/auctions/btssb-shirring-princess-jsk-old-school-bdde0c3a-decd-46ff-8b65-8a0b847824d4",
-        "https://egl.circlly.com/auctions/btssb-scallop-hem-jsk-0e2df724-fcf5-4beb-a99c-1e5369205794"
+        "https://egl.circlly.com/auctions/btssb-shirring-princess-jsk-old-school-bdde0c3a-decd-46ff-8b65-8a0b847824d4"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-royal-kingdom-velveteen-jsk-in-red",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-ivory-marie-s-salior-op-used-very-good",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-off-white-my-anniversary-op-with-chess-ribbon-nwot",
         "https://egl.circlly.com/auctions/set-btssb-velveteen-babydoll-jsk-and-headdress-baby-the-stars-shine-bright",
