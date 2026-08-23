@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-23T08:25:34.787Z",
+  "lastSuccessfulCheckAt": "2026-08-23T08:44:55.769Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-floral-lady-in-black",
         "https://egl.circlly.com/auctions/angelic-pretty-princess-ribbon-decoration-op-canotier-set-lavender-x-pink-bnwt",
         "https://egl.circlly.com/auctions/quick-sale-free-ship-nwt-daisy-doll-op-and-headdress-set-in-ivory-by-angelic-pretty",
         "https://egl.circlly.com/auctions/free-ship-marquise-jsk-in-lavender-by-angelic-pretty",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/candy-chan-on-a-walk-osanpo-candy-chan-jsk-in-red-imai-kira",
         "https://egl.circlly.com/auctions/angelic-pretty-mode-girl-jsk-14d074ab-efc5-48d1-ad33-41ea21481309",
         "https://egl.circlly.com/auctions/angelic-pretty-strawberry-cake-party-shirring-jsk-3-pieces-set",
-        "https://egl.circlly.com/auctions/free-us-shipping-unbirthday-pink-set-3-kira-imai-x-angelic-pretty",
-        "https://egl.circlly.com/auctions/angelic-pretty-victorian-tassel-jsk-black-62881134-de9d-407b-8f91-1fc8ab33017b"
+        "https://egl.circlly.com/auctions/free-us-shipping-unbirthday-pink-set-3-kira-imai-x-angelic-pretty"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-floral-lady-in-black",
         "https://egl.circlly.com/auctions/angelic-pretty-princess-ribbon-decoration-op-canotier-set-lavender-x-pink-bnwt",
         "https://egl.circlly.com/auctions/quick-sale-free-ship-nwt-daisy-doll-op-and-headdress-set-in-ivory-by-angelic-pretty",
         "https://egl.circlly.com/auctions/free-ship-marquise-jsk-in-lavender-by-angelic-pretty",
