@@ -1,11 +1,14 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-23T03:07:48.781Z",
+  "lastSuccessfulCheckAt": "2026-08-23T03:34:20.644Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-puppet-circus-op-in-red",
+        "https://egl.circlly.com/auctions/candy-chan-on-a-walk-osanpo-candy-chan-jsk-in-red-imai-kira",
+        "https://egl.circlly.com/auctions/angelic-pretty-mode-girl-jsk-14d074ab-efc5-48d1-ad33-41ea21481309",
         "https://egl.circlly.com/auctions/angelic-pretty-strawberry-cake-party-shirring-jsk-3-pieces-set",
         "https://egl.circlly.com/auctions/free-us-shipping-unbirthday-pink-set-3-kira-imai-x-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-victorian-tassel-jsk-black-62881134-de9d-407b-8f91-1fc8ab33017b",
@@ -14,12 +17,12 @@
         "https://egl.circlly.com/auctions/angelic-pretty-melody-doll-jsk",
         "https://egl.circlly.com/auctions/angelic-pretty-eternal-carnival-op-525e93e1-a4f3-41cf-873d-caaf40fb20d6",
         "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-85bd6022-76e1-4c9f-baab-adb565fed378",
-        "https://egl.circlly.com/auctions/angelic-pretty-decoration-ice-cream-jsk-like-new",
-        "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-like-new",
-        "https://egl.circlly.com/auctions/angelic-pretty-vintage-tulle-op-sax",
-        "https://egl.circlly.com/auctions/angelic-pretty-nakayoshi-ginger-cookie-salopette-2213fce5-e9ae-4232-8894-17b835808656"
+        "https://egl.circlly.com/auctions/angelic-pretty-decoration-ice-cream-jsk-like-new"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-puppet-circus-op-in-red",
+        "https://egl.circlly.com/auctions/candy-chan-on-a-walk-osanpo-candy-chan-jsk-in-red-imai-kira",
+        "https://egl.circlly.com/auctions/angelic-pretty-mode-girl-jsk-14d074ab-efc5-48d1-ad33-41ea21481309",
         "https://egl.circlly.com/auctions/angelic-pretty-strawberry-cake-party-shirring-jsk-3-pieces-set",
         "https://egl.circlly.com/auctions/free-us-shipping-unbirthday-pink-set-3-kira-imai-x-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-victorian-tassel-jsk-black-62881134-de9d-407b-8f91-1fc8ab33017b",
