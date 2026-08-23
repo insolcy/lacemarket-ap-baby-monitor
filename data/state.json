@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-23T11:39:36.389Z",
+  "lastSuccessfulCheckAt": "2026-08-23T11:51:43.437Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -303,6 +303,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/alice-s-tea-party-jsk",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-disney-alice-in-wonderland-episode-of-the-tea-party-op-headbow-set",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-petite-cherie-camelia-coffret-ribbon-jsk",
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-2019-sax",
@@ -313,10 +314,10 @@
         "https://egl.circlly.com/auctions/marie-s-sailor-jsk-baby-the-star-shine-brights",
         "https://egl.circlly.com/auctions/charmaine-op-2019-pink-btssb-d21d6910-559e-4a28-996a-f63db311223d",
         "https://egl.circlly.com/auctions/favorite-ribbon-jsk-bow-combs-set-pink-btssb",
-        "https://egl.circlly.com/auctions/chained-berry-memoir-maria-jsk-93ced2fa-36b1-428b-add9-3c3710752a43",
-        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-in-red-x-red-e05b3ac1-b3ae-40ba-843e-4478d62e8056"
+        "https://egl.circlly.com/auctions/chained-berry-memoir-maria-jsk-93ced2fa-36b1-428b-add9-3c3710752a43"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/alice-s-tea-party-jsk",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-disney-alice-in-wonderland-episode-of-the-tea-party-op-headbow-set",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-petite-cherie-camelia-coffret-ribbon-jsk",
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-2019-sax",
