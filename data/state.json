@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-23T23:59:06.308Z",
+  "lastSuccessfulCheckAt": "2026-08-24T00:24:41.165Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -414,7 +414,8 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
-        "https://egl.circlly.com/auctions/btssb-babydoll-jsk-stretched-straps",
+        "https://egl.circlly.com/auctions/dessert-op-2026",
+        "https://egl.circlly.com/auctions/lovely-cherry-march-op-b37a96ae-5a87-4af0-a349-a9299b4f864f",
         "https://egl.circlly.com/auctions/btssb-strawberry-and-cherry-ruffle-jsk-2010",
         "https://egl.circlly.com/auctions/btssb-royal-kingdom-velveteen-jsk-in-red",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-ivory-marie-s-salior-op-used-very-good",
@@ -424,10 +425,11 @@
         "https://egl.circlly.com/auctions/btssb-tartan-check-babydoll-jsk-dark-pink-89bde28f-e576-4b7a-a00e-5979899407ad",
         "https://egl.circlly.com/auctions/read-description-btssb-tartan-check-babydoll-jsk",
         "https://egl.circlly.com/auctions/btssb-doki-doki-strawberry-magic-jsk-ii-43460fe5-f86e-4257-bf69-944ffe1ffafb",
-        "https://egl.circlly.com/auctions/btssb-karami-3-tier-jsk-bdb9b033-ae32-4920-9ae8-e49587f088fe",
-        "https://egl.circlly.com/auctions/btssb-fall-in-love-with-the-sweet-magic-of-scent-perfume-jsk-set-bc9cfd1b-f0e3-4cb8-beda-8e469e6244e2"
+        "https://egl.circlly.com/auctions/btssb-karami-3-tier-jsk-bdb9b033-ae32-4920-9ae8-e49587f088fe"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/dessert-op-2026",
+        "https://egl.circlly.com/auctions/lovely-cherry-march-op-b37a96ae-5a87-4af0-a349-a9299b4f864f",
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-stretched-straps",
         "https://egl.circlly.com/auctions/btssb-strawberry-and-cherry-ruffle-jsk-2010",
         "https://egl.circlly.com/auctions/btssb-royal-kingdom-velveteen-jsk-in-red",
