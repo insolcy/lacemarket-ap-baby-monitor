@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T03:07:50.867Z",
+  "lastSuccessfulCheckAt": "2026-08-24T03:33:56.852Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-matching-kc",
+        "https://egl.circlly.com/auctions/angelic-pretty-sweet-candy-bouquet-deep-pink-jsk-and-head-bow",
         "https://egl.circlly.com/auctions/angelic-pretty-parlor-doll-op-set-in-pink-ap-otks",
         "https://egl.circlly.com/auctions/red-colorway",
         "https://egl.circlly.com/auctions/special-set-angelic-pretty-wonder-queen-jsk-and-kc-green-colorway",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/holy-lantern-jsk-pink-7a46b0b6-3fad-4303-8bac-ec202084ab21",
         "https://egl.circlly.com/auctions/holy-lantern-jsk-ribbon-clip-set-wine-bordeaux",
         "https://egl.circlly.com/auctions/angelic-pretty-maroon-and-red-dreaming-present-op-nwt",
-        "https://egl.circlly.com/auctions/angelic-pretty-cornflower-blue-sax-sweet-bakery-op-nwt",
-        "https://egl.circlly.com/auctions/angelic-pretty-dusty-sax-blue-un-birthday-op-nwt",
-        "https://egl.circlly.com/auctions/angelic-pretty-black-and-white-british-stripe-op-and-head-bow-set-nwt"
+        "https://egl.circlly.com/auctions/angelic-pretty-cornflower-blue-sax-sweet-bakery-op-nwt"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-matching-kc",
+        "https://egl.circlly.com/auctions/angelic-pretty-sweet-candy-bouquet-deep-pink-jsk-and-head-bow",
         "https://egl.circlly.com/auctions/angelic-pretty-parlor-doll-op-set-in-pink-ap-otks",
         "https://egl.circlly.com/auctions/red-colorway",
         "https://egl.circlly.com/auctions/special-set-angelic-pretty-wonder-queen-jsk-and-kc-green-colorway",
