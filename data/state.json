@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T04:01:52.565Z",
+  "lastSuccessfulCheckAt": "2026-08-24T04:27:42.167Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/bust-up-to-113cm-ap-khronos-utopia-jsk-angelic-pretty-abaf1483-ff1d-4eb4-9209-4353cdc46a7c",
+        "https://egl.circlly.com/auctions/ap-lovely-snow-fantasy-jsk-in-navy-a9fa5168-e8ab-4c0a-ae86-962dc70f240f",
         "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-matching-kc",
         "https://egl.circlly.com/auctions/angelic-pretty-sweet-candy-bouquet-deep-pink-jsk-and-head-bow",
         "https://egl.circlly.com/auctions/angelic-pretty-parlor-doll-op-set-in-pink-ap-otks",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-op-in-lavender",
         "https://egl.circlly.com/auctions/free-ship-us-sweet-frill-angelic-pretty",
         "https://egl.circlly.com/auctions/holy-lantern-jsk-pink-7a46b0b6-3fad-4303-8bac-ec202084ab21",
-        "https://egl.circlly.com/auctions/holy-lantern-jsk-ribbon-clip-set-wine-bordeaux",
-        "https://egl.circlly.com/auctions/angelic-pretty-maroon-and-red-dreaming-present-op-nwt",
-        "https://egl.circlly.com/auctions/angelic-pretty-cornflower-blue-sax-sweet-bakery-op-nwt"
+        "https://egl.circlly.com/auctions/holy-lantern-jsk-ribbon-clip-set-wine-bordeaux"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/bust-up-to-113cm-ap-khronos-utopia-jsk-angelic-pretty-abaf1483-ff1d-4eb4-9209-4353cdc46a7c",
+        "https://egl.circlly.com/auctions/ap-lovely-snow-fantasy-jsk-in-navy-a9fa5168-e8ab-4c0a-ae86-962dc70f240f",
         "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-matching-kc",
         "https://egl.circlly.com/auctions/angelic-pretty-sweet-candy-bouquet-deep-pink-jsk-and-head-bow",
         "https://egl.circlly.com/auctions/angelic-pretty-parlor-doll-op-set-in-pink-ap-otks",
@@ -419,6 +421,9 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/le-ciel-etoile-night-sky-s-gift-2018-baby-the-stars-shin-bright",
+        "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-97f2faa1-bba3-41ed-ae31-57842daedb31",
+        "https://egl.circlly.com/auctions/btssb-muse-prayer-of-poetry-set-and-diamond-honey-vintage-chiffon-cream-blouse",
         "https://egl.circlly.com/auctions/dessert-op-2026",
         "https://egl.circlly.com/auctions/lovely-cherry-march-op-b37a96ae-5a87-4af0-a349-a9299b4f864f",
         "https://egl.circlly.com/auctions/btssb-strawberry-and-cherry-ruffle-jsk-2010",
@@ -427,12 +432,12 @@
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-off-white-my-anniversary-op-with-chess-ribbon-nwot",
         "https://egl.circlly.com/auctions/set-btssb-velveteen-babydoll-jsk-and-headdress-baby-the-stars-shine-bright",
         "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-fe11b596-18f1-43db-80e3-92838b178459",
-        "https://egl.circlly.com/auctions/read-description-btssb-tartan-check-babydoll-jsk",
-        "https://egl.circlly.com/auctions/btssb-doki-doki-strawberry-magic-jsk-ii-43460fe5-f86e-4257-bf69-944ffe1ffafb",
-        "https://egl.circlly.com/auctions/btssb-karami-3-tier-jsk-bdb9b033-ae32-4920-9ae8-e49587f088fe",
-        "https://egl.circlly.com/auctions/btssb-fall-in-love-with-the-sweet-magic-of-scent-perfume-jsk-set-bc9cfd1b-f0e3-4cb8-beda-8e469e6244e2"
+        "https://egl.circlly.com/auctions/read-description-btssb-tartan-check-babydoll-jsk"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/le-ciel-etoile-night-sky-s-gift-2018-baby-the-stars-shin-bright",
+        "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-97f2faa1-bba3-41ed-ae31-57842daedb31",
+        "https://egl.circlly.com/auctions/btssb-muse-prayer-of-poetry-set-and-diamond-honey-vintage-chiffon-cream-blouse",
         "https://egl.circlly.com/auctions/dessert-op-2026",
         "https://egl.circlly.com/auctions/lovely-cherry-march-op-b37a96ae-5a87-4af0-a349-a9299b4f864f",
         "https://egl.circlly.com/auctions/btssb-babydoll-jsk-stretched-straps",
