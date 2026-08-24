@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T21:32:55.003Z",
+  "lastSuccessfulCheckAt": "2026-08-24T21:50:33.851Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/ap-twinkle-sky-jsk-in-ivory-90855069-b48a-4848-831f-2c6ed3b69f86",
         "https://egl.circlly.com/auctions/angelic-pretty-little-witch-op-red",
         "https://egl.circlly.com/auctions/angelic-pretty-doll-s-tea-party-op-5e883ccb-d7e7-4766-a9c0-a8d21b88b5ce",
         "https://egl.circlly.com/auctions/falling-heart-jsk-angelic-pretty",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-magical-trick-school-jsk-in-red-with-armband",
         "https://egl.circlly.com/auctions/nwt-sugary-carnival-jsk-and-kc-free-us-shipping",
         "https://egl.circlly.com/auctions/angelic-pretty-fluffy-puff-bunny-skirt-black-4ca6c9dc-2fde-44d1-91fc-ef7e6f09fa5a",
-        "https://egl.circlly.com/auctions/angelic-pretty-milky-cross-skirt-black-ap",
-        "https://egl.circlly.com/auctions/honey-cake-cafe-skirt-kc-set-pink"
+        "https://egl.circlly.com/auctions/angelic-pretty-milky-cross-skirt-black-ap"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/ap-twinkle-sky-jsk-in-ivory-90855069-b48a-4848-831f-2c6ed3b69f86",
         "https://egl.circlly.com/auctions/angelic-pretty-little-witch-op-red",
         "https://egl.circlly.com/auctions/angelic-pretty-doll-s-tea-party-op-5e883ccb-d7e7-4766-a9c0-a8d21b88b5ce",
         "https://egl.circlly.com/auctions/falling-heart-jsk-angelic-pretty",
