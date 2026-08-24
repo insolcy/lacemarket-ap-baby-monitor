@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T17:21:54.831Z",
+  "lastSuccessfulCheckAt": "2026-08-24T17:43:56.215Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-dream-marine-op-barrette-set-in-navy",
         "https://egl.circlly.com/auctions/angelic-pretty-petit-bouquet-jsk-half-bonnet",
         "https://egl.circlly.com/auctions/angelic-pretty-chess-chocolate-op-headbow-socks",
         "https://egl.circlly.com/auctions/angelic-pretty-toy-harmony-jsk-headbow-and-socks",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-star-night-theater-set-3f6abc68-77a1-4d22-a544-16ab35a5a855",
         "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-op-wine-colorway",
         "https://egl.circlly.com/auctions/angelic-pretty-antique-chocolaterie-collared-skirt-headbow-kc",
-        "https://egl.circlly.com/auctions/2005-angelic-pretty-scallop-lace-topstitch-jsk-old-school",
-        "https://egl.circlly.com/auctions/angelic-pretty-jsk-set-with-headbow"
+        "https://egl.circlly.com/auctions/2005-angelic-pretty-scallop-lace-topstitch-jsk-old-school"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-dream-marine-op-barrette-set-in-navy",
         "https://egl.circlly.com/auctions/angelic-pretty-petit-bouquet-jsk-half-bonnet",
         "https://egl.circlly.com/auctions/angelic-pretty-chess-chocolate-op-headbow-socks",
         "https://egl.circlly.com/auctions/angelic-pretty-toy-harmony-jsk-headbow-and-socks",
