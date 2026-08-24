@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T03:33:56.852Z",
+  "lastSuccessfulCheckAt": "2026-08-24T04:01:52.565Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -427,10 +427,10 @@
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-off-white-my-anniversary-op-with-chess-ribbon-nwot",
         "https://egl.circlly.com/auctions/set-btssb-velveteen-babydoll-jsk-and-headdress-baby-the-stars-shine-bright",
         "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-fe11b596-18f1-43db-80e3-92838b178459",
-        "https://egl.circlly.com/auctions/btssb-tartan-check-babydoll-jsk-dark-pink-89bde28f-e576-4b7a-a00e-5979899407ad",
         "https://egl.circlly.com/auctions/read-description-btssb-tartan-check-babydoll-jsk",
         "https://egl.circlly.com/auctions/btssb-doki-doki-strawberry-magic-jsk-ii-43460fe5-f86e-4257-bf69-944ffe1ffafb",
-        "https://egl.circlly.com/auctions/btssb-karami-3-tier-jsk-bdb9b033-ae32-4920-9ae8-e49587f088fe"
+        "https://egl.circlly.com/auctions/btssb-karami-3-tier-jsk-bdb9b033-ae32-4920-9ae8-e49587f088fe",
+        "https://egl.circlly.com/auctions/btssb-fall-in-love-with-the-sweet-magic-of-scent-perfume-jsk-set-bc9cfd1b-f0e3-4cb8-beda-8e469e6244e2"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/dessert-op-2026",
