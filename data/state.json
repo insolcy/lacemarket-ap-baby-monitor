@@ -1,11 +1,15 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T17:06:22.930Z",
+  "lastSuccessfulCheckAt": "2026-08-24T17:21:54.831Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-petit-bouquet-jsk-half-bonnet",
+        "https://egl.circlly.com/auctions/angelic-pretty-chess-chocolate-op-headbow-socks",
+        "https://egl.circlly.com/auctions/angelic-pretty-toy-harmony-jsk-headbow-and-socks",
+        "https://egl.circlly.com/auctions/angelic-pretty-toy-march-speziell-set",
         "https://egl.circlly.com/auctions/reserved-listing-angelic-pretty-aquarium-carnival",
         "https://egl.circlly.com/auctions/angelic-pretty-bear-ribbon-cutsew-op-cream",
         "https://egl.circlly.com/auctions/ap-milky-berry-jsk-set-with-sweet-ribbon-strawberry-otk-s-please-read-description",
@@ -13,13 +17,13 @@
         "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-op-wine-colorway",
         "https://egl.circlly.com/auctions/angelic-pretty-antique-chocolaterie-collared-skirt-headbow-kc",
         "https://egl.circlly.com/auctions/2005-angelic-pretty-scallop-lace-topstitch-jsk-old-school",
-        "https://egl.circlly.com/auctions/angelic-pretty-jsk-set-with-headbow",
-        "https://egl.circlly.com/auctions/sugar-pansy-tiered-jsk-otk-set",
-        "https://egl.circlly.com/auctions/nwt-angelic-pretty-cutest-heart-dress-set",
-        "https://egl.circlly.com/auctions/angelic-pretty-astro-regimen-sax-op-dress",
-        "https://egl.circlly.com/auctions/bust-up-to-113cm-ap-khronos-utopia-jsk-angelic-pretty-abaf1483-ff1d-4eb4-9209-4353cdc46a7c"
+        "https://egl.circlly.com/auctions/angelic-pretty-jsk-set-with-headbow"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-petit-bouquet-jsk-half-bonnet",
+        "https://egl.circlly.com/auctions/angelic-pretty-chess-chocolate-op-headbow-socks",
+        "https://egl.circlly.com/auctions/angelic-pretty-toy-harmony-jsk-headbow-and-socks",
+        "https://egl.circlly.com/auctions/angelic-pretty-toy-march-speziell-set",
         "https://egl.circlly.com/auctions/reserved-listing-angelic-pretty-aquarium-carnival",
         "https://egl.circlly.com/auctions/angelic-pretty-bear-ribbon-cutsew-op-cream",
         "https://egl.circlly.com/auctions/ap-milky-berry-jsk-set-with-sweet-ribbon-strawberry-otk-s-please-read-description",
