@@ -1,12 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T21:50:33.851Z",
+  "lastSuccessfulCheckAt": "2026-08-24T22:08:51.186Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
-        "https://egl.circlly.com/auctions/ap-twinkle-sky-jsk-in-ivory-90855069-b48a-4848-831f-2c6ed3b69f86",
+        "https://egl.circlly.com/auctions/like-new-ap-twinkle-sky-jsk-in-ivory-49c7cfcd-0052-435b-83f0-376d6c1e93af",
         "https://egl.circlly.com/auctions/angelic-pretty-little-witch-op-red",
         "https://egl.circlly.com/auctions/angelic-pretty-doll-s-tea-party-op-5e883ccb-d7e7-4766-a9c0-a8d21b88b5ce",
         "https://egl.circlly.com/auctions/falling-heart-jsk-angelic-pretty",
@@ -20,6 +20,7 @@
         "https://egl.circlly.com/auctions/angelic-pretty-milky-cross-skirt-black-ap"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/like-new-ap-twinkle-sky-jsk-in-ivory-49c7cfcd-0052-435b-83f0-376d6c1e93af",
         "https://egl.circlly.com/auctions/ap-twinkle-sky-jsk-in-ivory-90855069-b48a-4848-831f-2c6ed3b69f86",
         "https://egl.circlly.com/auctions/angelic-pretty-little-witch-op-red",
         "https://egl.circlly.com/auctions/angelic-pretty-doll-s-tea-party-op-5e883ccb-d7e7-4766-a9c0-a8d21b88b5ce",
