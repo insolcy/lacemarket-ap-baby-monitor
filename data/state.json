@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T06:49:33.294Z",
+  "lastSuccessfulCheckAt": "2026-08-24T07:18:48.627Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/2005-angelic-pretty-scallop-lace-topstitch-jsk-old-school",
+        "https://egl.circlly.com/auctions/angelic-pretty-jsk-set-with-headbow",
         "https://egl.circlly.com/auctions/sugar-pansy-tiered-jsk-otk-set",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-cutest-heart-dress-set",
         "https://egl.circlly.com/auctions/angelic-pretty-astro-regimen-sax-op-dress",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/angelic-pretty-sweet-candy-bouquet-deep-pink-jsk-and-head-bow",
         "https://egl.circlly.com/auctions/angelic-pretty-parlor-doll-op-set-in-pink-ap-otks",
         "https://egl.circlly.com/auctions/red-colorway",
-        "https://egl.circlly.com/auctions/special-set-angelic-pretty-wonder-queen-jsk-and-kc-green-colorway",
-        "https://egl.circlly.com/auctions/angelic-pretty-dreamin-fairy-op-white-free-international-shipping",
-        "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-op-in-lavender"
+        "https://egl.circlly.com/auctions/special-set-angelic-pretty-wonder-queen-jsk-and-kc-green-colorway"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/2005-angelic-pretty-scallop-lace-topstitch-jsk-old-school",
+        "https://egl.circlly.com/auctions/angelic-pretty-jsk-set-with-headbow",
         "https://egl.circlly.com/auctions/sugar-pansy-tiered-jsk-otk-set",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-cutest-heart-dress-set",
         "https://egl.circlly.com/auctions/angelic-pretty-astro-regimen-sax-op-dress",
@@ -424,6 +426,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-fluffy-dream-ribbon-jsk-navy",
         "https://egl.circlly.com/auctions/le-ciel-etoile-night-sky-s-gift-2018-baby-the-stars-shin-bright",
         "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-97f2faa1-bba3-41ed-ae31-57842daedb31",
         "https://egl.circlly.com/auctions/btssb-muse-prayer-of-poetry-set-and-diamond-honey-vintage-chiffon-cream-blouse",
@@ -434,10 +437,10 @@
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-ivory-marie-s-salior-op-used-very-good",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-off-white-my-anniversary-op-with-chess-ribbon-nwot",
         "https://egl.circlly.com/auctions/set-btssb-velveteen-babydoll-jsk-and-headdress-baby-the-stars-shine-bright",
-        "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-fe11b596-18f1-43db-80e3-92838b178459",
-        "https://egl.circlly.com/auctions/read-description-btssb-tartan-check-babydoll-jsk"
+        "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-fe11b596-18f1-43db-80e3-92838b178459"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-fluffy-dream-ribbon-jsk-navy",
         "https://egl.circlly.com/auctions/le-ciel-etoile-night-sky-s-gift-2018-baby-the-stars-shin-bright",
         "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-97f2faa1-bba3-41ed-ae31-57842daedb31",
         "https://egl.circlly.com/auctions/btssb-muse-prayer-of-poetry-set-and-diamond-honey-vintage-chiffon-cream-blouse",
