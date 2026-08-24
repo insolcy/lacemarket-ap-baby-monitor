@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T18:01:37.823Z",
+  "lastSuccessfulCheckAt": "2026-08-24T18:20:54.769Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-melody-toy-jsk-mint-green",
         "https://egl.circlly.com/auctions/angelic-pretty-dream-marine-op-barrette-set-in-navy",
         "https://egl.circlly.com/auctions/angelic-pretty-petit-bouquet-jsk-half-bonnet",
         "https://egl.circlly.com/auctions/angelic-pretty-chess-chocolate-op-headbow-socks",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/ap-milky-berry-jsk-set-with-sweet-ribbon-strawberry-otk-s-please-read-description",
         "https://egl.circlly.com/auctions/angelic-pretty-star-night-theater-set-3f6abc68-77a1-4d22-a544-16ab35a5a855",
         "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-op-wine-colorway",
-        "https://egl.circlly.com/auctions/angelic-pretty-antique-chocolaterie-collared-skirt-headbow-kc",
-        "https://egl.circlly.com/auctions/2005-angelic-pretty-scallop-lace-topstitch-jsk-old-school"
+        "https://egl.circlly.com/auctions/angelic-pretty-antique-chocolaterie-collared-skirt-headbow-kc"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-melody-toy-jsk-mint-green",
         "https://egl.circlly.com/auctions/angelic-pretty-dream-marine-op-barrette-set-in-navy",
         "https://egl.circlly.com/auctions/angelic-pretty-petit-bouquet-jsk-half-bonnet",
         "https://egl.circlly.com/auctions/angelic-pretty-chess-chocolate-op-headbow-socks",
@@ -437,6 +438,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/baby-ave-maria-heavenly-princess-and-madonna-lily-one-piece",
         "https://egl.circlly.com/auctions/btssb-shirring-princess-jsk-red-x-white",
         "https://egl.circlly.com/auctions/btssb-plus-size-release",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-lady-victorian-rose-jewelry-a-wish-on-the-rose-petals-princess-jsk",
@@ -447,8 +449,7 @@
         "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-97f2faa1-bba3-41ed-ae31-57842daedb31",
         "https://egl.circlly.com/auctions/btssb-muse-prayer-of-poetry-set-and-diamond-honey-vintage-chiffon-cream-blouse",
         "https://egl.circlly.com/auctions/dessert-op-2026",
-        "https://egl.circlly.com/auctions/lovely-cherry-march-op-b37a96ae-5a87-4af0-a349-a9299b4f864f",
-        "https://egl.circlly.com/auctions/btssb-strawberry-and-cherry-ruffle-jsk-2010"
+        "https://egl.circlly.com/auctions/lovely-cherry-march-op-b37a96ae-5a87-4af0-a349-a9299b4f864f"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/btssb-shirring-princess-jsk-red-x-white",
