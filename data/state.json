@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T10:26:59.349Z",
+  "lastSuccessfulCheckAt": "2026-08-24T10:47:54.250Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-star-night-theater-set-3f6abc68-77a1-4d22-a544-16ab35a5a855",
         "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-op-wine-colorway",
         "https://egl.circlly.com/auctions/angelic-pretty-antique-chocolaterie-collared-skirt-headbow-kc",
         "https://egl.circlly.com/auctions/2005-angelic-pretty-scallop-lace-topstitch-jsk-old-school",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/bust-up-to-113cm-ap-khronos-utopia-jsk-angelic-pretty-abaf1483-ff1d-4eb4-9209-4353cdc46a7c",
         "https://egl.circlly.com/auctions/ap-lovely-snow-fantasy-jsk-in-navy-a9fa5168-e8ab-4c0a-ae86-962dc70f240f",
         "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-matching-kc",
-        "https://egl.circlly.com/auctions/angelic-pretty-sweet-candy-bouquet-deep-pink-jsk-and-head-bow",
-        "https://egl.circlly.com/auctions/angelic-pretty-parlor-doll-op-set-in-pink-ap-otks"
+        "https://egl.circlly.com/auctions/angelic-pretty-sweet-candy-bouquet-deep-pink-jsk-and-head-bow"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-star-night-theater-set-3f6abc68-77a1-4d22-a544-16ab35a5a855",
         "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-op-wine-colorway",
         "https://egl.circlly.com/auctions/angelic-pretty-antique-chocolaterie-collared-skirt-headbow-kc",
         "https://egl.circlly.com/auctions/2005-angelic-pretty-scallop-lace-topstitch-jsk-old-school",
