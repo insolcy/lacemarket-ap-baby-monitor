@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T20:33:08.668Z",
+  "lastSuccessfulCheckAt": "2026-08-24T20:53:36.114Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-doll-s-tea-party-op-5e883ccb-d7e7-4766-a9c0-a8d21b88b5ce",
         "https://egl.circlly.com/auctions/falling-heart-jsk-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-fancy-candy-blue-op-barrette-set-bnwt",
         "https://egl.circlly.com/auctions/angelic-pretty-lovely-shopping-heart-op-in-red",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-fluffy-puff-bunny-skirt-black-4ca6c9dc-2fde-44d1-91fc-ef7e6f09fa5a",
         "https://egl.circlly.com/auctions/angelic-pretty-milky-cross-skirt-black-ap",
         "https://egl.circlly.com/auctions/honey-cake-cafe-skirt-kc-set-pink",
-        "https://egl.circlly.com/auctions/rare-shanghai-doll-jsk-sax",
-        "https://egl.circlly.com/auctions/freshly-picked-strawberries-op-kc-set-red"
+        "https://egl.circlly.com/auctions/rare-shanghai-doll-jsk-sax"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-doll-s-tea-party-op-5e883ccb-d7e7-4766-a9c0-a8d21b88b5ce",
         "https://egl.circlly.com/auctions/falling-heart-jsk-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-fancy-candy-blue-op-barrette-set-bnwt",
         "https://egl.circlly.com/auctions/angelic-pretty-lovely-shopping-heart-op-in-red",
@@ -450,6 +451,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-karami-3-tier-jsk-kc",
         "https://egl.circlly.com/auctions/poodle-fur-bunny-ears-op-coat",
         "https://egl.circlly.com/auctions/btssb-enchanted-under-the-candy-magic-spell-gelato-jsk-head-bow-ivory-ae77f738-eeb3-430d-b790-6573e0479381",
         "https://egl.circlly.com/auctions/sannomiya-kyoto-limited-btssb-babydoll-jsk-headdress-set",
@@ -460,10 +462,10 @@
         "https://egl.circlly.com/auctions/le-ruban-ombre-rose-jsk-bonnet",
         "https://egl.circlly.com/auctions/btssb-fallin-ribbon-jsk-headdress-ribbon-clips-set-in-plum",
         "https://egl.circlly.com/auctions/btssb-fluffy-dream-ribbon-jsk-navy",
-        "https://egl.circlly.com/auctions/le-ciel-etoile-night-sky-s-gift-2018-baby-the-stars-shin-bright",
-        "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-97f2faa1-bba3-41ed-ae31-57842daedb31"
+        "https://egl.circlly.com/auctions/le-ciel-etoile-night-sky-s-gift-2018-baby-the-stars-shin-bright"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-karami-3-tier-jsk-kc",
         "https://egl.circlly.com/auctions/btssb-enchanted-under-the-candy-magic-spell-gelato-jsk-head-bow-ivory-ae77f738-eeb3-430d-b790-6573e0479381",
         "https://egl.circlly.com/auctions/sannomiya-kyoto-limited-btssb-babydoll-jsk-headdress-set",
         "https://egl.circlly.com/auctions/btssb-shirring-princess-jsk-red-x-white",
