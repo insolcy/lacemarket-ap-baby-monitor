@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T08:52:34.721Z",
+  "lastSuccessfulCheckAt": "2026-08-24T09:21:17.122Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-antique-chocolaterie-collared-skirt-headbow-kc",
         "https://egl.circlly.com/auctions/2005-angelic-pretty-scallop-lace-topstitch-jsk-old-school",
         "https://egl.circlly.com/auctions/angelic-pretty-jsk-set-with-headbow",
         "https://egl.circlly.com/auctions/sugar-pansy-tiered-jsk-otk-set",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-matching-kc",
         "https://egl.circlly.com/auctions/angelic-pretty-sweet-candy-bouquet-deep-pink-jsk-and-head-bow",
         "https://egl.circlly.com/auctions/angelic-pretty-parlor-doll-op-set-in-pink-ap-otks",
-        "https://egl.circlly.com/auctions/red-colorway",
-        "https://egl.circlly.com/auctions/special-set-angelic-pretty-wonder-queen-jsk-and-kc-green-colorway"
+        "https://egl.circlly.com/auctions/red-colorway"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-antique-chocolaterie-collared-skirt-headbow-kc",
         "https://egl.circlly.com/auctions/2005-angelic-pretty-scallop-lace-topstitch-jsk-old-school",
         "https://egl.circlly.com/auctions/angelic-pretty-jsk-set-with-headbow",
         "https://egl.circlly.com/auctions/sugar-pansy-tiered-jsk-otk-set",
