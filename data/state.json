@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T14:21:44.131Z",
+  "lastSuccessfulCheckAt": "2026-08-24T14:48:07.195Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-bear-ribbon-cutsew-op-cream",
         "https://egl.circlly.com/auctions/ap-milky-berry-jsk-set-with-sweet-ribbon-strawberry-otk-s-please-read-description",
         "https://egl.circlly.com/auctions/angelic-pretty-star-night-theater-set-3f6abc68-77a1-4d22-a544-16ab35a5a855",
         "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-op-wine-colorway",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-cutest-heart-dress-set",
         "https://egl.circlly.com/auctions/angelic-pretty-astro-regimen-sax-op-dress",
         "https://egl.circlly.com/auctions/bust-up-to-113cm-ap-khronos-utopia-jsk-angelic-pretty-abaf1483-ff1d-4eb4-9209-4353cdc46a7c",
-        "https://egl.circlly.com/auctions/ap-lovely-snow-fantasy-jsk-in-navy-a9fa5168-e8ab-4c0a-ae86-962dc70f240f",
-        "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-matching-kc"
+        "https://egl.circlly.com/auctions/ap-lovely-snow-fantasy-jsk-in-navy-a9fa5168-e8ab-4c0a-ae86-962dc70f240f"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-bear-ribbon-cutsew-op-cream",
         "https://egl.circlly.com/auctions/ap-milky-berry-jsk-set-with-sweet-ribbon-strawberry-otk-s-please-read-description",
         "https://egl.circlly.com/auctions/angelic-pretty-star-night-theater-set-3f6abc68-77a1-4d22-a544-16ab35a5a855",
         "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-op-wine-colorway",
@@ -430,6 +431,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-lady-victorian-rose-jewelry-a-wish-on-the-rose-petals-princess-jsk",
         "https://egl.circlly.com/auctions/le-ruban-ombre-rose-jsk-bonnet",
         "https://egl.circlly.com/auctions/btssb-fallin-ribbon-jsk-headdress-ribbon-clips-set-in-plum",
         "https://egl.circlly.com/auctions/btssb-fluffy-dream-ribbon-jsk-navy",
@@ -440,10 +442,10 @@
         "https://egl.circlly.com/auctions/lovely-cherry-march-op-b37a96ae-5a87-4af0-a349-a9299b4f864f",
         "https://egl.circlly.com/auctions/btssb-strawberry-and-cherry-ruffle-jsk-2010",
         "https://egl.circlly.com/auctions/btssb-royal-kingdom-velveteen-jsk-in-red",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-ivory-marie-s-salior-op-used-very-good",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-off-white-my-anniversary-op-with-chess-ribbon-nwot"
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-ivory-marie-s-salior-op-used-very-good"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-lady-victorian-rose-jewelry-a-wish-on-the-rose-petals-princess-jsk",
         "https://egl.circlly.com/auctions/le-ruban-ombre-rose-jsk-bonnet",
         "https://egl.circlly.com/auctions/btssb-fallin-ribbon-jsk-headdress-ribbon-clips-set-in-plum",
         "https://egl.circlly.com/auctions/btssb-fluffy-dream-ribbon-jsk-navy",
