@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T13:33:41.994Z",
+  "lastSuccessfulCheckAt": "2026-08-24T14:00:02.649Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -430,6 +430,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/le-ruban-ombre-rose-jsk-bonnet",
         "https://egl.circlly.com/auctions/btssb-fallin-ribbon-jsk-headdress-ribbon-clips-set-in-plum",
         "https://egl.circlly.com/auctions/btssb-fluffy-dream-ribbon-jsk-navy",
         "https://egl.circlly.com/auctions/le-ciel-etoile-night-sky-s-gift-2018-baby-the-stars-shin-bright",
@@ -440,10 +441,10 @@
         "https://egl.circlly.com/auctions/btssb-strawberry-and-cherry-ruffle-jsk-2010",
         "https://egl.circlly.com/auctions/btssb-royal-kingdom-velveteen-jsk-in-red",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-ivory-marie-s-salior-op-used-very-good",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-off-white-my-anniversary-op-with-chess-ribbon-nwot",
-        "https://egl.circlly.com/auctions/set-btssb-velveteen-babydoll-jsk-and-headdress-baby-the-stars-shine-bright"
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-off-white-my-anniversary-op-with-chess-ribbon-nwot"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/le-ruban-ombre-rose-jsk-bonnet",
         "https://egl.circlly.com/auctions/btssb-fallin-ribbon-jsk-headdress-ribbon-clips-set-in-plum",
         "https://egl.circlly.com/auctions/btssb-fluffy-dream-ribbon-jsk-navy",
         "https://egl.circlly.com/auctions/le-ciel-etoile-night-sky-s-gift-2018-baby-the-stars-shin-bright",
