@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T19:24:43.619Z",
+  "lastSuccessfulCheckAt": "2026-08-24T19:42:49.775Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-fancy-candy-blue-op-barrette-set-bnwt",
+        "https://egl.circlly.com/auctions/angelic-pretty-lovely-shopping-heart-op-in-red",
         "https://egl.circlly.com/auctions/angelic-pretty-jelly-candy-toys-set",
         "https://egl.circlly.com/auctions/angelic-pretty-toy-dream-jsk-878cc8e2-ed93-490a-931c-57dfa25b5d39",
         "https://egl.circlly.com/auctions/angelic-magical-trick-school-jsk-in-red-with-armband",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/honey-cake-cafe-skirt-kc-set-pink",
         "https://egl.circlly.com/auctions/rare-shanghai-doll-jsk-sax",
         "https://egl.circlly.com/auctions/freshly-picked-strawberries-op-kc-set-red",
-        "https://egl.circlly.com/auctions/angelic-pretty-melody-toy-jsk-mint-green",
-        "https://egl.circlly.com/auctions/angelic-pretty-dream-marine-op-barrette-set-in-navy",
-        "https://egl.circlly.com/auctions/angelic-pretty-petit-bouquet-jsk-half-bonnet"
+        "https://egl.circlly.com/auctions/angelic-pretty-melody-toy-jsk-mint-green"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-fancy-candy-blue-op-barrette-set-bnwt",
+        "https://egl.circlly.com/auctions/angelic-pretty-lovely-shopping-heart-op-in-red",
         "https://egl.circlly.com/auctions/angelic-pretty-jelly-candy-toys-set",
         "https://egl.circlly.com/auctions/angelic-pretty-toy-dream-jsk-878cc8e2-ed93-490a-931c-57dfa25b5d39",
         "https://egl.circlly.com/auctions/angelic-magical-trick-school-jsk-in-red-with-armband",
