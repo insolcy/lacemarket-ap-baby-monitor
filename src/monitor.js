@@ -15,7 +15,12 @@ import {
   uniqueListings,
 } from "./frontier.js";
 import { isUnitedStatesSellerLocation } from "./location.js";
-import { CloudflareChallengeError, isChallengeResponse } from "./navigation.js";
+import {
+  CloudflareChallengeError,
+  getRetryableProxyErrorCode,
+  isChallengeResponse,
+  ProxyConnectionError,
+} from "./navigation.js";
 import { createIPRoyalSessionId, withIPRoyalSession } from "./proxy.js";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -128,9 +133,18 @@ async function gotoWithRetry(page, url, label, validatePage) {
       return bodyText;
     } catch (error) {
       lastError = error;
-      if (error instanceof CloudflareChallengeError) {
+      if (error instanceof CloudflareChallengeError || error instanceof ProxyConnectionError) {
         throw error;
       }
+
+      const proxyErrorCode = getRetryableProxyErrorCode(error);
+      if (proxyErrorCode) {
+        throw new ProxyConnectionError(
+          `${label}: proxy connection failed (${proxyErrorCode})`,
+          { cause: error },
+        );
+      }
+
       if (attempt < navigationRetries) {
         await page.waitForTimeout(attempt * 20_000);
       }
@@ -396,8 +410,12 @@ class RotatingNavigator {
 
   async rotate(error) {
     console.warn(error.message);
+    const reason =
+      error instanceof ProxyConnectionError
+        ? "The current proxy tunnel failed"
+        : "Cloudflare blocked the current proxy IP";
     console.warn(
-      `Cloudflare blocked the current proxy IP; switching IP and retrying the current page ` +
+      `${reason}; switching IP and retrying the current page ` +
         `(${this.rotation + 1}/${this.rotationsAllowed}).`,
     );
     await this.closeSession();
@@ -415,8 +433,10 @@ class RotatingNavigator {
       try {
         return await operation(page);
       } catch (error) {
+        const isRecoverableConnectionError =
+          error instanceof CloudflareChallengeError || error instanceof ProxyConnectionError;
         const canRotate =
-          error instanceof CloudflareChallengeError &&
+          isRecoverableConnectionError &&
           this.rotationMode === "iproyal" &&
           this.rotation < this.rotationsAllowed;
         if (!canRotate) {
