@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T05:56:43.916Z",
+  "lastSuccessfulCheckAt": "2026-08-24T06:22:23.822Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/sugar-pansy-tiered-jsk-otk-set",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-cutest-heart-dress-set",
         "https://egl.circlly.com/auctions/angelic-pretty-astro-regimen-sax-op-dress",
         "https://egl.circlly.com/auctions/bust-up-to-113cm-ap-khronos-utopia-jsk-angelic-pretty-abaf1483-ff1d-4eb4-9209-4353cdc46a7c",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/red-colorway",
         "https://egl.circlly.com/auctions/special-set-angelic-pretty-wonder-queen-jsk-and-kc-green-colorway",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamin-fairy-op-white-free-international-shipping",
-        "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-op-in-lavender",
-        "https://egl.circlly.com/auctions/free-ship-us-sweet-frill-angelic-pretty"
+        "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-op-in-lavender"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/sugar-pansy-tiered-jsk-otk-set",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-cutest-heart-dress-set",
         "https://egl.circlly.com/auctions/angelic-pretty-astro-regimen-sax-op-dress",
         "https://egl.circlly.com/auctions/bust-up-to-113cm-ap-khronos-utopia-jsk-angelic-pretty-abaf1483-ff1d-4eb4-9209-4353cdc46a7c",
