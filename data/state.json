@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T00:49:53.749Z",
+  "lastSuccessfulCheckAt": "2026-08-24T01:31:49.831Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/red-colorway",
+        "https://egl.circlly.com/auctions/special-set-angelic-pretty-wonder-queen-jsk-and-kc-green-colorway",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamin-fairy-op-white-free-international-shipping",
         "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-op-in-lavender",
         "https://egl.circlly.com/auctions/free-ship-us-sweet-frill-angelic-pretty",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/angelic-pretty-cornflower-blue-sax-sweet-bakery-op-nwt",
         "https://egl.circlly.com/auctions/angelic-pretty-dusty-sax-blue-un-birthday-op-nwt",
         "https://egl.circlly.com/auctions/angelic-pretty-black-and-white-british-stripe-op-and-head-bow-set-nwt",
-        "https://egl.circlly.com/auctions/angelic-pretty-black-and-white-nostalgic-garden-long-sleeve-op-nwt",
-        "https://egl.circlly.com/auctions/with-clips-ap-magical-horoscope-special-jsk-angelic-pretty-a27516df-97e4-431e-a416-0ba4eddc2a6e",
-        "https://egl.circlly.com/auctions/with-clip-ap-ap-moco-moco-bunnys-salopette-and-clip-set-angelic-pretty"
+        "https://egl.circlly.com/auctions/angelic-pretty-black-and-white-nostalgic-garden-long-sleeve-op-nwt"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/red-colorway",
+        "https://egl.circlly.com/auctions/special-set-angelic-pretty-wonder-queen-jsk-and-kc-green-colorway",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamin-fairy-op-white-free-international-shipping",
         "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-op-in-lavender",
         "https://egl.circlly.com/auctions/free-ship-us-sweet-frill-angelic-pretty",
@@ -418,8 +420,6 @@
         "https://egl.circlly.com/auctions/lovely-cherry-march-op-b37a96ae-5a87-4af0-a349-a9299b4f864f",
         "https://egl.circlly.com/auctions/btssb-strawberry-and-cherry-ruffle-jsk-2010",
         "https://egl.circlly.com/auctions/btssb-royal-kingdom-velveteen-jsk-in-red",
-        "https://egl.circlly.com/auctions/new-sweet-heart-lace-wrist-cuffs",
-        "https://egl.circlly.com/auctions/black-blouse-bolero",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-ivory-marie-s-salior-op-used-very-good",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-black-and-off-white-my-anniversary-op-with-chess-ribbon-nwot",
         "https://egl.circlly.com/auctions/set-btssb-velveteen-babydoll-jsk-and-headdress-baby-the-stars-shine-bright",
