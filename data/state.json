@@ -1,25 +1,30 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-24T18:47:50.026Z",
+  "lastSuccessfulCheckAt": "2026-08-24T19:08:59.492Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-fluffy-puff-bunny-skirt-black-4ca6c9dc-2fde-44d1-91fc-ef7e6f09fa5a",
+        "https://egl.circlly.com/auctions/angelic-pretty-milky-cross-skirt-black-ap",
+        "https://egl.circlly.com/auctions/honey-cake-cafe-skirt-kc-set-pink",
+        "https://egl.circlly.com/auctions/rare-shanghai-doll-jsk-sax",
+        "https://egl.circlly.com/auctions/freshly-picked-strawberries-op-kc-set-red",
         "https://egl.circlly.com/auctions/angelic-pretty-melody-toy-jsk-mint-green",
         "https://egl.circlly.com/auctions/angelic-pretty-dream-marine-op-barrette-set-in-navy",
         "https://egl.circlly.com/auctions/angelic-pretty-petit-bouquet-jsk-half-bonnet",
         "https://egl.circlly.com/auctions/angelic-pretty-chess-chocolate-op-headbow-socks",
         "https://egl.circlly.com/auctions/angelic-pretty-toy-harmony-jsk-headbow-and-socks",
         "https://egl.circlly.com/auctions/angelic-pretty-toy-march-speziell-set",
-        "https://egl.circlly.com/auctions/reserved-listing-angelic-pretty-aquarium-carnival",
-        "https://egl.circlly.com/auctions/angelic-pretty-bear-ribbon-cutsew-op-cream",
-        "https://egl.circlly.com/auctions/ap-milky-berry-jsk-set-with-sweet-ribbon-strawberry-otk-s-please-read-description",
-        "https://egl.circlly.com/auctions/angelic-pretty-star-night-theater-set-3f6abc68-77a1-4d22-a544-16ab35a5a855",
-        "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-op-wine-colorway",
-        "https://egl.circlly.com/auctions/angelic-pretty-antique-chocolaterie-collared-skirt-headbow-kc"
+        "https://egl.circlly.com/auctions/reserved-listing-angelic-pretty-aquarium-carnival"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-fluffy-puff-bunny-skirt-black-4ca6c9dc-2fde-44d1-91fc-ef7e6f09fa5a",
+        "https://egl.circlly.com/auctions/angelic-pretty-milky-cross-skirt-black-ap",
+        "https://egl.circlly.com/auctions/honey-cake-cafe-skirt-kc-set-pink",
+        "https://egl.circlly.com/auctions/rare-shanghai-doll-jsk-sax",
+        "https://egl.circlly.com/auctions/freshly-picked-strawberries-op-kc-set-red",
         "https://egl.circlly.com/auctions/angelic-pretty-melody-toy-jsk-mint-green",
         "https://egl.circlly.com/auctions/angelic-pretty-dream-marine-op-barrette-set-in-navy",
         "https://egl.circlly.com/auctions/angelic-pretty-petit-bouquet-jsk-half-bonnet",
@@ -438,6 +443,8 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-enchanted-under-the-candy-magic-spell-gelato-jsk-head-bow-ivory-ae77f738-eeb3-430d-b790-6573e0479381",
+        "https://egl.circlly.com/auctions/sannomiya-kyoto-limited-btssb-babydoll-jsk-headdress-set",
         "https://egl.circlly.com/auctions/baby-ave-maria-heavenly-princess-and-madonna-lily-one-piece",
         "https://egl.circlly.com/auctions/btssb-shirring-princess-jsk-red-x-white",
         "https://egl.circlly.com/auctions/btssb-plus-size-release",
@@ -447,11 +454,11 @@
         "https://egl.circlly.com/auctions/btssb-fluffy-dream-ribbon-jsk-navy",
         "https://egl.circlly.com/auctions/le-ciel-etoile-night-sky-s-gift-2018-baby-the-stars-shin-bright",
         "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-97f2faa1-bba3-41ed-ae31-57842daedb31",
-        "https://egl.circlly.com/auctions/btssb-muse-prayer-of-poetry-set-and-diamond-honey-vintage-chiffon-cream-blouse",
-        "https://egl.circlly.com/auctions/dessert-op-2026",
-        "https://egl.circlly.com/auctions/lovely-cherry-march-op-b37a96ae-5a87-4af0-a349-a9299b4f864f"
+        "https://egl.circlly.com/auctions/btssb-muse-prayer-of-poetry-set-and-diamond-honey-vintage-chiffon-cream-blouse"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-enchanted-under-the-candy-magic-spell-gelato-jsk-head-bow-ivory-ae77f738-eeb3-430d-b790-6573e0479381",
+        "https://egl.circlly.com/auctions/sannomiya-kyoto-limited-btssb-babydoll-jsk-headdress-set",
         "https://egl.circlly.com/auctions/btssb-shirring-princess-jsk-red-x-white",
         "https://egl.circlly.com/auctions/btssb-plus-size-release",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-lady-victorian-rose-jewelry-a-wish-on-the-rose-petals-princess-jsk",
