@@ -21,8 +21,9 @@
 | `PROXY_PASSWORD` | 是 | IPRoyal Residential 代理密码；程序会保留国家、城市和 lifetime 参数，只更换 session ID |
 
 云端任务会在每次运行时创建新的 8 位 IPRoyal sticky session。若 Lace Market 返回
-Cloudflare 403、429、503 或挑战页，程序会关闭当前浏览器、切换代理 IP，并从未变更的
-当前失败页面继续扫描；默认最多额外切换 10 次。代理密码和 session ID 都不会写入日志。
+Cloudflare 403、429、503、挑战页，或 Chromium 报告明确的代理隧道连接失败，程序会
+关闭当前浏览器、切换代理 IP，并从当前失败页面继续扫描；默认最多额外切换 10 次。
+代理密码和 session ID 都不会写入日志。
 
 Gmail 应用专用密码需要 Google 账号启用两步验证。不要将密码写入代码、Issue 或 Actions 日志。
 

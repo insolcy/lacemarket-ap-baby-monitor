@@ -11,7 +11,12 @@ import {
   uniqueListings,
 } from "../src/frontier.js";
 import { isUnitedStatesSellerLocation } from "../src/location.js";
-import { CloudflareChallengeError, isChallengeResponse } from "../src/navigation.js";
+import {
+  CloudflareChallengeError,
+  getRetryableProxyErrorCode,
+  isChallengeResponse,
+  ProxyConnectionError,
+} from "../src/navigation.js";
 import { createIPRoyalSessionId, withIPRoyalSession } from "../src/proxy.js";
 
 test("recognizes real listing URLs and rejects search URLs", () => {
@@ -215,6 +220,30 @@ test("recognizes Cloudflare block and rate-limit variants", () => {
     }),
     false,
   );
+});
+
+test("recognizes transient Chromium proxy tunnel failures", () => {
+  for (const code of [
+    "ERR_TUNNEL_CONNECTION_FAILED",
+    "ERR_PROXY_CONNECTION_FAILED",
+  ]) {
+    assert.equal(
+      getRetryableProxyErrorCode(
+        new Error(`page.goto: net::${code} at https://egl.circlly.com/angelic-pretty/dresses`),
+      ),
+      code,
+    );
+  }
+});
+
+test("does not rotate proxy sessions for unrelated navigation or configuration errors", () => {
+  assert.equal(getRetryableProxyErrorCode(new Error("page.goto: Timeout 60000ms exceeded")), null);
+  assert.equal(getRetryableProxyErrorCode(new Error("net::ERR_NAME_NOT_RESOLVED")), null);
+  assert.equal(getRetryableProxyErrorCode(new Error("net::ERR_CONNECTION_RESET")), null);
+  assert.equal(getRetryableProxyErrorCode(new Error("net::ERR_SOCKS_CONNECTION_FAILED")), null);
+  assert.equal(getRetryableProxyErrorCode(new Error("net::ERR_PROXY_AUTH_UNSUPPORTED")), null);
+  assert.equal(getRetryableProxyErrorCode(new Error("ERR_TUNNEL_CONNECTION_FAILED")), null);
+  assert.equal(new ProxyConnectionError("failed").name, "ProxyConnectionError");
 });
 
 test("creates an eight-character alphanumeric IPRoyal session ID", () => {
