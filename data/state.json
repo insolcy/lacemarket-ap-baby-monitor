@@ -1,11 +1,14 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-25T20:09:17.088Z",
+  "lastSuccessfulCheckAt": "2026-08-25T20:24:36.859Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/nwt-lacy-heart-garden-op-angelic-pretty",
+        "https://egl.circlly.com/auctions/angelic-pretty-girls-heart-jsk-barrette-set",
+        "https://egl.circlly.com/auctions/angelic-pretty-otome-tutu-doll-jsk-6ef0a848-d012-411e-b9f7-9d4de1ca7ef8",
         "https://egl.circlly.com/auctions/orange-pumpkin-holy-lantern-jsk-perfect-for-halloween",
         "https://egl.circlly.com/auctions/pink-lacy-pansy-jsk",
         "https://egl.circlly.com/auctions/dream-color-gingham-jsk",
@@ -14,12 +17,12 @@
         "https://egl.circlly.com/auctions/ap-dreamy-planetarium-special-jsk-set-069d4642-c550-4ee6-a9f9-c5a1449721de",
         "https://egl.circlly.com/auctions/l-size-ap-melty-ribbon-chocolate-trench-coat-in-bitter-4fb926e9-98b3-498c-98b0-708a77f175a1",
         "https://egl.circlly.com/auctions/cotton-rare-ap-honey-cake-op-in-mint",
-        "https://egl.circlly.com/auctions/ap-misty-sky-brilliant-color-op-set-a560525e-fd1d-47ac-a228-f3bfb880ba3e",
-        "https://egl.circlly.com/auctions/ap-magic-princess-round-jsk-in-yellow-268d0ae9-d22f-42bc-be71-03d91773daa6",
-        "https://egl.circlly.com/auctions/ap-holy-lantern-zipper-jsk-in-white-8cc17491-93c9-43ce-855e-e8f3126fe8a5",
-        "https://egl.circlly.com/auctions/ap-happy-garden-high-waist-jsk-in-pink"
+        "https://egl.circlly.com/auctions/ap-misty-sky-brilliant-color-op-set-a560525e-fd1d-47ac-a228-f3bfb880ba3e"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/nwt-lacy-heart-garden-op-angelic-pretty",
+        "https://egl.circlly.com/auctions/angelic-pretty-girls-heart-jsk-barrette-set",
+        "https://egl.circlly.com/auctions/angelic-pretty-otome-tutu-doll-jsk-6ef0a848-d012-411e-b9f7-9d4de1ca7ef8",
         "https://egl.circlly.com/auctions/orange-pumpkin-holy-lantern-jsk-perfect-for-halloween",
         "https://egl.circlly.com/auctions/pink-lacy-pansy-jsk",
         "https://egl.circlly.com/auctions/dream-color-gingham-jsk",
