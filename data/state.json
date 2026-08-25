@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-25T17:15:32.942Z",
+  "lastSuccessfulCheckAt": "2026-08-25T17:33:20.033Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/with-beret-nwot-ap-chess-emblem-jsk-and-beret",
+        "https://egl.circlly.com/auctions/with-kc-ap-chocolate-rosette-jsk-and-kc-angelic-pretty-e9ca418c-d9ac-48be-895f-df1477292d56",
         "https://egl.circlly.com/auctions/angelic-pretty-royal-princess-op-headdress-floral-sax-minty",
         "https://egl.circlly.com/auctions/ap-dreamy-planetarium-special-jsk-set-069d4642-c550-4ee6-a9f9-c5a1449721de",
         "https://egl.circlly.com/auctions/l-size-ap-melty-ribbon-chocolate-trench-coat-in-bitter-4fb926e9-98b3-498c-98b0-708a77f175a1",
@@ -15,9 +17,7 @@
         "https://egl.circlly.com/auctions/ap-holy-lantern-zipper-jsk-in-white-8cc17491-93c9-43ce-855e-e8f3126fe8a5",
         "https://egl.circlly.com/auctions/ap-happy-garden-high-waist-jsk-in-pink",
         "https://egl.circlly.com/auctions/rare-ap-holy-lantern-jsk-hair-clip-in-lavender",
-        "https://egl.circlly.com/auctions/ap-cecilia-cross-long-jsk-in-navy-1e88e6bf-6686-4e1c-a43d-ecbbe34cbc57",
-        "https://egl.circlly.com/auctions/ap-doll-s-tea-party-jsk-headdress-in-pink-1bf76b61-c880-4627-aa29-f4a5f1921b63",
-        "https://egl.circlly.com/auctions/nwt-rare-ap-sailor-marine-kitten-jsk-kc-set-in-pink-4b32fa7e-ac78-4c3e-a169-507fe36389ca"
+        "https://egl.circlly.com/auctions/ap-cecilia-cross-long-jsk-in-navy-1e88e6bf-6686-4e1c-a43d-ecbbe34cbc57"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/angelic-pretty-royal-princess-op-headdress-floral-sax-minty",
@@ -521,6 +521,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-dc179bb6-beeb-434c-a2bb-4a584367e06b",
         "https://egl.circlly.com/auctions/btssb-sa-ku-ra-sakura-tea-time-babydoll-jsk-in-pink",
         "https://egl.circlly.com/auctions/btssb-rouge-rabbit-and-squirrel-apple-forest-jsk-ii-in-ivory",
         "https://egl.circlly.com/auctions/btssb-tartan-check-babydoll-jsk-in-red-79d5ea35-fcf4-49fd-92fc-7b234110c3a3",
@@ -531,8 +532,7 @@
         "https://egl.circlly.com/auctions/plus-size-friendly-btssb-kuro-shirring-jsk-2004-chocochip-cookie-headbow",
         "https://egl.circlly.com/auctions/btssb-mon-chouchou-hemritage-amelie-jsk-set-with-kc-and-bonnet",
         "https://egl.circlly.com/auctions/baby-the-star-shine-bright-sailor-marine-op-in-black",
-        "https://egl.circlly.com/auctions/poodle-fur-bunny-ears-op-coat",
-        "https://egl.circlly.com/auctions/btssb-enchanted-under-the-candy-magic-spell-gelato-jsk-head-bow-ivory-ae77f738-eeb3-430d-b790-6573e0479381"
+        "https://egl.circlly.com/auctions/poodle-fur-bunny-ears-op-coat"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/btssb-sa-ku-ra-sakura-tea-time-babydoll-jsk-in-pink",
