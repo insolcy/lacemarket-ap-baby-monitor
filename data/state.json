@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-25T14:48:46.728Z",
+  "lastSuccessfulCheckAt": "2026-08-25T15:11:20.791Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/ap-retro-cafe-op-in-sax",
+        "https://egl.circlly.com/auctions/ap-solid-color-lucky-pack-op",
         "https://egl.circlly.com/auctions/angelic-pretty-rose-tea-garden-op-b473f653-1bd9-4fbb-a859-0ed7de547783",
         "https://egl.circlly.com/auctions/angelic-pretty-wrapping-cherry-special-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-little-witch-cutsew-op-black-d4ac888c-84ba-4177-8a16-e61e7f815e87",
@@ -15,9 +17,7 @@
         "https://egl.circlly.com/auctions/angelic-pretty-picnic-jsk-ac7cbac0-f72e-4f60-b8a2-e940746e535d",
         "https://egl.circlly.com/auctions/angelic-pretty-sweet-cherry-margaret-op-8f63d570-4b29-4b53-93c6-d192fe627214",
         "https://egl.circlly.com/auctions/happy-garland-jsk-2021-release",
-        "https://egl.circlly.com/auctions/reserved-for-sleepybunny1997",
-        "https://egl.circlly.com/auctions/angelic-pretty-pintuck-op-in-pink",
-        "https://egl.circlly.com/auctions/angelic-pretty-lucky-key-high-waist-jsk-and-headdress-nwt"
+        "https://egl.circlly.com/auctions/reserved-for-sleepybunny1997"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/angelic-pretty-rose-tea-garden-op-b473f653-1bd9-4fbb-a859-0ed7de547783",
@@ -488,6 +488,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/bbtsb-some-day-of-ranunculus-lycia-jsk",
         "https://egl.circlly.com/auctions/plus-size-friendly-btssb-kuro-shirring-jsk-2004-chocochip-cookie-headbow",
         "https://egl.circlly.com/auctions/btssb-mon-chouchou-hemritage-amelie-jsk-set-with-kc-and-bonnet",
         "https://egl.circlly.com/auctions/baby-the-star-shine-bright-sailor-marine-op-in-black",
@@ -498,10 +499,10 @@
         "https://egl.circlly.com/auctions/btssb-shirring-princess-jsk-red-x-white",
         "https://egl.circlly.com/auctions/btssb-plus-size-release",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-lady-victorian-rose-jewelry-a-wish-on-the-rose-petals-princess-jsk",
-        "https://egl.circlly.com/auctions/le-ruban-ombre-rose-jsk-bonnet",
-        "https://egl.circlly.com/auctions/btssb-fallin-ribbon-jsk-headdress-ribbon-clips-set-in-plum"
+        "https://egl.circlly.com/auctions/le-ruban-ombre-rose-jsk-bonnet"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/bbtsb-some-day-of-ranunculus-lycia-jsk",
         "https://egl.circlly.com/auctions/plus-size-friendly-btssb-kuro-shirring-jsk-2004-chocochip-cookie-headbow",
         "https://egl.circlly.com/auctions/btssb-velveteen-lace-frill-jsk-2021",
         "https://egl.circlly.com/auctions/nwt-2026-elizabeth-op-white-free-usa-ship",
