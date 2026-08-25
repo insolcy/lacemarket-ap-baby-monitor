@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-25T15:11:20.791Z",
+  "lastSuccessfulCheckAt": "2026-08-25T15:35:13.887Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -17,7 +17,7 @@
         "https://egl.circlly.com/auctions/angelic-pretty-picnic-jsk-ac7cbac0-f72e-4f60-b8a2-e940746e535d",
         "https://egl.circlly.com/auctions/angelic-pretty-sweet-cherry-margaret-op-8f63d570-4b29-4b53-93c6-d192fe627214",
         "https://egl.circlly.com/auctions/happy-garland-jsk-2021-release",
-        "https://egl.circlly.com/auctions/reserved-for-sleepybunny1997"
+        "https://egl.circlly.com/auctions/angelic-pretty-pintuck-op-in-pink"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/angelic-pretty-rose-tea-garden-op-b473f653-1bd9-4fbb-a859-0ed7de547783",
