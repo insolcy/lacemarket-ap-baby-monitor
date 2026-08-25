@@ -1,14 +1,14 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-25T17:33:20.033Z",
+  "lastSuccessfulCheckAt": "2026-08-25T17:52:08.631Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/dream-color-gingham-jsk",
         "https://egl.circlly.com/auctions/with-beret-nwot-ap-chess-emblem-jsk-and-beret",
         "https://egl.circlly.com/auctions/with-kc-ap-chocolate-rosette-jsk-and-kc-angelic-pretty-e9ca418c-d9ac-48be-895f-df1477292d56",
-        "https://egl.circlly.com/auctions/angelic-pretty-royal-princess-op-headdress-floral-sax-minty",
         "https://egl.circlly.com/auctions/ap-dreamy-planetarium-special-jsk-set-069d4642-c550-4ee6-a9f9-c5a1449721de",
         "https://egl.circlly.com/auctions/l-size-ap-melty-ribbon-chocolate-trench-coat-in-bitter-4fb926e9-98b3-498c-98b0-708a77f175a1",
         "https://egl.circlly.com/auctions/cotton-rare-ap-honey-cake-op-in-mint",
@@ -20,6 +20,7 @@
         "https://egl.circlly.com/auctions/ap-cecilia-cross-long-jsk-in-navy-1e88e6bf-6686-4e1c-a43d-ecbbe34cbc57"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/dream-color-gingham-jsk",
         "https://egl.circlly.com/auctions/angelic-pretty-royal-princess-op-headdress-floral-sax-minty",
         "https://egl.circlly.com/auctions/ap-dreamy-planetarium-special-jsk-set-069d4642-c550-4ee6-a9f9-c5a1449721de",
         "https://egl.circlly.com/auctions/l-size-ap-melty-ribbon-chocolate-trench-coat-in-bitter-4fb926e9-98b3-498c-98b0-708a77f175a1",
