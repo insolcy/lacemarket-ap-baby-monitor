@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-25T09:00:41.120Z",
+  "lastSuccessfulCheckAt": "2026-08-25T09:19:49.401Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/reserved-for-sleepybunny1997",
         "https://egl.circlly.com/auctions/angelic-pretty-pintuck-op-in-pink",
         "https://egl.circlly.com/auctions/angelic-pretty-lucky-key-high-waist-jsk-and-headdress-nwt",
         "https://egl.circlly.com/auctions/cecilia-cross-high-waist-jsk-set-98cf19dc-7518-4628-8a25-15663d79a9d6",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-marquise-op-bnt",
         "https://egl.circlly.com/auctions/ap-milky-criss-jsk-in-lavender",
         "https://egl.circlly.com/auctions/ap-mercator-antique-shop-bustier-style-jsk-in-navy",
-        "https://egl.circlly.com/auctions/ap-ribbon-berry-bunny-jsk-in-yellow-rare-2445abee-0e84-4d16-ae25-42b1957b5c6e",
-        "https://egl.circlly.com/auctions/ap-ribbon-berry-bunny-jsk-in-pink-4e41536a-f51a-4e00-b548-7f16661b8ca1"
+        "https://egl.circlly.com/auctions/ap-ribbon-berry-bunny-jsk-in-yellow-rare-2445abee-0e84-4d16-ae25-42b1957b5c6e"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/reserved-for-sleepybunny1997",
         "https://egl.circlly.com/auctions/angelic-pretty-pintuck-op-in-pink",
         "https://egl.circlly.com/auctions/angelic-pretty-lucky-key-high-waist-jsk-and-headdress-nwt",
         "https://egl.circlly.com/auctions/cecilia-cross-high-waist-jsk-set-98cf19dc-7518-4628-8a25-15663d79a9d6",
