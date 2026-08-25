@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-25T00:50:52.857Z",
+  "lastSuccessfulCheckAt": "2026-08-25T01:25:56.293Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-marquise-op-bnt",
         "https://egl.circlly.com/auctions/ap-milky-criss-jsk-in-lavender",
         "https://egl.circlly.com/auctions/ap-mercator-antique-shop-bustier-style-jsk-in-navy",
         "https://egl.circlly.com/auctions/ap-ribbon-berry-bunny-jsk-in-yellow-rare-2445abee-0e84-4d16-ae25-42b1957b5c6e",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-diner-doll-jsk-in-mint-71ae46d2-84f3-4ea8-a3e5-fadeefda449c",
         "https://egl.circlly.com/auctions/ap-petit-etoile-jsk-in-lavender-rare-94532310-b065-4edc-a6f1-132ae39431b2",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-holy-lantern-jsk-in-orange-can-add-the-hair-clip",
-        "https://egl.circlly.com/auctions/ap-holy-rosary-jsk-in-black-x-gold",
-        "https://egl.circlly.com/auctions/ap-romantic-cat-jsk-in-mint-nwot-795c5400-7917-401a-91eb-aad1bea3767c"
+        "https://egl.circlly.com/auctions/ap-holy-rosary-jsk-in-black-x-gold"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-marquise-op-bnt",
         "https://egl.circlly.com/auctions/ap-milky-criss-jsk-in-lavender",
         "https://egl.circlly.com/auctions/ap-mercator-antique-shop-bustier-style-jsk-in-navy",
         "https://egl.circlly.com/auctions/ap-ribbon-berry-bunny-jsk-in-yellow-rare-2445abee-0e84-4d16-ae25-42b1957b5c6e",
@@ -465,7 +466,7 @@
         "https://egl.circlly.com/auctions/ap-milky-swan",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-ap-preppy-sweet-school-uniform-academy-sweet-classic"
       ],
-      "lastPagesScanned": 2
+      "lastPagesScanned": 1
     },
     "baby": {
       "inventoryCountAtBaseline": 148,
