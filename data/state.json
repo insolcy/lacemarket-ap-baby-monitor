@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-25T18:12:36.127Z",
+  "lastSuccessfulCheckAt": "2026-08-25T18:34:38.456Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -524,6 +524,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/baby-elizabeth-jsk-2025",
         "https://egl.circlly.com/auctions/free-ship-us-lace-frill-jsk-baby-the-stars-shine-bright",
         "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-dc179bb6-beeb-434c-a2bb-4a584367e06b",
         "https://egl.circlly.com/auctions/btssb-sa-ku-ra-sakura-tea-time-babydoll-jsk-in-pink",
@@ -534,10 +535,10 @@
         "https://egl.circlly.com/auctions/btssb-traumerei-of-bright-stars-op-in-wine",
         "https://egl.circlly.com/auctions/bbtsb-some-day-of-ranunculus-lycia-jsk",
         "https://egl.circlly.com/auctions/plus-size-friendly-btssb-kuro-shirring-jsk-2004-chocochip-cookie-headbow",
-        "https://egl.circlly.com/auctions/btssb-mon-chouchou-hemritage-amelie-jsk-set-with-kc-and-bonnet",
-        "https://egl.circlly.com/auctions/baby-the-star-shine-bright-sailor-marine-op-in-black"
+        "https://egl.circlly.com/auctions/btssb-mon-chouchou-hemritage-amelie-jsk-set-with-kc-and-bonnet"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/baby-elizabeth-jsk-2025",
         "https://egl.circlly.com/auctions/free-ship-us-lace-frill-jsk-baby-the-stars-shine-bright",
         "https://egl.circlly.com/auctions/btssb-sa-ku-ra-sakura-tea-time-babydoll-jsk-in-pink",
         "https://egl.circlly.com/auctions/btssb-rouge-rabbit-and-squirrel-apple-forest-jsk-ii-in-ivory",
