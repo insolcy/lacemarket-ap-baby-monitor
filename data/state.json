@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-25T16:18:31.987Z",
+  "lastSuccessfulCheckAt": "2026-08-25T16:37:20.240Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/bonbon-bunny-jsk-174f1a23-80fe-4871-98b3-d13e633f4e9b",
         "https://egl.circlly.com/auctions/ribbon-shirring-jsk-2025",
         "https://egl.circlly.com/auctions/magical-etoile-sailor-jsk-c3a7fbf1-ddd5-49b1-ac78-c090a4077794",
         "https://egl.circlly.com/auctions/ap-space-lollipop-op-372ea25c-49e5-4d7f-9f7f-c32f1b031db7",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/ap-castle-mirage-jsk-in-white",
         "https://egl.circlly.com/auctions/rare-ap-milky-planet-2013-jsk-in-lavender",
         "https://egl.circlly.com/auctions/ap-holy-lantern-zipper-jsk-in-wine-can-add-the-clip-757204b9-8b32-4f66-96d0-dda797b5df96",
-        "https://egl.circlly.com/auctions/ap-sugar-candy-shop-op-in-white",
-        "https://egl.circlly.com/auctions/ap-holy-lantern-jsk-in-black-x-black"
+        "https://egl.circlly.com/auctions/ap-sugar-candy-shop-op-in-white"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/bonbon-bunny-jsk-174f1a23-80fe-4871-98b3-d13e633f4e9b",
         "https://egl.circlly.com/auctions/ribbon-shirring-jsk-2025",
         "https://egl.circlly.com/auctions/magical-etoile-sailor-jsk-c3a7fbf1-ddd5-49b1-ac78-c090a4077794",
         "https://egl.circlly.com/auctions/ap-space-lollipop-op-372ea25c-49e5-4d7f-9f7f-c32f1b031db7",
