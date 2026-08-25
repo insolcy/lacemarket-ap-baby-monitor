@@ -1,11 +1,14 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-25T05:15:27.112Z",
+  "lastSuccessfulCheckAt": "2026-08-25T05:33:45.720Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-lucky-key-high-waist-jsk-and-headdress-nwt",
+        "https://egl.circlly.com/auctions/cecilia-cross-high-waist-jsk-set-98cf19dc-7518-4628-8a25-15663d79a9d6",
+        "https://egl.circlly.com/auctions/geometric-jsk-e2895640-e052-45b9-8875-58fc399acf56",
         "https://egl.circlly.com/auctions/angelic-pretty-original-fantastic-dolly-jsk-hb-and-bag",
         "https://egl.circlly.com/auctions/angelic-pretty-holy-night-story-op-484b82ac-5e00-4832-998e-2fa62ca35a9a",
         "https://egl.circlly.com/auctions/ap-dressy-tulle-jsk",
@@ -14,12 +17,12 @@
         "https://egl.circlly.com/auctions/ap-mercator-antique-shop-bustier-style-jsk-in-navy",
         "https://egl.circlly.com/auctions/ap-ribbon-berry-bunny-jsk-in-yellow-rare-2445abee-0e84-4d16-ae25-42b1957b5c6e",
         "https://egl.circlly.com/auctions/ap-ribbon-berry-bunny-jsk-in-pink-4e41536a-f51a-4e00-b548-7f16661b8ca1",
-        "https://egl.circlly.com/auctions/nwt-size2-meta-twinkle-journey-frill-jsk-in-black",
-        "https://egl.circlly.com/auctions/angelic-pretty-sugary-carnival-jsk-in-sax-625d3a23-e38e-46e0-a122-a8ca6bb625e8",
-        "https://egl.circlly.com/auctions/ap-sugar-pansy-doll-jsk-kc-in-mint",
-        "https://egl.circlly.com/auctions/angelic-pretty-diner-doll-jsk-in-mint-71ae46d2-84f3-4ea8-a3e5-fadeefda449c"
+        "https://egl.circlly.com/auctions/nwt-size2-meta-twinkle-journey-frill-jsk-in-black"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-lucky-key-high-waist-jsk-and-headdress-nwt",
+        "https://egl.circlly.com/auctions/cecilia-cross-high-waist-jsk-set-98cf19dc-7518-4628-8a25-15663d79a9d6",
+        "https://egl.circlly.com/auctions/geometric-jsk-e2895640-e052-45b9-8875-58fc399acf56",
         "https://egl.circlly.com/auctions/angelic-pretty-original-fantastic-dolly-jsk-hb-and-bag",
         "https://egl.circlly.com/auctions/angelic-pretty-holy-night-story-op-484b82ac-5e00-4832-998e-2fa62ca35a9a",
         "https://egl.circlly.com/auctions/ap-dressy-tulle-jsk",
@@ -474,6 +477,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-velveteen-lace-frill-jsk-2021",
         "https://egl.circlly.com/auctions/baby-the-star-shine-bright-sailor-marine-op-in-black",
         "https://egl.circlly.com/auctions/poodle-fur-bunny-ears-op-coat",
         "https://egl.circlly.com/auctions/btssb-enchanted-under-the-candy-magic-spell-gelato-jsk-head-bow-ivory-ae77f738-eeb3-430d-b790-6573e0479381",
@@ -484,10 +488,10 @@
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-lady-victorian-rose-jewelry-a-wish-on-the-rose-petals-princess-jsk",
         "https://egl.circlly.com/auctions/le-ruban-ombre-rose-jsk-bonnet",
         "https://egl.circlly.com/auctions/btssb-fallin-ribbon-jsk-headdress-ribbon-clips-set-in-plum",
-        "https://egl.circlly.com/auctions/btssb-fluffy-dream-ribbon-jsk-navy",
-        "https://egl.circlly.com/auctions/le-ciel-etoile-night-sky-s-gift-2018-baby-the-stars-shin-bright"
+        "https://egl.circlly.com/auctions/btssb-fluffy-dream-ribbon-jsk-navy"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-velveteen-lace-frill-jsk-2021",
         "https://egl.circlly.com/auctions/nwt-2026-elizabeth-op-white-free-usa-ship",
         "https://egl.circlly.com/auctions/baby-the-star-shine-bright-sailor-marine-op-in-black",
         "https://egl.circlly.com/auctions/btssb-karami-3-tier-jsk-kc",
