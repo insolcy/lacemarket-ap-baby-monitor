@@ -1,11 +1,14 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-25T10:53:48.042Z",
+  "lastSuccessfulCheckAt": "2026-08-25T11:10:12.369Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-picnic-jsk-ac7cbac0-f72e-4f60-b8a2-e940746e535d",
+        "https://egl.circlly.com/auctions/angelic-pretty-sweet-cherry-margaret-op-8f63d570-4b29-4b53-93c6-d192fe627214",
+        "https://egl.circlly.com/auctions/happy-garland-jsk-2021-release",
         "https://egl.circlly.com/auctions/reserved-for-sleepybunny1997",
         "https://egl.circlly.com/auctions/angelic-pretty-pintuck-op-in-pink",
         "https://egl.circlly.com/auctions/angelic-pretty-lucky-key-high-waist-jsk-and-headdress-nwt",
@@ -14,12 +17,12 @@
         "https://egl.circlly.com/auctions/angelic-pretty-original-fantastic-dolly-jsk-hb-and-bag",
         "https://egl.circlly.com/auctions/angelic-pretty-holy-night-story-op-484b82ac-5e00-4832-998e-2fa62ca35a9a",
         "https://egl.circlly.com/auctions/ap-dressy-tulle-jsk",
-        "https://egl.circlly.com/auctions/angelic-pretty-marquise-op-bnt",
-        "https://egl.circlly.com/auctions/ap-milky-criss-jsk-in-lavender",
-        "https://egl.circlly.com/auctions/ap-mercator-antique-shop-bustier-style-jsk-in-navy",
-        "https://egl.circlly.com/auctions/ap-ribbon-berry-bunny-jsk-in-yellow-rare-2445abee-0e84-4d16-ae25-42b1957b5c6e"
+        "https://egl.circlly.com/auctions/angelic-pretty-marquise-op-bnt"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-picnic-jsk-ac7cbac0-f72e-4f60-b8a2-e940746e535d",
+        "https://egl.circlly.com/auctions/angelic-pretty-sweet-cherry-margaret-op-8f63d570-4b29-4b53-93c6-d192fe627214",
+        "https://egl.circlly.com/auctions/happy-garland-jsk-2021-release",
         "https://egl.circlly.com/auctions/reserved-for-sleepybunny1997",
         "https://egl.circlly.com/auctions/angelic-pretty-pintuck-op-in-pink",
         "https://egl.circlly.com/auctions/angelic-pretty-lucky-key-high-waist-jsk-and-headdress-nwt",
