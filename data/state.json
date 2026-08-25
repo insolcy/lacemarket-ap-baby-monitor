@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-25T14:23:38.357Z",
+  "lastSuccessfulCheckAt": "2026-08-25T14:48:46.728Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-rose-tea-garden-op-b473f653-1bd9-4fbb-a859-0ed7de547783",
         "https://egl.circlly.com/auctions/angelic-pretty-wrapping-cherry-special-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-little-witch-cutsew-op-black-d4ac888c-84ba-4177-8a16-e61e7f815e87",
         "https://egl.circlly.com/auctions/sweet-cherry-margaret-cutsew-op-blue",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/happy-garland-jsk-2021-release",
         "https://egl.circlly.com/auctions/reserved-for-sleepybunny1997",
         "https://egl.circlly.com/auctions/angelic-pretty-pintuck-op-in-pink",
-        "https://egl.circlly.com/auctions/angelic-pretty-lucky-key-high-waist-jsk-and-headdress-nwt",
-        "https://egl.circlly.com/auctions/cecilia-cross-high-waist-jsk-set-98cf19dc-7518-4628-8a25-15663d79a9d6"
+        "https://egl.circlly.com/auctions/angelic-pretty-lucky-key-high-waist-jsk-and-headdress-nwt"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-rose-tea-garden-op-b473f653-1bd9-4fbb-a859-0ed7de547783",
         "https://egl.circlly.com/auctions/angelic-pretty-wrapping-cherry-special-jsk-set",
         "https://egl.circlly.com/auctions/angelic-pretty-little-witch-cutsew-op-black-d4ac888c-84ba-4177-8a16-e61e7f815e87",
         "https://egl.circlly.com/auctions/sweet-cherry-margaret-cutsew-op-blue",
