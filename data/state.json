@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-26T07:36:08.826Z",
+  "lastSuccessfulCheckAt": "2026-08-26T07:58:17.090Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/brand-new-angelic-pretty-sucre-ribbon-princess-op-hat-set",
         "https://egl.circlly.com/auctions/cosmetic-bunny-op-white",
         "https://egl.circlly.com/auctions/ap-dream-marine-jsk-4-piece-full-set-in-white",
         "https://egl.circlly.com/auctions/nwt-lacy-heart-garden-op-angelic-pretty",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/dream-color-gingham-jsk",
         "https://egl.circlly.com/auctions/with-beret-nwot-ap-chess-emblem-jsk-and-beret",
         "https://egl.circlly.com/auctions/with-kc-ap-chocolate-rosette-jsk-and-kc-angelic-pretty-e9ca418c-d9ac-48be-895f-df1477292d56",
-        "https://egl.circlly.com/auctions/ap-dreamy-planetarium-special-jsk-set-069d4642-c550-4ee6-a9f9-c5a1449721de",
-        "https://egl.circlly.com/auctions/l-size-ap-melty-ribbon-chocolate-trench-coat-in-bitter-4fb926e9-98b3-498c-98b0-708a77f175a1"
+        "https://egl.circlly.com/auctions/ap-dreamy-planetarium-special-jsk-set-069d4642-c550-4ee6-a9f9-c5a1449721de"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/brand-new-angelic-pretty-sucre-ribbon-princess-op-hat-set",
         "https://egl.circlly.com/auctions/cosmetic-bunny-op-white",
         "https://egl.circlly.com/auctions/ap-dream-marine-jsk-4-piece-full-set-in-white",
         "https://egl.circlly.com/auctions/nwt-lacy-heart-garden-op-angelic-pretty",
