@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-26T10:08:43.411Z",
+  "lastSuccessfulCheckAt": "2026-08-26T10:25:12.169Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -530,6 +530,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/free-worldwide-shipping-nwt-btssb-babydoll-jsk-sax-2019-cdbd52bd-b9fb-4d85-b030-6cf62170736b",
         "https://egl.circlly.com/auctions/tartan-check-ribbon-scallop-hem-jsk-1-2009",
         "https://egl.circlly.com/auctions/btssb-scallop-princess-jsk-in-black-x-white",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-college-girl-op",
@@ -540,10 +541,10 @@
         "https://egl.circlly.com/auctions/btssb-rouge-rabbit-and-squirrel-apple-forest-jsk-ii-in-ivory",
         "https://egl.circlly.com/auctions/btssb-tartan-check-babydoll-jsk-in-red-79d5ea35-fcf4-49fd-92fc-7b234110c3a3",
         "https://egl.circlly.com/auctions/btssb-salon-de-the-minette-op-ef89b8da-23c9-42f6-bc4d-900e876fd4e3",
-        "https://egl.circlly.com/auctions/btssb-scallop-hem-jsk-in-black-1c2c3b86-e0b0-4b32-862a-155a886ac345",
-        "https://egl.circlly.com/auctions/btssb-traumerei-of-bright-stars-op-in-wine"
+        "https://egl.circlly.com/auctions/btssb-scallop-hem-jsk-in-black-1c2c3b86-e0b0-4b32-862a-155a886ac345"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/free-worldwide-shipping-nwt-btssb-babydoll-jsk-sax-2019-cdbd52bd-b9fb-4d85-b030-6cf62170736b",
         "https://egl.circlly.com/auctions/tartan-check-ribbon-scallop-hem-jsk-1-2009",
         "https://egl.circlly.com/auctions/btssb-scallop-princess-jsk-in-black-x-white",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-college-girl-op",
