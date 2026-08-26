@@ -1,11 +1,15 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-26T22:24:27.290Z",
+  "lastSuccessfulCheckAt": "2026-08-26T23:39:12.567Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/travel-bear-jsk-only",
+        "https://egl.circlly.com/auctions/hinaichigo-op-set-rozen-maiden-20th-in-laforet-special-nwt",
+        "https://egl.circlly.com/auctions/angelic-pretty-bunny-picnic-party-jsk-2c27bdd2-98f5-4b99-89bc-812ac2ba3266",
+        "https://egl.circlly.com/auctions/ap-cute-heart-jsk-tartan-pink-0e26a4a6-319d-4dfd-b7cc-50f7e26de174",
         "https://egl.circlly.com/auctions/angelic-pretty-moon-night-theater-pleated-jsk-bf47bc35-58b2-4519-b331-3f7b5d9a946c",
         "https://egl.circlly.com/auctions/angelic-pretty-mercator-antique-shop-08b86496-20de-4c90-b2d7-7957364f3049",
         "https://egl.circlly.com/auctions/angelic-pretty-little-witch-e69ed7f4-4cac-4470-a98d-e75a44a3f3c2",
@@ -13,11 +17,7 @@
         "https://egl.circlly.com/auctions/full-back-shirring-ap-twinkle-tonight-jsk-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-souffle-doll-op-d422fefd-b72f-4408-b183-0e63db3bed19",
         "https://egl.circlly.com/auctions/angelic-pretty-candy-carol-op-bc214ff4-9ae3-4f7f-be16-e7f0f4b6c1af",
-        "https://egl.circlly.com/auctions/angelic-pretty-moco-moco-bunnys-op-in-sax-like-new",
-        "https://egl.circlly.com/auctions/brand-new-angelic-pretty-sucre-ribbon-princess-op-hat-set",
-        "https://egl.circlly.com/auctions/cosmetic-bunny-op-white",
-        "https://egl.circlly.com/auctions/ap-dream-marine-jsk-4-piece-full-set-in-white",
-        "https://egl.circlly.com/auctions/nwt-lacy-heart-garden-op-angelic-pretty"
+        "https://egl.circlly.com/auctions/angelic-pretty-moco-moco-bunnys-op-in-sax-like-new"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/angelic-pretty-moon-night-theater-pleated-jsk-bf47bc35-58b2-4519-b331-3f7b5d9a946c",
@@ -534,6 +534,8 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/baby-hanamomo-shangri-la-oriental-jsk-taobao-hair-clips",
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-x-disney-snow-white-frill-jsk-ivory",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-ruban-le-lien-a-la-mode-op",
         "https://egl.circlly.com/auctions/btssb-baby-best-wishes-salior-collar-op",
         "https://egl.circlly.com/auctions/btsst-velveteen-babydoll-jsk-and-headdress-set-baby-the-stars-shine-bright-239c4756-572c-4cf3-b9e9-a434e935d593",
@@ -543,9 +545,7 @@
         "https://egl.circlly.com/auctions/tartan-check-ribbon-scallop-hem-jsk-1-2009",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-college-girl-op",
         "https://egl.circlly.com/auctions/nwot-btssb-nekokumya-s-dot-ribbon-jsk-and-headdress-set-in-pink",
-        "https://egl.circlly.com/auctions/free-ship-us-lace-frill-jsk-baby-the-stars-shine-bright",
-        "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-dc179bb6-beeb-434c-a2bb-4a584367e06b",
-        "https://egl.circlly.com/auctions/btssb-sa-ku-ra-sakura-tea-time-babydoll-jsk-in-pink"
+        "https://egl.circlly.com/auctions/free-ship-us-lace-frill-jsk-baby-the-stars-shine-bright"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-ruban-le-lien-a-la-mode-op",
