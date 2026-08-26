@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-26T00:19:18.275Z",
+  "lastSuccessfulCheckAt": "2026-08-26T00:41:21.940Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/ap-dream-marine-jsk-4-piece-full-set-in-white",
         "https://egl.circlly.com/auctions/nwt-lacy-heart-garden-op-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-girls-heart-jsk-barrette-set",
         "https://egl.circlly.com/auctions/angelic-pretty-otome-tutu-doll-jsk-6ef0a848-d012-411e-b9f7-9d4de1ca7ef8",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/with-kc-ap-chocolate-rosette-jsk-and-kc-angelic-pretty-e9ca418c-d9ac-48be-895f-df1477292d56",
         "https://egl.circlly.com/auctions/ap-dreamy-planetarium-special-jsk-set-069d4642-c550-4ee6-a9f9-c5a1449721de",
         "https://egl.circlly.com/auctions/l-size-ap-melty-ribbon-chocolate-trench-coat-in-bitter-4fb926e9-98b3-498c-98b0-708a77f175a1",
-        "https://egl.circlly.com/auctions/cotton-rare-ap-honey-cake-op-in-mint",
-        "https://egl.circlly.com/auctions/ap-misty-sky-brilliant-color-op-set-a560525e-fd1d-47ac-a228-f3bfb880ba3e"
+        "https://egl.circlly.com/auctions/cotton-rare-ap-honey-cake-op-in-mint"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/ap-dream-marine-jsk-4-piece-full-set-in-white",
         "https://egl.circlly.com/auctions/nwt-lacy-heart-garden-op-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-girls-heart-jsk-barrette-set",
         "https://egl.circlly.com/auctions/angelic-pretty-otome-tutu-doll-jsk-6ef0a848-d012-411e-b9f7-9d4de1ca7ef8",
@@ -528,7 +529,6 @@
       "inventoryCountAtBaseline": 148,
       "frontier": [
         "https://egl.circlly.com/auctions/nwot-btssb-nekokumya-s-dot-ribbon-jsk-and-headdress-set-in-pink",
-        "https://egl.circlly.com/auctions/baby-elizabeth-jsk-2025",
         "https://egl.circlly.com/auctions/free-ship-us-lace-frill-jsk-baby-the-stars-shine-bright",
         "https://egl.circlly.com/auctions/set-btssb-hawase-doll-op-and-headdress-nostalgic-doll-op-baby-the-stars-shine-bright-dc179bb6-beeb-434c-a2bb-4a584367e06b",
         "https://egl.circlly.com/auctions/btssb-sa-ku-ra-sakura-tea-time-babydoll-jsk-in-pink",
@@ -538,7 +538,8 @@
         "https://egl.circlly.com/auctions/btssb-scallop-hem-jsk-in-black-1c2c3b86-e0b0-4b32-862a-155a886ac345",
         "https://egl.circlly.com/auctions/btssb-traumerei-of-bright-stars-op-in-wine",
         "https://egl.circlly.com/auctions/bbtsb-some-day-of-ranunculus-lycia-jsk",
-        "https://egl.circlly.com/auctions/btssb-mon-chouchou-hemritage-amelie-jsk-set-with-kc-and-bonnet"
+        "https://egl.circlly.com/auctions/btssb-mon-chouchou-hemritage-amelie-jsk-set-with-kc-and-bonnet",
+        "https://egl.circlly.com/auctions/baby-the-star-shine-bright-sailor-marine-op-in-black"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/nwot-btssb-nekokumya-s-dot-ribbon-jsk-and-headdress-set-in-pink",
