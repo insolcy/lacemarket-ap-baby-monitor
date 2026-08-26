@@ -1,11 +1,13 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-26T12:16:53.060Z",
+  "lastSuccessfulCheckAt": "2026-08-26T12:36:56.604Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-souffle-doll-op-d422fefd-b72f-4408-b183-0e63db3bed19",
+        "https://egl.circlly.com/auctions/angelic-pretty-candy-carol-op-bc214ff4-9ae3-4f7f-be16-e7f0f4b6c1af",
         "https://egl.circlly.com/auctions/angelic-pretty-moco-moco-bunnys-op-in-sax-like-new",
         "https://egl.circlly.com/auctions/brand-new-angelic-pretty-sucre-ribbon-princess-op-hat-set",
         "https://egl.circlly.com/auctions/cosmetic-bunny-op-white",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/angelic-pretty-otome-tutu-doll-jsk-6ef0a848-d012-411e-b9f7-9d4de1ca7ef8",
         "https://egl.circlly.com/auctions/orange-pumpkin-holy-lantern-jsk-perfect-for-halloween",
         "https://egl.circlly.com/auctions/pink-lacy-pansy-jsk",
-        "https://egl.circlly.com/auctions/dream-color-gingham-jsk",
-        "https://egl.circlly.com/auctions/with-beret-nwot-ap-chess-emblem-jsk-and-beret",
-        "https://egl.circlly.com/auctions/with-kc-ap-chocolate-rosette-jsk-and-kc-angelic-pretty-e9ca418c-d9ac-48be-895f-df1477292d56"
+        "https://egl.circlly.com/auctions/dream-color-gingham-jsk"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-souffle-doll-op-d422fefd-b72f-4408-b183-0e63db3bed19",
+        "https://egl.circlly.com/auctions/angelic-pretty-candy-carol-op-bc214ff4-9ae3-4f7f-be16-e7f0f4b6c1af",
         "https://egl.circlly.com/auctions/brand-new-angelic-pretty-sucre-ribbon-princess-op-hat-set",
         "https://egl.circlly.com/auctions/cosmetic-bunny-op-white",
         "https://egl.circlly.com/auctions/ap-dream-marine-jsk-4-piece-full-set-in-white",
