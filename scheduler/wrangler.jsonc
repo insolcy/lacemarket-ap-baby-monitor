@@ -1,5 +1,6 @@
 {
   "name": "lacemarket-github-scheduler",
+  "account_id": "8bca752f706f6c280fef79bf83a48539",
   "main": "worker.js",
   "compatibility_date": "2026-08-27",
   "workers_dev": true,
