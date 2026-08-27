@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-27T04:31:58.414Z",
+  "lastSuccessfulCheckAt": "2026-08-27T07:03:23.155Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-ap-preppy-sweet-school-uniform-academy-sweet-classic",
         "https://egl.circlly.com/auctions/angelic-pretty-princess-cat-special-jsk-set-f76fe57c-0763-469c-b521-ccbfc780eeba",
         "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-jsk-set-8e77ceac-0541-4558-b589-49e3951e1efd",
         "https://egl.circlly.com/auctions/angelic-pretty-candy-chan-jsk-set",
@@ -16,8 +17,7 @@
         "https://egl.circlly.com/auctions/angelic-pretty-f69fa490-1862-445d-9f01-fdbd0521103c",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-chocolate-rosette",
         "https://egl.circlly.com/auctions/set-drink-me-jsk-ribbon-hair-clip-champagne-colour-angelic-pretty",
-        "https://egl.circlly.com/auctions/chess-emblem-jsk-red-angelic-pretty",
-        "https://egl.circlly.com/auctions/angelic-pretty-ice-cream-parlor-jsk-3cbcbe20-a704-4458-9e7a-8eeccdc2ec58"
+        "https://egl.circlly.com/auctions/chess-emblem-jsk-red-angelic-pretty"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/misty-sky-set-sax",
@@ -537,6 +537,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/2010-baby-the-stars-shine-bright-star-chiffon-jsk",
         "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
         "https://egl.circlly.com/auctions/btssb-merry-sweet-castle-jsk-2009-01d33646-8f50-459b-b333-9ef9902b8905",
         "https://egl.circlly.com/auctions/btssb-juno-s-bouquet-dot-jsk-2015",
@@ -547,8 +548,7 @@
         "https://egl.circlly.com/auctions/baby-hanamomo-shangri-la-oriental-jsk-taobao-hair-clips",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-x-disney-snow-white-frill-jsk-ivory",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-ruban-le-lien-a-la-mode-op",
-        "https://egl.circlly.com/auctions/btssb-baby-best-wishes-salior-collar-op",
-        "https://egl.circlly.com/auctions/btsst-velveteen-babydoll-jsk-and-headdress-set-baby-the-stars-shine-bright-239c4756-572c-4cf3-b9e9-a434e935d593"
+        "https://egl.circlly.com/auctions/btssb-baby-best-wishes-salior-collar-op"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/veronica-elise-jsk-with-canotier",
