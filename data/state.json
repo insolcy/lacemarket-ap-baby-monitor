@@ -1,11 +1,12 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-26T23:39:12.567Z",
+  "lastSuccessfulCheckAt": "2026-08-27T00:55:07.816Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-cirque-du-l-etoile-jsk-kc-set",
         "https://egl.circlly.com/auctions/travel-bear-jsk-only",
         "https://egl.circlly.com/auctions/hinaichigo-op-set-rozen-maiden-20th-in-laforet-special-nwt",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-picnic-party-jsk-2c27bdd2-98f5-4b99-89bc-812ac2ba3266",
@@ -13,7 +14,6 @@
         "https://egl.circlly.com/auctions/angelic-pretty-moon-night-theater-pleated-jsk-bf47bc35-58b2-4519-b331-3f7b5d9a946c",
         "https://egl.circlly.com/auctions/angelic-pretty-mercator-antique-shop-08b86496-20de-4c90-b2d7-7957364f3049",
         "https://egl.circlly.com/auctions/angelic-pretty-little-witch-e69ed7f4-4cac-4470-a98d-e75a44a3f3c2",
-        "https://egl.circlly.com/auctions/free-ship-us-fleur-cat-jsk-angelic-pretty",
         "https://egl.circlly.com/auctions/full-back-shirring-ap-twinkle-tonight-jsk-angelic-pretty",
         "https://egl.circlly.com/auctions/angelic-pretty-souffle-doll-op-d422fefd-b72f-4408-b183-0e63db3bed19",
         "https://egl.circlly.com/auctions/angelic-pretty-candy-carol-op-bc214ff4-9ae3-4f7f-be16-e7f0f4b6c1af",
