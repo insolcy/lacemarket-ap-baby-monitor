@@ -1,23 +1,23 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-27T07:03:23.155Z",
+  "lastSuccessfulCheckAt": "2026-08-27T10:28:24.429Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
-        "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-ap-preppy-sweet-school-uniform-academy-sweet-classic",
-        "https://egl.circlly.com/auctions/angelic-pretty-princess-cat-special-jsk-set-f76fe57c-0763-469c-b521-ccbfc780eeba",
-        "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-jsk-set-8e77ceac-0541-4558-b589-49e3951e1efd",
-        "https://egl.circlly.com/auctions/angelic-pretty-candy-chan-jsk-set",
-        "https://egl.circlly.com/auctions/nwt-angelic-pretty-flower-garden-teatime-jsk-black",
-        "https://egl.circlly.com/auctions/magic-princess-napoleon-jsk-purple",
-        "https://egl.circlly.com/auctions/little-witch-op-hb-angelic-pretty",
-        "https://egl.circlly.com/auctions/angelic-pretty-dolly-damask-jsk-pink",
-        "https://egl.circlly.com/auctions/angelic-pretty-f69fa490-1862-445d-9f01-fdbd0521103c",
-        "https://egl.circlly.com/auctions/nwt-angelic-pretty-chocolate-rosette",
-        "https://egl.circlly.com/auctions/set-drink-me-jsk-ribbon-hair-clip-champagne-colour-angelic-pretty",
-        "https://egl.circlly.com/auctions/chess-emblem-jsk-red-angelic-pretty"
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-fluffy-toys-moco-moco-toys-jsk-ivory",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-winter-toys-jsk-kc-set-in-lavender",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-tulip-bouquet-jsk-in-lavender-91059cf2-b607-4466-a48c-932d7acac8ea",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-sweet-cookie-box-jsk-in-pink",
+        "https://egl.circlly.com/auctions/relist-angelic-pretty-dream-sky-jsk-2011-pink",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-baby-toys-jsk-kc-set-lavender",
+        "https://egl.circlly.com/auctions/angelic-pretty-strawberry-doll-jsk-5b423a10-2fd2-4343-aafb-416b2658dde7",
+        "https://egl.circlly.com/auctions/angelic-pretty-vintage-toys-jsk-in-pink",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-compact-toys-jsk-kc-set-pink",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-princess-ribbon-decoration-jsk-kc-set-pink-0026a643-fce7-4826-9cae-c0f678392e03",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-fleur-cat-jsk-flower-kitten-kc-set-in-pink",
+        "https://egl.circlly.com/auctions/relist-nwt-angelic-pretty-holiday-collection-op-beret-barrette-set-in-green"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/misty-sky-set-sax",
@@ -537,6 +537,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/veronica-elisse-jsk-5441cc55-adff-4e01-a741-7b5ca5b21752",
         "https://egl.circlly.com/auctions/2010-baby-the-stars-shine-bright-star-chiffon-jsk",
         "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
         "https://egl.circlly.com/auctions/btssb-merry-sweet-castle-jsk-2009-01d33646-8f50-459b-b333-9ef9902b8905",
@@ -547,10 +548,10 @@
         "https://egl.circlly.com/auctions/pink-jsk-5c90e946-e9aa-4b8d-8126-43e68e84d7ae",
         "https://egl.circlly.com/auctions/baby-hanamomo-shangri-la-oriental-jsk-taobao-hair-clips",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-x-disney-snow-white-frill-jsk-ivory",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-ruban-le-lien-a-la-mode-op",
-        "https://egl.circlly.com/auctions/btssb-baby-best-wishes-salior-collar-op"
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-ruban-le-lien-a-la-mode-op"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/veronica-elisse-jsk-5441cc55-adff-4e01-a741-7b5ca5b21752",
         "https://egl.circlly.com/auctions/veronica-elise-jsk-with-canotier",
         "https://egl.circlly.com/auctions/gift-box-jsk",
         "https://egl.circlly.com/auctions/pink-jsk-5c90e946-e9aa-4b8d-8126-43e68e84d7ae",
