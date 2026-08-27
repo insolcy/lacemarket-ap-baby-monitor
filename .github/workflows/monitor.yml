@@ -2,7 +2,9 @@ name: Monitor Lace Market
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    # Best-effort fallback. The primary 10-minute trigger is the Cloudflare Worker.
+    # Offset from the start of the hour to reduce GitHub schedule delays/drops.
+    - cron: "3,13,23,33,43,53 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:

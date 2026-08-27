@@ -31,7 +31,28 @@ Gmail 应用专用密码需要 Google 账号启用两步验证。不要将密码
 
 配置 Secrets 后，在 **Actions → Monitor Lace Market → Run workflow** 选择 `dry_run` 手动运行一次。确认云端检查成功后，再恢复每 10 分钟的 `schedule`；在代理尚未配置前，计划触发保持暂停，以免持续产生 Cloudflare 403 失败任务。
 
-GitHub 的计划任务可能因平台负载出现少量延迟，因此“每 10 分钟”表示计划频率，不保证精确到某一秒。
+## 可靠的每 10 分钟调度
+
+GitHub 原生 `schedule` 在平台高负载时可能延迟或丢弃。生产环境使用
+Cloudflare Worker `lacemarket-github-scheduler` 每 10 分钟调用一次 GitHub
+`workflow_dispatch`；GitHub 自带 cron 改为每小时的第 3、13、23、33、43、53
+分钟运行，仅作为错峰备用。工作流的 `concurrency` 会防止两个来源造成并发写状态。
+
+Worker 配置位于 `scheduler/`，只保存一个 Cloudflare Secret：
+
+- `GITHUB_TOKEN`：Fine-grained GitHub PAT，仅允许访问本仓库，Repository permissions
+  中只授予 `Actions: Read and write`。
+
+部署与验证：
+
+```bash
+# 临时文件位于仓库外，内容为 GITHUB_TOKEN=<Fine-grained PAT>
+wrangler deploy --config scheduler/wrangler.jsonc --secrets-file /安全的临时路径/scheduler.env
+wrangler tail --config scheduler/wrangler.jsonc
+```
+
+部署完成后立即删除临时 Secret 文件。不要将 Token 写入代码、提交记录或命令行参数。
+Cloudflare Cron 初次创建或修改后，全球生效最长可能需要约 15 分钟。
 
 发信成功后会验证 SMTP 是否接受全部配置收件人；公开 Actions 日志只记录接受数量，不输出邮箱地址。
 
