@@ -1,23 +1,23 @@
 {
   "version": 1,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-27T02:40:42.528Z",
+  "lastSuccessfulCheckAt": "2026-08-27T04:31:58.414Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
-        "https://egl.circlly.com/auctions/misty-sky-set-sax",
-        "https://egl.circlly.com/auctions/fizzy-pop-jsk",
-        "https://egl.circlly.com/auctions/neon-star-diner-set",
-        "https://egl.circlly.com/auctions/sweet-lacy-basket-op-in-pink",
-        "https://egl.circlly.com/auctions/dreamy-baby-room-jsk-pink",
-        "https://egl.circlly.com/auctions/creamy-cherry-angelic-pretty-op",
-        "https://egl.circlly.com/auctions/angelic-pretty-dolly-cat-jsk-4372dae8-71bd-4a34-8eab-5f5c9a880b85",
-        "https://egl.circlly.com/auctions/nwt-angelic-pretty-cirque-du-l-etoile-jsk-kc-set",
-        "https://egl.circlly.com/auctions/travel-bear-jsk-only",
-        "https://egl.circlly.com/auctions/hinaichigo-op-set-rozen-maiden-20th-in-laforet-special-nwt",
-        "https://egl.circlly.com/auctions/angelic-pretty-bunny-picnic-party-jsk-2c27bdd2-98f5-4b99-89bc-812ac2ba3266",
-        "https://egl.circlly.com/auctions/ap-cute-heart-jsk-tartan-pink-0e26a4a6-319d-4dfd-b7cc-50f7e26de174"
+        "https://egl.circlly.com/auctions/angelic-pretty-princess-cat-special-jsk-set-f76fe57c-0763-469c-b521-ccbfc780eeba",
+        "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-jsk-set-8e77ceac-0541-4558-b589-49e3951e1efd",
+        "https://egl.circlly.com/auctions/angelic-pretty-candy-chan-jsk-set",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-flower-garden-teatime-jsk-black",
+        "https://egl.circlly.com/auctions/magic-princess-napoleon-jsk-purple",
+        "https://egl.circlly.com/auctions/little-witch-op-hb-angelic-pretty",
+        "https://egl.circlly.com/auctions/angelic-pretty-dolly-damask-jsk-pink",
+        "https://egl.circlly.com/auctions/angelic-pretty-f69fa490-1862-445d-9f01-fdbd0521103c",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-chocolate-rosette",
+        "https://egl.circlly.com/auctions/set-drink-me-jsk-ribbon-hair-clip-champagne-colour-angelic-pretty",
+        "https://egl.circlly.com/auctions/chess-emblem-jsk-red-angelic-pretty",
+        "https://egl.circlly.com/auctions/angelic-pretty-ice-cream-parlor-jsk-3cbcbe20-a704-4458-9e7a-8eeccdc2ec58"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/misty-sky-set-sax",
@@ -537,6 +537,10 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
+        "https://egl.circlly.com/auctions/btssb-merry-sweet-castle-jsk-2009-01d33646-8f50-459b-b333-9ef9902b8905",
+        "https://egl.circlly.com/auctions/btssb-juno-s-bouquet-dot-jsk-2015",
+        "https://egl.circlly.com/auctions/2010-baby-the-stars-shine-bright-millefeuille-jsk",
         "https://egl.circlly.com/auctions/veronica-elise-jsk-with-canotier",
         "https://egl.circlly.com/auctions/gift-box-jsk",
         "https://egl.circlly.com/auctions/pink-jsk-5c90e946-e9aa-4b8d-8126-43e68e84d7ae",
@@ -544,11 +548,7 @@
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-x-disney-snow-white-frill-jsk-ivory",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-ruban-le-lien-a-la-mode-op",
         "https://egl.circlly.com/auctions/btssb-baby-best-wishes-salior-collar-op",
-        "https://egl.circlly.com/auctions/btsst-velveteen-babydoll-jsk-and-headdress-set-baby-the-stars-shine-bright-239c4756-572c-4cf3-b9e9-a434e935d593",
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-papillonnage-en-eclats-dance-aa72915d-800c-4f44-8d66-e132e75d770d",
-        "https://egl.circlly.com/auctions/btssb-op-tea-time",
-        "https://egl.circlly.com/auctions/free-worldwide-shipping-nwt-btssb-babydoll-jsk-sax-2019-cdbd52bd-b9fb-4d85-b030-6cf62170736b",
-        "https://egl.circlly.com/auctions/tartan-check-ribbon-scallop-hem-jsk-1-2009"
+        "https://egl.circlly.com/auctions/btsst-velveteen-babydoll-jsk-and-headdress-set-baby-the-stars-shine-bright-239c4756-572c-4cf3-b9e9-a434e935d593"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/veronica-elise-jsk-with-canotier",
