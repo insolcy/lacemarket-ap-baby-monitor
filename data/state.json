@@ -1,11 +1,12 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-27T14:38:27.035Z",
+  "lastSuccessfulCheckAt": "2026-08-27T18:06:22.171Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-holy-night-story-switch-jsk-in-pink-damaged-altered",
         "https://egl.circlly.com/auctions/dreamy-baby-room-jsk-pink",
         "https://egl.circlly.com/auctions/creamy-cherry-angelic-pretty-op",
         "https://egl.circlly.com/auctions/angelic-pretty-dolly-cat-jsk-4372dae8-71bd-4a34-8eab-5f5c9a880b85",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/dream-color-gingham-jsk",
         "https://egl.circlly.com/auctions/ap-dressy-tulle-jsk",
         "https://egl.circlly.com/auctions/angelic-pretty-marquise-op-bnt",
-        "https://egl.circlly.com/auctions/ap-milk-cat-face-3-way-bag-in-black",
-        "https://egl.circlly.com/auctions/angelic-pretty-dream-marine-op-barrette-set-in-navy"
+        "https://egl.circlly.com/auctions/ap-milk-cat-face-3-way-bag-in-black"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-holy-night-story-switch-jsk-in-pink-damaged-altered",
         "https://egl.circlly.com/auctions/dreamy-baby-room-jsk-pink",
         "https://egl.circlly.com/auctions/creamy-cherry-angelic-pretty-op",
         "https://egl.circlly.com/auctions/angelic-pretty-dolly-cat-jsk-4372dae8-71bd-4a34-8eab-5f5c9a880b85",
@@ -36,8 +37,6 @@
         "https://egl.circlly.com/auctions/ap-photogenic-pallet-salopette-black-e29c1480-13d4-4d22-9822-cef82a894b06",
         "https://egl.circlly.com/auctions/ap-bunny-icon-parka-pink-053b4740-0856-430a-a676-dc8ca4994a44",
         "https://egl.circlly.com/auctions/ap-creamy-cherry-tea-set-full-2016-shibuya-exclusive-5ca65ed3-828f-4030-9ea7-1c9bd6684d87",
-        "https://egl.circlly.com/auctions/cotton-candy-short-sleeve-op-set-see-description",
-        "https://egl.circlly.com/auctions/miaoplus-pink-ruff-collar-knit-top",
         "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-jsk-mint",
         "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-85bd6022-76e1-4c9f-baab-adb565fed378",
         "https://egl.circlly.com/auctions/ap-celestial-op-set-in-sax",
@@ -77,6 +76,8 @@
         "https://egl.circlly.com/auctions/flower-egg-garden-jsk-in-lavender-color",
         "https://egl.circlly.com/auctions/angelic-pretty-campus-girl-op",
         "https://egl.circlly.com/auctions/angelic-pretty-gingham-color-scheme-shoulder-ribbon-jsk-kc-2021",
+        "https://egl.circlly.com/auctions/cotton-candy-short-sleeve-op-set-see-description",
+        "https://egl.circlly.com/auctions/miaoplus-pink-ruff-collar-knit-top",
         "https://egl.circlly.com/auctions/misty-sky-set-sax",
         "https://egl.circlly.com/auctions/fizzy-pop-jsk",
         "https://egl.circlly.com/auctions/neon-star-diner-set",
@@ -576,6 +577,9 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/charity-auction-btssb-wonder-pocket-biscuit-bag",
+        "https://egl.circlly.com/auctions/nwt-btssb-christina-bouquet-princess-jsk-and-headdress",
+        "https://egl.circlly.com/auctions/btssb-satin-ribbon-tulle-wrist-cuffs-white",
         "https://egl.circlly.com/auctions/btssb-rin-chan-s-twinkle-fairy-blouse",
         "https://egl.circlly.com/auctions/meta-dot-frill-short-sleeve-blouse-ivory",
         "https://egl.circlly.com/auctions/btssb-princess-drop-swing-ribbon-comb-2020",
@@ -584,12 +588,12 @@
         "https://egl.circlly.com/auctions/btssb-lace-up-cutsew-2007",
         "https://egl.circlly.com/auctions/btssb-cherry-parade-square-neck-blouse-2012",
         "https://egl.circlly.com/auctions/btssb-2006-double-frill-standing-collar-blouse-blouse",
-        "https://egl.circlly.com/auctions/berry-sweet-bouquet-gingham-canotier",
-        "https://egl.circlly.com/auctions/btssb-usakumya-face-bag-nwot-7b34559b-40c0-4678-a5c2-6526132819c6",
-        "https://egl.circlly.com/auctions/2003-btssb-ripple-blouse",
-        "https://egl.circlly.com/auctions/dessert-op-2026"
+        "https://egl.circlly.com/auctions/berry-sweet-bouquet-gingham-canotier"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/charity-auction-btssb-wonder-pocket-biscuit-bag",
+        "https://egl.circlly.com/auctions/nwt-btssb-christina-bouquet-princess-jsk-and-headdress",
+        "https://egl.circlly.com/auctions/btssb-satin-ribbon-tulle-wrist-cuffs-white",
         "https://egl.circlly.com/auctions/btssb-rin-chan-s-twinkle-fairy-blouse",
         "https://egl.circlly.com/auctions/meta-dot-frill-short-sleeve-blouse-ivory",
         "https://egl.circlly.com/auctions/btssb-princess-drop-swing-ribbon-comb-2020",
