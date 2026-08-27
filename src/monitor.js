@@ -205,13 +205,6 @@ async function readListingPage(navigator, url, brand) {
       throw new Error(`${brand.label}: listing cards did not contain valid auction links`);
     }
 
-    const unexpectedRibbons = listings.filter((listing) => !hasNewListingBadge(listing));
-    if (unexpectedRibbons.length > 0) {
-      throw new Error(
-        `${brand.label}: New-only page contained ${unexpectedRibbons.length} listing(s) without an exact New ribbon`,
-      );
-    }
-
     const nextLink = page.getByRole("link", { name: "Next →", exact: true });
     const nextUrl =
       (await nextLink.count()) > 0 ? await nextLink.first().getAttribute("href") : null;
@@ -232,11 +225,15 @@ async function scanBrand(navigator, brandKey, brand, brandState) {
 
     if (!result.nextUrl) {
       const observedListings = uniqueListings(pages.flat());
+      const ignoredNonNewCount = observedListings.filter(
+        (listing) => !hasNewListingBadge(listing),
+      ).length;
       return {
         brandKey,
         candidates: findUnseenNewListings(pages, brandState.seen),
         observedListings,
         frontier: pages[0].map((listing) => listing.url),
+        ignoredNonNewCount,
         pagesScanned: pageNumber,
       };
     }
@@ -485,6 +482,15 @@ async function runMonitorAttempt(state, navigator) {
   const scans = [];
   for (const [brandKey, brand] of Object.entries(brands)) {
     scans.push(await scanBrand(navigator, brandKey, brand, state.brands[brandKey]));
+  }
+
+  for (const scan of scans) {
+    if (scan.ignoredNonNewCount > 0) {
+      console.log(
+        `Ignored ${scan.ignoredNonNewCount} ${brands[scan.brandKey].label} ` +
+          `listing(s) without the exact New ribbon.`,
+      );
+    }
   }
 
   const baselineOnly = needsNewUnitedStatesBaseline(state);
