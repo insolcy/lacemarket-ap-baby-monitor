@@ -17,6 +17,37 @@ export function buildRecipients(sender, additionalRecipients = "") {
   ];
 }
 
+function normalizeMailbox(value) {
+  if (value && typeof value === "object" && "address" in value) {
+    return String(value.address).trim().toLowerCase();
+  }
+
+  const text = String(value || "").trim();
+  const bracketedAddress = text.match(/<([^>]+)>/);
+  return (bracketedAddress?.[1] || text).trim().toLowerCase();
+}
+
+export function assertAllRecipientsAccepted(recipients, deliveryInfo) {
+  const expected = [...new Set(recipients.map(normalizeMailbox).filter(Boolean))];
+  const accepted = new Set(
+    (deliveryInfo?.accepted || []).map(normalizeMailbox).filter(Boolean),
+  );
+  const rejectedCount = Array.isArray(deliveryInfo?.rejected)
+    ? deliveryInfo.rejected.length
+    : 0;
+  const missingCount = expected.filter((recipient) => !accepted.has(recipient)).length;
+  const acceptedExpectedCount = expected.length - missingCount;
+
+  if (expected.length === 0 || missingCount > 0 || rejectedCount > 0) {
+    throw new Error(
+      `SMTP did not accept every recipient ` +
+        `(accepted=${acceptedExpectedCount}/${expected.length}, rejected=${rejectedCount})`,
+    );
+  }
+
+  return { acceptedCount: acceptedExpectedCount, recipientCount: expected.length };
+}
+
 function safeImageUrl(value) {
   try {
     const url = new URL(String(value || ""));

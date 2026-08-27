@@ -7,14 +7,17 @@ import nodemailer from "nodemailer";
 import { chromium } from "playwright";
 
 import { classifyListingDetails } from "./classification.js";
-import { buildAlertEmail, buildRecipients } from "./email.js";
 import {
-  findCandidatesBeforeAnchor,
+  assertAllRecipientsAccepted,
+  buildAlertEmail,
+  buildRecipients,
+} from "./email.js";
+import {
+  findUnseenNewListings,
   hasNewListingBadge,
   mergeSeen,
   uniqueListings,
 } from "./frontier.js";
-import { isUnitedStatesSellerLocation } from "./location.js";
 import {
   CloudflareChallengeError,
   getRetryableProxyErrorCode,
@@ -22,6 +25,12 @@ import {
   ProxyConnectionError,
 } from "./navigation.js";
 import { createIPRoyalSessionId, withIPRoyalSession } from "./proxy.js";
+import {
+  buildNewUnitedStatesListingUrl,
+  CURRENT_STATE_VERSION,
+  isExpectedNewUnitedStatesListingUrl,
+  needsNewUnitedStatesBaseline,
+} from "./search.js";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const statePath = process.env.STATE_PATH || path.join(projectRoot, "data", "state.json");
@@ -43,13 +52,17 @@ let lastNavigationAt = 0;
 const brands = {
   ap: {
     label: "Angelic Pretty",
-    url: "https://egl.circlly.com/angelic-pretty/dresses",
+    slug: "angelic-pretty",
   },
   baby: {
     label: "Baby the Stars Shine Bright",
-    url: "https://egl.circlly.com/baby-the-stars-shine-bright/dresses",
+    slug: "baby-the-stars-shine-bright",
   },
 };
+
+for (const brand of Object.values(brands)) {
+  brand.url = buildNewUnitedStatesListingUrl(brand.slug);
+}
 
 const blockedThirdPartyHosts = [
   "criteo.com",
@@ -154,27 +167,24 @@ async function gotoWithRetry(page, url, label, validatePage) {
   throw lastError;
 }
 
-async function assertUsableListingPage(page, brand, bodyText) {
-
+async function assertUsableListingPage(page, brand) {
   const heading = await page.locator("h1").first().innerText({ timeout: 20_000 });
-  if (!heading.includes(brand.label) || !heading.includes("Dresses")) {
+  if (heading.trim() !== "New Listings") {
     throw new Error(`${brand.label}: unexpected listing page heading: ${heading}`);
   }
 
-  if (!/Created Date\s*▼/.test(bodyText)) {
-    throw new Error(`${brand.label}: listing order is not confirmed as Created Date descending`);
+  if (!isExpectedNewUnitedStatesListingUrl(page.url(), brand.slug)) {
+    throw new Error(
+      `${brand.label}: New/USA filters were not preserved: ${page.url()}`,
+    );
   }
 }
 
 async function readListingPage(navigator, url, brand) {
   return navigator.withPage(async (page) => {
-    await gotoWithRetry(page, url, brand.label, (currentPage, bodyText) =>
-      assertUsableListingPage(currentPage, brand, bodyText),
+    await gotoWithRetry(page, url, brand.label, (currentPage) =>
+      assertUsableListingPage(currentPage, brand),
     );
-    await page.locator(".grid-list-item-content").first().waitFor({
-      state: "attached",
-      timeout: 20_000,
-    });
 
     const rawListings = await page.locator(".grid-list-item-content").evaluateAll((cards) =>
       cards.map((card) => {
@@ -191,8 +201,15 @@ async function readListingPage(navigator, url, brand) {
       }),
     );
     const listings = uniqueListings(rawListings);
-    if (listings.length === 0) {
-      throw new Error(`${brand.label}: no listing links found`);
+    if (rawListings.length > 0 && listings.length === 0) {
+      throw new Error(`${brand.label}: listing cards did not contain valid auction links`);
+    }
+
+    const unexpectedRibbons = listings.filter((listing) => !hasNewListingBadge(listing));
+    if (unexpectedRibbons.length > 0) {
+      throw new Error(
+        `${brand.label}: New-only page contained ${unexpectedRibbons.length} listing(s) without an exact New ribbon`,
+      );
     }
 
     const nextLink = page.getByRole("link", { name: "Next →", exact: true });
@@ -213,11 +230,12 @@ async function scanBrand(navigator, brandKey, brand, brandState) {
     const result = await readListingPage(navigator, nextUrl, brand);
     pages.push(result.listings);
 
-    const detection = findCandidatesBeforeAnchor(pages, brandState.frontier, brandState.seen);
-    if (detection.anchorFound) {
+    if (!result.nextUrl) {
+      const observedListings = uniqueListings(pages.flat());
       return {
         brandKey,
-        candidates: detection.candidates,
+        candidates: findUnseenNewListings(pages, brandState.seen),
+        observedListings,
         frontier: pages[0].map((listing) => listing.url),
         pagesScanned: pageNumber,
       };
@@ -226,7 +244,9 @@ async function scanBrand(navigator, brandKey, brand, brandState) {
     nextUrl = result.nextUrl;
   }
 
-  throw new Error(`${brand.label}: no known waterline URL found within ${maxPages} pages`);
+  throw new Error(
+    `${brand.label}: New/USA results exceed ${maxPages} pages; refusing a partial scan`,
+  );
 }
 
 async function readLabelledText(page, selector, label) {
@@ -311,6 +331,7 @@ async function readListingDetails(navigator, candidate, brandKey, brand) {
 
 async function sendAlert(listings) {
   const mail = buildAlertEmail(listings);
+  const recipients = buildRecipients(process.env.SMTP_USER, process.env.ALERT_EMAIL);
   const smtpPort = Number.parseInt(process.env.SMTP_PORT || "465", 10);
   const transporter = nodemailer.createTransport({
     host: process.env.SMTP_HOST || "smtp.gmail.com",
@@ -322,13 +343,18 @@ async function sendAlert(listings) {
     },
   });
 
-  await transporter.sendMail({
+  const deliveryInfo = await transporter.sendMail({
     from: `Lace Market Monitor <${process.env.SMTP_USER}>`,
-    to: buildRecipients(process.env.SMTP_USER, process.env.ALERT_EMAIL),
+    to: recipients,
     subject: mail.subject,
     text: mail.text,
     html: mail.html,
   });
+  const delivery = assertAllRecipientsAccepted(recipients, deliveryInfo);
+  console.log(
+    `Email accepted by all configured recipients ` +
+      `(${delivery.acceptedCount}/${delivery.recipientCount}).`,
+  );
 }
 
 function buildProxy(rotationMode) {
@@ -461,66 +487,58 @@ async function runMonitorAttempt(state, navigator) {
     scans.push(await scanBrand(navigator, brandKey, brand, state.brands[brandKey]));
   }
 
+  const baselineOnly = needsNewUnitedStatesBaseline(state);
   const candidateDetails = [];
-  const skippedRelistListings = [];
   const skippedNonDressListings = [];
-  for (const scan of scans) {
-    for (const candidate of scan.candidates) {
-      if (!hasNewListingBadge(candidate)) {
-        skippedRelistListings.push({ ...candidate, brandKey: scan.brandKey });
-        continue;
-      }
-
-      const detail = await readListingDetails(
-        navigator,
-        candidate,
-        scan.brandKey,
-        brands[scan.brandKey],
-      );
-      if (detail.skippedNonDress) {
-        skippedNonDressListings.push(detail);
-      } else {
-        candidateDetails.push(detail);
+  if (baselineOnly) {
+    const baselineCount = scans.reduce(
+      (total, scan) => total + scan.observedListings.length,
+      0,
+    );
+    console.log(
+      `Initializing New/USA monitoring baseline with ${baselineCount} current listing(s); ` +
+        `no historical alerts will be sent.`,
+    );
+  } else {
+    for (const scan of scans) {
+      for (const candidate of scan.candidates) {
+        const detail = await readListingDetails(
+          navigator,
+          candidate,
+          scan.brandKey,
+          brands[scan.brandKey],
+        );
+        if (detail.skippedNonDress) {
+          skippedNonDressListings.push(detail);
+        } else {
+          candidateDetails.push(detail);
+        }
       }
     }
   }
 
-  const details = candidateDetails.filter((listing) =>
-    isUnitedStatesSellerLocation(listing.sellerLocation),
-  );
-  const skippedNonUsListings = candidateDetails.filter(
-    (listing) => !isUnitedStatesSellerLocation(listing.sellerLocation),
-  );
-
-  if (details.length > 0) {
+  if (!baselineOnly && candidateDetails.length > 0) {
     if (dryRun) {
       console.log(
         JSON.stringify(
           {
             dryRun: true,
-            newListings: details,
-            skippedNonUsListings,
+            newListings: candidateDetails,
             skippedNonDressListings,
-            skippedRelistListings,
           },
           null,
           2,
         ),
       );
     } else {
-      await sendAlert(details);
+      await sendAlert(candidateDetails);
     }
-  } else {
+  } else if (!baselineOnly) {
     console.log("No first-time New listings from US sellers found.");
-    if (
-      dryRun &&
-      (skippedNonUsListings.length > 0 ||
-        skippedNonDressListings.length > 0 ||
-        skippedRelistListings.length > 0)
-    ) {
+    if (dryRun && skippedNonDressListings.length > 0) {
       console.log(
         JSON.stringify(
-          { dryRun: true, skippedNonUsListings, skippedNonDressListings, skippedRelistListings },
+          { dryRun: true, skippedNonDressListings },
           null,
           2,
         ),
@@ -529,18 +547,6 @@ async function runMonitorAttempt(state, navigator) {
   }
 
   const seenStatus = dryRun ? "would be recorded as seen" : "were recorded as seen";
-  if (skippedRelistListings.length > 0) {
-    console.log(
-      `Skipped ${skippedRelistListings.length} relisted listing(s); they ${seenStatus}.`,
-    );
-  }
-
-  if (skippedNonUsListings.length > 0) {
-    console.log(
-      `Skipped ${skippedNonUsListings.length} non-US listing(s); they ${seenStatus}.`,
-    );
-  }
-
   if (skippedNonDressListings.length > 0) {
     console.log(
       `Skipped ${skippedNonDressListings.length} non-dress listing(s); they ${seenStatus}.`,
@@ -548,17 +554,22 @@ async function runMonitorAttempt(state, navigator) {
   }
 
   if (!dryRun) {
+    const checkedAt = new Date().toISOString();
     for (const scan of scans) {
       const brandState = state.brands[scan.brandKey];
       brandState.frontier = scan.frontier;
       brandState.seen = mergeSeen(
         brandState.seen,
-        scan.candidates.map((candidate) => candidate.url),
+        scan.observedListings.map((listing) => listing.url),
       );
       brandState.lastPagesScanned = scan.pagesScanned;
     }
 
-    state.lastSuccessfulCheckAt = new Date().toISOString();
+    state.version = CURRENT_STATE_VERSION;
+    if (baselineOnly) {
+      state.newUnitedStatesBaselineAt = checkedAt;
+    }
+    state.lastSuccessfulCheckAt = checkedAt;
     await saveState(state);
   }
 }

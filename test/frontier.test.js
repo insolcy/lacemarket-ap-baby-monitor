@@ -2,9 +2,13 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import { classifyListingDetails } from "../src/classification.js";
-import { buildAlertEmail, buildRecipients } from "../src/email.js";
 import {
-  findCandidatesBeforeAnchor,
+  assertAllRecipientsAccepted,
+  buildAlertEmail,
+  buildRecipients,
+} from "../src/email.js";
+import {
+  findUnseenNewListings,
   hasNewListingBadge,
   isListingUrl,
   mergeSeen,
@@ -18,6 +22,12 @@ import {
   ProxyConnectionError,
 } from "../src/navigation.js";
 import { createIPRoyalSessionId, withIPRoyalSession } from "../src/proxy.js";
+import {
+  buildNewUnitedStatesListingUrl,
+  CURRENT_STATE_VERSION,
+  isExpectedNewUnitedStatesListingUrl,
+  needsNewUnitedStatesBaseline,
+} from "../src/search.js";
 
 test("recognizes real listing URLs and rejects search URLs", () => {
   assert.equal(isListingUrl("https://egl.circlly.com/auctions/new-dress"), true);
@@ -49,42 +59,80 @@ test("only recognizes the site's exact New ribbon as a first-time listing", () =
   assert.equal(hasNewListingBadge({}), false);
 });
 
-test("only treats URLs before the first known waterline URL as new", () => {
-  const result = findCandidatesBeforeAnchor(
+test("detects unseen New listings even when known listings appear before and after them", () => {
+  const result = findUnseenNewListings(
     [
       [
-        { title: "New A", url: "https://egl.circlly.com/auctions/new-a" },
-        { title: "New B", url: "https://egl.circlly.com/auctions/new-b" },
+        {
+          title: "Known Relist",
+          url: "https://egl.circlly.com/auctions/known-relist",
+          ribbonText: "New",
+        },
+        {
+          title: "Missed New",
+          url: "https://egl.circlly.com/auctions/missed-new",
+          ribbonText: "New",
+        },
+        {
+          title: "Known Old",
+          url: "https://egl.circlly.com/auctions/known-old",
+          ribbonText: "New",
+        },
       ],
       [
-        { title: "Old Anchor", url: "https://egl.circlly.com/auctions/anchor" },
-        { title: "Older", url: "https://egl.circlly.com/auctions/older" },
+        {
+          title: "Second-page New",
+          url: "https://egl.circlly.com/auctions/second-page-new",
+          ribbonText: "New",
+        },
       ],
     ],
-    ["https://egl.circlly.com/auctions/anchor"],
-    [],
+    [
+      "https://egl.circlly.com/auctions/known-relist",
+      "https://egl.circlly.com/auctions/known-old",
+    ],
   );
 
-  assert.equal(result.anchorFound, true);
   assert.deepEqual(
-    result.candidates.map((item) => item.url),
-    ["https://egl.circlly.com/auctions/new-a", "https://egl.circlly.com/auctions/new-b"],
+    result.map((item) => item.url),
+    [
+      "https://egl.circlly.com/auctions/missed-new",
+      "https://egl.circlly.com/auctions/second-page-new",
+    ],
   );
 });
 
-test("returns no candidates when no known anchor is found", () => {
-  const result = findCandidatesBeforeAnchor(
-    [[{ title: "Unknown", url: "https://egl.circlly.com/auctions/unknown" }]],
-    ["https://egl.circlly.com/auctions/anchor"],
+test("ignores unseen listings without the site's exact New ribbon", () => {
+  const result = findUnseenNewListings(
+    [[
+      {
+        title: "Relisted",
+        url: "https://egl.circlly.com/auctions/relisted",
+        ribbonText: "Relisted",
+      },
+      {
+        title: "New",
+        url: "https://egl.circlly.com/auctions/new",
+        ribbonText: "New",
+      },
+    ]],
     [],
   );
 
-  assert.equal(result.anchorFound, false);
-  assert.deepEqual(result.candidates, []);
+  assert.deepEqual(result.map((item) => item.url), [
+    "https://egl.circlly.com/auctions/new",
+  ]);
 });
 
 test("merges seen URLs without duplicates", () => {
   assert.deepEqual(mergeSeen(["b", "c"], ["a", "b"]), ["a", "b", "c"]);
+});
+
+test("never evicts old seen URLs", () => {
+  const existing = Array.from({ length: 5_100 }, (_, index) => `old-${index}`);
+  const result = mergeSeen(existing, ["new"]);
+  assert.equal(result.length, 5_101);
+  assert.equal(result.at(-1), "old-5099");
 });
 
 test("email includes listing details and clickable URLs", () => {
@@ -134,6 +182,46 @@ test("always emails the sender and adds configured recipients without duplicates
     "owner@gmail.com",
     "joy@example.com",
   ]);
+});
+
+test("requires SMTP acceptance from every configured recipient", () => {
+  assert.deepEqual(
+    assertAllRecipientsAccepted(
+      ["owner@gmail.com", "joy@example.com"],
+      { accepted: ["owner@gmail.com", "Joy <joy@example.com>"], rejected: [] },
+    ),
+    { acceptedCount: 2, recipientCount: 2 },
+  );
+
+  assert.throws(
+    () =>
+      assertAllRecipientsAccepted(
+        ["owner@gmail.com", "joy@example.com"],
+        { accepted: ["owner@gmail.com"], rejected: ["joy@example.com"] },
+      ),
+    /accepted=1\/2, rejected=1/,
+  );
+});
+
+test("builds and validates fail-closed New plus USA search URLs", () => {
+  const url = buildNewUnitedStatesListingUrl("angelic-pretty", 2);
+  assert.equal(isExpectedNewUnitedStatesListingUrl(url, "angelic-pretty"), true);
+
+  const missingRegion = new URL(url);
+  missingRegion.searchParams.delete("f[region][]");
+  assert.equal(
+    isExpectedNewUnitedStatesListingUrl(missingRegion.href, "angelic-pretty"),
+    false,
+  );
+
+  const wrongBrand = new URL(url);
+  wrongBrand.searchParams.set("f[brand][]", "baby-the-stars-shine-bright");
+  assert.equal(isExpectedNewUnitedStatesListingUrl(wrongBrand.href, "angelic-pretty"), false);
+});
+
+test("requires one baseline-only run when upgrading to New plus USA detection", () => {
+  assert.equal(needsNewUnitedStatesBaseline({ version: 1 }), true);
+  assert.equal(needsNewUnitedStatesBaseline({ version: CURRENT_STATE_VERSION }), false);
 });
 
 test("recognizes US seller locations without matching shipping text", () => {

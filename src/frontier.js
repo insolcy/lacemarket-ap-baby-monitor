@@ -29,26 +29,14 @@ export function hasNewListingBadge(listing) {
   return String(listing.ribbonText || "").trim().toLowerCase() === "new";
 }
 
-export function findCandidatesBeforeAnchor(pages, frontierUrls, seenUrls) {
-  const known = new Set([...frontierUrls, ...seenUrls]);
-  const candidates = [];
-  let anchorUrl = null;
-
-  for (const page of pages) {
-    for (const listing of page) {
-      if (known.has(listing.url)) {
-        anchorUrl = listing.url;
-        return { anchorFound: true, anchorUrl, candidates };
-      }
-
-      candidates.push(listing);
-    }
-  }
-
-  return { anchorFound: false, anchorUrl, candidates: [] };
+export function findUnseenNewListings(pages, seenUrls) {
+  const seen = new Set(seenUrls);
+  return pages
+    .flat()
+    .filter((listing) => hasNewListingBadge(listing) && !seen.has(listing.url));
 }
 
-export function mergeSeen(existingUrls, newUrls, limit = 5000) {
+export function mergeSeen(existingUrls, newUrls) {
   const merged = [...new Set([...newUrls, ...existingUrls])];
-  return merged.slice(0, limit);
+  return merged;
 }
