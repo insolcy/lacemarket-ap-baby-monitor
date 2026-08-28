@@ -1,7 +1,7 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-28T23:26:36.045Z",
+  "lastSuccessfulCheckAt": "2026-08-28T23:32:44.553Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -47,7 +47,6 @@
         "https://egl.circlly.com/auctions/ap-toe-shoes-otks-2014-85c4491f-030f-4bd0-b56c-614160f9fd60",
         "https://egl.circlly.com/auctions/ap-toe-shoes-otks-2014",
         "https://egl.circlly.com/auctions/ap-celestial-jsk-major-dmg-and-change",
-        "https://egl.circlly.com/auctions/royal-chocolate-boston-bag-ap-major-dmg",
         "https://egl.circlly.com/auctions/angelic-pretty-girl-s-heart-skirt-3-matching-bows-plus-size-friendly",
         "https://egl.circlly.com/auctions/angelic-pretty-lyrical-party-going-out-set-ec4431d0-533b-4e21-afb7-38527a82e275",
         "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-shirring-jsk-hb",
@@ -76,6 +75,7 @@
         "https://egl.circlly.com/auctions/flower-egg-garden-jsk-in-lavender-color",
         "https://egl.circlly.com/auctions/angelic-pretty-campus-girl-op",
         "https://egl.circlly.com/auctions/angelic-pretty-gingham-color-scheme-shoulder-ribbon-jsk-kc-2021",
+        "https://egl.circlly.com/auctions/royal-chocolate-boston-bag-ap-major-dmg",
         "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
         "https://egl.circlly.com/auctions/ap-lemonade-float-jsk-f6ff1073-23ca-44cf-acdf-dc13a92f7756",
         "https://egl.circlly.com/auctions/btssb-headbow-and-wristcuffs-set",
@@ -601,6 +601,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/nwot-kumya-s-harvest-festival-tote-bag-harajuku-limited-red",
         "https://egl.circlly.com/auctions/btssb-kumya-s-harvest-festival-jsk-i-navy-otks",
         "https://egl.circlly.com/auctions/btssb-wicked-queen-s-poison-cellar-skirt-black",
         "https://egl.circlly.com/auctions/nwt-btssb-kumya-s-kira-kira-sweets-halloween-ribbon-clips",
@@ -611,10 +612,10 @@
         "https://egl.circlly.com/auctions/btssb-princess-drop-swing-ribbon-comb-2020",
         "https://egl.circlly.com/auctions/btssb-ribbon-basket-bag-2010",
         "https://egl.circlly.com/auctions/btssb-black-cameron-head-bow",
-        "https://egl.circlly.com/auctions/btssb-lace-up-cutsew-2007",
-        "https://egl.circlly.com/auctions/btssb-cherry-parade-square-neck-blouse-2012"
+        "https://egl.circlly.com/auctions/btssb-lace-up-cutsew-2007"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/nwot-kumya-s-harvest-festival-tote-bag-harajuku-limited-red",
         "https://egl.circlly.com/auctions/btssb-kumya-s-harvest-festival-jsk-i-navy-otks",
         "https://egl.circlly.com/auctions/btssb-wicked-queen-s-poison-cellar-skirt-black",
         "https://egl.circlly.com/auctions/nwt-btssb-kumya-s-kira-kira-sweets-halloween-ribbon-clips",
