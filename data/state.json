@@ -1,7 +1,7 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-28T20:04:14.026Z",
+  "lastSuccessfulCheckAt": "2026-08-28T20:13:00.589Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -600,6 +600,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-wicked-queen-s-poison-cellar-skirt-black",
         "https://egl.circlly.com/auctions/nwt-btssb-kumya-s-kira-kira-sweets-halloween-ribbon-clips",
         "https://egl.circlly.com/auctions/nwt-btssb-christina-bouquet-princess-jsk-and-headdress",
         "https://egl.circlly.com/auctions/btssb-satin-ribbon-tulle-wrist-cuffs-white",
@@ -610,10 +611,10 @@
         "https://egl.circlly.com/auctions/btssb-black-cameron-head-bow",
         "https://egl.circlly.com/auctions/btssb-lace-up-cutsew-2007",
         "https://egl.circlly.com/auctions/btssb-cherry-parade-square-neck-blouse-2012",
-        "https://egl.circlly.com/auctions/btssb-2006-double-frill-standing-collar-blouse-blouse",
-        "https://egl.circlly.com/auctions/berry-sweet-bouquet-gingham-canotier"
+        "https://egl.circlly.com/auctions/btssb-2006-double-frill-standing-collar-blouse-blouse"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-wicked-queen-s-poison-cellar-skirt-black",
         "https://egl.circlly.com/auctions/nwt-btssb-kumya-s-kira-kira-sweets-halloween-ribbon-clips",
         "https://egl.circlly.com/auctions/nwt-btssb-christina-bouquet-princess-jsk-and-headdress",
         "https://egl.circlly.com/auctions/btssb-satin-ribbon-tulle-wrist-cuffs-white",
