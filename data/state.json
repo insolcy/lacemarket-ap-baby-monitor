@@ -1,11 +1,13 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-28T09:24:59.258Z",
+  "lastSuccessfulCheckAt": "2026-08-28T13:22:41.554Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/leaving-lolita-ap-magical-horoscope-white",
+        "https://egl.circlly.com/auctions/leaving-lolita-elizabeth-unicorn-op-navy",
         "https://egl.circlly.com/auctions/angelic-pretty-milky-planet-headbow-in-sax-2010",
         "https://egl.circlly.com/auctions/dreamy-baby-room-jsk-pink",
         "https://egl.circlly.com/auctions/creamy-cherry-angelic-pretty-op",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/orange-pumpkin-holy-lantern-jsk-perfect-for-halloween",
         "https://egl.circlly.com/auctions/dream-color-gingham-jsk",
         "https://egl.circlly.com/auctions/ap-dressy-tulle-jsk",
-        "https://egl.circlly.com/auctions/ap-milk-cat-face-3-way-bag-in-black",
-        "https://egl.circlly.com/auctions/angelic-pretty-dream-marine-op-barrette-set-in-navy",
-        "https://egl.circlly.com/auctions/nwt-angelic-pretty-cutest-heart-dress-set"
+        "https://egl.circlly.com/auctions/ap-milk-cat-face-3-way-bag-in-black"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/leaving-lolita-ap-magical-horoscope-white",
+        "https://egl.circlly.com/auctions/leaving-lolita-elizabeth-unicorn-op-navy",
         "https://egl.circlly.com/auctions/angelic-pretty-milky-planet-headbow-in-sax-2010",
         "https://egl.circlly.com/auctions/dreamy-baby-room-jsk-pink",
         "https://egl.circlly.com/auctions/creamy-cherry-angelic-pretty-op",
@@ -578,7 +580,6 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-collar-and-muffler-set-has-flaws",
         "https://egl.circlly.com/auctions/btssb-panier-petticoat",
         "https://egl.circlly.com/auctions/nwt-btssb-christina-bouquet-princess-jsk-and-headdress",
         "https://egl.circlly.com/auctions/btssb-satin-ribbon-tulle-wrist-cuffs-white",
@@ -589,10 +590,10 @@
         "https://egl.circlly.com/auctions/btssb-black-cameron-head-bow",
         "https://egl.circlly.com/auctions/btssb-lace-up-cutsew-2007",
         "https://egl.circlly.com/auctions/btssb-cherry-parade-square-neck-blouse-2012",
-        "https://egl.circlly.com/auctions/btssb-2006-double-frill-standing-collar-blouse-blouse"
+        "https://egl.circlly.com/auctions/btssb-2006-double-frill-standing-collar-blouse-blouse",
+        "https://egl.circlly.com/auctions/berry-sweet-bouquet-gingham-canotier"
       ],
       "seen": [
-        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-collar-and-muffler-set-has-flaws",
         "https://egl.circlly.com/auctions/btssb-panier-petticoat",
         "https://egl.circlly.com/auctions/nwt-btssb-christina-bouquet-princess-jsk-and-headdress",
         "https://egl.circlly.com/auctions/btssb-satin-ribbon-tulle-wrist-cuffs-white",
@@ -627,6 +628,7 @@
         "https://egl.circlly.com/auctions/scarlet-primavera-waltz-op-baby-the-stars-shine-bright-rare-special-reserve-set-2013",
         "https://egl.circlly.com/auctions/pony-in-sweet-dream-baby-the-stars-shine-bright-jsk",
         "https://egl.circlly.com/auctions/my-favorite-things-baby-the-stars-shine-bright",
+        "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-collar-and-muffler-set-has-flaws",
         "https://egl.circlly.com/auctions/charity-auction-btssb-wonder-pocket-biscuit-bag",
         "https://egl.circlly.com/auctions/btssb-millefeuille-jsk-sax-no-usa-shipping",
         "https://egl.circlly.com/auctions/btssb-lace-frill-jsk-black-x-white-no-usa-shipping",
