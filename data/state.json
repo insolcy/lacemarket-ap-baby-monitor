@@ -1,11 +1,13 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-28T18:42:21.596Z",
+  "lastSuccessfulCheckAt": "2026-08-28T18:53:06.688Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-into-a-dream-carnival-plush-bag",
+        "https://egl.circlly.com/auctions/nwot-angelic-pretty-compact-toys-jsk-kc-in-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-ribbon-hat-pink",
         "https://egl.circlly.com/auctions/leaving-lolita-ap-misty-sky-jsk-and-headbow",
         "https://egl.circlly.com/auctions/leaving-lolita-ap-magical-horoscope-white",
@@ -15,11 +17,11 @@
         "https://egl.circlly.com/auctions/creamy-cherry-angelic-pretty-op",
         "https://egl.circlly.com/auctions/princess-over-blouse",
         "https://egl.circlly.com/auctions/angelic-pretty-milky-chan-the-fawn-jewelry-set",
-        "https://egl.circlly.com/auctions/ap-dream-marine-jsk-4-piece-full-set-in-white",
-        "https://egl.circlly.com/auctions/orange-pumpkin-holy-lantern-jsk-perfect-for-halloween",
-        "https://egl.circlly.com/auctions/dream-color-gingham-jsk"
+        "https://egl.circlly.com/auctions/ap-dream-marine-jsk-4-piece-full-set-in-white"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-into-a-dream-carnival-plush-bag",
+        "https://egl.circlly.com/auctions/nwot-angelic-pretty-compact-toys-jsk-kc-in-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-ribbon-hat-pink",
         "https://egl.circlly.com/auctions/leaving-lolita-ap-misty-sky-jsk-and-headbow",
         "https://egl.circlly.com/auctions/leaving-lolita-ap-magical-horoscope-white",
@@ -72,12 +74,12 @@
         "https://egl.circlly.com/auctions/frill-princess-coat-angelic-pretty",
         "https://egl.circlly.com/auctions/chandelier-print-jsk-angelic-pretty",
         "https://egl.circlly.com/auctions/country-of-sweets-triple-frill-jsk-3-angelic-pretty",
-        "https://egl.circlly.com/auctions/btssb-headbow-and-wristcuffs-set",
-        "https://egl.circlly.com/auctions/burgandy-innocent-world-long-sleeve-sailor-op",
         "https://egl.circlly.com/auctions/star-night-theater-angelic-pretty-set",
         "https://egl.circlly.com/auctions/flower-egg-garden-jsk-in-lavender-color",
         "https://egl.circlly.com/auctions/angelic-pretty-campus-girl-op",
         "https://egl.circlly.com/auctions/angelic-pretty-gingham-color-scheme-shoulder-ribbon-jsk-kc-2021",
+        "https://egl.circlly.com/auctions/btssb-headbow-and-wristcuffs-set",
+        "https://egl.circlly.com/auctions/burgandy-innocent-world-long-sleeve-sailor-op",
         "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
         "https://egl.circlly.com/auctions/boguta-ribbon-bag",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-strawberry-shoulder-bag",
