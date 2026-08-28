@@ -1,12 +1,11 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-28T19:02:33.966Z",
+  "lastSuccessfulCheckAt": "2026-08-28T19:12:28.024Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
-        "https://egl.circlly.com/auctions/nwt-angelic-pretty-into-a-dream-carnival-plush-bag",
         "https://egl.circlly.com/auctions/nwot-angelic-pretty-compact-toys-jsk-kc-in-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-ribbon-hat-pink",
         "https://egl.circlly.com/auctions/leaving-lolita-ap-misty-sky-jsk-and-headbow",
@@ -17,10 +16,10 @@
         "https://egl.circlly.com/auctions/creamy-cherry-angelic-pretty-op",
         "https://egl.circlly.com/auctions/princess-over-blouse",
         "https://egl.circlly.com/auctions/angelic-pretty-milky-chan-the-fawn-jewelry-set",
-        "https://egl.circlly.com/auctions/ap-dream-marine-jsk-4-piece-full-set-in-white"
+        "https://egl.circlly.com/auctions/ap-dream-marine-jsk-4-piece-full-set-in-white",
+        "https://egl.circlly.com/auctions/orange-pumpkin-holy-lantern-jsk-perfect-for-halloween"
       ],
       "seen": [
-        "https://egl.circlly.com/auctions/nwt-angelic-pretty-into-a-dream-carnival-plush-bag",
         "https://egl.circlly.com/auctions/nwot-angelic-pretty-compact-toys-jsk-kc-in-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-ribbon-hat-pink",
         "https://egl.circlly.com/auctions/leaving-lolita-ap-misty-sky-jsk-and-headbow",
@@ -73,14 +72,16 @@
         "https://egl.circlly.com/auctions/lyrical-party-going-out-set-set-angelic-pretty",
         "https://egl.circlly.com/auctions/frill-princess-coat-angelic-pretty",
         "https://egl.circlly.com/auctions/chandelier-print-jsk-angelic-pretty",
+        "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
+        "https://egl.circlly.com/auctions/automatic-honey-ring-a1dcba76-0803-497c-98ec-d3d17b214b0a",
         "https://egl.circlly.com/auctions/country-of-sweets-triple-frill-jsk-3-angelic-pretty",
         "https://egl.circlly.com/auctions/star-night-theater-angelic-pretty-set",
         "https://egl.circlly.com/auctions/flower-egg-garden-jsk-in-lavender-color",
         "https://egl.circlly.com/auctions/angelic-pretty-campus-girl-op",
         "https://egl.circlly.com/auctions/angelic-pretty-gingham-color-scheme-shoulder-ribbon-jsk-kc-2021",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-into-a-dream-carnival-plush-bag",
         "https://egl.circlly.com/auctions/btssb-headbow-and-wristcuffs-set",
         "https://egl.circlly.com/auctions/burgandy-innocent-world-long-sleeve-sailor-op",
-        "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
         "https://egl.circlly.com/auctions/boguta-ribbon-bag",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-strawberry-shoulder-bag",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-parfait-op-in-white-e17fdabe-f757-4870-bc58-708e67b43d3b",
@@ -597,6 +598,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/nwt-btssb-kumya-s-kira-kira-sweets-halloween-ribbon-clips",
         "https://egl.circlly.com/auctions/nwt-btssb-christina-bouquet-princess-jsk-and-headdress",
         "https://egl.circlly.com/auctions/btssb-satin-ribbon-tulle-wrist-cuffs-white",
         "https://egl.circlly.com/auctions/btssb-rin-chan-s-twinkle-fairy-blouse",
@@ -607,10 +609,10 @@
         "https://egl.circlly.com/auctions/btssb-lace-up-cutsew-2007",
         "https://egl.circlly.com/auctions/btssb-cherry-parade-square-neck-blouse-2012",
         "https://egl.circlly.com/auctions/btssb-2006-double-frill-standing-collar-blouse-blouse",
-        "https://egl.circlly.com/auctions/berry-sweet-bouquet-gingham-canotier",
-        "https://egl.circlly.com/auctions/btssb-usakumya-face-bag-nwot-7b34559b-40c0-4678-a5c2-6526132819c6"
+        "https://egl.circlly.com/auctions/berry-sweet-bouquet-gingham-canotier"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/nwt-btssb-kumya-s-kira-kira-sweets-halloween-ribbon-clips",
         "https://egl.circlly.com/auctions/nwt-btssb-christina-bouquet-princess-jsk-and-headdress",
         "https://egl.circlly.com/auctions/btssb-satin-ribbon-tulle-wrist-cuffs-white",
         "https://egl.circlly.com/auctions/btssb-rin-chan-s-twinkle-fairy-blouse",
