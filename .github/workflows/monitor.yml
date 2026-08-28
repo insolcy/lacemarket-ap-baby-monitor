@@ -29,6 +29,10 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
         with:
+          # A queued run keeps the SHA from when it was triggered. Always resolve
+          # main when the job actually starts so it inherits the previous run's
+          # state commit before scanning and writing data/state.json.
+          ref: main
           fetch-depth: 0
 
       - name: Set up Node.js
