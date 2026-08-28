@@ -1,7 +1,7 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-28T00:34:00.804Z",
+  "lastSuccessfulCheckAt": "2026-08-28T03:32:02.686Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -15,9 +15,9 @@
         "https://egl.circlly.com/auctions/orange-pumpkin-holy-lantern-jsk-perfect-for-halloween",
         "https://egl.circlly.com/auctions/dream-color-gingham-jsk",
         "https://egl.circlly.com/auctions/ap-dressy-tulle-jsk",
-        "https://egl.circlly.com/auctions/angelic-pretty-marquise-op-bnt",
         "https://egl.circlly.com/auctions/ap-milk-cat-face-3-way-bag-in-black",
-        "https://egl.circlly.com/auctions/angelic-pretty-dream-marine-op-barrette-set-in-navy"
+        "https://egl.circlly.com/auctions/angelic-pretty-dream-marine-op-barrette-set-in-navy",
+        "https://egl.circlly.com/auctions/nwt-angelic-pretty-cutest-heart-dress-set"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/dreamy-baby-room-jsk-pink",
@@ -29,7 +29,6 @@
         "https://egl.circlly.com/auctions/orange-pumpkin-holy-lantern-jsk-perfect-for-halloween",
         "https://egl.circlly.com/auctions/dream-color-gingham-jsk",
         "https://egl.circlly.com/auctions/ap-dressy-tulle-jsk",
-        "https://egl.circlly.com/auctions/angelic-pretty-marquise-op-bnt",
         "https://egl.circlly.com/auctions/ap-milk-cat-face-3-way-bag-in-black",
         "https://egl.circlly.com/auctions/angelic-pretty-dream-marine-op-barrette-set-in-navy",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-cutest-heart-dress-set",
@@ -74,6 +73,7 @@
         "https://egl.circlly.com/auctions/flower-egg-garden-jsk-in-lavender-color",
         "https://egl.circlly.com/auctions/angelic-pretty-campus-girl-op",
         "https://egl.circlly.com/auctions/angelic-pretty-gingham-color-scheme-shoulder-ribbon-jsk-kc-2021",
+        "https://egl.circlly.com/auctions/angelic-pretty-marquise-op-bnt",
         "https://egl.circlly.com/auctions/castle-mirage-jsk-in-ivory-color",
         "https://egl.circlly.com/auctions/angelic-pretty-holy-night-story-switch-jsk-in-pink-damaged-altered",
         "https://egl.circlly.com/auctions/cotton-candy-short-sleeve-op-set-see-description",
