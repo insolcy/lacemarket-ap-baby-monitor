@@ -1,7 +1,7 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-28T23:21:21.461Z",
+  "lastSuccessfulCheckAt": "2026-08-28T23:26:36.045Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -642,7 +642,6 @@
         "https://egl.circlly.com/auctions/btssb-le-ruban-a-trois-couches-headdress-2025",
         "https://egl.circlly.com/auctions/btssb-juicy-baby-love-love-berries-printed-otks-2013",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-poodle-frill-frill-jsk-lavender-2009",
-        "https://egl.circlly.com/auctions/love-ribbon-bag-btssb-vintage",
         "https://egl.circlly.com/auctions/kuma-kumya-apron",
         "https://egl.circlly.com/auctions/doll-coronet-aria-op-baby-the-stars-shine-bright-rare-reserve-set",
         "https://egl.circlly.com/auctions/btssb-tartan-check-babydoll-jsk-red",
@@ -651,6 +650,7 @@
         "https://egl.circlly.com/auctions/scarlet-primavera-waltz-op-baby-the-stars-shine-bright-rare-special-reserve-set-2013",
         "https://egl.circlly.com/auctions/pony-in-sweet-dream-baby-the-stars-shine-bright-jsk",
         "https://egl.circlly.com/auctions/my-favorite-things-baby-the-stars-shine-bright",
+        "https://egl.circlly.com/auctions/love-ribbon-bag-btssb-vintage",
         "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
         "https://egl.circlly.com/auctions/atelier-17-prince-blouse-shirt-large-white-rhinestones-eternal-afterimage-ouji",
         "https://egl.circlly.com/auctions/btssb-headbow-and-wristcuffs-set",
