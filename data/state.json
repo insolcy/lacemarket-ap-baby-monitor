@@ -1,11 +1,12 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-28T19:12:28.024Z",
+  "lastSuccessfulCheckAt": "2026-08-28T19:24:14.258Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-fairy-snow-decoration-blouse-in-ivory-fa29ef94-f302-4ea2-90f1-60ef84a75ef0",
         "https://egl.circlly.com/auctions/nwot-angelic-pretty-compact-toys-jsk-kc-in-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-ribbon-hat-pink",
         "https://egl.circlly.com/auctions/leaving-lolita-ap-misty-sky-jsk-and-headbow",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/creamy-cherry-angelic-pretty-op",
         "https://egl.circlly.com/auctions/princess-over-blouse",
         "https://egl.circlly.com/auctions/angelic-pretty-milky-chan-the-fawn-jewelry-set",
-        "https://egl.circlly.com/auctions/ap-dream-marine-jsk-4-piece-full-set-in-white",
-        "https://egl.circlly.com/auctions/orange-pumpkin-holy-lantern-jsk-perfect-for-halloween"
+        "https://egl.circlly.com/auctions/ap-dream-marine-jsk-4-piece-full-set-in-white"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-fairy-snow-decoration-blouse-in-ivory-fa29ef94-f302-4ea2-90f1-60ef84a75ef0",
         "https://egl.circlly.com/auctions/nwot-angelic-pretty-compact-toys-jsk-kc-in-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-ribbon-hat-pink",
         "https://egl.circlly.com/auctions/leaving-lolita-ap-misty-sky-jsk-and-headbow",
@@ -72,13 +73,13 @@
         "https://egl.circlly.com/auctions/lyrical-party-going-out-set-set-angelic-pretty",
         "https://egl.circlly.com/auctions/frill-princess-coat-angelic-pretty",
         "https://egl.circlly.com/auctions/chandelier-print-jsk-angelic-pretty",
-        "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
-        "https://egl.circlly.com/auctions/automatic-honey-ring-a1dcba76-0803-497c-98ec-d3d17b214b0a",
         "https://egl.circlly.com/auctions/country-of-sweets-triple-frill-jsk-3-angelic-pretty",
         "https://egl.circlly.com/auctions/star-night-theater-angelic-pretty-set",
         "https://egl.circlly.com/auctions/flower-egg-garden-jsk-in-lavender-color",
         "https://egl.circlly.com/auctions/angelic-pretty-campus-girl-op",
         "https://egl.circlly.com/auctions/angelic-pretty-gingham-color-scheme-shoulder-ribbon-jsk-kc-2021",
+        "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
+        "https://egl.circlly.com/auctions/automatic-honey-ring-a1dcba76-0803-497c-98ec-d3d17b214b0a",
         "https://egl.circlly.com/auctions/nwt-angelic-pretty-into-a-dream-carnival-plush-bag",
         "https://egl.circlly.com/auctions/btssb-headbow-and-wristcuffs-set",
         "https://egl.circlly.com/auctions/burgandy-innocent-world-long-sleeve-sailor-op",
@@ -602,6 +603,8 @@
         "https://egl.circlly.com/auctions/nwt-btssb-christina-bouquet-princess-jsk-and-headdress",
         "https://egl.circlly.com/auctions/btssb-satin-ribbon-tulle-wrist-cuffs-white",
         "https://egl.circlly.com/auctions/btssb-rin-chan-s-twinkle-fairy-blouse",
+        "https://egl.circlly.com/auctions/btssb-headbow-and-wristcuffs-set",
+        "https://egl.circlly.com/auctions/ap-white-old-school-detachable-sleeves-blouse-angelic-pretty",
         "https://egl.circlly.com/auctions/meta-dot-frill-short-sleeve-blouse-ivory",
         "https://egl.circlly.com/auctions/btssb-princess-drop-swing-ribbon-comb-2020",
         "https://egl.circlly.com/auctions/btssb-ribbon-basket-bag-2010",
@@ -616,6 +619,8 @@
         "https://egl.circlly.com/auctions/nwt-btssb-christina-bouquet-princess-jsk-and-headdress",
         "https://egl.circlly.com/auctions/btssb-satin-ribbon-tulle-wrist-cuffs-white",
         "https://egl.circlly.com/auctions/btssb-rin-chan-s-twinkle-fairy-blouse",
+        "https://egl.circlly.com/auctions/btssb-headbow-and-wristcuffs-set",
+        "https://egl.circlly.com/auctions/ap-white-old-school-detachable-sleeves-blouse-angelic-pretty",
         "https://egl.circlly.com/auctions/meta-dot-frill-short-sleeve-blouse-ivory",
         "https://egl.circlly.com/auctions/btssb-princess-drop-swing-ribbon-comb-2020",
         "https://egl.circlly.com/auctions/btssb-ribbon-basket-bag-2010",
@@ -648,7 +653,6 @@
         "https://egl.circlly.com/auctions/my-favorite-things-baby-the-stars-shine-bright",
         "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
         "https://egl.circlly.com/auctions/handmade-button-hairclip",
-        "https://egl.circlly.com/auctions/btssb-headbow-and-wristcuffs-set",
         "https://egl.circlly.com/auctions/closet-cleaning-metamorphose-temps-de-fille-black-cat-and-the-magical-map-ribbon-jsk",
         "https://egl.circlly.com/auctions/hoshibako-works-violet-story-embroidery-brooch-clip",
         "https://egl.circlly.com/auctions/alice-and-the-pirates-headdress-31b50167-3284-4f01-9d33-c1120bd69ed0",
