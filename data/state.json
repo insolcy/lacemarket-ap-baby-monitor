@@ -1,11 +1,12 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-29T01:50:02.579Z",
+  "lastSuccessfulCheckAt": "2026-08-29T01:53:04.423Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/ap-sweet-torchon-ribbon-headbow-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-night-cake-blouse-in-white",
         "https://egl.circlly.com/auctions/angelic-pretty-fairy-snow-decoration-blouse-in-ivory-fa29ef94-f302-4ea2-90f1-60ef84a75ef0",
         "https://egl.circlly.com/auctions/nwot-angelic-pretty-compact-toys-jsk-kc-in-sax",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/angelic-pretty-milky-planet-headbow-in-sax-2010",
         "https://egl.circlly.com/auctions/creamy-cherry-angelic-pretty-op",
         "https://egl.circlly.com/auctions/princess-over-blouse",
-        "https://egl.circlly.com/auctions/angelic-pretty-milky-chan-the-fawn-jewelry-set",
-        "https://egl.circlly.com/auctions/ap-dream-marine-jsk-4-piece-full-set-in-white"
+        "https://egl.circlly.com/auctions/angelic-pretty-milky-chan-the-fawn-jewelry-set"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/ap-sweet-torchon-ribbon-headbow-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-night-cake-blouse-in-white",
         "https://egl.circlly.com/auctions/angelic-pretty-fairy-snow-decoration-blouse-in-ivory-fa29ef94-f302-4ea2-90f1-60ef84a75ef0",
         "https://egl.circlly.com/auctions/nwot-angelic-pretty-compact-toys-jsk-kc-in-sax",
