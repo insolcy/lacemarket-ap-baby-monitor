@@ -1,11 +1,12 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-29T02:03:02.232Z",
+  "lastSuccessfulCheckAt": "2026-08-29T02:13:24.913Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/dreamy-balloon-op-sax",
         "https://egl.circlly.com/auctions/ap-sweet-torchon-ribbon-headbow-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-night-cake-blouse-in-white",
         "https://egl.circlly.com/auctions/angelic-pretty-fairy-snow-decoration-blouse-in-ivory-fa29ef94-f302-4ea2-90f1-60ef84a75ef0",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/leaving-lolita-elizabeth-unicorn-op-navy",
         "https://egl.circlly.com/auctions/angelic-pretty-milky-planet-headbow-in-sax-2010",
         "https://egl.circlly.com/auctions/creamy-cherry-angelic-pretty-op",
-        "https://egl.circlly.com/auctions/princess-over-blouse",
-        "https://egl.circlly.com/auctions/angelic-pretty-milky-chan-the-fawn-jewelry-set"
+        "https://egl.circlly.com/auctions/princess-over-blouse"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/dreamy-balloon-op-sax",
         "https://egl.circlly.com/auctions/ap-sweet-torchon-ribbon-headbow-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-night-cake-blouse-in-white",
         "https://egl.circlly.com/auctions/angelic-pretty-fairy-snow-decoration-blouse-in-ivory-fa29ef94-f302-4ea2-90f1-60ef84a75ef0",
@@ -47,6 +48,8 @@
         "https://egl.circlly.com/auctions/ap-celestial-op-set-in-sax",
         "https://egl.circlly.com/auctions/ap-toe-shoes-otks-2014-85c4491f-030f-4bd0-b56c-614160f9fd60",
         "https://egl.circlly.com/auctions/ap-toe-shoes-otks-2014",
+        "https://egl.circlly.com/auctions/ap-victorian-tassel-jsk-and-tights",
+        "https://egl.circlly.com/auctions/happy-tartans-op",
         "https://egl.circlly.com/auctions/angelic-pretty-girl-s-heart-skirt-3-matching-bows-plus-size-friendly",
         "https://egl.circlly.com/auctions/angelic-pretty-lyrical-party-going-out-set-ec4431d0-533b-4e21-afb7-38527a82e275",
         "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-shirring-jsk-hb",
@@ -602,6 +605,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-ribbon-heart-bag-sax",
         "https://egl.circlly.com/auctions/btssb-sweet-wing-blouse-minor-damage",
         "https://egl.circlly.com/auctions/btssb-kumya-s-cherry-strawberry-jsk-i-pink-headbow-tote-bag",
         "https://egl.circlly.com/auctions/nwot-kumya-s-harvest-festival-tote-bag-harajuku-limited-red",
@@ -612,10 +616,10 @@
         "https://egl.circlly.com/auctions/btssb-satin-ribbon-tulle-wrist-cuffs-white",
         "https://egl.circlly.com/auctions/btssb-rin-chan-s-twinkle-fairy-blouse",
         "https://egl.circlly.com/auctions/meta-dot-frill-short-sleeve-blouse-ivory",
-        "https://egl.circlly.com/auctions/btssb-princess-drop-swing-ribbon-comb-2020",
-        "https://egl.circlly.com/auctions/btssb-ribbon-basket-bag-2010"
+        "https://egl.circlly.com/auctions/btssb-princess-drop-swing-ribbon-comb-2020"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-ribbon-heart-bag-sax",
         "https://egl.circlly.com/auctions/btssb-sweet-wing-blouse-minor-damage",
         "https://egl.circlly.com/auctions/btssb-kumya-s-cherry-strawberry-jsk-i-pink-headbow-tote-bag",
         "https://egl.circlly.com/auctions/nwot-kumya-s-harvest-festival-tote-bag-harajuku-limited-red",
