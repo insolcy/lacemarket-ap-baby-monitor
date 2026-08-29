@@ -1,7 +1,7 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-29T09:46:24.808Z",
+  "lastSuccessfulCheckAt": "2026-08-29T09:52:45.738Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -35,7 +35,6 @@
         "https://egl.circlly.com/auctions/leaving-lolita-ap-misty-sky-jsk-and-headbow",
         "https://egl.circlly.com/auctions/leaving-lolita-ap-magical-horoscope-white",
         "https://egl.circlly.com/auctions/leaving-lolita-elizabeth-unicorn-op-navy",
-        "https://egl.circlly.com/auctions/angelic-pretty-milky-planet-headbow-in-sax-2010",
         "https://egl.circlly.com/auctions/creamy-cherry-angelic-pretty-op",
         "https://egl.circlly.com/auctions/princess-over-blouse",
         "https://egl.circlly.com/auctions/angelic-pretty-milky-chan-the-fawn-jewelry-set",
@@ -79,6 +78,7 @@
         "https://egl.circlly.com/auctions/flower-egg-garden-jsk-in-lavender-color",
         "https://egl.circlly.com/auctions/angelic-pretty-campus-girl-op",
         "https://egl.circlly.com/auctions/angelic-pretty-gingham-color-scheme-shoulder-ribbon-jsk-kc-2021",
+        "https://egl.circlly.com/auctions/angelic-pretty-milky-planet-headbow-in-sax-2010",
         "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
         "https://egl.circlly.com/auctions/leur-getter-sailor-frill-cutsew-op",
         "https://egl.circlly.com/auctions/angelic-pretty-marianne-coat-mint",
