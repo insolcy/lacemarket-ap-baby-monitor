@@ -1,11 +1,12 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-29T02:35:10.263Z",
+  "lastSuccessfulCheckAt": "2026-08-29T02:42:38.856Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/ap-stripe-girly-cafe-op-set-red",
         "https://egl.circlly.com/auctions/dreamy-balloon-op-sax",
         "https://egl.circlly.com/auctions/ap-sweet-torchon-ribbon-headbow-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-night-cake-blouse-in-white",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/leaving-lolita-ap-magical-horoscope-white",
         "https://egl.circlly.com/auctions/leaving-lolita-elizabeth-unicorn-op-navy",
         "https://egl.circlly.com/auctions/angelic-pretty-milky-planet-headbow-in-sax-2010",
-        "https://egl.circlly.com/auctions/creamy-cherry-angelic-pretty-op",
-        "https://egl.circlly.com/auctions/princess-over-blouse"
+        "https://egl.circlly.com/auctions/creamy-cherry-angelic-pretty-op"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/ap-stripe-girly-cafe-op-set-red",
         "https://egl.circlly.com/auctions/dreamy-balloon-op-sax",
         "https://egl.circlly.com/auctions/ap-sweet-torchon-ribbon-headbow-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-night-cake-blouse-in-white",
@@ -635,6 +636,8 @@
         "https://egl.circlly.com/auctions/btssb-black-cameron-head-bow",
         "https://egl.circlly.com/auctions/btssb-lace-up-cutsew-2007",
         "https://egl.circlly.com/auctions/btssb-cherry-parade-square-neck-blouse-2012",
+        "https://egl.circlly.com/auctions/ap-victorian-tassel-jsk-and-tights",
+        "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
         "https://egl.circlly.com/auctions/btssb-2006-double-frill-standing-collar-blouse-blouse",
         "https://egl.circlly.com/auctions/berry-sweet-bouquet-gingham-canotier",
         "https://egl.circlly.com/auctions/btssb-usakumya-face-bag-nwot-7b34559b-40c0-4678-a5c2-6526132819c6",
@@ -799,7 +802,6 @@
         "https://egl.circlly.com/auctions/btsst-velveteen-babydoll-jsk-and-headdress-set-baby-the-stars-shine-bright-239c4756-572c-4cf3-b9e9-a434e935d593",
         "https://egl.circlly.com/auctions/with-headddress-set-baby-the-stars-shine-bright-velveteen-babydoll-jsk-and-headdress-d7fd38f4-5d1b-4b62-9345-5268a34a0b41",
         "https://egl.circlly.com/auctions/btssb-juno-s-bouquet-dot-jsk-2015",
-        "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
         "https://egl.circlly.com/auctions/the-muse-of-rose-drop-sky-baby-doll-jsk",
         "https://egl.circlly.com/auctions/btssb-best-wishes-sailor-jsk",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-btssb-tartan-check-babydoll-jsk-princess-drop-headdress-set",
