@@ -1,7 +1,7 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-29T00:13:01.943Z",
+  "lastSuccessfulCheckAt": "2026-08-29T00:24:14.618Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -601,6 +601,7 @@
     "baby": {
       "inventoryCountAtBaseline": 148,
       "frontier": [
+        "https://egl.circlly.com/auctions/btssb-sweet-wing-blouse-minor-damage",
         "https://egl.circlly.com/auctions/btssb-kumya-s-cherry-strawberry-jsk-i-pink-headbow-tote-bag",
         "https://egl.circlly.com/auctions/nwot-kumya-s-harvest-festival-tote-bag-harajuku-limited-red",
         "https://egl.circlly.com/auctions/btssb-kumya-s-harvest-festival-jsk-i-navy-otks",
@@ -611,10 +612,10 @@
         "https://egl.circlly.com/auctions/btssb-rin-chan-s-twinkle-fairy-blouse",
         "https://egl.circlly.com/auctions/meta-dot-frill-short-sleeve-blouse-ivory",
         "https://egl.circlly.com/auctions/btssb-princess-drop-swing-ribbon-comb-2020",
-        "https://egl.circlly.com/auctions/btssb-ribbon-basket-bag-2010",
-        "https://egl.circlly.com/auctions/btssb-black-cameron-head-bow"
+        "https://egl.circlly.com/auctions/btssb-ribbon-basket-bag-2010"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/btssb-sweet-wing-blouse-minor-damage",
         "https://egl.circlly.com/auctions/btssb-kumya-s-cherry-strawberry-jsk-i-pink-headbow-tote-bag",
         "https://egl.circlly.com/auctions/nwot-kumya-s-harvest-festival-tote-bag-harajuku-limited-red",
         "https://egl.circlly.com/auctions/btssb-kumya-s-harvest-festival-jsk-i-navy-otks",
