@@ -1,7 +1,7 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-29T08:36:34.904Z",
+  "lastSuccessfulCheckAt": "2026-08-29T08:42:22.011Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -60,8 +60,6 @@
         "https://egl.circlly.com/auctions/memorial-library-op-navy-330cf37b-8eca-410a-9bf4-204216783809",
         "https://egl.circlly.com/auctions/angelic-pretty-moonlight-castle-sk-otk-set",
         "https://egl.circlly.com/auctions/free-ship-us-pearl-shell-pochette-angelic-pretty",
-        "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
-        "https://egl.circlly.com/auctions/leur-getter-sailor-frill-cutsew-op",
         "https://egl.circlly.com/auctions/angel-pony-coat-angelic-pretty",
         "https://egl.circlly.com/auctions/free-ship-us-lyrical-bunny-parlor-op-otks-angelic-pretty",
         "https://egl.circlly.com/auctions/free-ship-us-little-bunny-strawberry-sk-kc-angelic-pretty",
@@ -81,6 +79,8 @@
         "https://egl.circlly.com/auctions/flower-egg-garden-jsk-in-lavender-color",
         "https://egl.circlly.com/auctions/angelic-pretty-campus-girl-op",
         "https://egl.circlly.com/auctions/angelic-pretty-gingham-color-scheme-shoulder-ribbon-jsk-kc-2021",
+        "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
+        "https://egl.circlly.com/auctions/leur-getter-sailor-frill-cutsew-op",
         "https://egl.circlly.com/auctions/angelic-pretty-marianne-coat-mint",
         "https://egl.circlly.com/auctions/metamorphose-vintage-cameo-half-bonnet",
         "https://egl.circlly.com/auctions/ap-diner-doll-jsk-in-pink-e9f9a9b1-6b84-4d3e-a913-bbcceaed8760",
