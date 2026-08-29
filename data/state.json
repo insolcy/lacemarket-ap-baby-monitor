@@ -1,13 +1,12 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-29T03:47:39.743Z",
+  "lastSuccessfulCheckAt": "2026-08-29T03:52:49.915Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
         "https://egl.circlly.com/auctions/ap-stripe-girly-cafe-op-set-red",
-        "https://egl.circlly.com/auctions/dreamy-balloon-op-sax",
         "https://egl.circlly.com/auctions/ap-sweet-torchon-ribbon-headbow-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-night-cake-blouse-in-white",
         "https://egl.circlly.com/auctions/angelic-pretty-fairy-snow-decoration-blouse-in-ivory-fa29ef94-f302-4ea2-90f1-60ef84a75ef0",
@@ -17,11 +16,11 @@
         "https://egl.circlly.com/auctions/leaving-lolita-ap-magical-horoscope-white",
         "https://egl.circlly.com/auctions/leaving-lolita-elizabeth-unicorn-op-navy",
         "https://egl.circlly.com/auctions/angelic-pretty-milky-planet-headbow-in-sax-2010",
-        "https://egl.circlly.com/auctions/creamy-cherry-angelic-pretty-op"
+        "https://egl.circlly.com/auctions/creamy-cherry-angelic-pretty-op",
+        "https://egl.circlly.com/auctions/princess-over-blouse"
       ],
       "seen": [
         "https://egl.circlly.com/auctions/ap-stripe-girly-cafe-op-set-red",
-        "https://egl.circlly.com/auctions/dreamy-balloon-op-sax",
         "https://egl.circlly.com/auctions/ap-sweet-torchon-ribbon-headbow-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-night-cake-blouse-in-white",
         "https://egl.circlly.com/auctions/angelic-pretty-fairy-snow-decoration-blouse-in-ivory-fa29ef94-f302-4ea2-90f1-60ef84a75ef0",
@@ -75,6 +74,7 @@
         "https://egl.circlly.com/auctions/flower-egg-garden-jsk-in-lavender-color",
         "https://egl.circlly.com/auctions/angelic-pretty-campus-girl-op",
         "https://egl.circlly.com/auctions/angelic-pretty-gingham-color-scheme-shoulder-ribbon-jsk-kc-2021",
+        "https://egl.circlly.com/auctions/dreamy-balloon-op-sax",
         "https://egl.circlly.com/auctions/ap-victorian-tassel-jsk-and-tights",
         "https://egl.circlly.com/auctions/angelic-pretty-toy-harmony-jsk-headbow-and-socks",
         "https://egl.circlly.com/auctions/melody-basket-noble-tartan-op-2022-m-size-black-colorway",
@@ -650,8 +650,6 @@
         "https://egl.circlly.com/auctions/btssb-short-sleeve-bunny-ear-cardigan-2008",
         "https://egl.circlly.com/auctions/btssb-rosalie-rose-headdress-2017-2nd-release",
         "https://egl.circlly.com/auctions/btssb-alice-and-bambi-with-the-blue-bird-of-happiness-otks-2018",
-        "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
-        "https://egl.circlly.com/auctions/angelic-pretty-toys-museum-head-bow-cda5bd6f-a07f-4510-9546-816169b8dcf8",
         "https://egl.circlly.com/auctions/btssb-le-ruban-a-trois-couches-headdress-2025",
         "https://egl.circlly.com/auctions/btssb-juicy-baby-love-love-berries-printed-otks-2013",
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-poodle-frill-frill-jsk-lavender-2009",
@@ -663,6 +661,8 @@
         "https://egl.circlly.com/auctions/scarlet-primavera-waltz-op-baby-the-stars-shine-bright-rare-special-reserve-set-2013",
         "https://egl.circlly.com/auctions/pony-in-sweet-dream-baby-the-stars-shine-bright-jsk",
         "https://egl.circlly.com/auctions/my-favorite-things-baby-the-stars-shine-bright",
+        "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
+        "https://egl.circlly.com/auctions/angelic-pretty-toys-museum-head-bow-cda5bd6f-a07f-4510-9546-816169b8dcf8",
         "https://egl.circlly.com/auctions/bodyline-black-and-white-bat-pattern-nylon-otks-nwot-7349c943-df5f-4c56-adc2-29f606140333",
         "https://egl.circlly.com/auctions/ap-victorian-tassel-jsk-and-tights",
         "https://egl.circlly.com/auctions/ivory-yellow-offbrand-jumperskirt-l-size-eu-shipping-only",
