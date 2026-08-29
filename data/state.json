@@ -1,11 +1,12 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-29T10:22:35.891Z",
+  "lastSuccessfulCheckAt": "2026-08-29T10:30:01.055Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
       "frontier": [
+        "https://egl.circlly.com/auctions/angelic-pretty-day-dream-carnival-tights-lavender-a8449763-4dc5-4471-b4ee-8f0503fabd17",
         "https://egl.circlly.com/auctions/melody-toys-heart-emblem-brooch-7145f0d9-f0ec-4f24-a440-968e0120f5b5",
         "https://egl.circlly.com/auctions/ap-sweet-strawberry-patch-rosette-brooch",
         "https://egl.circlly.com/auctions/ap-french-cafe-head-bow-0652dff6-2595-43af-b604-f7a6bd5c70a8",
@@ -16,10 +17,10 @@
         "https://egl.circlly.com/auctions/ap-sweet-torchon-ribbon-headbow-sax",
         "https://egl.circlly.com/auctions/angelic-pretty-dreamy-night-cake-blouse-in-white",
         "https://egl.circlly.com/auctions/angelic-pretty-fairy-snow-decoration-blouse-in-ivory-fa29ef94-f302-4ea2-90f1-60ef84a75ef0",
-        "https://egl.circlly.com/auctions/nwot-angelic-pretty-compact-toys-jsk-kc-in-sax",
-        "https://egl.circlly.com/auctions/angelic-pretty-ribbon-hat-pink"
+        "https://egl.circlly.com/auctions/nwot-angelic-pretty-compact-toys-jsk-kc-in-sax"
       ],
       "seen": [
+        "https://egl.circlly.com/auctions/angelic-pretty-day-dream-carnival-tights-lavender-a8449763-4dc5-4471-b4ee-8f0503fabd17",
         "https://egl.circlly.com/auctions/melody-toys-heart-emblem-brooch-7145f0d9-f0ec-4f24-a440-968e0120f5b5",
         "https://egl.circlly.com/auctions/ap-sweet-strawberry-patch-rosette-brooch",
         "https://egl.circlly.com/auctions/ap-french-cafe-head-bow-0652dff6-2595-43af-b604-f7a6bd5c70a8",
