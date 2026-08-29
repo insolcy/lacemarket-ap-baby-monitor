@@ -1,7 +1,7 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-29T02:42:38.856Z",
+  "lastSuccessfulCheckAt": "2026-08-29T02:44:47.712Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -636,8 +636,6 @@
         "https://egl.circlly.com/auctions/btssb-black-cameron-head-bow",
         "https://egl.circlly.com/auctions/btssb-lace-up-cutsew-2007",
         "https://egl.circlly.com/auctions/btssb-cherry-parade-square-neck-blouse-2012",
-        "https://egl.circlly.com/auctions/ap-victorian-tassel-jsk-and-tights",
-        "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
         "https://egl.circlly.com/auctions/btssb-2006-double-frill-standing-collar-blouse-blouse",
         "https://egl.circlly.com/auctions/berry-sweet-bouquet-gingham-canotier",
         "https://egl.circlly.com/auctions/btssb-usakumya-face-bag-nwot-7b34559b-40c0-4678-a5c2-6526132819c6",
@@ -661,6 +659,8 @@
         "https://egl.circlly.com/auctions/scarlet-primavera-waltz-op-baby-the-stars-shine-bright-rare-special-reserve-set-2013",
         "https://egl.circlly.com/auctions/pony-in-sweet-dream-baby-the-stars-shine-bright-jsk",
         "https://egl.circlly.com/auctions/my-favorite-things-baby-the-stars-shine-bright",
+        "https://egl.circlly.com/auctions/ap-victorian-tassel-jsk-and-tights",
+        "https://egl.circlly.com/auctions/dancing-baby-bear-cherry-jsk-hb-set-btssb-a8482f89-df9e-4680-9eb6-2a5875542639",
         "https://egl.circlly.com/auctions/love-ribbon-bag-btssb-vintage",
         "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
         "https://egl.circlly.com/auctions/atelier-17-prince-blouse-shirt-large-white-rhinestones-eternal-afterimage-ouji",
