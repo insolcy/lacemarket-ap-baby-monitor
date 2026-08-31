@@ -48,6 +48,7 @@ import {
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const statePath = process.env.STATE_PATH || path.join(projectRoot, "data", "state.json");
 const dryRun = process.env.DRY_RUN === "true";
+const fullTest = process.env.FULL_TEST === "true";
 const headless = process.env.HEADLESS !== "false";
 const maxPages = Number.parseInt(process.env.MAX_SCAN_PAGES || "10", 10);
 const navigationRetries = Number.parseInt(process.env.NAVIGATION_RETRIES || "3", 10);
@@ -118,7 +119,7 @@ function shouldBlockResource(request) {
 }
 
 function requireProductionEnvironment() {
-  if (dryRun) {
+  if (dryRun && !fullTest) {
     return;
   }
 
@@ -407,8 +408,8 @@ async function readListingDetails(navigator, candidate) {
   });
 }
 
-async function sendAlert(listings) {
-  const mail = buildAlertEmail(listings);
+async function sendAlert(listings, testMode = false) {
+  const mail = buildAlertEmail(listings, { testMode });
   const recipients = buildRecipients(process.env.SMTP_USER, process.env.ALERT_EMAIL);
   const smtpPort = Number.parseInt(process.env.SMTP_PORT || "465", 10);
   const transporter = nodemailer.createTransport({
@@ -572,6 +573,29 @@ async function runMonitorAttempt(state, navigator) {
     );
   }
 
+  if (fullTest) {
+    for (const listing of scan.observedListings) {
+      if (!hasNewListingBadge(listing)) {
+        continue;
+      }
+
+      const detail = await readListingDetails(navigator, listing);
+      if (detail.skippedNonDress) {
+        console.log(`Full-flow test skipped a miscategorized non-dress listing.`);
+        continue;
+      }
+
+      await sendAlert([detail], true);
+      console.log(
+        `Full-flow test completed: combined feed, detail parsing, and SMTP ` +
+          `delivery succeeded; monitor state was not changed.`,
+      );
+      return;
+    }
+
+    throw new Error("Full-flow test could not find a valid dress on the first page");
+  }
+
   const candidateDetails = [];
   const skippedNonDressListings = [];
   if (baselineOnly) {
@@ -662,6 +686,7 @@ async function main() {
   const state = await loadState();
   if (
     !dryRun &&
+    !fullTest &&
     !shouldProbeConnectivity(state, new Date(), outageProbeIntervalMs)
   ) {
     console.warn(
@@ -686,7 +711,7 @@ async function main() {
     await runMonitorAttempt(state, navigator);
   } catch (error) {
     const outageKind = getConnectivityOutageKind(error);
-    if (!dryRun && outageKind) {
+    if (!dryRun && !fullTest && outageKind) {
       const shouldReportFailure = recordConnectivityOutage(
         state,
         outageKind,
