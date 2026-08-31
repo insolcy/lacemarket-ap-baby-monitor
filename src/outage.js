@@ -4,6 +4,7 @@ import {
 } from "./navigation.js";
 
 export const DEFAULT_OUTAGE_FAILURE_INTERVAL_MS = 24 * 60 * 60 * 1_000;
+export const DEFAULT_OUTAGE_PROBE_INTERVAL_MS = 60 * 60 * 1_000;
 
 export function getConnectivityOutageKind(error) {
   if (error instanceof ProxyConnectionError) {
@@ -30,16 +31,34 @@ export function recordConnectivityOutage(
     Number.isFinite(previousReportAt) &&
     now.getTime() - previousReportAt < failureIntervalMs;
 
-  if (reportIsFresh) {
-    return false;
-  }
-
   state.connectivityOutage = {
     kind,
     startedAt: sameOutage && previous.startedAt ? previous.startedAt : checkedAt,
-    lastFailureReportedAt: checkedAt,
+    lastFailureReportedAt: reportIsFresh
+      ? previous.lastFailureReportedAt
+      : checkedAt,
+    lastProbeAt: checkedAt,
   };
-  return true;
+  return !reportIsFresh;
+}
+
+export function shouldProbeConnectivity(
+  state,
+  now = new Date(),
+  probeIntervalMs = DEFAULT_OUTAGE_PROBE_INTERVAL_MS,
+) {
+  const outage = state?.connectivityOutage;
+  if (!outage) {
+    return true;
+  }
+
+  const previousProbeAt = Date.parse(
+    outage.lastProbeAt || outage.lastFailureReportedAt || outage.startedAt || "",
+  );
+  return (
+    !Number.isFinite(previousProbeAt) ||
+    now.getTime() - previousProbeAt >= probeIntervalMs
+  );
 }
 
 export function clearConnectivityOutage(state) {

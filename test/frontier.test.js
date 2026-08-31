@@ -12,6 +12,7 @@ import {
   hasNewListingBadge,
   isListingUrl,
   mergeSeen,
+  splitAtFirstKnownListing,
   uniqueListings,
 } from "../src/frontier.js";
 import { isUnitedStatesSellerLocation } from "../src/location.js";
@@ -122,6 +123,40 @@ test("ignores unseen listings without the site's exact New ribbon", () => {
   assert.deepEqual(result.map((item) => item.url), [
     "https://egl.circlly.com/auctions/new",
   ]);
+});
+
+test("limits incremental candidates to listings before the first known anchor", () => {
+  const listings = [
+    { title: "Fresh New", url: "https://egl.circlly.com/auctions/fresh-new" },
+    { title: "Fresh Relist", url: "https://egl.circlly.com/auctions/fresh-relist" },
+    { title: "Known Anchor", url: "https://egl.circlly.com/auctions/known-anchor" },
+    { title: "Old Unseen", url: "https://egl.circlly.com/auctions/old-unseen" },
+  ];
+
+  assert.deepEqual(
+    splitAtFirstKnownListing(listings, [
+      "https://egl.circlly.com/auctions/known-anchor",
+    ]),
+    {
+      anchorFound: true,
+      listingsBeforeAnchor: listings.slice(0, 2),
+    },
+  );
+});
+
+test("keeps scanning when the current page has no known anchor", () => {
+  const listings = [
+    { title: "Fresh One", url: "https://egl.circlly.com/auctions/fresh-one" },
+    { title: "Fresh Two", url: "https://egl.circlly.com/auctions/fresh-two" },
+  ];
+
+  assert.deepEqual(
+    splitAtFirstKnownListing(listings, new Set(["known-elsewhere"])),
+    {
+      anchorFound: false,
+      listingsBeforeAnchor: listings,
+    },
+  );
 });
 
 test("merges seen URLs without duplicates", () => {

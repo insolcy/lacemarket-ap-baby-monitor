@@ -36,6 +36,16 @@ export function findUnseenNewListings(pages, seenUrls) {
     .filter((listing) => hasNewListingBadge(listing) && !seen.has(listing.url));
 }
 
+export function splitAtFirstKnownListing(listings, knownUrls) {
+  const known = knownUrls instanceof Set ? knownUrls : new Set(knownUrls);
+  const anchorIndex = listings.findIndex((listing) => known.has(listing.url));
+  return {
+    anchorFound: anchorIndex >= 0,
+    listingsBeforeAnchor:
+      anchorIndex >= 0 ? listings.slice(0, anchorIndex) : listings,
+  };
+}
+
 export function mergeSeen(existingUrls, newUrls) {
   const merged = [...new Set([...newUrls, ...existingUrls])];
   return merged;
