@@ -46,6 +46,18 @@ export function splitAtFirstKnownListing(listings, knownUrls) {
   };
 }
 
+export function collectKnownListingUrls(state) {
+  const legacyUrls = Object.values(state?.brands || {}).flatMap((brandState) => [
+    ...(brandState.frontier || []),
+    ...(brandState.seen || []),
+  ]);
+  return new Set([
+    ...(state?.combined?.frontier || []),
+    ...(state?.combined?.seen || []),
+    ...legacyUrls,
+  ]);
+}
+
 export function mergeSeen(existingUrls, newUrls) {
   const merged = [...new Set([...newUrls, ...existingUrls])];
   return merged;

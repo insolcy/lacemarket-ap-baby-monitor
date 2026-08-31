@@ -6,13 +6,17 @@ import { fileURLToPath } from "node:url";
 import nodemailer from "nodemailer";
 import { chromium } from "playwright";
 
-import { classifyListingDetails } from "./classification.js";
+import {
+  classifyListingDetails,
+  findMonitoredBrand,
+} from "./classification.js";
 import {
   assertAllRecipientsAccepted,
   buildAlertEmail,
   buildRecipients,
 } from "./email.js";
 import {
+  collectKnownListingUrls,
   findUnseenNewListings,
   hasNewListingBadge,
   mergeSeen,
@@ -88,9 +92,9 @@ const brands = {
   },
 };
 
-for (const brand of Object.values(brands)) {
-  brand.url = buildNewUnitedStatesListingUrl(brand.slug);
-}
+const monitoredBrandSlugs = Object.values(brands).map((brand) => brand.slug);
+const combinedListingUrl = buildNewUnitedStatesListingUrl(monitoredBrandSlugs);
+const combinedFeedLabel = "AP/BABY Dresses";
 
 const blockedThirdPartyHosts = [
   "criteo.com",
@@ -195,23 +199,24 @@ async function gotoWithRetry(page, url, label, validatePage) {
   throw lastError;
 }
 
-async function assertUsableListingPage(page, brand) {
+async function assertUsableListingPage(page) {
   const heading = await page.locator("h1").first().innerText({ timeout: 20_000 });
   if (heading.trim() !== "New Listings") {
-    throw new Error(`${brand.label}: unexpected listing page heading: ${heading}`);
+    throw new Error(`${combinedFeedLabel}: unexpected listing page heading: ${heading}`);
   }
 
-  if (!isExpectedNewUnitedStatesListingUrl(page.url(), brand.slug)) {
+  if (!isExpectedNewUnitedStatesListingUrl(page.url(), monitoredBrandSlugs)) {
     throw new Error(
-      `${brand.label}: New/USA filters were not preserved: ${page.url()}`,
+      `${combinedFeedLabel}: New/Dresses/AP+BABY/USA filters were not preserved: ` +
+        page.url(),
     );
   }
 }
 
-async function readListingPage(navigator, url, brand) {
+async function readListingPage(navigator, url) {
   return navigator.withPage(async (page) => {
-    await gotoWithRetry(page, url, brand.label, (currentPage) =>
-      assertUsableListingPage(currentPage, brand),
+    await gotoWithRetry(page, url, combinedFeedLabel, (currentPage) =>
+      assertUsableListingPage(currentPage),
     );
 
     const rawListings = await page.locator(".grid-list-item-content").evaluateAll((cards) =>
@@ -230,7 +235,9 @@ async function readListingPage(navigator, url, brand) {
     );
     const listings = uniqueListings(rawListings);
     if (rawListings.length > 0 && listings.length === 0) {
-      throw new Error(`${brand.label}: listing cards did not contain valid auction links`);
+      throw new Error(
+        `${combinedFeedLabel}: listing cards did not contain valid auction links`,
+      );
     }
 
     const nextLink = page.getByRole("link", { name: "Next →", exact: true });
@@ -244,8 +251,7 @@ async function readListingPage(navigator, url, brand) {
 }
 
 function buildScanResult({
-  brandKey,
-  brandState,
+  seenUrls,
   pages,
   candidatePages,
   pageNumber,
@@ -253,8 +259,7 @@ function buildScanResult({
   const observedListings = uniqueListings(pages.flat());
   const candidateListings = uniqueListings(candidatePages.flat());
   return {
-    brandKey,
-    candidates: findUnseenNewListings(candidatePages, brandState.seen),
+    candidates: findUnseenNewListings(candidatePages, seenUrls),
     observedListings,
     frontier: pages[0].map((listing) => listing.url),
     ignoredNonNewCount: candidateListings.filter(
@@ -264,30 +269,20 @@ function buildScanResult({
   };
 }
 
-async function scanBrand(
-  navigator,
-  brandKey,
-  brand,
-  brandState,
-  baselineOnly,
-) {
+async function scanCombinedFeed(navigator, state, baselineOnly) {
   const pages = [];
   const candidatePages = [];
-  const knownUrls = new Set([
-    ...(brandState.seen || []),
-    ...(brandState.frontier || []),
-  ]);
-  let nextUrl = brand.url;
+  const knownUrls = collectKnownListingUrls(state);
+  let nextUrl = combinedListingUrl;
 
   for (let pageNumber = 1; pageNumber <= maxPages && nextUrl; pageNumber += 1) {
-    const result = await readListingPage(navigator, nextUrl, brand);
+    const result = await readListingPage(navigator, nextUrl);
     pages.push(result.listings);
 
     if (baselineOnly) {
-      console.log(`${brand.label}: baseline refreshed from one listing page.`);
+      console.log(`${combinedFeedLabel}: baseline refreshed from one listing page.`);
       return buildScanResult({
-        brandKey,
-        brandState,
+        seenUrls: knownUrls,
         pages,
         candidatePages: [],
         pageNumber,
@@ -298,12 +293,11 @@ async function scanBrand(
     candidatePages.push(delta.listingsBeforeAnchor);
     if (delta.anchorFound) {
       console.log(
-        `${brand.label}: found a known listing anchor after scanning ` +
+        `${combinedFeedLabel}: found a known listing anchor after scanning ` +
           `${pageNumber} page(s).`,
       );
       return buildScanResult({
-        brandKey,
-        brandState,
+        seenUrls: knownUrls,
         pages,
         candidatePages,
         pageNumber,
@@ -312,15 +306,15 @@ async function scanBrand(
 
     if (!result.nextUrl) {
       throw new Error(
-        `${brand.label}: reached the end of New/USA results without a known ` +
-          `listing anchor; refusing to treat the full inventory as new`,
+        `${combinedFeedLabel}: reached the end of combined New results without ` +
+          `a known listing anchor; refusing to treat the full inventory as new`,
       );
     }
     nextUrl = result.nextUrl;
   }
 
   throw new Error(
-    `${brand.label}: no known listing anchor found within ${maxPages} pages; ` +
+    `${combinedFeedLabel}: no known listing anchor found within ${maxPages} pages; ` +
       `refusing a partial scan`,
   );
 }
@@ -348,7 +342,7 @@ async function readLabelledText(page, selector, label) {
   return value.trim() || "未提供";
 }
 
-async function readListingDetails(navigator, candidate, brandKey, brand) {
+async function readListingDetails(navigator, candidate) {
   return navigator.withPage(async (page) => {
     await gotoWithRetry(page, candidate.url, candidate.url, async (currentPage) => {
       await currentPage.locator("h2").first().waitFor({ state: "visible", timeout: 20_000 });
@@ -361,6 +355,14 @@ async function readListingDetails(navigator, candidate, brandKey, brand) {
     const title = (await page.locator("h2").first().innerText({ timeout: 20_000 })).trim();
     const brandText = await readLabelledText(page, "strong", "Brand");
     const categoryText = await readLabelledText(page, "strong", "Category");
+    const matchedBrand = findMonitoredBrand(brandText, brands);
+    if (!matchedBrand) {
+      throw new Error(
+        `${candidate.url}: detail page brand validation failed ` +
+          `(brand=${JSON.stringify(brandText)})`,
+      );
+    }
+    const [brandKey, brand] = matchedBrand;
     const classification = classifyListingDetails({
       brandText,
       categoryText,
@@ -561,56 +563,33 @@ async function runMonitorAttempt(state, navigator) {
   const initializingBaseline = needsNewUnitedStatesBaseline(state);
   const recoveringFromOutage = Boolean(state.connectivityOutage);
   const baselineOnly = initializingBaseline || recoveringFromOutage;
-  const scans = [];
-  for (const [brandKey, brand] of Object.entries(brands)) {
-    scans.push(
-      await scanBrand(
-        navigator,
-        brandKey,
-        brand,
-        state.brands[brandKey],
-        baselineOnly,
-      ),
-    );
-  }
+  const scan = await scanCombinedFeed(navigator, state, baselineOnly);
 
-  for (const scan of scans) {
-    if (scan.ignoredNonNewCount > 0) {
-      console.log(
-        `Ignored ${scan.ignoredNonNewCount} ${brands[scan.brandKey].label} ` +
-          `listing(s) without the exact New ribbon.`,
-      );
-    }
+  if (scan.ignoredNonNewCount > 0) {
+    console.log(
+      `Ignored ${scan.ignoredNonNewCount} combined listing(s) without the ` +
+        `exact New ribbon.`,
+    );
   }
 
   const candidateDetails = [];
   const skippedNonDressListings = [];
   if (baselineOnly) {
-    const baselineCount = scans.reduce(
-      (total, scan) => total + scan.observedListings.length,
-      0,
-    );
+    const baselineCount = scan.observedListings.length;
     const reason = recoveringFromOutage
       ? "Recovering from a connectivity outage"
-      : "Initializing New/USA monitoring";
+      : "Initializing combined New/Dresses/AP+BABY/USA monitoring";
     console.log(
       `${reason} with ${baselineCount} first-page listing(s); ` +
         `no historical alerts will be sent.`,
     );
   } else {
-    for (const scan of scans) {
-      for (const candidate of scan.candidates) {
-        const detail = await readListingDetails(
-          navigator,
-          candidate,
-          scan.brandKey,
-          brands[scan.brandKey],
-        );
-        if (detail.skippedNonDress) {
-          skippedNonDressListings.push(detail);
-        } else {
-          candidateDetails.push(detail);
-        }
+    for (const candidate of scan.candidates) {
+      const detail = await readListingDetails(navigator, candidate);
+      if (detail.skippedNonDress) {
+        skippedNonDressListings.push(detail);
+      } else {
+        candidateDetails.push(detail);
       }
     }
   }
@@ -654,19 +633,18 @@ async function runMonitorAttempt(state, navigator) {
   if (!dryRun) {
     const checkedAt = new Date().toISOString();
     const recoveredOutage = clearConnectivityOutage(state);
-    for (const scan of scans) {
-      const brandState = state.brands[scan.brandKey];
-      brandState.frontier = scan.frontier;
-      brandState.seen = mergeSeen(
-        brandState.seen,
-        scan.observedListings.map((listing) => listing.url),
-      );
-      brandState.lastPagesScanned = scan.pagesScanned;
-    }
+    const combinedState = state.combined || { frontier: [], seen: [] };
+    combinedState.frontier = scan.frontier;
+    combinedState.seen = mergeSeen(
+      combinedState.seen || [],
+      scan.observedListings.map((listing) => listing.url),
+    );
+    combinedState.lastPagesScanned = scan.pagesScanned;
+    state.combined = combinedState;
 
     state.version = CURRENT_STATE_VERSION;
     if (baselineOnly) {
-      state.newUnitedStatesBaselineAt = checkedAt;
+      state.combinedNewUnitedStatesBaselineAt = checkedAt;
     }
     state.lastSuccessfulCheckAt = checkedAt;
     await saveState(state);
