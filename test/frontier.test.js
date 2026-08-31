@@ -1,13 +1,17 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { classifyListingDetails } from "../src/classification.js";
+import {
+  classifyListingDetails,
+  findMonitoredBrand,
+} from "../src/classification.js";
 import {
   assertAllRecipientsAccepted,
   buildAlertEmail,
   buildRecipients,
 } from "../src/email.js";
 import {
+  collectKnownListingUrls,
   findUnseenNewListings,
   hasNewListingBadge,
   isListingUrl,
@@ -159,6 +163,26 @@ test("keeps scanning when the current page has no known anchor", () => {
   );
 });
 
+test("combined anchor migration inherits all legacy and combined URLs", () => {
+  assert.deepEqual(
+    [...collectKnownListingUrls({
+      combined: { frontier: ["combined-frontier"], seen: ["combined-seen"] },
+      brands: {
+        ap: { frontier: ["ap-frontier"], seen: ["ap-seen"] },
+        baby: { frontier: ["baby-frontier"], seen: ["baby-seen"] },
+      },
+    })],
+    [
+      "combined-frontier",
+      "combined-seen",
+      "ap-frontier",
+      "ap-seen",
+      "baby-frontier",
+      "baby-seen",
+    ],
+  );
+});
+
 test("merges seen URLs without duplicates", () => {
   assert.deepEqual(mergeSeen(["b", "c"], ["a", "b"]), ["a", "b", "c"]);
 });
@@ -238,24 +262,34 @@ test("requires SMTP acceptance from every configured recipient", () => {
   );
 });
 
-test("builds and validates fail-closed New plus USA search URLs", () => {
-  const url = buildNewUnitedStatesListingUrl("angelic-pretty", 2);
-  assert.equal(isExpectedNewUnitedStatesListingUrl(url, "angelic-pretty"), true);
+test("builds and validates fail-closed combined New Dresses plus USA URLs", () => {
+  const brandSlugs = ["angelic-pretty", "baby-the-stars-shine-bright"];
+  const url = buildNewUnitedStatesListingUrl(brandSlugs, 2);
+  assert.equal(isExpectedNewUnitedStatesListingUrl(url, brandSlugs), true);
+
+  const parsed = new URL(url);
+  assert.deepEqual(parsed.searchParams.getAll("f[brand][]"), brandSlugs);
+  assert.deepEqual(parsed.searchParams.getAll("f[category_id][]"), ["12"]);
 
   const missingRegion = new URL(url);
   missingRegion.searchParams.delete("f[region][]");
   assert.equal(
-    isExpectedNewUnitedStatesListingUrl(missingRegion.href, "angelic-pretty"),
+    isExpectedNewUnitedStatesListingUrl(missingRegion.href, brandSlugs),
     false,
   );
 
-  const wrongBrand = new URL(url);
-  wrongBrand.searchParams.set("f[brand][]", "baby-the-stars-shine-bright");
-  assert.equal(isExpectedNewUnitedStatesListingUrl(wrongBrand.href, "angelic-pretty"), false);
+  const missingBrand = new URL(url);
+  missingBrand.searchParams.delete("f[brand][]");
+  missingBrand.searchParams.append("f[brand][]", "angelic-pretty");
+  assert.equal(isExpectedNewUnitedStatesListingUrl(missingBrand.href, brandSlugs), false);
+
+  const missingCategory = new URL(url);
+  missingCategory.searchParams.delete("f[category_id][]");
+  assert.equal(isExpectedNewUnitedStatesListingUrl(missingCategory.href, brandSlugs), false);
 });
 
-test("requires one baseline-only run when upgrading to New plus USA detection", () => {
-  assert.equal(needsNewUnitedStatesBaseline({ version: 1 }), true);
+test("requires one baseline-only run when upgrading to the combined feed", () => {
+  assert.equal(needsNewUnitedStatesBaseline({ version: 2 }), true);
   assert.equal(needsNewUnitedStatesBaseline({ version: CURRENT_STATE_VERSION }), false);
 });
 
@@ -309,6 +343,23 @@ test("accepts the supported Lace Market dress subcategories", () => {
       "dress",
     );
   }
+});
+
+test("maps combined-feed details back to the monitored brand", () => {
+  const brandDefinitions = {
+    ap: { label: "Angelic Pretty" },
+    baby: { label: "Baby the Stars Shine Bright" },
+  };
+
+  assert.equal(
+    findMonitoredBrand("Angelic Pretty", brandDefinitions)?.[0],
+    "ap",
+  );
+  assert.equal(
+    findMonitoredBrand("Baby the Stars Shine Bright", brandDefinitions)?.[0],
+    "baby",
+  );
+  assert.equal(findMonitoredBrand("Metamorphose", brandDefinitions), undefined);
 });
 
 test("recognizes Cloudflare block and rate-limit variants", () => {
