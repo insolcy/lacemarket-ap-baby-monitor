@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-31T22:10:59.329Z",
+  "lastSuccessfulCheckAt": "2026-08-31T22:18:32.652Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-jsk-with-matching-kc",
       "https://egl.circlly.com/auctions/toy-doll-box-jsk-pink-3db3f207-5d36-4e72-add1-7953628d2534",
       "https://egl.circlly.com/auctions/angelic-pretty-dream-fantastic-balloon-jsk-and-matching-kc",
       "https://egl.circlly.com/auctions/bunny-ribbon-parfaiteria-op-complete-set",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/btssb-2013-sleeping-beauty-aurora-jsk",
       "https://egl.circlly.com/auctions/sweet-cherry-margaret-cutsew-op-f79d25cb-1cb5-4d85-9e42-583095802e07",
       "https://egl.circlly.com/auctions/ap-chocolate-rosette-salopette-matching-headbow",
-      "https://egl.circlly.com/auctions/angelic-pretty-moon-drop-op",
-      "https://egl.circlly.com/auctions/nwt-angelic-pretty-bunny-ribbon-parfaiteria-jsk-lovely-gingham-head-bow"
+      "https://egl.circlly.com/auctions/angelic-pretty-moon-drop-op"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-jsk-with-matching-kc",
       "https://egl.circlly.com/auctions/toy-doll-box-jsk-pink-3db3f207-5d36-4e72-add1-7953628d2534",
       "https://egl.circlly.com/auctions/angelic-pretty-dream-fantastic-balloon-jsk-and-matching-kc",
       "https://egl.circlly.com/auctions/bunny-ribbon-parfaiteria-op-complete-set",
