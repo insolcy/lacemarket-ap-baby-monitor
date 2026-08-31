@@ -1,7 +1,7 @@
 {
   "version": 2,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-08-31T15:55:54.444Z",
+  "lastSuccessfulCheckAt": "2026-08-31T16:01:16.267Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -648,7 +648,7 @@
         "https://egl.circlly.com/auctions/ap-milky-swan",
         "https://egl.circlly.com/auctions/angelic-pretty-bunny-college-classical-op-set-ap-preppy-sweet-school-uniform-academy-sweet-classic"
       ],
-      "lastPagesScanned": 6
+      "lastPagesScanned": 1
     },
     "baby": {
       "inventoryCountAtBaseline": 148,
@@ -905,7 +905,7 @@
         "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-shirring-jsk-2009-in-black-white",
         "https://egl.circlly.com/auctions/baby-the-star-shine-bright-shirring-jsk-in-black-white-lace-261cec9d-15e9-4169-b667-04569f3c6d94"
       ],
-      "lastPagesScanned": 3
+      "lastPagesScanned": 1
     }
   },
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z"
