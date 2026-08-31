@@ -24,3 +24,21 @@ test("monitor runs remain serialized without cancelling an active scan", async (
     /concurrency:\s+group: lace-market-monitor\s+cancel-in-progress: false/,
   );
 });
+
+test("native schedule is only an hourly fallback to the ten-minute worker", async () => {
+  const workflow = await readFile(workflowUrl, "utf8");
+
+  assert.match(workflow, /cron: "3 \* \* \* \*"/);
+  assert.doesNotMatch(workflow, /3,13,23,33,43,53/);
+});
+
+test("connectivity outage state is persisted even when the scan fails", async () => {
+  const workflow = await readFile(workflowUrl, "utf8");
+  const persistBlock = workflow.match(
+    /- name: Persist monitor state([\s\S]*?)$/,
+  )?.[1];
+
+  assert.ok(persistBlock, "persist step must exist");
+  assert.match(persistBlock, /if:.*always\(\)/);
+  assert.match(workflow, /OUTAGE_FAILURE_INTERVAL_HOURS: "24"/);
+});

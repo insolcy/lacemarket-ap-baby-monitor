@@ -24,6 +24,12 @@ import {
   isChallengeResponse,
   ProxyConnectionError,
 } from "./navigation.js";
+import {
+  clearConnectivityOutage,
+  DEFAULT_OUTAGE_FAILURE_INTERVAL_MS,
+  getConnectivityOutageKind,
+  recordConnectivityOutage,
+} from "./outage.js";
 import { createIPRoyalSessionId, withIPRoyalSession } from "./proxy.js";
 import {
   buildNewUnitedStatesListingUrl,
@@ -47,6 +53,16 @@ const maxProxyRotations =
   Number.isInteger(configuredMaxProxyRotations) && configuredMaxProxyRotations >= 0
     ? configuredMaxProxyRotations
     : 10;
+const configuredOutageFailureIntervalHours = Number.parseFloat(
+  process.env.OUTAGE_FAILURE_INTERVAL_HOURS || "24",
+);
+const outageFailureIntervalHours =
+  Number.isFinite(configuredOutageFailureIntervalHours) &&
+  configuredOutageFailureIntervalHours > 0
+    ? configuredOutageFailureIntervalHours
+    : DEFAULT_OUTAGE_FAILURE_INTERVAL_MS / (60 * 60 * 1_000);
+const outageFailureIntervalMs =
+  outageFailureIntervalHours * 60 * 60 * 1_000;
 let lastNavigationAt = 0;
 
 const brands = {
@@ -561,6 +577,7 @@ async function runMonitorAttempt(state, navigator) {
 
   if (!dryRun) {
     const checkedAt = new Date().toISOString();
+    const recoveredOutage = clearConnectivityOutage(state);
     for (const scan of scans) {
       const brandState = state.brands[scan.brandKey];
       brandState.frontier = scan.frontier;
@@ -577,6 +594,12 @@ async function runMonitorAttempt(state, navigator) {
     }
     state.lastSuccessfulCheckAt = checkedAt;
     await saveState(state);
+    if (recoveredOutage) {
+      console.log(
+        `Monitor connectivity recovered from ${recoveredOutage.kind}; ` +
+          `normal failure reporting has resumed.`,
+      );
+    }
   }
 }
 
@@ -595,6 +618,31 @@ async function main() {
   try {
     await navigator.start();
     await runMonitorAttempt(state, navigator);
+  } catch (error) {
+    const outageKind = getConnectivityOutageKind(error);
+    if (!dryRun && outageKind) {
+      const shouldReportFailure = recordConnectivityOutage(
+        state,
+        outageKind,
+        new Date(),
+        outageFailureIntervalMs,
+      );
+      if (!shouldReportFailure) {
+        console.warn(
+          `Monitor connectivity outage (${outageKind}) is still active. ` +
+            `Suppressing this repeated GitHub failure; listing state was not changed.`,
+        );
+        return;
+      }
+
+      await saveState(state);
+      console.error(
+        `Monitor connectivity outage (${outageKind}) recorded. ` +
+          `Another failed run will not be reported for ` +
+          `${outageFailureIntervalHours} hour(s).`,
+      );
+    }
+    throw error;
   } finally {
     await navigator.close();
   }
