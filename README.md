@@ -35,6 +35,8 @@ Gmail 应用专用密码需要 Google 账号启用两步验证。不要将密码
 
 配置 Secrets 后，在 **Actions → Monitor Lace Market → Run workflow** 选择 `dry_run` 手动运行一次。确认云端检查成功后，再恢复每 10 分钟的 `schedule`；在代理尚未配置前，计划触发保持暂停，以免持续产生 Cloudflare 403 失败任务。
 
+需要验证整条生产链路时，可手动运行工作流并勾选 `full_test`。它会通过代理读取合并列表页和一件真实商品详情，并向全部配置收件人发送主题含“流程测试”的邮件；不会发送真实上新通知，也不会修改或提交监控状态。`dry_run` 与 `full_test` 同时勾选时以 `full_test` 为准。
+
 ## 可靠的每 10 分钟调度
 
 GitHub 原生 `schedule` 在平台高负载时可能延迟或丢弃。生产环境使用

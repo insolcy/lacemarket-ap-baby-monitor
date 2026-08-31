@@ -57,9 +57,15 @@ function safeImageUrl(value) {
   }
 }
 
-export function buildAlertEmail(listings) {
+export function buildAlertEmail(listings, { testMode = false } = {}) {
   const groups = Map.groupBy(listings, (listing) => listing.brandKey);
-  const subject = `[Lace Market 上新] AP/BABY 裙装（${listings.length}件）`;
+  const subject = testMode
+    ? `[Lace Market 流程测试] AP/BABY 裙装（${listings.length}件）`
+    : `[Lace Market 上新] AP/BABY 裙装（${listings.length}件）`;
+  const heading = testMode ? "Lace Market 监控流程测试" : "Lace Market 新上架裙装";
+  const intro = testMode
+    ? "这是一封端到端流程测试邮件。下列商品仅用于验证页面解析和邮件投递，不代表本轮真实上新，也不会改变监控水位线。"
+    : `Lace Market 检测到 ${listings.length} 件新上架裙装。`;
   const textSections = [];
   const htmlSections = [];
 
@@ -102,11 +108,11 @@ export function buildAlertEmail(listings) {
 
   return {
     subject,
-    text: `Lace Market 检测到 ${listings.length} 件新上架裙装。\n\n${textSections.join("\n\n")}`,
+    text: `${intro}\n\n${textSections.join("\n\n")}`,
     html: `
       <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #222">
-        <h1>Lace Market 新上架裙装</h1>
-        <p>本轮共检测到 ${listings.length} 件新品。</p>
+        <h1>${escapeHtml(heading)}</h1>
+        <p>${escapeHtml(intro)}</p>
         ${htmlSections.join("")}
       </div>`,
   };

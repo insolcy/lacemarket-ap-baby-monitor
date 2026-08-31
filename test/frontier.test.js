@@ -219,6 +219,27 @@ test("email includes listing details and clickable URLs", () => {
   assert.match(message.html, /alt="Test OP"/);
 });
 
+test("full-flow email is clearly marked as a test", () => {
+  const message = buildAlertEmail(
+    [
+      {
+        brandKey: "baby",
+        title: "Test JSK",
+        price: "$100",
+        condition: "Like New",
+        sellerLocation: "United States",
+        imageUrl: "https://example.com/test.jpg",
+        url: "https://egl.circlly.com/auctions/test-jsk",
+      },
+    ],
+    { testMode: true },
+  );
+
+  assert.match(message.subject, /流程测试/);
+  assert.match(message.text, /不代表本轮真实上新/);
+  assert.match(message.html, /不会改变监控水位线/);
+});
+
 test("does not render unsafe image URLs", () => {
   const message = buildAlertEmail([
     {

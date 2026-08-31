@@ -12,6 +12,11 @@ on:
         required: false
         default: false
         type: boolean
+      full_test:
+        description: "Test proxy, combined feed, listing details, and email without changing state"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -48,7 +53,7 @@ jobs:
         run: google-chrome --version
 
       - name: Validate email secrets
-        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.dry_run }}
+        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.dry_run || inputs.full_test }}
         env:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
@@ -70,7 +75,8 @@ jobs:
           MAX_PROXY_ROTATIONS: "2"
           OUTAGE_PROBE_INTERVAL_MINUTES: "60"
           OUTAGE_FAILURE_INTERVAL_HOURS: "24"
-          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && !inputs.full_test && 'true' || 'false' }}
+          FULL_TEST: ${{ github.event_name == 'workflow_dispatch' && inputs.full_test && 'true' || 'false' }}
           BROWSER_CHANNEL: chrome
           HEADLESS: "false"
         run: xvfb-run -a npm run monitor
@@ -78,7 +84,7 @@ jobs:
       - name: Persist monitor state
         # Connectivity failures update only the outage circuit-breaker state.
         # Persist it even though the monitor step intentionally fails once.
-        if: ${{ always() && (github.event_name != 'workflow_dispatch' || !inputs.dry_run) }}
+        if: ${{ always() && (github.event_name != 'workflow_dispatch' || (!inputs.dry_run && !inputs.full_test)) }}
         run: |
           if git diff --quiet -- data/state.json; then
             echo "Monitor state is unchanged."

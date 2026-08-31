@@ -49,3 +49,14 @@ test("production proxy retries and outage probes are bandwidth bounded", async (
   assert.match(workflow, /MAX_PROXY_ROTATIONS: "2"/);
   assert.match(workflow, /OUTAGE_PROBE_INTERVAL_MINUTES: "60"/);
 });
+
+test("full-flow test sends email without persisting monitor state", async () => {
+  const workflow = await readFile(workflowUrl, "utf8");
+  const persistBlock = workflow.match(
+    /- name: Persist monitor state([\s\S]*?)$/,
+  )?.[1];
+
+  assert.match(workflow, /full_test:/);
+  assert.match(workflow, /FULL_TEST:.*inputs\.full_test/);
+  assert.match(persistBlock, /!inputs\.full_test/);
+});
