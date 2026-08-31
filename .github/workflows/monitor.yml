@@ -2,9 +2,9 @@ name: Monitor Lace Market
 
 on:
   schedule:
-    # Best-effort fallback. The primary 10-minute trigger is the Cloudflare Worker.
-    # Offset from the start of the hour to reduce GitHub schedule delays/drops.
-    - cron: "3,13,23,33,43,53 * * * *"
+    # Hourly best-effort fallback. The primary 10-minute trigger is the
+    # Cloudflare Worker, so running both every 10 minutes only doubles proxy use.
+    - cron: "3 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -66,13 +66,16 @@ jobs:
           PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
           PROXY_ROTATION_MODE: iproyal
           MAX_PROXY_ROTATIONS: "10"
+          OUTAGE_FAILURE_INTERVAL_HOURS: "24"
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
           BROWSER_CHANNEL: chrome
           HEADLESS: "false"
         run: xvfb-run -a npm run monitor
 
       - name: Persist monitor state
-        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.dry_run }}
+        # Connectivity failures update only the outage circuit-breaker state.
+        # Persist it even though the monitor step intentionally fails once.
+        if: ${{ always() && (github.event_name != 'workflow_dispatch' || !inputs.dry_run) }}
         run: |
           if git diff --quiet -- data/state.json; then
             echo "Monitor state is unchanged."
