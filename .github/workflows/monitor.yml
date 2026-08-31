@@ -65,7 +65,10 @@ jobs:
           PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }}
           PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
           PROXY_ROTATION_MODE: iproyal
-          MAX_PROXY_ROTATIONS: "10"
+          # One initial IP plus two rotations is enough to distinguish a bad IP
+          # from a provider-wide outage without burning through the pool.
+          MAX_PROXY_ROTATIONS: "2"
+          OUTAGE_PROBE_INTERVAL_MINUTES: "60"
           OUTAGE_FAILURE_INTERVAL_HOURS: "24"
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
           BROWSER_CHANNEL: chrome

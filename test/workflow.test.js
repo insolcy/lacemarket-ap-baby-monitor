@@ -42,3 +42,10 @@ test("connectivity outage state is persisted even when the scan fails", async ()
   assert.match(persistBlock, /if:.*always\(\)/);
   assert.match(workflow, /OUTAGE_FAILURE_INTERVAL_HOURS: "24"/);
 });
+
+test("production proxy retries and outage probes are bandwidth bounded", async () => {
+  const workflow = await readFile(workflowUrl, "utf8");
+
+  assert.match(workflow, /MAX_PROXY_ROTATIONS: "2"/);
+  assert.match(workflow, /OUTAGE_PROBE_INTERVAL_MINUTES: "60"/);
+});

@@ -16,6 +16,7 @@ import {
   findUnseenNewListings,
   hasNewListingBadge,
   mergeSeen,
+  splitAtFirstKnownListing,
   uniqueListings,
 } from "./frontier.js";
 import {
@@ -27,8 +28,10 @@ import {
 import {
   clearConnectivityOutage,
   DEFAULT_OUTAGE_FAILURE_INTERVAL_MS,
+  DEFAULT_OUTAGE_PROBE_INTERVAL_MS,
   getConnectivityOutageKind,
   recordConnectivityOutage,
+  shouldProbeConnectivity,
 } from "./outage.js";
 import { createIPRoyalSessionId, withIPRoyalSession } from "./proxy.js";
 import {
@@ -63,6 +66,15 @@ const outageFailureIntervalHours =
     : DEFAULT_OUTAGE_FAILURE_INTERVAL_MS / (60 * 60 * 1_000);
 const outageFailureIntervalMs =
   outageFailureIntervalHours * 60 * 60 * 1_000;
+const configuredOutageProbeIntervalMinutes = Number.parseFloat(
+  process.env.OUTAGE_PROBE_INTERVAL_MINUTES || "60",
+);
+const outageProbeIntervalMinutes =
+  Number.isFinite(configuredOutageProbeIntervalMinutes) &&
+  configuredOutageProbeIntervalMinutes > 0
+    ? configuredOutageProbeIntervalMinutes
+    : DEFAULT_OUTAGE_PROBE_INTERVAL_MS / (60 * 1_000);
+const outageProbeIntervalMs = outageProbeIntervalMinutes * 60 * 1_000;
 let lastNavigationAt = 0;
 
 const brands = {
@@ -91,7 +103,7 @@ const blockedThirdPartyHosts = [
 ];
 
 function shouldBlockResource(request) {
-  if (["font", "image", "media"].includes(request.resourceType())) {
+  if (["font", "image", "media", "stylesheet"].includes(request.resourceType())) {
     return true;
   }
 
@@ -231,34 +243,85 @@ async function readListingPage(navigator, url, brand) {
   });
 }
 
-async function scanBrand(navigator, brandKey, brand, brandState) {
+function buildScanResult({
+  brandKey,
+  brandState,
+  pages,
+  candidatePages,
+  pageNumber,
+}) {
+  const observedListings = uniqueListings(pages.flat());
+  const candidateListings = uniqueListings(candidatePages.flat());
+  return {
+    brandKey,
+    candidates: findUnseenNewListings(candidatePages, brandState.seen),
+    observedListings,
+    frontier: pages[0].map((listing) => listing.url),
+    ignoredNonNewCount: candidateListings.filter(
+      (listing) => !hasNewListingBadge(listing),
+    ).length,
+    pagesScanned: pageNumber,
+  };
+}
+
+async function scanBrand(
+  navigator,
+  brandKey,
+  brand,
+  brandState,
+  baselineOnly,
+) {
   const pages = [];
+  const candidatePages = [];
+  const knownUrls = new Set([
+    ...(brandState.seen || []),
+    ...(brandState.frontier || []),
+  ]);
   let nextUrl = brand.url;
 
   for (let pageNumber = 1; pageNumber <= maxPages && nextUrl; pageNumber += 1) {
     const result = await readListingPage(navigator, nextUrl, brand);
     pages.push(result.listings);
 
-    if (!result.nextUrl) {
-      const observedListings = uniqueListings(pages.flat());
-      const ignoredNonNewCount = observedListings.filter(
-        (listing) => !hasNewListingBadge(listing),
-      ).length;
-      return {
+    if (baselineOnly) {
+      console.log(`${brand.label}: baseline refreshed from one listing page.`);
+      return buildScanResult({
         brandKey,
-        candidates: findUnseenNewListings(pages, brandState.seen),
-        observedListings,
-        frontier: pages[0].map((listing) => listing.url),
-        ignoredNonNewCount,
-        pagesScanned: pageNumber,
-      };
+        brandState,
+        pages,
+        candidatePages: [],
+        pageNumber,
+      });
     }
 
+    const delta = splitAtFirstKnownListing(result.listings, knownUrls);
+    candidatePages.push(delta.listingsBeforeAnchor);
+    if (delta.anchorFound) {
+      console.log(
+        `${brand.label}: found a known listing anchor after scanning ` +
+          `${pageNumber} page(s).`,
+      );
+      return buildScanResult({
+        brandKey,
+        brandState,
+        pages,
+        candidatePages,
+        pageNumber,
+      });
+    }
+
+    if (!result.nextUrl) {
+      throw new Error(
+        `${brand.label}: reached the end of New/USA results without a known ` +
+          `listing anchor; refusing to treat the full inventory as new`,
+      );
+    }
     nextUrl = result.nextUrl;
   }
 
   throw new Error(
-    `${brand.label}: New/USA results exceed ${maxPages} pages; refusing a partial scan`,
+    `${brand.label}: no known listing anchor found within ${maxPages} pages; ` +
+      `refusing a partial scan`,
   );
 }
 
@@ -495,9 +558,20 @@ class RotatingNavigator {
 }
 
 async function runMonitorAttempt(state, navigator) {
+  const initializingBaseline = needsNewUnitedStatesBaseline(state);
+  const recoveringFromOutage = Boolean(state.connectivityOutage);
+  const baselineOnly = initializingBaseline || recoveringFromOutage;
   const scans = [];
   for (const [brandKey, brand] of Object.entries(brands)) {
-    scans.push(await scanBrand(navigator, brandKey, brand, state.brands[brandKey]));
+    scans.push(
+      await scanBrand(
+        navigator,
+        brandKey,
+        brand,
+        state.brands[brandKey],
+        baselineOnly,
+      ),
+    );
   }
 
   for (const scan of scans) {
@@ -509,7 +583,6 @@ async function runMonitorAttempt(state, navigator) {
     }
   }
 
-  const baselineOnly = needsNewUnitedStatesBaseline(state);
   const candidateDetails = [];
   const skippedNonDressListings = [];
   if (baselineOnly) {
@@ -517,8 +590,11 @@ async function runMonitorAttempt(state, navigator) {
       (total, scan) => total + scan.observedListings.length,
       0,
     );
+    const reason = recoveringFromOutage
+      ? "Recovering from a connectivity outage"
+      : "Initializing New/USA monitoring";
     console.log(
-      `Initializing New/USA monitoring baseline with ${baselineCount} current listing(s); ` +
+      `${reason} with ${baselineCount} first-page listing(s); ` +
         `no historical alerts will be sent.`,
     );
   } else {
@@ -606,6 +682,18 @@ async function runMonitorAttempt(state, navigator) {
 async function main() {
   requireProductionEnvironment();
   const state = await loadState();
+  if (
+    !dryRun &&
+    !shouldProbeConnectivity(state, new Date(), outageProbeIntervalMs)
+  ) {
+    console.warn(
+      `Monitor connectivity outage (${state.connectivityOutage.kind}) is still active. ` +
+        `Skipping this proxy probe; probes are limited to once every ` +
+        `${outageProbeIntervalMinutes} minute(s).`,
+    );
+    return;
+  }
+
   const rotationMode = (process.env.PROXY_ROTATION_MODE || "").toLowerCase();
   if (rotationMode && rotationMode !== "iproyal") {
     throw new Error(`Unsupported PROXY_ROTATION_MODE: ${rotationMode}`);
@@ -628,6 +716,7 @@ async function main() {
         outageFailureIntervalMs,
       );
       if (!shouldReportFailure) {
+        await saveState(state);
         console.warn(
           `Monitor connectivity outage (${outageKind}) is still active. ` +
             `Suppressing this repeated GitHub failure; listing state was not changed.`,
