@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-01T13:51:36.459Z",
+  "lastSuccessfulCheckAt": "2026-09-01T14:01:37.825Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-sweet-rose-op-759b1a2d-60f7-49b8-ac72-a9c5084d8e0b",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-op-fb2fe2bb-8083-47f4-9b22-191517e35d06",
       "https://egl.circlly.com/auctions/daydream-bed-op-in-lavender",
       "https://egl.circlly.com/auctions/angelic-pretty-wrapping-ribbon-salopette-lavender-278c3972-dad4-48a8-a695-dd4fad0b44b2",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/icing-dancing-cake-cream-jsk-6b6b2982-2c59-441b-99d4-466b533595d9",
       "https://egl.circlly.com/auctions/magic-princess-napoleon-jsk-8d7fdac6-219a-4fdb-897b-4ce4dcd13068",
       "https://egl.circlly.com/auctions/ap-fairy-marine-skirt-67743eb0-de81-4c5a-8a05-3ca40f17984f",
-      "https://egl.circlly.com/auctions/btssb-2013-sleeping-beauty-aurora-jsk",
-      "https://egl.circlly.com/auctions/sweet-cherry-margaret-cutsew-op-f79d25cb-1cb5-4d85-9e42-583095802e07"
+      "https://egl.circlly.com/auctions/btssb-2013-sleeping-beauty-aurora-jsk"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-sweet-rose-op-759b1a2d-60f7-49b8-ac72-a9c5084d8e0b",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-op-fb2fe2bb-8083-47f4-9b22-191517e35d06",
       "https://egl.circlly.com/auctions/daydream-bed-op-in-lavender",
       "https://egl.circlly.com/auctions/angelic-pretty-wrapping-ribbon-salopette-lavender-278c3972-dad4-48a8-a695-dd4fad0b44b2",
