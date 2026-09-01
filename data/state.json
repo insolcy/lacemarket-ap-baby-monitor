@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-01T03:51:10.046Z",
+  "lastSuccessfulCheckAt": "2026-09-01T04:00:51.764Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -916,13 +916,13 @@
       "https://egl.circlly.com/auctions/angelic-pretty-wrapping-ribbon-salopette-lavender-278c3972-dad4-48a8-a695-dd4fad0b44b2",
       "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-jsk-with-matching-kc",
       "https://egl.circlly.com/auctions/toy-doll-box-jsk-pink-3db3f207-5d36-4e72-add1-7953628d2534",
-      "https://egl.circlly.com/auctions/angelic-pretty-dream-fantastic-balloon-jsk-and-matching-kc",
       "https://egl.circlly.com/auctions/bunny-ribbon-parfaiteria-op-complete-set",
       "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-ivory-black",
       "https://egl.circlly.com/auctions/icing-dancing-cake-cream-jsk-6b6b2982-2c59-441b-99d4-466b533595d9",
       "https://egl.circlly.com/auctions/magic-princess-napoleon-jsk-8d7fdac6-219a-4fdb-897b-4ce4dcd13068",
       "https://egl.circlly.com/auctions/ap-fairy-marine-skirt-67743eb0-de81-4c5a-8a05-3ca40f17984f",
-      "https://egl.circlly.com/auctions/btssb-2013-sleeping-beauty-aurora-jsk"
+      "https://egl.circlly.com/auctions/btssb-2013-sleeping-beauty-aurora-jsk",
+      "https://egl.circlly.com/auctions/sweet-cherry-margaret-cutsew-op-f79d25cb-1cb5-4d85-9e42-583095802e07"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/btssb-cul-de-paris-rose-lace-jsk",
@@ -930,7 +930,6 @@
       "https://egl.circlly.com/auctions/angelic-pretty-wrapping-ribbon-salopette-lavender-278c3972-dad4-48a8-a695-dd4fad0b44b2",
       "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-jsk-with-matching-kc",
       "https://egl.circlly.com/auctions/toy-doll-box-jsk-pink-3db3f207-5d36-4e72-add1-7953628d2534",
-      "https://egl.circlly.com/auctions/angelic-pretty-dream-fantastic-balloon-jsk-and-matching-kc",
       "https://egl.circlly.com/auctions/bunny-ribbon-parfaiteria-op-complete-set",
       "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-ivory-black",
       "https://egl.circlly.com/auctions/icing-dancing-cake-cream-jsk-6b6b2982-2c59-441b-99d4-466b533595d9",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/ap-fairy-marine-skirt-67743eb0-de81-4c5a-8a05-3ca40f17984f",
       "https://egl.circlly.com/auctions/btssb-2013-sleeping-beauty-aurora-jsk",
       "https://egl.circlly.com/auctions/sweet-cherry-margaret-cutsew-op-f79d25cb-1cb5-4d85-9e42-583095802e07",
+      "https://egl.circlly.com/auctions/angelic-pretty-dream-fantastic-balloon-jsk-and-matching-kc",
       "https://egl.circlly.com/auctions/ap-chocolate-rosette-salopette-matching-headbow",
       "https://egl.circlly.com/auctions/angelic-pretty-moon-drop-op",
       "https://egl.circlly.com/auctions/nwt-angelic-pretty-bunny-ribbon-parfaiteria-jsk-lovely-gingham-head-bow",
