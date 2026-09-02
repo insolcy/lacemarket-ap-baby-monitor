@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-02T15:22:23.679Z",
+  "lastSuccessfulCheckAt": "2026-09-02T15:31:28.382Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-milky-swan-collar-op-kc-in-lavender",
       "https://egl.circlly.com/auctions/btssb-victorian-sugar-bouquet-us-shipping-included",
       "https://egl.circlly.com/auctions/photogenic-pallet-skirt",
       "https://egl.circlly.com/auctions/photogenic-pallet-salopette-e748438b-ebf7-45cd-9e2f-401b5975cf93",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-jsk-with-matching-kc",
       "https://egl.circlly.com/auctions/bunny-ribbon-parfaiteria-op-complete-set",
       "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-ivory-black",
-      "https://egl.circlly.com/auctions/icing-dancing-cake-cream-jsk-6b6b2982-2c59-441b-99d4-466b533595d9",
-      "https://egl.circlly.com/auctions/magic-princess-napoleon-jsk-8d7fdac6-219a-4fdb-897b-4ce4dcd13068"
+      "https://egl.circlly.com/auctions/icing-dancing-cake-cream-jsk-6b6b2982-2c59-441b-99d4-466b533595d9"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-milky-swan-collar-op-kc-in-lavender",
       "https://egl.circlly.com/auctions/btssb-victorian-sugar-bouquet-us-shipping-included",
       "https://egl.circlly.com/auctions/photogenic-pallet-skirt",
       "https://egl.circlly.com/auctions/photogenic-pallet-salopette-e748438b-ebf7-45cd-9e2f-401b5975cf93",
