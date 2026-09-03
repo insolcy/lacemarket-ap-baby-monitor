@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-03T19:15:23.430Z",
+  "lastSuccessfulCheckAt": "2026-09-03T19:21:54.164Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,7 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
-      "https://egl.circlly.com/auctions/angelic-pretty-ap-dolce-tartan-velveteen-jsk-w-matching-kc",
+      "https://egl.circlly.com/auctions/closet-cleaning-plus-size-friendly-angelic-pretty-honey-cake-round-jsk-in-yellow-w-headbow",
       "https://egl.circlly.com/auctions/angelic-pretty-space-lollipop-op-kc-set-pink",
       "https://egl.circlly.com/auctions/free-shipping-in-us-angelic-pretty-neon-star-diner-op-and-headbow-in-black-necklace-in-pink",
       "https://egl.circlly.com/auctions/angelic-pretty-milky-swan-collar-op-kc-in-lavender",
@@ -925,7 +925,7 @@
       "https://egl.circlly.com/auctions/bunny-ribbon-parfaiteria-op-complete-set"
     ],
     "seen": [
-      "https://egl.circlly.com/auctions/angelic-pretty-ap-dolce-tartan-velveteen-jsk-w-matching-kc",
+      "https://egl.circlly.com/auctions/closet-cleaning-plus-size-friendly-angelic-pretty-honey-cake-round-jsk-in-yellow-w-headbow",
       "https://egl.circlly.com/auctions/angelic-pretty-space-lollipop-op-kc-set-pink",
       "https://egl.circlly.com/auctions/free-shipping-in-us-angelic-pretty-neon-star-diner-op-and-headbow-in-black-necklace-in-pink",
       "https://egl.circlly.com/auctions/angelic-pretty-milky-swan-collar-op-kc-in-lavender",
@@ -937,6 +937,7 @@
       "https://egl.circlly.com/auctions/daydream-bed-op-in-lavender",
       "https://egl.circlly.com/auctions/angelic-pretty-dolly-dot-jsk-with-matching-kc",
       "https://egl.circlly.com/auctions/bunny-ribbon-parfaiteria-op-complete-set",
+      "https://egl.circlly.com/auctions/angelic-pretty-ap-dolce-tartan-velveteen-jsk-w-matching-kc",
       "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-ivory-black",
       "https://egl.circlly.com/auctions/angelic-pretty-cherry-stamp-jsk-kc-in-mint",
       "https://egl.circlly.com/auctions/ap-girly-room-jsk-kc-a7ce2510-2f35-45b4-8c9b-f6b87ac080b9",
