@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-05T13:21:19.473Z",
+  "lastSuccessfulCheckAt": "2026-09-05T13:31:51.391Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,8 +911,8 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/melody-toys-salopette-kc-lavender",
       "https://egl.circlly.com/auctions/ap-glass-doll-op-white",
-      "https://egl.circlly.com/auctions/emilia-gingham-jsk-2023-by-btssb",
       "https://egl.circlly.com/auctions/pukupuku-honey-shirring-jsk-2025-by-ap",
       "https://egl.circlly.com/auctions/ap-fancy-stationery-jsk",
       "https://egl.circlly.com/auctions/ap-toy-s-donut-diner-jsk-set-nwt",
@@ -925,8 +925,8 @@
       "https://egl.circlly.com/auctions/photogenic-pallet-salopette-e748438b-ebf7-45cd-9e2f-401b5975cf93"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/melody-toys-salopette-kc-lavender",
       "https://egl.circlly.com/auctions/ap-glass-doll-op-white",
-      "https://egl.circlly.com/auctions/emilia-gingham-jsk-2023-by-btssb",
       "https://egl.circlly.com/auctions/pukupuku-honey-shirring-jsk-2025-by-ap",
       "https://egl.circlly.com/auctions/ap-fancy-stationery-jsk",
       "https://egl.circlly.com/auctions/ap-toy-s-donut-diner-jsk-set-nwt",
@@ -937,6 +937,7 @@
       "https://egl.circlly.com/auctions/btssb-victorian-sugar-bouquet-us-shipping-included",
       "https://egl.circlly.com/auctions/photogenic-pallet-skirt",
       "https://egl.circlly.com/auctions/photogenic-pallet-salopette-e748438b-ebf7-45cd-9e2f-401b5975cf93",
+      "https://egl.circlly.com/auctions/emilia-gingham-jsk-2023-by-btssb",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-jsk-classical-clasic-black-and-white",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-op-fb2fe2bb-8083-47f4-9b22-191517e35d06",
       "https://egl.circlly.com/auctions/daydream-bed-op-in-lavender",
