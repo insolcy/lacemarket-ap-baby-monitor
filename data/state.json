@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-05T02:50:42.313Z",
+  "lastSuccessfulCheckAt": "2026-09-05T03:00:54.707Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/ap-glass-doll-op-white",
       "https://egl.circlly.com/auctions/emilia-gingham-jsk-2023-by-btssb",
       "https://egl.circlly.com/auctions/pukupuku-honey-shirring-jsk-2025-by-ap",
       "https://egl.circlly.com/auctions/ap-fancy-stationery-jsk",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/angelic-pretty-milky-swan-collar-op-kc-in-lavender",
       "https://egl.circlly.com/auctions/btssb-victorian-sugar-bouquet-us-shipping-included",
       "https://egl.circlly.com/auctions/photogenic-pallet-skirt",
-      "https://egl.circlly.com/auctions/photogenic-pallet-salopette-e748438b-ebf7-45cd-9e2f-401b5975cf93",
-      "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-jsk-classical-clasic-black-and-white"
+      "https://egl.circlly.com/auctions/photogenic-pallet-salopette-e748438b-ebf7-45cd-9e2f-401b5975cf93"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/ap-glass-doll-op-white",
       "https://egl.circlly.com/auctions/emilia-gingham-jsk-2023-by-btssb",
       "https://egl.circlly.com/auctions/pukupuku-honey-shirring-jsk-2025-by-ap",
       "https://egl.circlly.com/auctions/ap-fancy-stationery-jsk",
