@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-06T22:21:37.939Z",
+  "lastSuccessfulCheckAt": "2026-09-06T22:31:30.555Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/sleeping-beauty-princess-aurora-jsk-in-black",
       "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-jsk-mint-a0b45a68-df35-41ff-b922-8dc2026bf6a6",
       "https://egl.circlly.com/auctions/btssb-hawse-doll-op-only",
       "https://egl.circlly.com/auctions/ap-memorial-library-op-6d305b72-45ae-4c2c-b4d0-88dc9cbfa2c4",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/ap-toy-s-donut-diner-jsk-set-nwt",
       "https://egl.circlly.com/auctions/closet-cleaning-plus-size-friendly-angelic-pretty-honey-cake-round-jsk-in-yellow-w-headbow",
       "https://egl.circlly.com/auctions/angelic-pretty-space-lollipop-op-kc-set-pink",
-      "https://egl.circlly.com/auctions/free-shipping-in-us-angelic-pretty-neon-star-diner-op-and-headbow-in-black-necklace-in-pink",
-      "https://egl.circlly.com/auctions/angelic-pretty-milky-swan-collar-op-kc-in-lavender"
+      "https://egl.circlly.com/auctions/free-shipping-in-us-angelic-pretty-neon-star-diner-op-and-headbow-in-black-necklace-in-pink"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/sleeping-beauty-princess-aurora-jsk-in-black",
       "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-jsk-mint-a0b45a68-df35-41ff-b922-8dc2026bf6a6",
       "https://egl.circlly.com/auctions/btssb-hawse-doll-op-only",
       "https://egl.circlly.com/auctions/ap-memorial-library-op-6d305b72-45ae-4c2c-b4d0-88dc9cbfa2c4",
