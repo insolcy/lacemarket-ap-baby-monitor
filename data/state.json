@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-07T04:51:20.087Z",
+  "lastSuccessfulCheckAt": "2026-09-07T05:01:45.649Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,8 +915,6 @@
       "https://egl.circlly.com/auctions/sleeping-beauty-princess-aurora-jsk-in-black",
       "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-jsk-mint-a0b45a68-df35-41ff-b922-8dc2026bf6a6",
       "https://egl.circlly.com/auctions/btssb-hawse-doll-op-only",
-      "https://egl.circlly.com/auctions/antique-beast-black-cat-headdress-39e7cfeb-5d0d-47b8-9598-7de56b67dc41",
-      "https://egl.circlly.com/auctions/https-lolibrary-org-items-iw-rose-and-strawberry-tiered-op",
       "https://egl.circlly.com/auctions/ap-memorial-library-op-6d305b72-45ae-4c2c-b4d0-88dc9cbfa2c4",
       "https://egl.circlly.com/auctions/toy-doll-box-salopette-pink",
       "https://egl.circlly.com/auctions/melody-toys-salopette-kc-lavender",
@@ -931,8 +929,6 @@
       "https://egl.circlly.com/auctions/sleeping-beauty-princess-aurora-jsk-in-black",
       "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-jsk-mint-a0b45a68-df35-41ff-b922-8dc2026bf6a6",
       "https://egl.circlly.com/auctions/btssb-hawse-doll-op-only",
-      "https://egl.circlly.com/auctions/antique-beast-black-cat-headdress-39e7cfeb-5d0d-47b8-9598-7de56b67dc41",
-      "https://egl.circlly.com/auctions/https-lolibrary-org-items-iw-rose-and-strawberry-tiered-op",
       "https://egl.circlly.com/auctions/ap-memorial-library-op-6d305b72-45ae-4c2c-b4d0-88dc9cbfa2c4",
       "https://egl.circlly.com/auctions/toy-doll-box-salopette-pink",
       "https://egl.circlly.com/auctions/melody-toys-salopette-kc-lavender",
@@ -941,6 +937,8 @@
       "https://egl.circlly.com/auctions/ap-toy-s-donut-diner-jsk-set-nwt",
       "https://egl.circlly.com/auctions/closet-cleaning-plus-size-friendly-angelic-pretty-honey-cake-round-jsk-in-yellow-w-headbow",
       "https://egl.circlly.com/auctions/angelic-pretty-space-lollipop-op-kc-set-pink",
+      "https://egl.circlly.com/auctions/antique-beast-black-cat-headdress-39e7cfeb-5d0d-47b8-9598-7de56b67dc41",
+      "https://egl.circlly.com/auctions/https-lolibrary-org-items-iw-rose-and-strawberry-tiered-op",
       "https://egl.circlly.com/auctions/dear-celine-chocolate-op-with-indie-hat",
       "https://egl.circlly.com/auctions/red-lolita-leather-shoes",
       "https://egl.circlly.com/auctions/for-sale-lilith-house-best-friend-jsk-xl-size",
