@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-07T11:18:26.979Z",
+  "lastSuccessfulCheckAt": "2026-09-07T12:31:29.842Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -1028,11 +1028,5 @@
     ],
     "lastPagesScanned": 1
   },
-  "combinedNewUnitedStatesBaselineAt": "2026-08-31T16:16:03.856Z",
-  "connectivityOutage": {
-    "kind": "proxy-unavailable",
-    "startedAt": "2026-09-07T11:21:33.427Z",
-    "lastFailureReportedAt": "2026-09-07T11:21:33.427Z",
-    "lastProbeAt": "2026-09-07T11:21:33.427Z"
-  }
+  "combinedNewUnitedStatesBaselineAt": "2026-09-07T12:31:29.842Z"
 }
