@@ -1028,5 +1028,11 @@
     ],
     "lastPagesScanned": 1
   },
-  "combinedNewUnitedStatesBaselineAt": "2026-08-31T16:16:03.856Z"
+  "combinedNewUnitedStatesBaselineAt": "2026-08-31T16:16:03.856Z",
+  "connectivityOutage": {
+    "kind": "proxy-unavailable",
+    "startedAt": "2026-09-07T11:21:33.427Z",
+    "lastFailureReportedAt": "2026-09-07T11:21:33.427Z",
+    "lastProbeAt": "2026-09-07T11:21:33.427Z"
+  }
 }
