@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-08T02:11:23.697Z",
+  "lastSuccessfulCheckAt": "2026-09-08T02:22:29.021Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/btssb-hawase-doll-op-set",
       "https://egl.circlly.com/auctions/baby-school-girl-jsk-in-green-2012-winter-lp",
       "https://egl.circlly.com/auctions/baby-school-girl-jsk-set-in-red-2012-winter-lp",
       "https://egl.circlly.com/auctions/angelic-pretty-easter-egg-jsk-84dd9836-88fa-44fd-92ef-38e6640fb9e3",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/strawberry-doll-op-kc-angelic-pretty-2bf506d7-c751-44a7-b3fe-6ff1022b68d5",
       "https://egl.circlly.com/auctions/angelic-pretty-pink-fairytale-forest-jsk-open-to-trades",
       "https://egl.circlly.com/auctions/angelic-pretty-harlequinade-op-in-black-aa486cbc-9d05-4162-a4da-fd3ab7ce6338",
-      "https://egl.circlly.com/auctions/sleeping-beauty-princess-aurora-jsk-in-black",
-      "https://egl.circlly.com/auctions/angelic-pretty-silky-lady-jsk-mint-a0b45a68-df35-41ff-b922-8dc2026bf6a6"
+      "https://egl.circlly.com/auctions/sleeping-beauty-princess-aurora-jsk-in-black"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/btssb-hawase-doll-op-set",
       "https://egl.circlly.com/auctions/baby-school-girl-jsk-in-green-2012-winter-lp",
       "https://egl.circlly.com/auctions/baby-school-girl-jsk-set-in-red-2012-winter-lp",
       "https://egl.circlly.com/auctions/angelic-pretty-easter-egg-jsk-84dd9836-88fa-44fd-92ef-38e6640fb9e3",
