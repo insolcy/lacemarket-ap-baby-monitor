@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-09T02:10:33.764Z",
+  "lastSuccessfulCheckAt": "2026-09-09T02:21:05.246Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/nwot-angelicpretty-botanical-garden-op",
       "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-barette-in-blue",
       "https://egl.circlly.com/auctions/zipper-not-connected-angelic-pretty-sugary-carnival-jsk",
       "https://egl.circlly.com/auctions/candy-sprinkles-jsk",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/angelic-pretty-soap-bubbles-op-in-sax",
       "https://egl.circlly.com/auctions/angelic-pretty-horror-candy-shop-w-matching-otks-holy-lantern-red-otks-and-bat-maid-head-bow",
       "https://egl.circlly.com/auctions/whipped-gingham-ruffle-op-black-x-white-angelic-pretty",
-      "https://egl.circlly.com/auctions/angelic-pretty-little-witch-op-and-lyrical-bunny-jewelry-nwot-3-piece-set",
-      "https://egl.circlly.com/auctions/strawberry-doll-op-kc-angelic-pretty-2bf506d7-c751-44a7-b3fe-6ff1022b68d5"
+      "https://egl.circlly.com/auctions/angelic-pretty-little-witch-op-and-lyrical-bunny-jewelry-nwot-3-piece-set"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/nwot-angelicpretty-botanical-garden-op",
       "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-barette-in-blue",
       "https://egl.circlly.com/auctions/zipper-not-connected-angelic-pretty-sugary-carnival-jsk",
       "https://egl.circlly.com/auctions/candy-sprinkles-jsk",
