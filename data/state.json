@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-09T18:21:30.451Z",
+  "lastSuccessfulCheckAt": "2026-09-09T18:24:30.764Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,8 +915,6 @@
       "https://egl.circlly.com/auctions/angelic-pretty-daydream-bed-special-set-op-kira-imai-grey",
       "https://egl.circlly.com/auctions/nwot-angelicpretty-botanical-garden-op",
       "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-barette-in-blue",
-      "https://egl.circlly.com/auctions/metamorphose-trumpet-sleeve-lace-up-op-raschel-lace",
-      "https://egl.circlly.com/auctions/alice-and-the-pirates-chloe-op",
       "https://egl.circlly.com/auctions/zipper-not-connected-angelic-pretty-sugary-carnival-jsk",
       "https://egl.circlly.com/auctions/btssb-lace-frill-jsk-sax-b5cc0b88-2a5c-45bf-a21c-fb64800506cf",
       "https://egl.circlly.com/auctions/btssb-hawase-doll-op-set",
@@ -931,8 +929,6 @@
       "https://egl.circlly.com/auctions/angelic-pretty-daydream-bed-special-set-op-kira-imai-grey",
       "https://egl.circlly.com/auctions/nwot-angelicpretty-botanical-garden-op",
       "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-barette-in-blue",
-      "https://egl.circlly.com/auctions/metamorphose-trumpet-sleeve-lace-up-op-raschel-lace",
-      "https://egl.circlly.com/auctions/alice-and-the-pirates-chloe-op",
       "https://egl.circlly.com/auctions/zipper-not-connected-angelic-pretty-sugary-carnival-jsk",
       "https://egl.circlly.com/auctions/btssb-lace-frill-jsk-sax-b5cc0b88-2a5c-45bf-a21c-fb64800506cf",
       "https://egl.circlly.com/auctions/btssb-hawase-doll-op-set",
@@ -941,6 +937,8 @@
       "https://egl.circlly.com/auctions/angelic-pretty-soap-bubbles-op-in-sax",
       "https://egl.circlly.com/auctions/angelic-pretty-horror-candy-shop-w-matching-otks-holy-lantern-red-otks-and-bat-maid-head-bow",
       "https://egl.circlly.com/auctions/whipped-gingham-ruffle-op-black-x-white-angelic-pretty",
+      "https://egl.circlly.com/auctions/metamorphose-trumpet-sleeve-lace-up-op-raschel-lace",
+      "https://egl.circlly.com/auctions/alice-and-the-pirates-chloe-op",
       "https://egl.circlly.com/auctions/ap-melody-toys-pink-jsk-and-headbow",
       "https://egl.circlly.com/auctions/free-us-ship-angelic-pretty-petit-patisserie-op-in-brown",
       "https://egl.circlly.com/auctions/angelic-pretty-nakayoshi-ginger-cookie-jsk-set-6f2c24ff-bc30-44e0-bf26-4a893ee3e3c9",
