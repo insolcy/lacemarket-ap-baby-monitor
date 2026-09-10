@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-10T02:41:42.364Z",
+  "lastSuccessfulCheckAt": "2026-09-10T02:51:08.296Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,7 +911,6 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
-      "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-little-royal-icing-my-little-princess-jsk-yellow",
       "https://egl.circlly.com/auctions/btssb-petit-bouquet-catherine-op",
       "https://egl.circlly.com/auctions/angelic-pretty-apron-skirt-freshly-picked-berries",
       "https://egl.circlly.com/auctions/angelic-pretty-daydream-bed-special-set-op-kira-imai-grey",
@@ -922,10 +921,10 @@
       "https://egl.circlly.com/auctions/btssb-hawase-doll-op-set",
       "https://egl.circlly.com/auctions/baby-school-girl-jsk-set-in-red-2012-winter-lp",
       "https://egl.circlly.com/auctions/angelic-pretty-easter-egg-jsk-84dd9836-88fa-44fd-92ef-38e6640fb9e3",
-      "https://egl.circlly.com/auctions/angelic-pretty-soap-bubbles-op-in-sax"
+      "https://egl.circlly.com/auctions/angelic-pretty-soap-bubbles-op-in-sax",
+      "https://egl.circlly.com/auctions/angelic-pretty-horror-candy-shop-w-matching-otks-holy-lantern-red-otks-and-bat-maid-head-bow"
     ],
     "seen": [
-      "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-little-royal-icing-my-little-princess-jsk-yellow",
       "https://egl.circlly.com/auctions/btssb-petit-bouquet-catherine-op",
       "https://egl.circlly.com/auctions/angelic-pretty-apron-skirt-freshly-picked-berries",
       "https://egl.circlly.com/auctions/angelic-pretty-daydream-bed-special-set-op-kira-imai-grey",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/angelic-pretty-easter-egg-jsk-84dd9836-88fa-44fd-92ef-38e6640fb9e3",
       "https://egl.circlly.com/auctions/angelic-pretty-soap-bubbles-op-in-sax",
       "https://egl.circlly.com/auctions/angelic-pretty-horror-candy-shop-w-matching-otks-holy-lantern-red-otks-and-bat-maid-head-bow",
+      "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-little-royal-icing-my-little-princess-jsk-yellow",
       "https://egl.circlly.com/auctions/whipped-gingham-ruffle-op-black-x-white-angelic-pretty",
       "https://egl.circlly.com/auctions/angelic-pretty-day-dream-carnival-op-and-kc-in-ivory",
       "https://egl.circlly.com/auctions/metamorphose-trumpet-sleeve-lace-up-op-raschel-lace",
