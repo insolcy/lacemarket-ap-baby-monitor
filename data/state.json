@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-10T14:31:10.154Z",
+  "lastSuccessfulCheckAt": "2026-09-10T14:40:54.060Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -918,11 +918,11 @@
       "https://egl.circlly.com/auctions/angelic-pretty-daydream-bed-special-set-op-kira-imai-grey",
       "https://egl.circlly.com/auctions/nwot-angelicpretty-botanical-garden-op",
       "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-barette-in-blue",
-      "https://egl.circlly.com/auctions/zipper-not-connected-angelic-pretty-sugary-carnival-jsk",
       "https://egl.circlly.com/auctions/btssb-lace-frill-jsk-sax-b5cc0b88-2a5c-45bf-a21c-fb64800506cf",
       "https://egl.circlly.com/auctions/btssb-hawase-doll-op-set",
       "https://egl.circlly.com/auctions/baby-school-girl-jsk-set-in-red-2012-winter-lp",
-      "https://egl.circlly.com/auctions/angelic-pretty-easter-egg-jsk-84dd9836-88fa-44fd-92ef-38e6640fb9e3"
+      "https://egl.circlly.com/auctions/angelic-pretty-easter-egg-jsk-84dd9836-88fa-44fd-92ef-38e6640fb9e3",
+      "https://egl.circlly.com/auctions/angelic-pretty-soap-bubbles-op-in-sax"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-and-kc",
@@ -932,12 +932,12 @@
       "https://egl.circlly.com/auctions/angelic-pretty-daydream-bed-special-set-op-kira-imai-grey",
       "https://egl.circlly.com/auctions/nwot-angelicpretty-botanical-garden-op",
       "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-barette-in-blue",
-      "https://egl.circlly.com/auctions/zipper-not-connected-angelic-pretty-sugary-carnival-jsk",
       "https://egl.circlly.com/auctions/btssb-lace-frill-jsk-sax-b5cc0b88-2a5c-45bf-a21c-fb64800506cf",
       "https://egl.circlly.com/auctions/btssb-hawase-doll-op-set",
       "https://egl.circlly.com/auctions/baby-school-girl-jsk-set-in-red-2012-winter-lp",
       "https://egl.circlly.com/auctions/angelic-pretty-easter-egg-jsk-84dd9836-88fa-44fd-92ef-38e6640fb9e3",
       "https://egl.circlly.com/auctions/angelic-pretty-soap-bubbles-op-in-sax",
+      "https://egl.circlly.com/auctions/zipper-not-connected-angelic-pretty-sugary-carnival-jsk",
       "https://egl.circlly.com/auctions/btssb-very-berry-sweet-pie-op-in-black-2010",
       "https://egl.circlly.com/auctions/angelic-pretty-horror-candy-shop-w-matching-otks-holy-lantern-red-otks-and-bat-maid-head-bow",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-little-royal-icing-my-little-princess-jsk-yellow",
