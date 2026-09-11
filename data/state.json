@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-11T07:41:14.336Z",
+  "lastSuccessfulCheckAt": "2026-09-11T07:51:13.455Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,6 +915,8 @@
       "https://egl.circlly.com/auctions/private-trade-strawberryjam-only",
       "https://egl.circlly.com/auctions/reserved-btssb-gingham-rose-ribbon-op-in-pink",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-and-kc",
+      "https://egl.circlly.com/auctions/mary-magdalene-coquelicot-op-c99ed318-9ebd-4ad7-aa87-452b30a07023",
+      "https://egl.circlly.com/auctions/nwot-angelic-pretty-taoba-headdresses-pink-x-white-hair-accessories-lot",
       "https://egl.circlly.com/auctions/ap-holy-lantern-jsk-bow-clip",
       "https://egl.circlly.com/auctions/btssb-petit-bouquet-catherine-op",
       "https://egl.circlly.com/auctions/angelic-pretty-apron-skirt-freshly-picked-berries",
@@ -929,6 +931,8 @@
       "https://egl.circlly.com/auctions/private-trade-strawberryjam-only",
       "https://egl.circlly.com/auctions/reserved-btssb-gingham-rose-ribbon-op-in-pink",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-and-kc",
+      "https://egl.circlly.com/auctions/mary-magdalene-coquelicot-op-c99ed318-9ebd-4ad7-aa87-452b30a07023",
+      "https://egl.circlly.com/auctions/nwot-angelic-pretty-taoba-headdresses-pink-x-white-hair-accessories-lot",
       "https://egl.circlly.com/auctions/ap-holy-lantern-jsk-bow-clip",
       "https://egl.circlly.com/auctions/btssb-petit-bouquet-catherine-op",
       "https://egl.circlly.com/auctions/angelic-pretty-apron-skirt-freshly-picked-berries",
@@ -937,7 +941,6 @@
       "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-barette-in-blue",
       "https://egl.circlly.com/auctions/btssb-lace-frill-jsk-sax-b5cc0b88-2a5c-45bf-a21c-fb64800506cf",
       "https://egl.circlly.com/auctions/btssb-hawase-doll-op-set",
-      "https://egl.circlly.com/auctions/mary-magdalene-coquelicot-op-c99ed318-9ebd-4ad7-aa87-452b30a07023",
       "https://egl.circlly.com/auctions/nwt-angelic-pretty-x-super-mario-collab-super-star-necklace-ring-set-yellow-05efad8b-672e-4d5d-b84e-b3cf3a38cb79",
       "https://egl.circlly.com/auctions/nwt-triple-fortune-heavenly-jewels-tights-62cc344b-4049-497e-a647-af407bde17f0",
       "https://egl.circlly.com/auctions/baby-school-girl-jsk-set-in-red-2012-winter-lp",
