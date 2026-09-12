@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-12T11:01:38.729Z",
+  "lastSuccessfulCheckAt": "2026-09-12T11:12:12.236Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/cul-de-paris-rose-lace-jsk-baby-the-stars-shine-bright",
       "https://egl.circlly.com/auctions/btssb-flying-love-from-juliet-doll-jsk-536d016a-b5fa-4562-bb21-16e408debed3",
       "https://egl.circlly.com/auctions/angelic-pretty-starry-girl-op-feac9cf4-8ada-452b-892b-c559dc31ac7c",
       "https://egl.circlly.com/auctions/innocent-ribbon-lace-audrey-op-lavender",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/ap-holy-lantern-jsk-bow-clip",
       "https://egl.circlly.com/auctions/btssb-petit-bouquet-catherine-op",
       "https://egl.circlly.com/auctions/angelic-pretty-apron-skirt-freshly-picked-berries",
-      "https://egl.circlly.com/auctions/angelic-pretty-daydream-bed-special-set-op-kira-imai-grey",
-      "https://egl.circlly.com/auctions/nwot-angelicpretty-botanical-garden-op"
+      "https://egl.circlly.com/auctions/angelic-pretty-daydream-bed-special-set-op-kira-imai-grey"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/cul-de-paris-rose-lace-jsk-baby-the-stars-shine-bright",
       "https://egl.circlly.com/auctions/btssb-flying-love-from-juliet-doll-jsk-536d016a-b5fa-4562-bb21-16e408debed3",
       "https://egl.circlly.com/auctions/angelic-pretty-starry-girl-op-feac9cf4-8ada-452b-892b-c559dc31ac7c",
       "https://egl.circlly.com/auctions/innocent-ribbon-lace-audrey-op-lavender",
