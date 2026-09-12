@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-12T01:41:33.495Z",
+  "lastSuccessfulCheckAt": "2026-09-12T01:51:24.967Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -916,13 +916,13 @@
       "https://egl.circlly.com/auctions/btssb-innocent-ribbon-frill-shirring-jsk-black",
       "https://egl.circlly.com/auctions/angelic-pretty-cirque-du-l-etoile-jsk-kc-2bf676c9-8478-42fe-b1b7-c5dd0c3d9541",
       "https://egl.circlly.com/auctions/angelicpretty-shanghai-doll-dress-set",
-      "https://egl.circlly.com/auctions/reserved-btssb-gingham-rose-ribbon-op-in-pink",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-and-kc",
       "https://egl.circlly.com/auctions/ap-holy-lantern-jsk-bow-clip",
       "https://egl.circlly.com/auctions/btssb-petit-bouquet-catherine-op",
       "https://egl.circlly.com/auctions/angelic-pretty-apron-skirt-freshly-picked-berries",
       "https://egl.circlly.com/auctions/angelic-pretty-daydream-bed-special-set-op-kira-imai-grey",
-      "https://egl.circlly.com/auctions/nwot-angelicpretty-botanical-garden-op"
+      "https://egl.circlly.com/auctions/nwot-angelicpretty-botanical-garden-op",
+      "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-barette-in-blue"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/angelic-pretty-starry-girl-op-feac9cf4-8ada-452b-892b-c559dc31ac7c",
@@ -930,15 +930,15 @@
       "https://egl.circlly.com/auctions/btssb-innocent-ribbon-frill-shirring-jsk-black",
       "https://egl.circlly.com/auctions/angelic-pretty-cirque-du-l-etoile-jsk-kc-2bf676c9-8478-42fe-b1b7-c5dd0c3d9541",
       "https://egl.circlly.com/auctions/angelicpretty-shanghai-doll-dress-set",
-      "https://egl.circlly.com/auctions/reserved-btssb-gingham-rose-ribbon-op-in-pink",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-and-kc",
       "https://egl.circlly.com/auctions/ap-holy-lantern-jsk-bow-clip",
       "https://egl.circlly.com/auctions/btssb-petit-bouquet-catherine-op",
       "https://egl.circlly.com/auctions/angelic-pretty-apron-skirt-freshly-picked-berries",
       "https://egl.circlly.com/auctions/angelic-pretty-daydream-bed-special-set-op-kira-imai-grey",
       "https://egl.circlly.com/auctions/nwot-angelicpretty-botanical-garden-op",
-      "https://egl.circlly.com/auctions/angelic-pretty-milky-chan-reserved",
       "https://egl.circlly.com/auctions/angelic-pretty-humming-gingham-jsk-barette-in-blue",
+      "https://egl.circlly.com/auctions/reserved-btssb-gingham-rose-ribbon-op-in-pink",
+      "https://egl.circlly.com/auctions/angelic-pretty-milky-chan-reserved",
       "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
       "https://egl.circlly.com/auctions/btssb-blouse-cardigan",
       "https://egl.circlly.com/auctions/angelic-pretty-milky-bear-keychain-sax-081a4c6f-1cd1-4d15-a90f-c3904260ae34",
