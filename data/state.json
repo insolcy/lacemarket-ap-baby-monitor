@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-13T01:01:36.639Z",
+  "lastSuccessfulCheckAt": "2026-09-13T01:11:28.997Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,8 +915,6 @@
       "https://egl.circlly.com/auctions/angelic-pretty-starry-girl-op-feac9cf4-8ada-452b-892b-c559dc31ac7c",
       "https://egl.circlly.com/auctions/innocent-ribbon-lace-audrey-op-lavender",
       "https://egl.circlly.com/auctions/btssb-innocent-ribbon-frill-shirring-jsk-black",
-      "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
-      "https://egl.circlly.com/auctions/physical-drop-3-tier-ruffle-op-38cf7db0-bb09-4e3a-9f43-1fb9b69ff8f6",
       "https://egl.circlly.com/auctions/angelic-pretty-cirque-du-l-etoile-jsk-kc-2bf676c9-8478-42fe-b1b7-c5dd0c3d9541",
       "https://egl.circlly.com/auctions/angelicpretty-shanghai-doll-dress-set",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-and-kc",
@@ -931,8 +929,6 @@
       "https://egl.circlly.com/auctions/angelic-pretty-starry-girl-op-feac9cf4-8ada-452b-892b-c559dc31ac7c",
       "https://egl.circlly.com/auctions/innocent-ribbon-lace-audrey-op-lavender",
       "https://egl.circlly.com/auctions/btssb-innocent-ribbon-frill-shirring-jsk-black",
-      "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
-      "https://egl.circlly.com/auctions/physical-drop-3-tier-ruffle-op-38cf7db0-bb09-4e3a-9f43-1fb9b69ff8f6",
       "https://egl.circlly.com/auctions/angelic-pretty-cirque-du-l-etoile-jsk-kc-2bf676c9-8478-42fe-b1b7-c5dd0c3d9541",
       "https://egl.circlly.com/auctions/angelicpretty-shanghai-doll-dress-set",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-and-kc",
@@ -941,6 +937,8 @@
       "https://egl.circlly.com/auctions/angelic-pretty-apron-skirt-freshly-picked-berries",
       "https://egl.circlly.com/auctions/angelic-pretty-daydream-bed-special-set-op-kira-imai-grey",
       "https://egl.circlly.com/auctions/nwot-angelicpretty-botanical-garden-op",
+      "https://egl.circlly.com/auctions/aatp-gathered-chiffon-in-saxe-princess-sleeve-blouse-set",
+      "https://egl.circlly.com/auctions/physical-drop-3-tier-ruffle-op-38cf7db0-bb09-4e3a-9f43-1fb9b69ff8f6",
       "https://egl.circlly.com/auctions/mr-corset-15771530-9421-447d-bea3-f31546cab8cf",
       "https://egl.circlly.com/auctions/my-violet-blouse",
       "https://egl.circlly.com/auctions/metamorphose-crown-label-strawberry-cream-mini-skirt-in-green",
