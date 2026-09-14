@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-14T17:31:39.124Z",
+  "lastSuccessfulCheckAt": "2026-09-14T17:41:40.084Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/btss-hocus-pocus-in-the-rose-blooming-night-kitty-jsk",
       "https://egl.circlly.com/auctions/nwt-btssb-princess-entremets-a-dream-in-a-sweet-castle-jsk-i",
       "https://egl.circlly.com/auctions/nwt-btssb-kumya-s-doki-doki-christmas-party-jsk-i",
       "https://egl.circlly.com/auctions/fluffy-puff-bunny-ap-skirt-missing-charm",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/innocent-ribbon-lace-audrey-op-lavender",
       "https://egl.circlly.com/auctions/btssb-innocent-ribbon-frill-shirring-jsk-black",
       "https://egl.circlly.com/auctions/angelic-pretty-cirque-du-l-etoile-jsk-kc-2bf676c9-8478-42fe-b1b7-c5dd0c3d9541",
-      "https://egl.circlly.com/auctions/angelicpretty-shanghai-doll-dress-set",
-      "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-and-kc"
+      "https://egl.circlly.com/auctions/angelicpretty-shanghai-doll-dress-set"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/btss-hocus-pocus-in-the-rose-blooming-night-kitty-jsk",
       "https://egl.circlly.com/auctions/nwt-btssb-princess-entremets-a-dream-in-a-sweet-castle-jsk-i",
       "https://egl.circlly.com/auctions/nwt-btssb-kumya-s-doki-doki-christmas-party-jsk-i",
       "https://egl.circlly.com/auctions/fluffy-puff-bunny-ap-skirt-missing-charm",
