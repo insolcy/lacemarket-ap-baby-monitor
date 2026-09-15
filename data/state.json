@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-15T01:11:15.313Z",
+  "lastSuccessfulCheckAt": "2026-09-15T01:21:28.439Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/btssb-my-anniversary-tartan-check-ribbon-op-6e6de49e-b8d3-483d-b092-13aeeecff584",
       "https://egl.circlly.com/auctions/btss-hocus-pocus-in-the-rose-blooming-night-kitty-jsk",
       "https://egl.circlly.com/auctions/nwt-btssb-princess-entremets-a-dream-in-a-sweet-castle-jsk-i",
       "https://egl.circlly.com/auctions/nwt-btssb-kumya-s-doki-doki-christmas-party-jsk-i",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/angelic-pretty-starry-girl-op-feac9cf4-8ada-452b-892b-c559dc31ac7c",
       "https://egl.circlly.com/auctions/innocent-ribbon-lace-audrey-op-lavender",
       "https://egl.circlly.com/auctions/btssb-innocent-ribbon-frill-shirring-jsk-black",
-      "https://egl.circlly.com/auctions/angelicpretty-shanghai-doll-dress-set",
-      "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-and-kc"
+      "https://egl.circlly.com/auctions/angelicpretty-shanghai-doll-dress-set"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/btssb-my-anniversary-tartan-check-ribbon-op-6e6de49e-b8d3-483d-b092-13aeeecff584",
       "https://egl.circlly.com/auctions/btss-hocus-pocus-in-the-rose-blooming-night-kitty-jsk",
       "https://egl.circlly.com/auctions/nwt-btssb-princess-entremets-a-dream-in-a-sweet-castle-jsk-i",
       "https://egl.circlly.com/auctions/nwt-btssb-kumya-s-doki-doki-christmas-party-jsk-i",
