@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-15T02:51:13.475Z",
+  "lastSuccessfulCheckAt": "2026-09-15T03:02:31.527Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -916,13 +916,13 @@
       "https://egl.circlly.com/auctions/nwt-btssb-princess-entremets-a-dream-in-a-sweet-castle-jsk-i",
       "https://egl.circlly.com/auctions/nwt-btssb-kumya-s-doki-doki-christmas-party-jsk-i",
       "https://egl.circlly.com/auctions/fluffy-puff-bunny-ap-skirt-missing-charm",
-      "https://egl.circlly.com/auctions/angelic-pretty-day-dream-carnival-jsk-w-bnt-kc-socks",
       "https://egl.circlly.com/auctions/holy-lantern-jsk-lavender",
       "https://egl.circlly.com/auctions/dreamy-baby-room-op-interest-check",
       "https://egl.circlly.com/auctions/angelic-pretty-starry-girl-op-feac9cf4-8ada-452b-892b-c559dc31ac7c",
       "https://egl.circlly.com/auctions/innocent-ribbon-lace-audrey-op-lavender",
       "https://egl.circlly.com/auctions/btssb-innocent-ribbon-frill-shirring-jsk-black",
-      "https://egl.circlly.com/auctions/angelicpretty-shanghai-doll-dress-set"
+      "https://egl.circlly.com/auctions/angelicpretty-shanghai-doll-dress-set",
+      "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-and-kc"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/btssb-my-anniversary-tartan-check-ribbon-op-6e6de49e-b8d3-483d-b092-13aeeecff584",
@@ -930,7 +930,6 @@
       "https://egl.circlly.com/auctions/nwt-btssb-princess-entremets-a-dream-in-a-sweet-castle-jsk-i",
       "https://egl.circlly.com/auctions/nwt-btssb-kumya-s-doki-doki-christmas-party-jsk-i",
       "https://egl.circlly.com/auctions/fluffy-puff-bunny-ap-skirt-missing-charm",
-      "https://egl.circlly.com/auctions/angelic-pretty-day-dream-carnival-jsk-w-bnt-kc-socks",
       "https://egl.circlly.com/auctions/holy-lantern-jsk-lavender",
       "https://egl.circlly.com/auctions/dreamy-baby-room-op-interest-check",
       "https://egl.circlly.com/auctions/angelic-pretty-starry-girl-op-feac9cf4-8ada-452b-892b-c559dc31ac7c",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/btssb-innocent-ribbon-frill-shirring-jsk-black",
       "https://egl.circlly.com/auctions/angelicpretty-shanghai-doll-dress-set",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-op-and-kc",
+      "https://egl.circlly.com/auctions/angelic-pretty-day-dream-carnival-jsk-w-bnt-kc-socks",
       "https://egl.circlly.com/auctions/angelic-pretty-cirque-du-l-etoile-jsk-kc-2bf676c9-8478-42fe-b1b7-c5dd0c3d9541",
       "https://egl.circlly.com/auctions/dot-twill-rabbit-salopette-by-bsstb",
       "https://egl.circlly.com/auctions/horror-candy-shop-jsk-otk-set-angelic-pretty",
