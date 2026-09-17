@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-17T00:53:50.007Z",
+  "lastSuccessfulCheckAt": "2026-09-17T01:01:09.042Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-sugar-pansy-jsk-pink",
       "https://egl.circlly.com/auctions/angelic-pretty-cutsew-ef7ad0b0-142f-4a1d-8ab1-61c8fb6951c9",
       "https://egl.circlly.com/auctions/ap-happy-garland-pink-jsk",
       "https://egl.circlly.com/auctions/angelic-pretty-sweet-frill-jsk-black",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/btssb-my-anniversary-tartan-check-ribbon-op-6e6de49e-b8d3-483d-b092-13aeeecff584",
       "https://egl.circlly.com/auctions/nwt-btssb-princess-entremets-a-dream-in-a-sweet-castle-jsk-i",
       "https://egl.circlly.com/auctions/nwt-btssb-kumya-s-doki-doki-christmas-party-jsk-i",
-      "https://egl.circlly.com/auctions/fluffy-puff-bunny-ap-skirt-missing-charm",
-      "https://egl.circlly.com/auctions/holy-lantern-jsk-lavender"
+      "https://egl.circlly.com/auctions/fluffy-puff-bunny-ap-skirt-missing-charm"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-sugar-pansy-jsk-pink",
       "https://egl.circlly.com/auctions/angelic-pretty-cutsew-ef7ad0b0-142f-4a1d-8ab1-61c8fb6951c9",
       "https://egl.circlly.com/auctions/ap-happy-garland-pink-jsk",
       "https://egl.circlly.com/auctions/angelic-pretty-sweet-frill-jsk-black",
