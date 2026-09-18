@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-18T00:10:47.776Z",
+  "lastSuccessfulCheckAt": "2026-09-18T00:21:11.566Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-hawase-doll-op-and-headdress-set-black-x-black",
       "https://egl.circlly.com/auctions/hem-scallop-jsk-2004-in-black-x-white-by-baby-the-stars-shine-bright",
       "https://egl.circlly.com/auctions/lovely-check-nwt-ap",
       "https://egl.circlly.com/auctions/baby-the-star-shine-bright-ed611ff1-68bc-4545-aeeb-66d491a59ffc",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/angelic-pretty-flower-kitten-op",
       "https://egl.circlly.com/auctions/btssb-dot-millefeuille-jsk-80589591-0225-480b-8845-61ef688a4642",
       "https://egl.circlly.com/auctions/angelic-pretty-be-my-valentine-kawaii-red-jsk-plus-size-friendly",
-      "https://egl.circlly.com/auctions/btssb-my-anniversary-tartan-check-ribbon-op-6e6de49e-b8d3-483d-b092-13aeeecff584",
-      "https://egl.circlly.com/auctions/nwt-btssb-princess-entremets-a-dream-in-a-sweet-castle-jsk-i"
+      "https://egl.circlly.com/auctions/btssb-my-anniversary-tartan-check-ribbon-op-6e6de49e-b8d3-483d-b092-13aeeecff584"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-hawase-doll-op-and-headdress-set-black-x-black",
       "https://egl.circlly.com/auctions/hem-scallop-jsk-2004-in-black-x-white-by-baby-the-stars-shine-bright",
       "https://egl.circlly.com/auctions/lovely-check-nwt-ap",
       "https://egl.circlly.com/auctions/baby-the-star-shine-bright-ed611ff1-68bc-4545-aeeb-66d491a59ffc",
