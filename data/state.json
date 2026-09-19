@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-19T15:00:58.970Z",
+  "lastSuccessfulCheckAt": "2026-09-19T15:11:12.643Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,8 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/btssb-organdy-heart-apron-8e0a4d21-d0cf-4a29-8ca5-8c1430f55e9b",
+      "https://egl.circlly.com/auctions/angelic-pretty-melody-toys-salopette-kc-lavender",
       "https://egl.circlly.com/auctions/angelic-pretty-daydream-bed-op-lavender",
       "https://egl.circlly.com/auctions/closet-cleaning-ave-maria-heavenly-princess-and-madonna-lily-op",
       "https://egl.circlly.com/auctions/ap-fancy-stripe-op",
@@ -920,11 +922,11 @@
       "https://egl.circlly.com/auctions/lovely-check-nwt-ap",
       "https://egl.circlly.com/auctions/baby-the-star-shine-bright-ed611ff1-68bc-4545-aeeb-66d491a59ffc",
       "https://egl.circlly.com/auctions/angelic-pretty-sugar-pansy-jsk-pink",
-      "https://egl.circlly.com/auctions/angelic-pretty-cutsew-ef7ad0b0-142f-4a1d-8ab1-61c8fb6951c9",
-      "https://egl.circlly.com/auctions/ap-happy-garland-pink-jsk",
-      "https://egl.circlly.com/auctions/btssb-scallop-hem-jsk-2024-2nd-release-nwt-free-shipping"
+      "https://egl.circlly.com/auctions/angelic-pretty-cutsew-ef7ad0b0-142f-4a1d-8ab1-61c8fb6951c9"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/btssb-organdy-heart-apron-8e0a4d21-d0cf-4a29-8ca5-8c1430f55e9b",
+      "https://egl.circlly.com/auctions/angelic-pretty-melody-toys-salopette-kc-lavender",
       "https://egl.circlly.com/auctions/angelic-pretty-daydream-bed-op-lavender",
       "https://egl.circlly.com/auctions/closet-cleaning-ave-maria-heavenly-princess-and-madonna-lily-op",
       "https://egl.circlly.com/auctions/ap-fancy-stripe-op",
