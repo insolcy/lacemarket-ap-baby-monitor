@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-19T03:40:52.082Z",
+  "lastSuccessfulCheckAt": "2026-09-19T03:51:22.482Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,8 +915,6 @@
       "https://egl.circlly.com/auctions/ap-fancy-stripe-op",
       "https://egl.circlly.com/auctions/ap-dolly-marine-jsk-06df82fd-b31b-4f33-96d3-fd8a548febec",
       "https://egl.circlly.com/auctions/topping-heart-jsk-d2d5067c-d842-442f-aaa0-49f74a75df91",
-      "https://egl.circlly.com/auctions/physical-drop-shirring-chiffon-jsk-2026-plus-size-friendly",
-      "https://egl.circlly.com/auctions/nwt-chess-story-gift-from-budapest-blouse-in-white-size-small",
       "https://egl.circlly.com/auctions/easter-egg-op-head-bow-pink",
       "https://egl.circlly.com/auctions/lovely-check-nwt-ap",
       "https://egl.circlly.com/auctions/baby-the-star-shine-bright-ed611ff1-68bc-4545-aeeb-66d491a59ffc",
@@ -931,8 +929,6 @@
       "https://egl.circlly.com/auctions/ap-fancy-stripe-op",
       "https://egl.circlly.com/auctions/ap-dolly-marine-jsk-06df82fd-b31b-4f33-96d3-fd8a548febec",
       "https://egl.circlly.com/auctions/topping-heart-jsk-d2d5067c-d842-442f-aaa0-49f74a75df91",
-      "https://egl.circlly.com/auctions/physical-drop-shirring-chiffon-jsk-2026-plus-size-friendly",
-      "https://egl.circlly.com/auctions/nwt-chess-story-gift-from-budapest-blouse-in-white-size-small",
       "https://egl.circlly.com/auctions/easter-egg-op-head-bow-pink",
       "https://egl.circlly.com/auctions/lovely-check-nwt-ap",
       "https://egl.circlly.com/auctions/baby-the-star-shine-bright-ed611ff1-68bc-4545-aeeb-66d491a59ffc",
@@ -941,6 +937,8 @@
       "https://egl.circlly.com/auctions/ap-happy-garland-pink-jsk",
       "https://egl.circlly.com/auctions/btssb-scallop-hem-jsk-2024-2nd-release-nwt-free-shipping",
       "https://egl.circlly.com/auctions/angelic-pretty-flower-kitten-op",
+      "https://egl.circlly.com/auctions/physical-drop-shirring-chiffon-jsk-2026-plus-size-friendly",
+      "https://egl.circlly.com/auctions/nwt-chess-story-gift-from-budapest-blouse-in-white-size-small",
       "https://egl.circlly.com/auctions/btssb-dot-millefeuille-jsk-80589591-0225-480b-8845-61ef688a4642",
       "https://egl.circlly.com/auctions/angelic-pretty-be-my-valentine-kawaii-red-jsk-plus-size-friendly",
       "https://egl.circlly.com/auctions/btssb-my-anniversary-tartan-check-ribbon-op-6e6de49e-b8d3-483d-b092-13aeeecff584",
