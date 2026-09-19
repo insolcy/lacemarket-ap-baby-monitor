@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-19T21:31:17.644Z",
+  "lastSuccessfulCheckAt": "2026-09-19T21:40:55.065Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/wonder-toy-placket-jsk-3a96a4ac-9390-4031-a644-327927223bc8",
       "https://egl.circlly.com/auctions/emergency-listing-baby-the-stars-shine-bright-my-little-baby-girl-jsk",
       "https://egl.circlly.com/auctions/btssb-organdy-heart-apron-8e0a4d21-d0cf-4a29-8ca5-8c1430f55e9b",
       "https://egl.circlly.com/auctions/angelic-pretty-melody-toys-salopette-kc-lavender",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/topping-heart-jsk-d2d5067c-d842-442f-aaa0-49f74a75df91",
       "https://egl.circlly.com/auctions/easter-egg-op-head-bow-pink",
       "https://egl.circlly.com/auctions/lovely-check-nwt-ap",
-      "https://egl.circlly.com/auctions/baby-the-star-shine-bright-ed611ff1-68bc-4545-aeeb-66d491a59ffc",
-      "https://egl.circlly.com/auctions/angelic-pretty-sugar-pansy-jsk-pink"
+      "https://egl.circlly.com/auctions/baby-the-star-shine-bright-ed611ff1-68bc-4545-aeeb-66d491a59ffc"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/wonder-toy-placket-jsk-3a96a4ac-9390-4031-a644-327927223bc8",
       "https://egl.circlly.com/auctions/emergency-listing-baby-the-stars-shine-bright-my-little-baby-girl-jsk",
       "https://egl.circlly.com/auctions/btssb-organdy-heart-apron-8e0a4d21-d0cf-4a29-8ca5-8c1430f55e9b",
       "https://egl.circlly.com/auctions/angelic-pretty-melody-toys-salopette-kc-lavender",
