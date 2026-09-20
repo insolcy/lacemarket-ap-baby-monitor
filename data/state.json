@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-20T17:51:23.129Z",
+  "lastSuccessfulCheckAt": "2026-09-20T18:01:06.235Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -912,7 +912,6 @@
   "combined": {
     "frontier": [
       "https://egl.circlly.com/auctions/black-sugary-carnival-mto-op-kc",
-      "https://egl.circlly.com/auctions/shirring-princess-pink-2023",
       "https://egl.circlly.com/auctions/baby-jsk-bda89984-412f-414c-b305-61e781cfb740",
       "https://egl.circlly.com/auctions/wonder-toy-placket-jsk-3a96a4ac-9390-4031-a644-327927223bc8",
       "https://egl.circlly.com/auctions/emergency-listing-baby-the-stars-shine-bright-my-little-baby-girl-jsk",
@@ -922,11 +921,11 @@
       "https://egl.circlly.com/auctions/closet-cleaning-ave-maria-heavenly-princess-and-madonna-lily-op",
       "https://egl.circlly.com/auctions/ap-fancy-stripe-op",
       "https://egl.circlly.com/auctions/ap-dolly-marine-jsk-06df82fd-b31b-4f33-96d3-fd8a548febec",
-      "https://egl.circlly.com/auctions/topping-heart-jsk-d2d5067c-d842-442f-aaa0-49f74a75df91"
+      "https://egl.circlly.com/auctions/topping-heart-jsk-d2d5067c-d842-442f-aaa0-49f74a75df91",
+      "https://egl.circlly.com/auctions/easter-egg-op-head-bow-pink"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/black-sugary-carnival-mto-op-kc",
-      "https://egl.circlly.com/auctions/shirring-princess-pink-2023",
       "https://egl.circlly.com/auctions/baby-jsk-bda89984-412f-414c-b305-61e781cfb740",
       "https://egl.circlly.com/auctions/wonder-toy-placket-jsk-3a96a4ac-9390-4031-a644-327927223bc8",
       "https://egl.circlly.com/auctions/emergency-listing-baby-the-stars-shine-bright-my-little-baby-girl-jsk",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/ap-dolly-marine-jsk-06df82fd-b31b-4f33-96d3-fd8a548febec",
       "https://egl.circlly.com/auctions/topping-heart-jsk-d2d5067c-d842-442f-aaa0-49f74a75df91",
       "https://egl.circlly.com/auctions/easter-egg-op-head-bow-pink",
+      "https://egl.circlly.com/auctions/shirring-princess-pink-2023",
       "https://egl.circlly.com/auctions/lovely-check-nwt-ap",
       "https://egl.circlly.com/auctions/emergency-listing-angelic-pretty-day-dream-carnival-tiered-jumperskirt-set-2013-release-lavender",
       "https://egl.circlly.com/auctions/baby-the-star-shine-bright-ed611ff1-68bc-4545-aeeb-66d491a59ffc",
