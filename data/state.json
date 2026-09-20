@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-20T07:21:40.019Z",
+  "lastSuccessfulCheckAt": "2026-09-20T07:31:27.993Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,7 +911,6 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
-      "https://egl.circlly.com/auctions/emergency-listing-angelic-pretty-day-dream-carnival-tiered-jumperskirt-set-2013-release-lavender",
       "https://egl.circlly.com/auctions/baby-jsk-bda89984-412f-414c-b305-61e781cfb740",
       "https://egl.circlly.com/auctions/wonder-toy-placket-jsk-3a96a4ac-9390-4031-a644-327927223bc8",
       "https://egl.circlly.com/auctions/emergency-listing-baby-the-stars-shine-bright-my-little-baby-girl-jsk",
@@ -922,10 +921,10 @@
       "https://egl.circlly.com/auctions/ap-fancy-stripe-op",
       "https://egl.circlly.com/auctions/ap-dolly-marine-jsk-06df82fd-b31b-4f33-96d3-fd8a548febec",
       "https://egl.circlly.com/auctions/topping-heart-jsk-d2d5067c-d842-442f-aaa0-49f74a75df91",
-      "https://egl.circlly.com/auctions/easter-egg-op-head-bow-pink"
+      "https://egl.circlly.com/auctions/easter-egg-op-head-bow-pink",
+      "https://egl.circlly.com/auctions/lovely-check-nwt-ap"
     ],
     "seen": [
-      "https://egl.circlly.com/auctions/emergency-listing-angelic-pretty-day-dream-carnival-tiered-jumperskirt-set-2013-release-lavender",
       "https://egl.circlly.com/auctions/baby-jsk-bda89984-412f-414c-b305-61e781cfb740",
       "https://egl.circlly.com/auctions/wonder-toy-placket-jsk-3a96a4ac-9390-4031-a644-327927223bc8",
       "https://egl.circlly.com/auctions/emergency-listing-baby-the-stars-shine-bright-my-little-baby-girl-jsk",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/topping-heart-jsk-d2d5067c-d842-442f-aaa0-49f74a75df91",
       "https://egl.circlly.com/auctions/easter-egg-op-head-bow-pink",
       "https://egl.circlly.com/auctions/lovely-check-nwt-ap",
+      "https://egl.circlly.com/auctions/emergency-listing-angelic-pretty-day-dream-carnival-tiered-jumperskirt-set-2013-release-lavender",
       "https://egl.circlly.com/auctions/baby-the-star-shine-bright-ed611ff1-68bc-4545-aeeb-66d491a59ffc",
       "https://egl.circlly.com/auctions/angelic-pretty-sugar-pansy-jsk-pink",
       "https://egl.circlly.com/auctions/angelic-pretty-cutsew-ef7ad0b0-142f-4a1d-8ab1-61c8fb6951c9",
