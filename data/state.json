@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-21T06:03:02.864Z",
+  "lastSuccessfulCheckAt": "2026-09-21T06:11:25.436Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/btssb-shirring-velour-op-in-red",
       "https://egl.circlly.com/auctions/nwt-angelic-pretty-cute-heart-jsk-headbow",
       "https://egl.circlly.com/auctions/dreamy-planetarium-full-set",
       "https://egl.circlly.com/auctions/broadcloth-gelato-jsk-yellow",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/emergency-listing-baby-the-stars-shine-bright-my-little-baby-girl-jsk",
       "https://egl.circlly.com/auctions/btssb-organdy-heart-apron-8e0a4d21-d0cf-4a29-8ca5-8c1430f55e9b",
       "https://egl.circlly.com/auctions/angelic-pretty-melody-toys-salopette-kc-lavender",
-      "https://egl.circlly.com/auctions/angelic-pretty-daydream-bed-op-lavender",
-      "https://egl.circlly.com/auctions/closet-cleaning-ave-maria-heavenly-princess-and-madonna-lily-op"
+      "https://egl.circlly.com/auctions/angelic-pretty-daydream-bed-op-lavender"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/btssb-shirring-velour-op-in-red",
       "https://egl.circlly.com/auctions/nwt-angelic-pretty-cute-heart-jsk-headbow",
       "https://egl.circlly.com/auctions/dreamy-planetarium-full-set",
       "https://egl.circlly.com/auctions/broadcloth-gelato-jsk-yellow",
