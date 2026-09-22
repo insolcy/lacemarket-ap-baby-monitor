@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-22T21:01:28.592Z",
+  "lastSuccessfulCheckAt": "2026-09-22T21:10:44.583Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-whip-jacquard-op-beret-set-brown",
       "https://egl.circlly.com/auctions/ap-horror-candy-shop-jsk-c195afc4-163b-4e2d-8c71-b4e4849804d5",
       "https://egl.circlly.com/auctions/ap-horror-candy-shop-jsk-e93c792d-5cd5-47fa-820f-f47a3aadc892",
       "https://egl.circlly.com/auctions/2004-btssb-velveteen-quintet-op",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/broadcloth-gelato-jsk-yellow",
       "https://egl.circlly.com/auctions/holy-lantern-zipper-jsk-in-navy",
       "https://egl.circlly.com/auctions/angelic-pretty-antoinette-decoration-op-emergency-sale",
-      "https://egl.circlly.com/auctions/baby-jsk-bda89984-412f-414c-b305-61e781cfb740",
-      "https://egl.circlly.com/auctions/wonder-toy-placket-jsk-3a96a4ac-9390-4031-a644-327927223bc8"
+      "https://egl.circlly.com/auctions/baby-jsk-bda89984-412f-414c-b305-61e781cfb740"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-whip-jacquard-op-beret-set-brown",
       "https://egl.circlly.com/auctions/ap-horror-candy-shop-jsk-c195afc4-163b-4e2d-8c71-b4e4849804d5",
       "https://egl.circlly.com/auctions/ap-horror-candy-shop-jsk-e93c792d-5cd5-47fa-820f-f47a3aadc892",
       "https://egl.circlly.com/auctions/2004-btssb-velveteen-quintet-op",
