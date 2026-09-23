@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-23T04:51:01.135Z",
+  "lastSuccessfulCheckAt": "2026-09-23T05:00:45.250Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -913,7 +913,6 @@
     "frontier": [
       "https://egl.circlly.com/auctions/angelicpretty-margarite-op",
       "https://egl.circlly.com/auctions/luminous-sanctuary-black-op-with-choker",
-      "https://egl.circlly.com/auctions/angelic-pretty-whip-jacquard-op-beret-set-brown",
       "https://egl.circlly.com/auctions/ap-horror-candy-shop-jsk-c195afc4-163b-4e2d-8c71-b4e4849804d5",
       "https://egl.circlly.com/auctions/ap-horror-candy-shop-jsk-e93c792d-5cd5-47fa-820f-f47a3aadc892",
       "https://egl.circlly.com/auctions/2004-btssb-velveteen-quintet-op",
@@ -922,12 +921,12 @@
       "https://egl.circlly.com/auctions/nwt-angelic-pretty-cute-heart-jsk-headbow",
       "https://egl.circlly.com/auctions/dreamy-planetarium-full-set",
       "https://egl.circlly.com/auctions/holy-lantern-zipper-jsk-in-navy",
-      "https://egl.circlly.com/auctions/angelic-pretty-antoinette-decoration-op-emergency-sale"
+      "https://egl.circlly.com/auctions/angelic-pretty-antoinette-decoration-op-emergency-sale",
+      "https://egl.circlly.com/auctions/baby-jsk-bda89984-412f-414c-b305-61e781cfb740"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/angelicpretty-margarite-op",
       "https://egl.circlly.com/auctions/luminous-sanctuary-black-op-with-choker",
-      "https://egl.circlly.com/auctions/angelic-pretty-whip-jacquard-op-beret-set-brown",
       "https://egl.circlly.com/auctions/ap-horror-candy-shop-jsk-c195afc4-163b-4e2d-8c71-b4e4849804d5",
       "https://egl.circlly.com/auctions/ap-horror-candy-shop-jsk-e93c792d-5cd5-47fa-820f-f47a3aadc892",
       "https://egl.circlly.com/auctions/2004-btssb-velveteen-quintet-op",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/holy-lantern-zipper-jsk-in-navy",
       "https://egl.circlly.com/auctions/angelic-pretty-antoinette-decoration-op-emergency-sale",
       "https://egl.circlly.com/auctions/baby-jsk-bda89984-412f-414c-b305-61e781cfb740",
+      "https://egl.circlly.com/auctions/angelic-pretty-whip-jacquard-op-beret-set-brown",
       "https://egl.circlly.com/auctions/angelic-pretty-shoulder-ribbon-jsk-3c3bedf4-4e72-459b-97eb-f2783b1a38a7",
       "https://egl.circlly.com/auctions/broadcloth-gelato-jsk-yellow",
       "https://egl.circlly.com/auctions/wonder-toy-placket-jsk-3a96a4ac-9390-4031-a644-327927223bc8",
