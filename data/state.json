@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-25T14:31:51.239Z",
+  "lastSuccessfulCheckAt": "2026-09-25T14:41:55.765Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-diner-doll-jsk-in-pink-c4ce9317-f67e-476f-9fd9-463420465fe9",
       "https://egl.circlly.com/auctions/chateau-d-ecume",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-jsk-missing-waisties",
       "https://egl.circlly.com/auctions/angelic-pretty-charming-cherry-23-jsk",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/ap-horror-candy-shop-jsk-e93c792d-5cd5-47fa-820f-f47a3aadc892",
       "https://egl.circlly.com/auctions/2004-btssb-velveteen-quintet-op",
       "https://egl.circlly.com/auctions/free-ship-us-jsk-hairclips-swinging-strawberry-garden-baby-the-stars-shine-bright",
-      "https://egl.circlly.com/auctions/angelic-pretty-mystic-rosary-op-set-gray",
-      "https://egl.circlly.com/auctions/nwt-angelic-pretty-cute-heart-jsk-headbow"
+      "https://egl.circlly.com/auctions/angelic-pretty-mystic-rosary-op-set-gray"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-diner-doll-jsk-in-pink-c4ce9317-f67e-476f-9fd9-463420465fe9",
       "https://egl.circlly.com/auctions/chateau-d-ecume",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-jsk-missing-waisties",
       "https://egl.circlly.com/auctions/angelic-pretty-charming-cherry-23-jsk",
