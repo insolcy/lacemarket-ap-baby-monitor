@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-26T18:02:13.953Z",
+  "lastSuccessfulCheckAt": "2026-09-26T18:11:37.526Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/nakayoshi-ginger-cookie-brown-size-41",
       "https://egl.circlly.com/auctions/rare-baby-the-stars-shine-bright-sweet-strawberry-dot-full-set-free-us-ship",
       "https://egl.circlly.com/auctions/angelic-pretty-cameo-window-tiered-jsk-headbow-half-bonnet",
       "https://egl.circlly.com/auctions/angelic-pretty-french-cafe-apron-style-skirt-headbow-in-pink",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/dreamy-girl-jsk-altered",
       "https://egl.circlly.com/auctions/angelicpretty-margarite-op",
       "https://egl.circlly.com/auctions/luminous-sanctuary-black-op-with-choker",
-      "https://egl.circlly.com/auctions/ap-horror-candy-shop-jsk-c195afc4-163b-4e2d-8c71-b4e4849804d5",
-      "https://egl.circlly.com/auctions/ap-horror-candy-shop-jsk-e93c792d-5cd5-47fa-820f-f47a3aadc892"
+      "https://egl.circlly.com/auctions/ap-horror-candy-shop-jsk-c195afc4-163b-4e2d-8c71-b4e4849804d5"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/nakayoshi-ginger-cookie-brown-size-41",
       "https://egl.circlly.com/auctions/rare-baby-the-stars-shine-bright-sweet-strawberry-dot-full-set-free-us-ship",
       "https://egl.circlly.com/auctions/angelic-pretty-cameo-window-tiered-jsk-headbow-half-bonnet",
       "https://egl.circlly.com/auctions/angelic-pretty-french-cafe-apron-style-skirt-headbow-in-pink",
