@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-27T14:11:17.650Z",
+  "lastSuccessfulCheckAt": "2026-09-27T14:17:51.763Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -914,7 +914,6 @@
       "https://egl.circlly.com/auctions/angelic-pretty-ice-cream-parlor-jsk-199ebf9b-003b-4e8f-8893-1fd2cbd8f1fe",
       "https://egl.circlly.com/auctions/whip-ribbon-op-blue",
       "https://egl.circlly.com/auctions/sunny-day-brunch-dress-blue",
-      "https://egl.circlly.com/auctions/ap-photogenic-pallet-salopette",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-jsk-in-mint-altered",
       "https://egl.circlly.com/auctions/rare-baby-the-stars-shine-bright-sweet-strawberry-dot-full-set-free-us-ship",
       "https://egl.circlly.com/auctions/angelic-pretty-cameo-window-tiered-jsk-headbow-half-bonnet",
@@ -922,13 +921,13 @@
       "https://egl.circlly.com/auctions/btssb-kumya-chan-s-love-love-valentine-jsk-ii-red",
       "https://egl.circlly.com/auctions/angelic-pretty-diner-doll-jsk-in-pink-c4ce9317-f67e-476f-9fd9-463420465fe9",
       "https://egl.circlly.com/auctions/chateau-d-ecume",
-      "https://egl.circlly.com/auctions/angelic-pretty-charming-cherry-23-jsk"
+      "https://egl.circlly.com/auctions/angelic-pretty-charming-cherry-23-jsk",
+      "https://egl.circlly.com/auctions/dreamy-girl-jsk-altered"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/angelic-pretty-ice-cream-parlor-jsk-199ebf9b-003b-4e8f-8893-1fd2cbd8f1fe",
       "https://egl.circlly.com/auctions/whip-ribbon-op-blue",
       "https://egl.circlly.com/auctions/sunny-day-brunch-dress-blue",
-      "https://egl.circlly.com/auctions/ap-photogenic-pallet-salopette",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-jsk-in-mint-altered",
       "https://egl.circlly.com/auctions/rare-baby-the-stars-shine-bright-sweet-strawberry-dot-full-set-free-us-ship",
       "https://egl.circlly.com/auctions/angelic-pretty-cameo-window-tiered-jsk-headbow-half-bonnet",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/chateau-d-ecume",
       "https://egl.circlly.com/auctions/angelic-pretty-charming-cherry-23-jsk",
       "https://egl.circlly.com/auctions/dreamy-girl-jsk-altered",
+      "https://egl.circlly.com/auctions/ap-photogenic-pallet-salopette",
       "https://egl.circlly.com/auctions/angelicpretty-cute-heart",
       "https://egl.circlly.com/auctions/ice-cream-op-btssb-in-pink",
       "https://egl.circlly.com/auctions/angelicpretty-margarite-op",
