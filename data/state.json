@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-27T02:51:10.340Z",
+  "lastSuccessfulCheckAt": "2026-09-27T03:01:17.549Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -913,7 +913,6 @@
     "frontier": [
       "https://egl.circlly.com/auctions/whip-ribbon-op-blue",
       "https://egl.circlly.com/auctions/sunny-day-brunch-dress-blue",
-      "https://egl.circlly.com/auctions/ice-cream-op-btssb-in-pink",
       "https://egl.circlly.com/auctions/angelicpretty-cute-heart",
       "https://egl.circlly.com/auctions/ap-photogenic-pallet-salopette",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-jsk-in-mint-altered",
@@ -922,12 +921,12 @@
       "https://egl.circlly.com/auctions/angelic-pretty-french-cafe-apron-style-skirt-headbow-in-pink",
       "https://egl.circlly.com/auctions/btssb-kumya-chan-s-love-love-valentine-jsk-ii-red",
       "https://egl.circlly.com/auctions/angelic-pretty-diner-doll-jsk-in-pink-c4ce9317-f67e-476f-9fd9-463420465fe9",
-      "https://egl.circlly.com/auctions/chateau-d-ecume"
+      "https://egl.circlly.com/auctions/chateau-d-ecume",
+      "https://egl.circlly.com/auctions/angelic-pretty-charming-cherry-23-jsk"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/whip-ribbon-op-blue",
       "https://egl.circlly.com/auctions/sunny-day-brunch-dress-blue",
-      "https://egl.circlly.com/auctions/ice-cream-op-btssb-in-pink",
       "https://egl.circlly.com/auctions/angelicpretty-cute-heart",
       "https://egl.circlly.com/auctions/ap-photogenic-pallet-salopette",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-jsk-in-mint-altered",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/angelic-pretty-diner-doll-jsk-in-pink-c4ce9317-f67e-476f-9fd9-463420465fe9",
       "https://egl.circlly.com/auctions/chateau-d-ecume",
       "https://egl.circlly.com/auctions/angelic-pretty-charming-cherry-23-jsk",
+      "https://egl.circlly.com/auctions/ice-cream-op-btssb-in-pink",
       "https://egl.circlly.com/auctions/dreamy-girl-jsk-altered",
       "https://egl.circlly.com/auctions/angelicpretty-margarite-op",
       "https://egl.circlly.com/auctions/luminous-sanctuary-black-op-with-choker",
