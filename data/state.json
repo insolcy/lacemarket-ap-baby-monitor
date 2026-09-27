@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-27T22:41:09.346Z",
+  "lastSuccessfulCheckAt": "2026-09-27T22:51:29.376Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/sugary-carnival-op-2009-release-64133113-05bb-42e5-918f-660c222d3507",
       "https://egl.circlly.com/auctions/angelic-pretty-milkshake-circular-op-set-fb0d6cd3-1f13-4e3f-882d-77d4352078d4",
       "https://egl.circlly.com/auctions/rare-2011-sugar-hearts-jsk-in-lavender",
       "https://egl.circlly.com/auctions/angelic-pretty-ice-cream-parlor-jsk-199ebf9b-003b-4e8f-8893-1fd2cbd8f1fe",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/angelic-pretty-cameo-window-tiered-jsk-headbow-half-bonnet",
       "https://egl.circlly.com/auctions/angelic-pretty-french-cafe-apron-style-skirt-headbow-in-pink",
       "https://egl.circlly.com/auctions/btssb-kumya-chan-s-love-love-valentine-jsk-ii-red",
-      "https://egl.circlly.com/auctions/angelic-pretty-diner-doll-jsk-in-pink-c4ce9317-f67e-476f-9fd9-463420465fe9",
-      "https://egl.circlly.com/auctions/chateau-d-ecume"
+      "https://egl.circlly.com/auctions/angelic-pretty-diner-doll-jsk-in-pink-c4ce9317-f67e-476f-9fd9-463420465fe9"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/sugary-carnival-op-2009-release-64133113-05bb-42e5-918f-660c222d3507",
       "https://egl.circlly.com/auctions/angelic-pretty-milkshake-circular-op-set-fb0d6cd3-1f13-4e3f-882d-77d4352078d4",
       "https://egl.circlly.com/auctions/rare-2011-sugar-hearts-jsk-in-lavender",
       "https://egl.circlly.com/auctions/angelic-pretty-ice-cream-parlor-jsk-199ebf9b-003b-4e8f-8893-1fd2cbd8f1fe",
