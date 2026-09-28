@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-28T21:41:43.262Z",
+  "lastSuccessfulCheckAt": "2026-09-28T21:51:28.670Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/dreamy-girl-high-waist-set-jsk-and-bow-in-black",
       "https://egl.circlly.com/auctions/angelic-pretty-melty-ribbon-chocolate-low-waist-jsk-2014-bitter",
       "https://egl.circlly.com/auctions/kumya-s-love-heart-embroidery-jsk-ii-70c5d139-193d-46ee-95bb-fda348457d23",
       "https://egl.circlly.com/auctions/btssb-kitty-kitty-rhapsody-apron-skirt-c18f81d7-2e11-420a-8faa-4a9b131488e1",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/noble-melodia-jsk-white",
       "https://egl.circlly.com/auctions/ap-ghost-night-bride-op-hairclip-lavender",
       "https://egl.circlly.com/auctions/dolly-cat-jsk-major-damage-angelic-pretty",
-      "https://egl.circlly.com/auctions/shipping-included-relist-ave-maria-heavenly-princess-and-madonna-lily-op",
-      "https://egl.circlly.com/auctions/little-witch-op-pink-0f4f31fe-2c35-4d9a-a8f8-0018582dc503"
+      "https://egl.circlly.com/auctions/shipping-included-relist-ave-maria-heavenly-princess-and-madonna-lily-op"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/dreamy-girl-high-waist-set-jsk-and-bow-in-black",
       "https://egl.circlly.com/auctions/angelic-pretty-melty-ribbon-chocolate-low-waist-jsk-2014-bitter",
       "https://egl.circlly.com/auctions/kumya-s-love-heart-embroidery-jsk-ii-70c5d139-193d-46ee-95bb-fda348457d23",
       "https://egl.circlly.com/auctions/btssb-kitty-kitty-rhapsody-apron-skirt-c18f81d7-2e11-420a-8faa-4a9b131488e1",
