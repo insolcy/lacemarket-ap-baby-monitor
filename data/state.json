@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-28T00:01:50.558Z",
+  "lastSuccessfulCheckAt": "2026-09-28T00:11:08.519Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -917,12 +917,12 @@
       "https://egl.circlly.com/auctions/angelic-pretty-ice-cream-parlor-jsk-199ebf9b-003b-4e8f-8893-1fd2cbd8f1fe",
       "https://egl.circlly.com/auctions/whip-ribbon-op-blue",
       "https://egl.circlly.com/auctions/sunny-day-brunch-dress-blue",
-      "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-jsk-in-mint-altered",
       "https://egl.circlly.com/auctions/rare-baby-the-stars-shine-bright-sweet-strawberry-dot-full-set-free-us-ship",
       "https://egl.circlly.com/auctions/angelic-pretty-cameo-window-tiered-jsk-headbow-half-bonnet",
       "https://egl.circlly.com/auctions/angelic-pretty-french-cafe-apron-style-skirt-headbow-in-pink",
       "https://egl.circlly.com/auctions/btssb-kumya-chan-s-love-love-valentine-jsk-ii-red",
-      "https://egl.circlly.com/auctions/angelic-pretty-diner-doll-jsk-in-pink-c4ce9317-f67e-476f-9fd9-463420465fe9"
+      "https://egl.circlly.com/auctions/angelic-pretty-diner-doll-jsk-in-pink-c4ce9317-f67e-476f-9fd9-463420465fe9",
+      "https://egl.circlly.com/auctions/chateau-d-ecume"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/sugary-carnival-op-2009-release-64133113-05bb-42e5-918f-660c222d3507",
@@ -931,13 +931,13 @@
       "https://egl.circlly.com/auctions/angelic-pretty-ice-cream-parlor-jsk-199ebf9b-003b-4e8f-8893-1fd2cbd8f1fe",
       "https://egl.circlly.com/auctions/whip-ribbon-op-blue",
       "https://egl.circlly.com/auctions/sunny-day-brunch-dress-blue",
-      "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-jsk-in-mint-altered",
       "https://egl.circlly.com/auctions/rare-baby-the-stars-shine-bright-sweet-strawberry-dot-full-set-free-us-ship",
       "https://egl.circlly.com/auctions/angelic-pretty-cameo-window-tiered-jsk-headbow-half-bonnet",
       "https://egl.circlly.com/auctions/angelic-pretty-french-cafe-apron-style-skirt-headbow-in-pink",
       "https://egl.circlly.com/auctions/btssb-kumya-chan-s-love-love-valentine-jsk-ii-red",
       "https://egl.circlly.com/auctions/angelic-pretty-diner-doll-jsk-in-pink-c4ce9317-f67e-476f-9fd9-463420465fe9",
       "https://egl.circlly.com/auctions/chateau-d-ecume",
+      "https://egl.circlly.com/auctions/angelic-pretty-happy-garland-jsk-in-mint-altered",
       "https://egl.circlly.com/auctions/angelic-pretty-charming-cherry-23-jsk",
       "https://egl.circlly.com/auctions/dreamy-girl-jsk-altered",
       "https://egl.circlly.com/auctions/ap-photogenic-pallet-salopette",
