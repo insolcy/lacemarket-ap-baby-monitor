@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-30T02:41:31.882Z",
+  "lastSuccessfulCheckAt": "2026-09-30T02:51:55.886Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/dreamy-planetarium-lavender",
       "https://egl.circlly.com/auctions/cirque-du-l-etoile-op-green",
       "https://egl.circlly.com/auctions/astro-regimen-op-wine",
       "https://egl.circlly.com/auctions/free-ship-us-petit-bouquet-jsk-bonnet-angelic-pretty",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/urgent-sale-nwt-angelic-pretty-ice-cream-parlor-jsk-barette-set",
       "https://egl.circlly.com/auctions/doll-s-tea-party-jsk",
       "https://egl.circlly.com/auctions/dreamy-girl-high-waist-set-jsk-and-bow-in-black",
-      "https://egl.circlly.com/auctions/kumya-s-love-heart-embroidery-jsk-ii-70c5d139-193d-46ee-95bb-fda348457d23",
-      "https://egl.circlly.com/auctions/btssb-kitty-kitty-rhapsody-apron-skirt-c18f81d7-2e11-420a-8faa-4a9b131488e1"
+      "https://egl.circlly.com/auctions/kumya-s-love-heart-embroidery-jsk-ii-70c5d139-193d-46ee-95bb-fda348457d23"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/dreamy-planetarium-lavender",
       "https://egl.circlly.com/auctions/cirque-du-l-etoile-op-green",
       "https://egl.circlly.com/auctions/astro-regimen-op-wine",
       "https://egl.circlly.com/auctions/free-ship-us-petit-bouquet-jsk-bonnet-angelic-pretty",
