@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-30T01:31:17.000Z",
+  "lastSuccessfulCheckAt": "2026-09-30T01:39:35.896Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/ap-milky-planet-salopette-2013",
       "https://egl.circlly.com/auctions/free-ship-us-petit-bouquet-jsk-bonnet-angelic-pretty",
       "https://egl.circlly.com/auctions/free-ship-us-flower-kitten-jsk-lace-head-band-angelic-pretty",
       "https://egl.circlly.com/auctions/ap-2008-sweet-ribbon-strawberry-switching-jsk-pink-12aa0659-f7d1-4ff7-8a4e-56f7be6d4b11",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/dreamy-girl-high-waist-set-jsk-and-bow-in-black",
       "https://egl.circlly.com/auctions/kumya-s-love-heart-embroidery-jsk-ii-70c5d139-193d-46ee-95bb-fda348457d23",
       "https://egl.circlly.com/auctions/btssb-kitty-kitty-rhapsody-apron-skirt-c18f81d7-2e11-420a-8faa-4a9b131488e1",
-      "https://egl.circlly.com/auctions/rare-freeshipping-baby-polka-dot-ribbon-jsk",
-      "https://egl.circlly.com/auctions/rare-freeshipping-baby-flower-garret-scarlet-long-op"
+      "https://egl.circlly.com/auctions/rare-freeshipping-baby-polka-dot-ribbon-jsk"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/ap-milky-planet-salopette-2013",
       "https://egl.circlly.com/auctions/free-ship-us-petit-bouquet-jsk-bonnet-angelic-pretty",
       "https://egl.circlly.com/auctions/free-ship-us-flower-kitten-jsk-lace-head-band-angelic-pretty",
       "https://egl.circlly.com/auctions/ap-2008-sweet-ribbon-strawberry-switching-jsk-pink-12aa0659-f7d1-4ff7-8a4e-56f7be6d4b11",
