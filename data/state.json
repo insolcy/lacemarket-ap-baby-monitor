@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-09-30T15:01:37.845Z",
+  "lastSuccessfulCheckAt": "2026-09-30T15:11:38.890Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-little-witch-jsk-lavender-otk-kc",
       "https://egl.circlly.com/auctions/guardian-unicorn-jsk-wine",
       "https://egl.circlly.com/auctions/dreamy-planetarium-lavender",
       "https://egl.circlly.com/auctions/cirque-du-l-etoile-op-green",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/2011-ap-honey-cake-op-set-op-kcx2-otks-jewelry-in-ivory",
       "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-jsk-set-2026",
       "https://egl.circlly.com/auctions/urgent-sale-nwt-angelic-pretty-ice-cream-parlor-jsk-barette-set",
-      "https://egl.circlly.com/auctions/doll-s-tea-party-jsk",
-      "https://egl.circlly.com/auctions/dreamy-girl-high-waist-set-jsk-and-bow-in-black"
+      "https://egl.circlly.com/auctions/doll-s-tea-party-jsk"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-little-witch-jsk-lavender-otk-kc",
       "https://egl.circlly.com/auctions/guardian-unicorn-jsk-wine",
       "https://egl.circlly.com/auctions/dreamy-planetarium-lavender",
       "https://egl.circlly.com/auctions/cirque-du-l-etoile-op-green",
