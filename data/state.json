@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-02T00:11:21.494Z",
+  "lastSuccessfulCheckAt": "2026-10-02T00:21:20.062Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -912,7 +912,6 @@
   "combined": {
     "frontier": [
       "https://egl.circlly.com/auctions/free-us-ship-ap-cute-heart-jsk-head-bow-pink-tartan",
-      "https://egl.circlly.com/auctions/cotton-candy-shop-jsk-kc-31e3757e-e528-4174-9a65-33f3e661bcd2",
       "https://egl.circlly.com/auctions/nwt-angelic-pretty-cutest-heart-dress-set-a786bd01-6c7a-458f-848d-c7dc35f035ee",
       "https://egl.circlly.com/auctions/angelic-pretty-vintage-toys-ivory-op",
       "https://egl.circlly.com/auctions/angelic-pretty-little-witch-jsk-lavender-otk-kc",
@@ -922,11 +921,11 @@
       "https://egl.circlly.com/auctions/astro-regimen-op-wine",
       "https://egl.circlly.com/auctions/free-ship-us-petit-bouquet-jsk-bonnet-angelic-pretty",
       "https://egl.circlly.com/auctions/free-ship-us-flower-kitten-jsk-lace-head-band-angelic-pretty",
-      "https://egl.circlly.com/auctions/ap-2008-sweet-ribbon-strawberry-switching-jsk-pink-12aa0659-f7d1-4ff7-8a4e-56f7be6d4b11"
+      "https://egl.circlly.com/auctions/ap-2008-sweet-ribbon-strawberry-switching-jsk-pink-12aa0659-f7d1-4ff7-8a4e-56f7be6d4b11",
+      "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-jsk-set-2026"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/free-us-ship-ap-cute-heart-jsk-head-bow-pink-tartan",
-      "https://egl.circlly.com/auctions/cotton-candy-shop-jsk-kc-31e3757e-e528-4174-9a65-33f3e661bcd2",
       "https://egl.circlly.com/auctions/nwt-angelic-pretty-cutest-heart-dress-set-a786bd01-6c7a-458f-848d-c7dc35f035ee",
       "https://egl.circlly.com/auctions/angelic-pretty-vintage-toys-ivory-op",
       "https://egl.circlly.com/auctions/angelic-pretty-little-witch-jsk-lavender-otk-kc",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/free-ship-us-flower-kitten-jsk-lace-head-band-angelic-pretty",
       "https://egl.circlly.com/auctions/ap-2008-sweet-ribbon-strawberry-switching-jsk-pink-12aa0659-f7d1-4ff7-8a4e-56f7be6d4b11",
       "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-jsk-set-2026",
+      "https://egl.circlly.com/auctions/cotton-candy-shop-jsk-kc-31e3757e-e528-4174-9a65-33f3e661bcd2",
       "https://egl.circlly.com/auctions/alice-and-the-pirates-bat-maid-op-in-red",
       "https://egl.circlly.com/auctions/btssb-kumya-strawberry-cherry-check-love-valentine-brooch-4-set",
       "https://egl.circlly.com/auctions/roji-roji-lace-topped-knee-socks-in-sax",
