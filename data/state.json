@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-02T04:11:03.037Z",
+  "lastSuccessfulCheckAt": "2026-10-02T04:21:37.329Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,8 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-cute-heart-jsk",
+      "https://egl.circlly.com/auctions/angelic-pretty-lady-cat-room-op-with-matching-kc",
       "https://egl.circlly.com/auctions/angelicpretty-sugar-decoration-jsk-set",
       "https://egl.circlly.com/auctions/btssb-marquise-jsk-set",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-millefeuille-lavender-x-black-jsk-nwt",
@@ -920,11 +922,11 @@
       "https://egl.circlly.com/auctions/guardian-unicorn-jsk-wine",
       "https://egl.circlly.com/auctions/dreamy-planetarium-lavender",
       "https://egl.circlly.com/auctions/cirque-du-l-etoile-op-green",
-      "https://egl.circlly.com/auctions/astro-regimen-op-wine",
-      "https://egl.circlly.com/auctions/free-ship-us-petit-bouquet-jsk-bonnet-angelic-pretty",
-      "https://egl.circlly.com/auctions/free-ship-us-flower-kitten-jsk-lace-head-band-angelic-pretty"
+      "https://egl.circlly.com/auctions/astro-regimen-op-wine"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-cute-heart-jsk",
+      "https://egl.circlly.com/auctions/angelic-pretty-lady-cat-room-op-with-matching-kc",
       "https://egl.circlly.com/auctions/angelicpretty-sugar-decoration-jsk-set",
       "https://egl.circlly.com/auctions/btssb-marquise-jsk-set",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-millefeuille-lavender-x-black-jsk-nwt",
