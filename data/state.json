@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-02T23:51:07.947Z",
+  "lastSuccessfulCheckAt": "2026-10-03T00:01:17.821Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-khronos-utopia-jsk-293ccc5d-019f-4416-92fb-74f2e7532d58",
       "https://egl.circlly.com/auctions/angelic-pretty-cute-heart-jsk",
       "https://egl.circlly.com/auctions/angelic-pretty-lady-cat-room-op-with-matching-kc",
       "https://egl.circlly.com/auctions/angelicpretty-sugar-decoration-jsk-set",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/guardian-unicorn-jsk-wine",
       "https://egl.circlly.com/auctions/dreamy-planetarium-lavender",
       "https://egl.circlly.com/auctions/cirque-du-l-etoile-op-green",
-      "https://egl.circlly.com/auctions/astro-regimen-op-wine",
-      "https://egl.circlly.com/auctions/free-ship-us-petit-bouquet-jsk-bonnet-angelic-pretty"
+      "https://egl.circlly.com/auctions/astro-regimen-op-wine"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-khronos-utopia-jsk-293ccc5d-019f-4416-92fb-74f2e7532d58",
       "https://egl.circlly.com/auctions/angelic-pretty-cute-heart-jsk",
       "https://egl.circlly.com/auctions/angelic-pretty-lady-cat-room-op-with-matching-kc",
       "https://egl.circlly.com/auctions/angelicpretty-sugar-decoration-jsk-set",
