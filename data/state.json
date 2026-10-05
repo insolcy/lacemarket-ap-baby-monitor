@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-05T19:27:03.068Z",
+  "lastSuccessfulCheckAt": "2026-10-05T19:32:10.782Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/free-ship-us-ribbon-berry-bunny-op-kc-angelic-pretty",
       "https://egl.circlly.com/auctions/mercator-antique-shop-long-jsk-in-black",
       "https://egl.circlly.com/auctions/fancy-noel-jsk-angelic-pretty-altered",
       "https://egl.circlly.com/auctions/plus-size-fancy-paper-dolls-angelic-pretty-lavender",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/angelic-pretty-dramatic-rose-jsk-mint-x-pink",
       "https://egl.circlly.com/auctions/angelic-pretty-jelly-candy-toys-salopette-lavender-slightly-altered",
       "https://egl.circlly.com/auctions/angelic-pretty-lovely-bathroom-jsk-navy",
-      "https://egl.circlly.com/auctions/baby-sf-limited-edition-jsk-with-hairband",
-      "https://egl.circlly.com/auctions/angelic-pretty-khronos-utopia-jsk-293ccc5d-019f-4416-92fb-74f2e7532d58"
+      "https://egl.circlly.com/auctions/baby-sf-limited-edition-jsk-with-hairband"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/free-ship-us-ribbon-berry-bunny-op-kc-angelic-pretty",
       "https://egl.circlly.com/auctions/mercator-antique-shop-long-jsk-in-black",
       "https://egl.circlly.com/auctions/fancy-noel-jsk-angelic-pretty-altered",
       "https://egl.circlly.com/auctions/plus-size-fancy-paper-dolls-angelic-pretty-lavender",
