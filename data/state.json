@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-05T05:51:34.442Z",
+  "lastSuccessfulCheckAt": "2026-10-05T06:01:03.872Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,6 +915,8 @@
       "https://egl.circlly.com/auctions/fantastic-carnival-lavender",
       "https://egl.circlly.com/auctions/angelic-pretty-little-bunny-strawberry-jsk-b5eb55bc-a7c9-4aa6-a71a-7786d2c10a3c",
       "https://egl.circlly.com/auctions/angelic-pretty-dramatic-rose-jsk-mint-x-pink",
+      "https://egl.circlly.com/auctions/vampire-rose-jsk-4c0dfc5c-eab7-4f27-9c55-4f0517932bd3",
+      "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-keystrap-music-themed",
       "https://egl.circlly.com/auctions/angelic-pretty-jelly-candy-toys-salopette-lavender-slightly-altered",
       "https://egl.circlly.com/auctions/angelic-pretty-lovely-bathroom-jsk-navy",
       "https://egl.circlly.com/auctions/baby-sf-limited-edition-jsk-with-hairband",
@@ -929,6 +931,8 @@
       "https://egl.circlly.com/auctions/fantastic-carnival-lavender",
       "https://egl.circlly.com/auctions/angelic-pretty-little-bunny-strawberry-jsk-b5eb55bc-a7c9-4aa6-a71a-7786d2c10a3c",
       "https://egl.circlly.com/auctions/angelic-pretty-dramatic-rose-jsk-mint-x-pink",
+      "https://egl.circlly.com/auctions/vampire-rose-jsk-4c0dfc5c-eab7-4f27-9c55-4f0517932bd3",
+      "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-keystrap-music-themed",
       "https://egl.circlly.com/auctions/angelic-pretty-jelly-candy-toys-salopette-lavender-slightly-altered",
       "https://egl.circlly.com/auctions/angelic-pretty-lovely-bathroom-jsk-navy",
       "https://egl.circlly.com/auctions/baby-sf-limited-edition-jsk-with-hairband",
@@ -937,7 +941,6 @@
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-millefeuille-lavender-x-black-jsk-nwt",
       "https://egl.circlly.com/auctions/nwt-angelic-pretty-cutest-heart-dress-set-a786bd01-6c7a-458f-848d-c7dc35f035ee",
       "https://egl.circlly.com/auctions/angelic-pretty-vintage-toys-ivory-op",
-      "https://egl.circlly.com/auctions/vampire-rose-jsk-4c0dfc5c-eab7-4f27-9c55-4f0517932bd3",
       "https://egl.circlly.com/auctions/maison-de-minette-la-fraise-de-minette-camisole-dress",
       "https://egl.circlly.com/auctions/angelicpretty-holy-lantern-jsk",
       "https://egl.circlly.com/auctions/angelic-pretty-little-witch-jsk-lavender-otk-kc",
@@ -1239,7 +1242,6 @@
       "https://egl.circlly.com/auctions/angelic-pretty-crystal-berry-necklace-in-pink-5bdc6d5f-75cb-4ad6-a641-2b1571c8b05b",
       "https://egl.circlly.com/auctions/alice-and-the-pirates-avery-ribbon-comb-50bc43ab-b41d-47f5-967c-250c60dd3fc9",
       "https://egl.circlly.com/auctions/btssb-tartan-check-babydoll-jsk-in-red-79d5ea35-fcf4-49fd-92fc-7b234110c3a3",
-      "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-keystrap-music-themed",
       "https://egl.circlly.com/auctions/photogenic-pallet-salopette-e748438b-ebf7-45cd-9e2f-401b5975cf93",
       "https://egl.circlly.com/auctions/emilia-gingham-jsk-2023-by-btssb",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-jsk-classical-clasic-black-and-white",
