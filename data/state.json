@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-05T21:17:56.108Z",
+  "lastSuccessfulCheckAt": "2026-10-05T21:25:15.357Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/ap-sugar-pansy-doll-jsk-yellow",
       "https://egl.circlly.com/auctions/free-ship-us-ribbon-berry-bunny-op-kc-angelic-pretty",
       "https://egl.circlly.com/auctions/mercator-antique-shop-long-jsk-in-black",
       "https://egl.circlly.com/auctions/fancy-noel-jsk-angelic-pretty-altered",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/angelic-pretty-little-bunny-strawberry-jsk-b5eb55bc-a7c9-4aa6-a71a-7786d2c10a3c",
       "https://egl.circlly.com/auctions/angelic-pretty-dramatic-rose-jsk-mint-x-pink",
       "https://egl.circlly.com/auctions/angelic-pretty-jelly-candy-toys-salopette-lavender-slightly-altered",
-      "https://egl.circlly.com/auctions/angelic-pretty-lovely-bathroom-jsk-navy",
-      "https://egl.circlly.com/auctions/baby-sf-limited-edition-jsk-with-hairband"
+      "https://egl.circlly.com/auctions/angelic-pretty-lovely-bathroom-jsk-navy"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/ap-sugar-pansy-doll-jsk-yellow",
       "https://egl.circlly.com/auctions/free-ship-us-ribbon-berry-bunny-op-kc-angelic-pretty",
       "https://egl.circlly.com/auctions/mercator-antique-shop-long-jsk-in-black",
       "https://egl.circlly.com/auctions/fancy-noel-jsk-angelic-pretty-altered",
