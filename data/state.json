@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-06T13:31:32.261Z",
+  "lastSuccessfulCheckAt": "2026-10-06T13:43:12.406Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,8 +915,6 @@
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-lavender-purple-2014",
       "https://egl.circlly.com/auctions/nwt-toys-museum-jsk-headbow-black-angelic-pretty",
       "https://egl.circlly.com/auctions/angelic-pretty-sunny-smile-laundry-jsk-black",
-      "https://egl.circlly.com/auctions/night-guardian-cyan-corset-skirt-size-l",
-      "https://egl.circlly.com/auctions/offbrand-white-blouse-nwt",
       "https://egl.circlly.com/auctions/ap-regimental-night-sky-jsk",
       "https://egl.circlly.com/auctions/free-ship-us-ribbon-berry-bunny-op-kc-angelic-pretty",
       "https://egl.circlly.com/auctions/mercator-antique-shop-long-jsk-in-black",
@@ -931,8 +929,6 @@
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-lavender-purple-2014",
       "https://egl.circlly.com/auctions/nwt-toys-museum-jsk-headbow-black-angelic-pretty",
       "https://egl.circlly.com/auctions/angelic-pretty-sunny-smile-laundry-jsk-black",
-      "https://egl.circlly.com/auctions/night-guardian-cyan-corset-skirt-size-l",
-      "https://egl.circlly.com/auctions/offbrand-white-blouse-nwt",
       "https://egl.circlly.com/auctions/ap-regimental-night-sky-jsk",
       "https://egl.circlly.com/auctions/free-ship-us-ribbon-berry-bunny-op-kc-angelic-pretty",
       "https://egl.circlly.com/auctions/mercator-antique-shop-long-jsk-in-black",
@@ -941,6 +937,8 @@
       "https://egl.circlly.com/auctions/btssb-sugar-bouquet-shirring-princess-jsk-halter-neck",
       "https://egl.circlly.com/auctions/fantastic-carnival-lavender",
       "https://egl.circlly.com/auctions/angelic-pretty-little-bunny-strawberry-jsk-b5eb55bc-a7c9-4aa6-a71a-7786d2c10a3c",
+      "https://egl.circlly.com/auctions/night-guardian-cyan-corset-skirt-size-l",
+      "https://egl.circlly.com/auctions/offbrand-white-blouse-nwt",
       "https://egl.circlly.com/auctions/angelic-pretty-royal-cards-otks-in-blue",
       "https://egl.circlly.com/auctions/sally-s-garden-by-miss-point",
       "https://egl.circlly.com/auctions/angelic-pretty-whip-lady-jsk-284dc781-c521-4f6e-addb-5b034e5bc689",
