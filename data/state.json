@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-06T04:41:50.550Z",
+  "lastSuccessfulCheckAt": "2026-10-06T04:51:17.691Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-whip-lady-jsk-284dc781-c521-4f6e-addb-5b034e5bc689",
       "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-2019-jsk-kc-set",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-lavender-purple-2014",
       "https://egl.circlly.com/auctions/nwt-toys-museum-jsk-headbow-black-angelic-pretty",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/plus-size-fancy-paper-dolls-angelic-pretty-lavender",
       "https://egl.circlly.com/auctions/plus-size-fruity-lemon-jsk-sax",
       "https://egl.circlly.com/auctions/btssb-sugar-bouquet-shirring-princess-jsk-halter-neck",
-      "https://egl.circlly.com/auctions/fantastic-carnival-lavender",
-      "https://egl.circlly.com/auctions/angelic-pretty-little-bunny-strawberry-jsk-b5eb55bc-a7c9-4aa6-a71a-7786d2c10a3c"
+      "https://egl.circlly.com/auctions/fantastic-carnival-lavender"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-whip-lady-jsk-284dc781-c521-4f6e-addb-5b034e5bc689",
       "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-2019-jsk-kc-set",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-lavender-purple-2014",
       "https://egl.circlly.com/auctions/nwt-toys-museum-jsk-headbow-black-angelic-pretty",
