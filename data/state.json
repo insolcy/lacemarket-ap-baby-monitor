@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-08T09:21:19.783Z",
+  "lastSuccessfulCheckAt": "2026-10-08T09:24:55.630Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -921,8 +921,8 @@
       "https://egl.circlly.com/auctions/free-ship-us-ribbon-berry-bunny-op-kc-angelic-pretty",
       "https://egl.circlly.com/auctions/mercator-antique-shop-long-jsk-in-black",
       "https://egl.circlly.com/auctions/plus-size-fruity-lemon-jsk-sax",
-      "https://egl.circlly.com/auctions/fantastic-carnival-lavender",
-      "https://egl.circlly.com/auctions/angelic-pretty-little-bunny-strawberry-jsk-b5eb55bc-a7c9-4aa6-a71a-7786d2c10a3c"
+      "https://egl.circlly.com/auctions/angelic-pretty-little-bunny-strawberry-jsk-b5eb55bc-a7c9-4aa6-a71a-7786d2c10a3c",
+      "https://egl.circlly.com/auctions/angelic-pretty-dramatic-rose-jsk-mint-x-pink"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/ap-magic-amulet-op-7e182fae-7c19-406a-8c51-be688a63c57c",
@@ -935,9 +935,9 @@
       "https://egl.circlly.com/auctions/free-ship-us-ribbon-berry-bunny-op-kc-angelic-pretty",
       "https://egl.circlly.com/auctions/mercator-antique-shop-long-jsk-in-black",
       "https://egl.circlly.com/auctions/plus-size-fruity-lemon-jsk-sax",
-      "https://egl.circlly.com/auctions/fantastic-carnival-lavender",
       "https://egl.circlly.com/auctions/angelic-pretty-little-bunny-strawberry-jsk-b5eb55bc-a7c9-4aa6-a71a-7786d2c10a3c",
       "https://egl.circlly.com/auctions/angelic-pretty-dramatic-rose-jsk-mint-x-pink",
+      "https://egl.circlly.com/auctions/fantastic-carnival-lavender",
       "https://egl.circlly.com/auctions/angelic-pretty-jelly-candy-toys-salopette-lavender-slightly-altered",
       "https://egl.circlly.com/auctions/2019-ap-lovely-tartan-jsk-set",
       "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-in-pink",
