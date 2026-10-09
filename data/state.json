@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-09T22:50:30.705Z",
+  "lastSuccessfulCheckAt": "2026-10-09T23:00:50.358Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,8 +915,6 @@
       "https://egl.circlly.com/auctions/btssb-swan-lake-print-jsk-i-2005",
       "https://egl.circlly.com/auctions/btssb-millefeuille-jsk-e6a1590f-e3f3-413c-93b4-c14d893bab30",
       "https://egl.circlly.com/auctions/btssb-ribbon-ribbon-gelato-jsk",
-      "https://egl.circlly.com/auctions/vampire-rose-jsk-4c0dfc5c-eab7-4f27-9c55-4f0517932bd3",
-      "https://egl.circlly.com/auctions/alice-and-the-pirates-world-s-treasure-hunting-pirates-hat",
       "https://egl.circlly.com/auctions/btssb-cul-de-paris-jsk-2006-e3c87bb6-09d3-49c8-8031-13bd88341f4a",
       "https://egl.circlly.com/auctions/vanilla-chan-jsk-black-2010-angelic-pretty",
       "https://egl.circlly.com/auctions/ap-magic-amulet-op-7e182fae-7c19-406a-8c51-be688a63c57c",
@@ -931,8 +929,6 @@
       "https://egl.circlly.com/auctions/btssb-swan-lake-print-jsk-i-2005",
       "https://egl.circlly.com/auctions/btssb-millefeuille-jsk-e6a1590f-e3f3-413c-93b4-c14d893bab30",
       "https://egl.circlly.com/auctions/btssb-ribbon-ribbon-gelato-jsk",
-      "https://egl.circlly.com/auctions/vampire-rose-jsk-4c0dfc5c-eab7-4f27-9c55-4f0517932bd3",
-      "https://egl.circlly.com/auctions/alice-and-the-pirates-world-s-treasure-hunting-pirates-hat",
       "https://egl.circlly.com/auctions/btssb-cul-de-paris-jsk-2006-e3c87bb6-09d3-49c8-8031-13bd88341f4a",
       "https://egl.circlly.com/auctions/vanilla-chan-jsk-black-2010-angelic-pretty",
       "https://egl.circlly.com/auctions/ap-magic-amulet-op-7e182fae-7c19-406a-8c51-be688a63c57c",
@@ -941,6 +937,8 @@
       "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-2019-jsk-kc-set",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-lavender-purple-2014",
       "https://egl.circlly.com/auctions/nwt-toys-museum-jsk-headbow-black-angelic-pretty",
+      "https://egl.circlly.com/auctions/vampire-rose-jsk-4c0dfc5c-eab7-4f27-9c55-4f0517932bd3",
+      "https://egl.circlly.com/auctions/alice-and-the-pirates-world-s-treasure-hunting-pirates-hat",
       "https://egl.circlly.com/auctions/ap-lovely-poodle-special-set-jsk-kc",
       "https://egl.circlly.com/auctions/btssb-neko-kumyas-happy-meow-meow-gift-3-piece-set",
       "https://egl.circlly.com/auctions/angelic-pretty-sunny-smile-laundry-jsk-black",
