@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-09T22:40:42.993Z",
+  "lastSuccessfulCheckAt": "2026-10-09T22:50:30.705Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,6 +915,8 @@
       "https://egl.circlly.com/auctions/btssb-swan-lake-print-jsk-i-2005",
       "https://egl.circlly.com/auctions/btssb-millefeuille-jsk-e6a1590f-e3f3-413c-93b4-c14d893bab30",
       "https://egl.circlly.com/auctions/btssb-ribbon-ribbon-gelato-jsk",
+      "https://egl.circlly.com/auctions/vampire-rose-jsk-4c0dfc5c-eab7-4f27-9c55-4f0517932bd3",
+      "https://egl.circlly.com/auctions/alice-and-the-pirates-world-s-treasure-hunting-pirates-hat",
       "https://egl.circlly.com/auctions/btssb-cul-de-paris-jsk-2006-e3c87bb6-09d3-49c8-8031-13bd88341f4a",
       "https://egl.circlly.com/auctions/vanilla-chan-jsk-black-2010-angelic-pretty",
       "https://egl.circlly.com/auctions/ap-magic-amulet-op-7e182fae-7c19-406a-8c51-be688a63c57c",
@@ -929,6 +931,8 @@
       "https://egl.circlly.com/auctions/btssb-swan-lake-print-jsk-i-2005",
       "https://egl.circlly.com/auctions/btssb-millefeuille-jsk-e6a1590f-e3f3-413c-93b4-c14d893bab30",
       "https://egl.circlly.com/auctions/btssb-ribbon-ribbon-gelato-jsk",
+      "https://egl.circlly.com/auctions/vampire-rose-jsk-4c0dfc5c-eab7-4f27-9c55-4f0517932bd3",
+      "https://egl.circlly.com/auctions/alice-and-the-pirates-world-s-treasure-hunting-pirates-hat",
       "https://egl.circlly.com/auctions/btssb-cul-de-paris-jsk-2006-e3c87bb6-09d3-49c8-8031-13bd88341f4a",
       "https://egl.circlly.com/auctions/vanilla-chan-jsk-black-2010-angelic-pretty",
       "https://egl.circlly.com/auctions/ap-magic-amulet-op-7e182fae-7c19-406a-8c51-be688a63c57c",
@@ -971,7 +975,6 @@
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-pure-rose-princess-socks-brand-new",
       "https://egl.circlly.com/auctions/star-fantasy-bear-cookie-pink-salopette-set-2xl",
       "https://egl.circlly.com/auctions/sinwavy-blond-wavy-wig-0f440f52-45e4-4ba4-9723-e5d550eea717",
-      "https://egl.circlly.com/auctions/vampire-rose-jsk-4c0dfc5c-eab7-4f27-9c55-4f0517932bd3",
       "https://egl.circlly.com/auctions/fancy-noel-jsk-angelic-pretty-altered",
       "https://egl.circlly.com/auctions/ap-sugar-pansy-doll-jsk-yellow",
       "https://egl.circlly.com/auctions/angelic-pretty-khronos-utopia-jsk-293ccc5d-019f-4416-92fb-74f2e7532d58",
