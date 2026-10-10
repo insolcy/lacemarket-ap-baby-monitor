@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-10T21:31:11.017Z",
+  "lastSuccessfulCheckAt": "2026-10-10T21:40:51.578Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -921,8 +921,8 @@
       "https://egl.circlly.com/auctions/vanilla-chan-jsk-black-2010-angelic-pretty",
       "https://egl.circlly.com/auctions/ap-magic-amulet-op-7e182fae-7c19-406a-8c51-be688a63c57c",
       "https://egl.circlly.com/auctions/chess-emblem-special-jsk-set",
-      "https://egl.circlly.com/auctions/strawberry-and-cherry-ruffle-jsk-a1392b1a-eb0d-4f67-96a1-2804bd8c24d2",
-      "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-2019-jsk-kc-set"
+      "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-2019-jsk-kc-set",
+      "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-lavender-purple-2014"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/closet-cleaning-angelic-pretty-cinema-lady-jsk",
@@ -935,8 +935,9 @@
       "https://egl.circlly.com/auctions/vanilla-chan-jsk-black-2010-angelic-pretty",
       "https://egl.circlly.com/auctions/ap-magic-amulet-op-7e182fae-7c19-406a-8c51-be688a63c57c",
       "https://egl.circlly.com/auctions/chess-emblem-special-jsk-set",
-      "https://egl.circlly.com/auctions/strawberry-and-cherry-ruffle-jsk-a1392b1a-eb0d-4f67-96a1-2804bd8c24d2",
       "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-2019-jsk-kc-set",
+      "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-lavender-purple-2014",
+      "https://egl.circlly.com/auctions/strawberry-and-cherry-ruffle-jsk-a1392b1a-eb0d-4f67-96a1-2804bd8c24d2",
       "https://egl.circlly.com/auctions/ap-happy-cakes-ribbon-jsk-kc-yellow",
       "https://egl.circlly.com/auctions/chocolate-rosette-school-set",
       "https://egl.circlly.com/auctions/night-guardian-cyan-corset-skirt-size-l",
@@ -945,7 +946,6 @@
       "https://egl.circlly.com/auctions/night-whisper-bunny-ear-blouse-long-sleeve-xl-plus-size-friendly",
       "https://egl.circlly.com/auctions/btssb-juno-bouquet-set-24d256b5-ad85-44a7-8063-563a0ab76905",
       "https://egl.circlly.com/auctions/mmm-black-x-blue-shoes",
-      "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-lavender-purple-2014",
       "https://egl.circlly.com/auctions/nwt-toys-museum-jsk-headbow-black-angelic-pretty",
       "https://egl.circlly.com/auctions/vampire-rose-jsk-4c0dfc5c-eab7-4f27-9c55-4f0517932bd3",
       "https://egl.circlly.com/auctions/alice-and-the-pirates-world-s-treasure-hunting-pirates-hat",
