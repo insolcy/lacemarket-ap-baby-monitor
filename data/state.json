@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-10T04:30:38.420Z",
+  "lastSuccessfulCheckAt": "2026-10-10T04:40:35.655Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,7 +915,6 @@
       "https://egl.circlly.com/auctions/ap-happy-cakes-ribbon-jsk-kc-yellow",
       "https://egl.circlly.com/auctions/ap-magical-milk-cats-jsk-kc-pink",
       "https://egl.circlly.com/auctions/btssb-cross-rose-print-jsk-i-2006",
-      "https://egl.circlly.com/auctions/metamorphose-school-jsk-mini-length-05",
       "https://egl.circlly.com/auctions/btssb-swan-lake-print-jsk-i-2005",
       "https://egl.circlly.com/auctions/btssb-millefeuille-jsk-e6a1590f-e3f3-413c-93b4-c14d893bab30",
       "https://egl.circlly.com/auctions/btssb-ribbon-ribbon-gelato-jsk",
@@ -930,7 +929,6 @@
       "https://egl.circlly.com/auctions/ap-happy-cakes-ribbon-jsk-kc-yellow",
       "https://egl.circlly.com/auctions/ap-magical-milk-cats-jsk-kc-pink",
       "https://egl.circlly.com/auctions/btssb-cross-rose-print-jsk-i-2006",
-      "https://egl.circlly.com/auctions/metamorphose-school-jsk-mini-length-05",
       "https://egl.circlly.com/auctions/btssb-swan-lake-print-jsk-i-2005",
       "https://egl.circlly.com/auctions/btssb-millefeuille-jsk-e6a1590f-e3f3-413c-93b4-c14d893bab30",
       "https://egl.circlly.com/auctions/btssb-ribbon-ribbon-gelato-jsk",
@@ -939,6 +937,7 @@
       "https://egl.circlly.com/auctions/ap-magic-amulet-op-7e182fae-7c19-406a-8c51-be688a63c57c",
       "https://egl.circlly.com/auctions/chess-emblem-special-jsk-set",
       "https://egl.circlly.com/auctions/strawberry-and-cherry-ruffle-jsk-a1392b1a-eb0d-4f67-96a1-2804bd8c24d2",
+      "https://egl.circlly.com/auctions/metamorphose-school-jsk-mini-length-05",
       "https://egl.circlly.com/auctions/night-whisper-bunny-ear-blouse-long-sleeve-xl-plus-size-friendly",
       "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-2019-jsk-kc-set",
       "https://egl.circlly.com/auctions/btssb-juno-bouquet-set-24d256b5-ad85-44a7-8063-563a0ab76905",
