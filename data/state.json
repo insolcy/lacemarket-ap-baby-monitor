@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-10T00:31:01.522Z",
+  "lastSuccessfulCheckAt": "2026-10-10T01:50:22.637Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,8 +911,12 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/ap-happy-cakes-ribbon-jsk-kc-yellow",
+      "https://egl.circlly.com/auctions/ap-magical-milk-cats-jsk-kc-pink",
       "https://egl.circlly.com/auctions/btssb-cross-rose-print-jsk-i-2006",
       "https://egl.circlly.com/auctions/btssb-swan-lake-print-jsk-i-2005",
+      "https://egl.circlly.com/auctions/night-guardian-cyan-corset-skirt-size-l",
+      "https://egl.circlly.com/auctions/mmm-black-x-blue-shoes",
       "https://egl.circlly.com/auctions/btssb-millefeuille-jsk-e6a1590f-e3f3-413c-93b4-c14d893bab30",
       "https://egl.circlly.com/auctions/btssb-ribbon-ribbon-gelato-jsk",
       "https://egl.circlly.com/auctions/btssb-cul-de-paris-jsk-2006-e3c87bb6-09d3-49c8-8031-13bd88341f4a",
@@ -920,13 +924,15 @@
       "https://egl.circlly.com/auctions/ap-magic-amulet-op-7e182fae-7c19-406a-8c51-be688a63c57c",
       "https://egl.circlly.com/auctions/chess-emblem-special-jsk-set",
       "https://egl.circlly.com/auctions/strawberry-and-cherry-ruffle-jsk-a1392b1a-eb0d-4f67-96a1-2804bd8c24d2",
-      "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-2019-jsk-kc-set",
-      "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-dessert-op-lavender-purple-2014",
-      "https://egl.circlly.com/auctions/nwt-toys-museum-jsk-headbow-black-angelic-pretty"
+      "https://egl.circlly.com/auctions/angelic-pretty-freshly-picked-strawberries-2019-jsk-kc-set"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/ap-happy-cakes-ribbon-jsk-kc-yellow",
+      "https://egl.circlly.com/auctions/ap-magical-milk-cats-jsk-kc-pink",
       "https://egl.circlly.com/auctions/btssb-cross-rose-print-jsk-i-2006",
       "https://egl.circlly.com/auctions/btssb-swan-lake-print-jsk-i-2005",
+      "https://egl.circlly.com/auctions/night-guardian-cyan-corset-skirt-size-l",
+      "https://egl.circlly.com/auctions/mmm-black-x-blue-shoes",
       "https://egl.circlly.com/auctions/btssb-millefeuille-jsk-e6a1590f-e3f3-413c-93b4-c14d893bab30",
       "https://egl.circlly.com/auctions/btssb-ribbon-ribbon-gelato-jsk",
       "https://egl.circlly.com/auctions/btssb-cul-de-paris-jsk-2006-e3c87bb6-09d3-49c8-8031-13bd88341f4a",
@@ -956,7 +962,6 @@
       "https://egl.circlly.com/auctions/ap-regimental-night-sky-jsk",
       "https://egl.circlly.com/auctions/plus-size-fancy-paper-dolls-angelic-pretty-lavender",
       "https://egl.circlly.com/auctions/angelic-pretty-2012-original-release-cinema-doll-op-in-ivory-free-us-ship",
-      "https://egl.circlly.com/auctions/night-guardian-cyan-corset-skirt-size-l",
       "https://egl.circlly.com/auctions/an-tai-na-red-tea-party-shoes",
       "https://egl.circlly.com/auctions/new-iris-corolla-marie-antoinette-rococo-shoes-pearl-white-size-35-22-5-us-5-5",
       "https://egl.circlly.com/auctions/angelic-pretty-fantasy-lyrical-bunny-pouch-yellow-bnwt",
@@ -1326,11 +1331,5 @@
     ],
     "lastPagesScanned": 1
   },
-  "combinedNewUnitedStatesBaselineAt": "2026-10-04T03:51:09.396Z",
-  "connectivityOutage": {
-    "kind": "proxy-unavailable",
-    "startedAt": "2026-10-10T00:42:25.180Z",
-    "lastFailureReportedAt": "2026-10-10T00:42:25.180Z",
-    "lastProbeAt": "2026-10-10T00:42:25.180Z"
-  }
+  "combinedNewUnitedStatesBaselineAt": "2026-10-10T01:50:22.637Z"
 }
