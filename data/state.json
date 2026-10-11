@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-11T18:41:04.371Z",
+  "lastSuccessfulCheckAt": "2026-10-11T18:50:53.899Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,6 +915,8 @@
       "https://egl.circlly.com/auctions/daydream-bed-jsk-pink-5b062c74-d609-4591-8752-0137beda3247",
       "https://egl.circlly.com/auctions/btssb-maria-de-la-croix-jsk-nwt-e637ebd3-7dd5-4c57-b1d6-00c820e99f2a",
       "https://egl.circlly.com/auctions/closet-cleaning-angelic-pretty-cinema-lady-jsk",
+      "https://egl.circlly.com/auctions/mercator-antique-shop-long-jsk-in-black",
+      "https://egl.circlly.com/auctions/emily-temple-100-cotton-red-gingham-ladder-ribbon-lace-skirt-xxs-xs",
       "https://egl.circlly.com/auctions/ap-magical-milk-cats-jsk-kc-pink",
       "https://egl.circlly.com/auctions/btssb-cross-rose-print-jsk-i-2006",
       "https://egl.circlly.com/auctions/btssb-swan-lake-print-jsk-i-2005",
@@ -929,6 +931,8 @@
       "https://egl.circlly.com/auctions/daydream-bed-jsk-pink-5b062c74-d609-4591-8752-0137beda3247",
       "https://egl.circlly.com/auctions/btssb-maria-de-la-croix-jsk-nwt-e637ebd3-7dd5-4c57-b1d6-00c820e99f2a",
       "https://egl.circlly.com/auctions/closet-cleaning-angelic-pretty-cinema-lady-jsk",
+      "https://egl.circlly.com/auctions/mercator-antique-shop-long-jsk-in-black",
+      "https://egl.circlly.com/auctions/emily-temple-100-cotton-red-gingham-ladder-ribbon-lace-skirt-xxs-xs",
       "https://egl.circlly.com/auctions/ap-magical-milk-cats-jsk-kc-pink",
       "https://egl.circlly.com/auctions/btssb-cross-rose-print-jsk-i-2006",
       "https://egl.circlly.com/auctions/btssb-swan-lake-print-jsk-i-2005",
@@ -957,7 +961,6 @@
       "https://egl.circlly.com/auctions/btssb-neko-kumyas-happy-meow-meow-gift-3-piece-set",
       "https://egl.circlly.com/auctions/angelic-pretty-sunny-smile-laundry-jsk-black",
       "https://egl.circlly.com/auctions/free-ship-us-ribbon-berry-bunny-op-kc-angelic-pretty",
-      "https://egl.circlly.com/auctions/mercator-antique-shop-long-jsk-in-black",
       "https://egl.circlly.com/auctions/plus-size-fruity-lemon-jsk-sax",
       "https://egl.circlly.com/auctions/angelic-pretty-little-bunny-strawberry-jsk-b5eb55bc-a7c9-4aa6-a71a-7786d2c10a3c",
       "https://egl.circlly.com/auctions/angelic-pretty-dramatic-rose-jsk-mint-x-pink",
