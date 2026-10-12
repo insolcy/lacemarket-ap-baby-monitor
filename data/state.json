@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-12T01:21:02.512Z",
+  "lastSuccessfulCheckAt": "2026-10-12T01:30:51.708Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,8 +915,6 @@
       "https://egl.circlly.com/auctions/btssb-margaret-s-petit-menuet-op-hd",
       "https://egl.circlly.com/auctions/daydream-bed-jsk-pink-5b062c74-d609-4591-8752-0137beda3247",
       "https://egl.circlly.com/auctions/btssb-maria-de-la-croix-jsk-nwt-e637ebd3-7dd5-4c57-b1d6-00c820e99f2a",
-      "https://egl.circlly.com/auctions/free-us-ship-2xl-haenuli-joan-of-arc-set-jsk-armor-vest-cloak",
-      "https://egl.circlly.com/auctions/nurse-hat-in-pink",
       "https://egl.circlly.com/auctions/closet-cleaning-angelic-pretty-cinema-lady-jsk",
       "https://egl.circlly.com/auctions/ap-magical-milk-cats-jsk-kc-pink",
       "https://egl.circlly.com/auctions/btssb-cross-rose-print-jsk-i-2006",
@@ -931,8 +929,6 @@
       "https://egl.circlly.com/auctions/btssb-margaret-s-petit-menuet-op-hd",
       "https://egl.circlly.com/auctions/daydream-bed-jsk-pink-5b062c74-d609-4591-8752-0137beda3247",
       "https://egl.circlly.com/auctions/btssb-maria-de-la-croix-jsk-nwt-e637ebd3-7dd5-4c57-b1d6-00c820e99f2a",
-      "https://egl.circlly.com/auctions/free-us-ship-2xl-haenuli-joan-of-arc-set-jsk-armor-vest-cloak",
-      "https://egl.circlly.com/auctions/nurse-hat-in-pink",
       "https://egl.circlly.com/auctions/closet-cleaning-angelic-pretty-cinema-lady-jsk",
       "https://egl.circlly.com/auctions/ap-magical-milk-cats-jsk-kc-pink",
       "https://egl.circlly.com/auctions/btssb-cross-rose-print-jsk-i-2006",
@@ -941,6 +937,8 @@
       "https://egl.circlly.com/auctions/btssb-ribbon-ribbon-gelato-jsk",
       "https://egl.circlly.com/auctions/btssb-cul-de-paris-jsk-2006-e3c87bb6-09d3-49c8-8031-13bd88341f4a",
       "https://egl.circlly.com/auctions/vanilla-chan-jsk-black-2010-angelic-pretty",
+      "https://egl.circlly.com/auctions/free-us-ship-2xl-haenuli-joan-of-arc-set-jsk-armor-vest-cloak",
+      "https://egl.circlly.com/auctions/nurse-hat-in-pink",
       "https://egl.circlly.com/auctions/off-brand-fluffy-bow-scarf-with-pearls-white",
       "https://egl.circlly.com/auctions/mercator-antique-shop-long-jsk-in-black",
       "https://egl.circlly.com/auctions/jane-marple-winter-angel-otks-2003",
