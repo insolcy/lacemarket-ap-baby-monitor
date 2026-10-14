@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-14T19:11:28.536Z",
+  "lastSuccessfulCheckAt": "2026-10-14T19:17:29.370Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,8 +915,6 @@
       "https://egl.circlly.com/auctions/ap-cosmic-sailor-jsk-87797c9c-600e-47d4-8b25-78c6c0ad497b",
       "https://egl.circlly.com/auctions/holy-lantern-jsk-clip-otk-set",
       "https://egl.circlly.com/auctions/angelic-pretty-airy-unicorn-op",
-      "https://egl.circlly.com/auctions/chocolate-rosette-school-set",
-      "https://egl.circlly.com/auctions/amavel-deep-green-strapped-skirt",
       "https://egl.circlly.com/auctions/btssb-romantic-dream-rose-jsk-kc",
       "https://egl.circlly.com/auctions/btssb-hem-scallop-jsk-f392829a-9d12-493a-8cfb-a151382efdce",
       "https://egl.circlly.com/auctions/angelic-pretty-little-witch-pink-op-and-lyrical-bunny-jewelry-3-piece-set-nwot",
@@ -931,8 +929,6 @@
       "https://egl.circlly.com/auctions/ap-cosmic-sailor-jsk-87797c9c-600e-47d4-8b25-78c6c0ad497b",
       "https://egl.circlly.com/auctions/holy-lantern-jsk-clip-otk-set",
       "https://egl.circlly.com/auctions/angelic-pretty-airy-unicorn-op",
-      "https://egl.circlly.com/auctions/chocolate-rosette-school-set",
-      "https://egl.circlly.com/auctions/amavel-deep-green-strapped-skirt",
       "https://egl.circlly.com/auctions/btssb-romantic-dream-rose-jsk-kc",
       "https://egl.circlly.com/auctions/btssb-hem-scallop-jsk-f392829a-9d12-493a-8cfb-a151382efdce",
       "https://egl.circlly.com/auctions/angelic-pretty-little-witch-pink-op-and-lyrical-bunny-jewelry-3-piece-set-nwot",
@@ -941,6 +937,8 @@
       "https://egl.circlly.com/auctions/ap-sweetie-violet-pink-jsk-kc",
       "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-op-d9ff8768-96ca-4bde-869e-48ce5e9d4c85",
       "https://egl.circlly.com/auctions/btssb-margaret-s-petit-menuet-op-hd",
+      "https://egl.circlly.com/auctions/chocolate-rosette-school-set",
+      "https://egl.circlly.com/auctions/amavel-deep-green-strapped-skirt",
       "https://egl.circlly.com/auctions/angelic-pretty-dream-bear-tumbler",
       "https://egl.circlly.com/auctions/forest-wardrobe-the-basket-of-the-forest-2-0-sunflower-jsk",
       "https://egl.circlly.com/auctions/daydream-bed-jsk-pink-5b062c74-d609-4591-8752-0137beda3247",
