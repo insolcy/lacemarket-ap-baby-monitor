@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-14T16:31:40.997Z",
+  "lastSuccessfulCheckAt": "2026-10-14T16:41:34.873Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/ap-cosmic-sailor-jsk-87797c9c-600e-47d4-8b25-78c6c0ad497b",
       "https://egl.circlly.com/auctions/btssb-little-rabbits-sparkly-droplet",
       "https://egl.circlly.com/auctions/holy-lantern-jsk-clip-otk-set",
       "https://egl.circlly.com/auctions/angelic-pretty-airy-unicorn-op",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/nwt-btssb-romantic-dream-rose-lavendar-jsk-kc",
       "https://egl.circlly.com/auctions/ap-sweetie-violet-pink-jsk-kc",
       "https://egl.circlly.com/auctions/angelic-pretty-holy-lantern-op-d9ff8768-96ca-4bde-869e-48ce5e9d4c85",
-      "https://egl.circlly.com/auctions/btssb-margaret-s-petit-menuet-op-hd",
-      "https://egl.circlly.com/auctions/daydream-bed-jsk-pink-5b062c74-d609-4591-8752-0137beda3247"
+      "https://egl.circlly.com/auctions/btssb-margaret-s-petit-menuet-op-hd"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/ap-cosmic-sailor-jsk-87797c9c-600e-47d4-8b25-78c6c0ad497b",
       "https://egl.circlly.com/auctions/btssb-little-rabbits-sparkly-droplet",
       "https://egl.circlly.com/auctions/holy-lantern-jsk-clip-otk-set",
       "https://egl.circlly.com/auctions/angelic-pretty-airy-unicorn-op",
