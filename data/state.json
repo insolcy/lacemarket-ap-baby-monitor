@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-16T06:33:17.692Z",
+  "lastSuccessfulCheckAt": "2026-10-16T06:41:11.517Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -912,7 +912,6 @@
   "combined": {
     "frontier": [
       "https://egl.circlly.com/auctions/btssb-lovely-day-parade-jsk-matching-headdress",
-      "https://egl.circlly.com/auctions/angelic-pretty-day-dream-carnival-tiered-jsk-mto",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-cakes",
       "https://egl.circlly.com/auctions/angelic-pretty-wrapping-cherry-set-eb4ff138-2f0c-4ad8-9593-de268010a51f",
       "https://egl.circlly.com/auctions/relist-angelic-pretty-sweet-frill-jsk-black",
@@ -922,11 +921,11 @@
       "https://egl.circlly.com/auctions/holy-lantern-jsk-clip-otk-set",
       "https://egl.circlly.com/auctions/angelic-pretty-airy-unicorn-op",
       "https://egl.circlly.com/auctions/btssb-romantic-dream-rose-jsk-kc",
-      "https://egl.circlly.com/auctions/btssb-hem-scallop-jsk-f392829a-9d12-493a-8cfb-a151382efdce"
+      "https://egl.circlly.com/auctions/btssb-hem-scallop-jsk-f392829a-9d12-493a-8cfb-a151382efdce",
+      "https://egl.circlly.com/auctions/angelic-pretty-little-witch-pink-op-and-lyrical-bunny-jewelry-3-piece-set-nwot"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/btssb-lovely-day-parade-jsk-matching-headdress",
-      "https://egl.circlly.com/auctions/angelic-pretty-day-dream-carnival-tiered-jsk-mto",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-cakes",
       "https://egl.circlly.com/auctions/angelic-pretty-wrapping-cherry-set-eb4ff138-2f0c-4ad8-9593-de268010a51f",
       "https://egl.circlly.com/auctions/relist-angelic-pretty-sweet-frill-jsk-black",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/btssb-romantic-dream-rose-jsk-kc",
       "https://egl.circlly.com/auctions/btssb-hem-scallop-jsk-f392829a-9d12-493a-8cfb-a151382efdce",
       "https://egl.circlly.com/auctions/angelic-pretty-little-witch-pink-op-and-lyrical-bunny-jewelry-3-piece-set-nwot",
+      "https://egl.circlly.com/auctions/angelic-pretty-day-dream-carnival-tiered-jsk-mto",
       "https://egl.circlly.com/auctions/angelic-pretty-dreamy-planetarium-3-piece-set-navy",
       "https://egl.circlly.com/auctions/nwt-btssb-romantic-dream-rose-lavendar-jsk-kc",
       "https://egl.circlly.com/auctions/ap-sweetie-violet-pink-jsk-kc",
