@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-17T03:01:30.936Z",
+  "lastSuccessfulCheckAt": "2026-10-17T03:10:55.430Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -913,7 +913,6 @@
     "frontier": [
       "https://egl.circlly.com/auctions/angelic-pretty-day-dream-carnival-jsk-set-in-lavender-64756e33-fdd7-42f9-a0e7-9bc6a6de2e84",
       "https://egl.circlly.com/auctions/angelic-pretty-fresh-strawberry-diner-jsk-no-brooch",
-      "https://egl.circlly.com/auctions/dreamy-negligee-op-pink-angelic-pretty",
       "https://egl.circlly.com/auctions/melty-sky-op-blue-angelic-pretty",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-cakes",
       "https://egl.circlly.com/auctions/angelic-pretty-wrapping-cherry-set-eb4ff138-2f0c-4ad8-9593-de268010a51f",
@@ -922,12 +921,12 @@
       "https://egl.circlly.com/auctions/ap-cosmic-sailor-jsk-87797c9c-600e-47d4-8b25-78c6c0ad497b",
       "https://egl.circlly.com/auctions/holy-lantern-jsk-clip-otk-set",
       "https://egl.circlly.com/auctions/angelic-pretty-airy-unicorn-op",
-      "https://egl.circlly.com/auctions/btssb-romantic-dream-rose-jsk-kc"
+      "https://egl.circlly.com/auctions/btssb-romantic-dream-rose-jsk-kc",
+      "https://egl.circlly.com/auctions/btssb-hem-scallop-jsk-f392829a-9d12-493a-8cfb-a151382efdce"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/angelic-pretty-day-dream-carnival-jsk-set-in-lavender-64756e33-fdd7-42f9-a0e7-9bc6a6de2e84",
       "https://egl.circlly.com/auctions/angelic-pretty-fresh-strawberry-diner-jsk-no-brooch",
-      "https://egl.circlly.com/auctions/dreamy-negligee-op-pink-angelic-pretty",
       "https://egl.circlly.com/auctions/melty-sky-op-blue-angelic-pretty",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-cakes",
       "https://egl.circlly.com/auctions/angelic-pretty-wrapping-cherry-set-eb4ff138-2f0c-4ad8-9593-de268010a51f",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/angelic-pretty-airy-unicorn-op",
       "https://egl.circlly.com/auctions/btssb-romantic-dream-rose-jsk-kc",
       "https://egl.circlly.com/auctions/btssb-hem-scallop-jsk-f392829a-9d12-493a-8cfb-a151382efdce",
+      "https://egl.circlly.com/auctions/dreamy-negligee-op-pink-angelic-pretty",
       "https://egl.circlly.com/auctions/btssb-heart-margaret-jsk",
       "https://egl.circlly.com/auctions/angelic-pretty-little-witch-pink-op-and-lyrical-bunny-jewelry-3-piece-set-nwot",
       "https://egl.circlly.com/auctions/angelic-pretty-dreamy-planetarium-3-piece-set-navy",
