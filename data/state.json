@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-17T15:31:06.658Z",
+  "lastSuccessfulCheckAt": "2026-10-17T15:41:07.329Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,8 +915,6 @@
       "https://egl.circlly.com/auctions/melty-royal-chocolate-jsk-dark-chocolate",
       "https://egl.circlly.com/auctions/toy-doll-box-salopette-pink-73027240-742b-4e09-ae6f-2a76baea0b88",
       "https://egl.circlly.com/auctions/little-bunny-strawberry-apron-style-skirt-in-pink-f31777bf-f941-4a21-8fed-0059685fd109",
-      "https://egl.circlly.com/auctions/moi-meme-moitie-raschel-lace-frill-blouse-eabf6eb4-ae67-4f3f-abf2-5989e9ca5b23",
-      "https://egl.circlly.com/auctions/axes-femme-pink-jumper-skirt",
       "https://egl.circlly.com/auctions/sweet-cream-house-in-pink-apron-style-skirt",
       "https://egl.circlly.com/auctions/angelic-pretty-fresh-strawberry-diner-jsk-no-brooch",
       "https://egl.circlly.com/auctions/melty-sky-op-blue-angelic-pretty",
@@ -931,8 +929,6 @@
       "https://egl.circlly.com/auctions/melty-royal-chocolate-jsk-dark-chocolate",
       "https://egl.circlly.com/auctions/toy-doll-box-salopette-pink-73027240-742b-4e09-ae6f-2a76baea0b88",
       "https://egl.circlly.com/auctions/little-bunny-strawberry-apron-style-skirt-in-pink-f31777bf-f941-4a21-8fed-0059685fd109",
-      "https://egl.circlly.com/auctions/moi-meme-moitie-raschel-lace-frill-blouse-eabf6eb4-ae67-4f3f-abf2-5989e9ca5b23",
-      "https://egl.circlly.com/auctions/axes-femme-pink-jumper-skirt",
       "https://egl.circlly.com/auctions/sweet-cream-house-in-pink-apron-style-skirt",
       "https://egl.circlly.com/auctions/angelic-pretty-fresh-strawberry-diner-jsk-no-brooch",
       "https://egl.circlly.com/auctions/melty-sky-op-blue-angelic-pretty",
@@ -941,6 +937,8 @@
       "https://egl.circlly.com/auctions/relist-angelic-pretty-sweet-frill-jsk-black",
       "https://egl.circlly.com/auctions/little-witch-op-kc-pink-read-desc",
       "https://egl.circlly.com/auctions/ap-cosmic-sailor-jsk-87797c9c-600e-47d4-8b25-78c6c0ad497b",
+      "https://egl.circlly.com/auctions/moi-meme-moitie-raschel-lace-frill-blouse-eabf6eb4-ae67-4f3f-abf2-5989e9ca5b23",
+      "https://egl.circlly.com/auctions/axes-femme-pink-jumper-skirt",
       "https://egl.circlly.com/auctions/holy-lantern-jsk-clip-otk-set",
       "https://egl.circlly.com/auctions/angelic-pretty-airy-unicorn-op",
       "https://egl.circlly.com/auctions/btssb-romantic-dream-rose-jsk-kc",
