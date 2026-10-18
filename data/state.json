@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-18T19:41:08.708Z",
+  "lastSuccessfulCheckAt": "2026-10-18T19:51:04.987Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -922,7 +922,7 @@
       "https://egl.circlly.com/auctions/little-bunny-strawberry-apron-style-skirt-in-pink-f31777bf-f941-4a21-8fed-0059685fd109",
       "https://egl.circlly.com/auctions/sweet-cream-house-in-pink-apron-style-skirt",
       "https://egl.circlly.com/auctions/angelic-pretty-fresh-strawberry-diner-jsk-no-brooch",
-      "https://egl.circlly.com/auctions/melty-sky-op-blue-angelic-pretty"
+      "https://egl.circlly.com/auctions/angelic-pretty-happy-cakes"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-shirring-princess-jsk-kc",
@@ -936,8 +936,8 @@
       "https://egl.circlly.com/auctions/little-bunny-strawberry-apron-style-skirt-in-pink-f31777bf-f941-4a21-8fed-0059685fd109",
       "https://egl.circlly.com/auctions/sweet-cream-house-in-pink-apron-style-skirt",
       "https://egl.circlly.com/auctions/angelic-pretty-fresh-strawberry-diner-jsk-no-brooch",
-      "https://egl.circlly.com/auctions/melty-sky-op-blue-angelic-pretty",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-cakes",
+      "https://egl.circlly.com/auctions/melty-sky-op-blue-angelic-pretty",
       "https://egl.circlly.com/auctions/angelic-pretty-wrapping-cherry-set-eb4ff138-2f0c-4ad8-9593-de268010a51f",
       "https://egl.circlly.com/auctions/btssb-floral-print-classical-jsk-set",
       "https://egl.circlly.com/auctions/free-us-ship-2xl-haenuli-joan-of-arc-set-jsk-armor-vest-cloak",
