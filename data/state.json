@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-18T14:11:33.885Z",
+  "lastSuccessfulCheckAt": "2026-10-18T14:16:53.073Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,7 +911,6 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
-      "https://egl.circlly.com/auctions/btssb-floral-print-classical-jsk-set",
       "https://egl.circlly.com/auctions/angelic-pretty-victorian-waltz-op-red",
       "https://egl.circlly.com/auctions/free-us-ship-open-to-trades-btssb-2005-roselia-op-black-3-piece-set",
       "https://egl.circlly.com/auctions/btssb-tartan-check-hem-scallop-jsk-7a9d5303-65a5-4d36-ac10-a7674db28e7f",
@@ -922,10 +921,10 @@
       "https://egl.circlly.com/auctions/sweet-cream-house-in-pink-apron-style-skirt",
       "https://egl.circlly.com/auctions/angelic-pretty-fresh-strawberry-diner-jsk-no-brooch",
       "https://egl.circlly.com/auctions/melty-sky-op-blue-angelic-pretty",
-      "https://egl.circlly.com/auctions/angelic-pretty-happy-cakes"
+      "https://egl.circlly.com/auctions/angelic-pretty-happy-cakes",
+      "https://egl.circlly.com/auctions/angelic-pretty-wrapping-cherry-set-eb4ff138-2f0c-4ad8-9593-de268010a51f"
     ],
     "seen": [
-      "https://egl.circlly.com/auctions/btssb-floral-print-classical-jsk-set",
       "https://egl.circlly.com/auctions/angelic-pretty-victorian-waltz-op-red",
       "https://egl.circlly.com/auctions/free-us-ship-open-to-trades-btssb-2005-roselia-op-black-3-piece-set",
       "https://egl.circlly.com/auctions/btssb-tartan-check-hem-scallop-jsk-7a9d5303-65a5-4d36-ac10-a7674db28e7f",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/melty-sky-op-blue-angelic-pretty",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-cakes",
       "https://egl.circlly.com/auctions/angelic-pretty-wrapping-cherry-set-eb4ff138-2f0c-4ad8-9593-de268010a51f",
+      "https://egl.circlly.com/auctions/btssb-floral-print-classical-jsk-set",
       "https://egl.circlly.com/auctions/free-us-ship-2xl-haenuli-joan-of-arc-set-jsk-armor-vest-cloak",
       "https://egl.circlly.com/auctions/sheglit-cynthia-shadow-stripe-lace-skirt",
       "https://egl.circlly.com/auctions/angelic-pretty-jelly-candy-toys-jsk-in-lavender",
