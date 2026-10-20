@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-20T02:51:06.078Z",
+  "lastSuccessfulCheckAt": "2026-10-20T03:01:14.909Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/btssb-shirred-tartan-jsk",
       "https://egl.circlly.com/auctions/btssb-shirred-jsk-headdress-brown-nwt",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-shirring-princess-jsk-kc",
       "https://egl.circlly.com/auctions/bnwt-angelic-pretty-hinaichigo-op-head-bow-set-rozen-maiden-20th-in-laforet-special-12f9007d-c8ff-4d31-9321-273c0208cf9b",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/melty-royal-chocolate-jsk-dark-chocolate",
       "https://egl.circlly.com/auctions/toy-doll-box-salopette-pink-73027240-742b-4e09-ae6f-2a76baea0b88",
       "https://egl.circlly.com/auctions/little-bunny-strawberry-apron-style-skirt-in-pink-f31777bf-f941-4a21-8fed-0059685fd109",
-      "https://egl.circlly.com/auctions/sweet-cream-house-in-pink-apron-style-skirt",
-      "https://egl.circlly.com/auctions/angelic-pretty-fresh-strawberry-diner-jsk-no-brooch"
+      "https://egl.circlly.com/auctions/sweet-cream-house-in-pink-apron-style-skirt"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/btssb-shirred-tartan-jsk",
       "https://egl.circlly.com/auctions/btssb-shirred-jsk-headdress-brown-nwt",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-shirring-princess-jsk-kc",
       "https://egl.circlly.com/auctions/bnwt-angelic-pretty-hinaichigo-op-head-bow-set-rozen-maiden-20th-in-laforet-special-12f9007d-c8ff-4d31-9321-273c0208cf9b",
