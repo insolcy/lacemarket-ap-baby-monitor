@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-21T19:11:13.999Z",
+  "lastSuccessfulCheckAt": "2026-10-21T19:16:37.094Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -914,7 +914,6 @@
       "https://egl.circlly.com/auctions/puppy-princess-tiered-jsk-in-pink",
       "https://egl.circlly.com/auctions/plus-size-friendly-angelic-pretty-cotton-candy-shop-jsk-in-lavender-56bf7a5a-3768-4a8c-a6a7-5ed16ba72d09",
       "https://egl.circlly.com/auctions/angelic-pretty-misty-sky-jsk-white-lace",
-      "https://egl.circlly.com/auctions/angelic-pretty-sweetie-violet-jsk-066cc4db-060f-4853-9464-0a2ceb0af0fb",
       "https://egl.circlly.com/auctions/ap-bookmark-jsk-brown-colorway-2-pairs-socks",
       "https://egl.circlly.com/auctions/ap-sweetie-violet-pink-jsk-kc-944244ee-f87d-40f8-9485-4a5fe42b9b05",
       "https://egl.circlly.com/auctions/btssb-margaretha-jsk-2025-black-x-gold-set",
@@ -922,13 +921,13 @@
       "https://egl.circlly.com/auctions/btssb-black-shirred-jsk-w-bustle-back",
       "https://egl.circlly.com/auctions/btssb-shirred-jsk-headdress-brown-nwt",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-shirring-princess-jsk-kc",
-      "https://egl.circlly.com/auctions/bnwt-angelic-pretty-hinaichigo-op-head-bow-set-rozen-maiden-20th-in-laforet-special-12f9007d-c8ff-4d31-9321-273c0208cf9b"
+      "https://egl.circlly.com/auctions/bnwt-angelic-pretty-hinaichigo-op-head-bow-set-rozen-maiden-20th-in-laforet-special-12f9007d-c8ff-4d31-9321-273c0208cf9b",
+      "https://egl.circlly.com/auctions/angelic-pretty-victorian-waltz-op-red"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/puppy-princess-tiered-jsk-in-pink",
       "https://egl.circlly.com/auctions/plus-size-friendly-angelic-pretty-cotton-candy-shop-jsk-in-lavender-56bf7a5a-3768-4a8c-a6a7-5ed16ba72d09",
       "https://egl.circlly.com/auctions/angelic-pretty-misty-sky-jsk-white-lace",
-      "https://egl.circlly.com/auctions/angelic-pretty-sweetie-violet-jsk-066cc4db-060f-4853-9464-0a2ceb0af0fb",
       "https://egl.circlly.com/auctions/ap-bookmark-jsk-brown-colorway-2-pairs-socks",
       "https://egl.circlly.com/auctions/ap-sweetie-violet-pink-jsk-kc-944244ee-f87d-40f8-9485-4a5fe42b9b05",
       "https://egl.circlly.com/auctions/btssb-margaretha-jsk-2025-black-x-gold-set",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-shirring-princess-jsk-kc",
       "https://egl.circlly.com/auctions/bnwt-angelic-pretty-hinaichigo-op-head-bow-set-rozen-maiden-20th-in-laforet-special-12f9007d-c8ff-4d31-9321-273c0208cf9b",
       "https://egl.circlly.com/auctions/angelic-pretty-victorian-waltz-op-red",
+      "https://egl.circlly.com/auctions/angelic-pretty-sweetie-violet-jsk-066cc4db-060f-4853-9464-0a2ceb0af0fb",
       "https://egl.circlly.com/auctions/free-us-ship-open-to-trades-btssb-2005-roselia-op-black-3-piece-set",
       "https://egl.circlly.com/auctions/btssb-tartan-check-hem-scallop-jsk-7a9d5303-65a5-4d36-ac10-a7674db28e7f",
       "https://egl.circlly.com/auctions/angelic-pretty-sugary-gingham-op-lavender-b4e01efc-b9c1-476c-a5a9-f06fc82f8eb3",
