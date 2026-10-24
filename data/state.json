@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-24T14:41:09.539Z",
+  "lastSuccessfulCheckAt": "2026-10-24T14:51:28.758Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-twinkle-sky-op-ff041aa4-a034-4832-9cef-22f5bbd72692",
       "https://egl.circlly.com/auctions/be-my-valentine-jsk-2024-2nd-release",
       "https://egl.circlly.com/auctions/cherry-jam-label-op",
       "https://egl.circlly.com/auctions/british-keys-jsk",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/ap-dream-bears",
       "https://egl.circlly.com/auctions/mto-honey-cake-round-jsk-headbow-set-2019-2nd-release",
       "https://egl.circlly.com/auctions/heart-cafe-op",
-      "https://egl.circlly.com/auctions/puppy-princess-tiered-jsk-in-pink",
-      "https://egl.circlly.com/auctions/angelic-pretty-misty-sky-jsk-white-lace"
+      "https://egl.circlly.com/auctions/puppy-princess-tiered-jsk-in-pink"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-twinkle-sky-op-ff041aa4-a034-4832-9cef-22f5bbd72692",
       "https://egl.circlly.com/auctions/be-my-valentine-jsk-2024-2nd-release",
       "https://egl.circlly.com/auctions/cherry-jam-label-op",
       "https://egl.circlly.com/auctions/british-keys-jsk",
