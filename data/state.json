@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-27T18:51:12.390Z",
+  "lastSuccessfulCheckAt": "2026-10-27T19:01:38.241Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/dolly-cat-op-pink-altered",
       "https://egl.circlly.com/auctions/btssb-houndstooth-scallop-jsk-ab3da499-54c1-4a1a-8b02-b8cd01b7d28c",
       "https://egl.circlly.com/auctions/ap-holy-red-jsk",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-hawase-doll-op-headdress-set-pink",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/cherry-jam-label-op",
       "https://egl.circlly.com/auctions/milky-swan-sample",
       "https://egl.circlly.com/auctions/classy-lady-jsk",
-      "https://egl.circlly.com/auctions/brilliant-doll-jsk",
-      "https://egl.circlly.com/auctions/angelic-pretty-bear-ribbon-cutsew-op-pink-44fe41d5-c3c9-4fc8-9bfb-ecf6ff24b729"
+      "https://egl.circlly.com/auctions/brilliant-doll-jsk"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/dolly-cat-op-pink-altered",
       "https://egl.circlly.com/auctions/btssb-houndstooth-scallop-jsk-ab3da499-54c1-4a1a-8b02-b8cd01b7d28c",
       "https://egl.circlly.com/auctions/ap-holy-red-jsk",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-hawase-doll-op-headdress-set-pink",
