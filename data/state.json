@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-28T02:01:08.597Z",
+  "lastSuccessfulCheckAt": "2026-10-28T02:12:06.465Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,8 +915,6 @@
       "https://egl.circlly.com/auctions/angelic-pretty-a-la-carte-jsk-head-bow",
       "https://egl.circlly.com/auctions/innocent-ribbon-lace-shirring-jsk-2024-series",
       "https://egl.circlly.com/auctions/dolly-cat-op-pink-altered",
-      "https://egl.circlly.com/auctions/royal-princess-alice-princess-spacey-beco-81-collab-full-set",
-      "https://egl.circlly.com/auctions/nwt-angelic-pretty-romantic-rose-letter-jsk-hb-set-in-sax-27969d93-fd4e-47d4-b0bb-cf0a9afbe537",
       "https://egl.circlly.com/auctions/ap-holy-red-jsk",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-hawase-doll-op-headdress-set-pink",
       "https://egl.circlly.com/auctions/1-start-btssb-jsk",
@@ -931,8 +929,6 @@
       "https://egl.circlly.com/auctions/angelic-pretty-a-la-carte-jsk-head-bow",
       "https://egl.circlly.com/auctions/innocent-ribbon-lace-shirring-jsk-2024-series",
       "https://egl.circlly.com/auctions/dolly-cat-op-pink-altered",
-      "https://egl.circlly.com/auctions/royal-princess-alice-princess-spacey-beco-81-collab-full-set",
-      "https://egl.circlly.com/auctions/nwt-angelic-pretty-romantic-rose-letter-jsk-hb-set-in-sax-27969d93-fd4e-47d4-b0bb-cf0a9afbe537",
       "https://egl.circlly.com/auctions/ap-holy-red-jsk",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-hawase-doll-op-headdress-set-pink",
       "https://egl.circlly.com/auctions/1-start-btssb-jsk",
@@ -941,6 +937,8 @@
       "https://egl.circlly.com/auctions/be-my-valentine-jsk-2024-2nd-release",
       "https://egl.circlly.com/auctions/cherry-jam-label-op",
       "https://egl.circlly.com/auctions/milky-swan-sample",
+      "https://egl.circlly.com/auctions/royal-princess-alice-princess-spacey-beco-81-collab-full-set",
+      "https://egl.circlly.com/auctions/nwt-angelic-pretty-romantic-rose-letter-jsk-hb-set-in-sax-27969d93-fd4e-47d4-b0bb-cf0a9afbe537",
       "https://egl.circlly.com/auctions/alice-and-the-pirates-twilight-doll-op-purple",
       "https://egl.circlly.com/auctions/ap-horror-bat-pouch-992f2192-b2ee-4956-8712-ed45272e86d9",
       "https://egl.circlly.com/auctions/classy-lady-jsk",
