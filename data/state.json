@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-29T22:31:00.659Z",
+  "lastSuccessfulCheckAt": "2026-10-29T22:41:09.661Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,7 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
-      "https://egl.circlly.com/auctions/ap-bear-ribbon-cutsew-op-brown-plus-size-friendly-b95d4439-dd3f-4666-93b2-8b5d29e2746d",
+      "https://egl.circlly.com/auctions/ap-holy-theater-jsk-in-navy-15e6728a-3dd6-471e-aab4-689567dd2782",
       "https://egl.circlly.com/auctions/angelic-pretty-cat-s-tea-party-grey-2020",
       "https://egl.circlly.com/auctions/angelic-pretty-fruity-lemon-mint-jsk-bow-hair-clip",
       "https://egl.circlly.com/auctions/angelic-pretty-maiden-s-tutu-doll-otome-tutu-doll-jsk-kc-sax-nwt",
@@ -925,7 +925,7 @@
       "https://egl.circlly.com/auctions/1-start-btssb-jsk"
     ],
     "seen": [
-      "https://egl.circlly.com/auctions/ap-bear-ribbon-cutsew-op-brown-plus-size-friendly-b95d4439-dd3f-4666-93b2-8b5d29e2746d",
+      "https://egl.circlly.com/auctions/ap-holy-theater-jsk-in-navy-15e6728a-3dd6-471e-aab4-689567dd2782",
       "https://egl.circlly.com/auctions/angelic-pretty-cat-s-tea-party-grey-2020",
       "https://egl.circlly.com/auctions/angelic-pretty-fruity-lemon-mint-jsk-bow-hair-clip",
       "https://egl.circlly.com/auctions/angelic-pretty-maiden-s-tutu-doll-otome-tutu-doll-jsk-kc-sax-nwt",
@@ -937,6 +937,7 @@
       "https://egl.circlly.com/auctions/ap-holy-red-jsk",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-hawase-doll-op-headdress-set-pink",
       "https://egl.circlly.com/auctions/1-start-btssb-jsk",
+      "https://egl.circlly.com/auctions/ap-bear-ribbon-cutsew-op-brown-plus-size-friendly-b95d4439-dd3f-4666-93b2-8b5d29e2746d",
       "https://egl.circlly.com/auctions/vintage-btssb-2002-old-school-fairy-print-jsk-in-red",
       "https://egl.circlly.com/auctions/angelic-pretty-little-witch-op-pink-0613c778-ce23-4cad-a606-c90b54ae501a",
       "https://egl.circlly.com/auctions/alice-and-the-pirates-ange-et-diable-dozes-of-an-angel-and-a-devil-rose-head-bow",
