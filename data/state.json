@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-29T00:41:11.699Z",
+  "lastSuccessfulCheckAt": "2026-10-29T00:51:45.772Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-high-waist-jsk-lavender-modified",
       "https://egl.circlly.com/auctions/reserved-for-trade-43d2928d-1744-445f-85d9-52b10db466df",
       "https://egl.circlly.com/auctions/creamy-soda-pop-op-f8cf59d2-2d3c-4b00-b934-0ec364bd4aef",
       "https://egl.circlly.com/auctions/angelic-pretty-wrapping-cherry-special-set-jsk",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-hawase-doll-op-headdress-set-pink",
       "https://egl.circlly.com/auctions/1-start-btssb-jsk",
       "https://egl.circlly.com/auctions/vintage-btssb-2002-old-school-fairy-print-jsk-in-red",
-      "https://egl.circlly.com/auctions/angelic-pretty-little-witch-op-pink-0613c778-ce23-4cad-a606-c90b54ae501a",
-      "https://egl.circlly.com/auctions/be-my-valentine-jsk-2024-2nd-release"
+      "https://egl.circlly.com/auctions/angelic-pretty-little-witch-op-pink-0613c778-ce23-4cad-a606-c90b54ae501a"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-high-waist-jsk-lavender-modified",
       "https://egl.circlly.com/auctions/reserved-for-trade-43d2928d-1744-445f-85d9-52b10db466df",
       "https://egl.circlly.com/auctions/creamy-soda-pop-op-f8cf59d2-2d3c-4b00-b934-0ec364bd4aef",
       "https://egl.circlly.com/auctions/angelic-pretty-wrapping-cherry-special-set-jsk",
