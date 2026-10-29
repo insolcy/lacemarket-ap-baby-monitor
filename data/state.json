@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-29T04:01:11.412Z",
+  "lastSuccessfulCheckAt": "2026-10-29T04:11:20.329Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -912,7 +912,6 @@
   "combined": {
     "frontier": [
       "https://egl.circlly.com/auctions/angelic-pretty-fruity-lemon-mint-jsk-bow-hair-clip",
-      "https://egl.circlly.com/auctions/reserved-e192382c-2df0-4d7e-bdf6-973c70c2bcaf",
       "https://egl.circlly.com/auctions/angelic-pretty-maiden-s-tutu-doll-otome-tutu-doll-jsk-kc-sax-nwt",
       "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-high-waist-jsk-lavender-modified",
       "https://egl.circlly.com/auctions/creamy-soda-pop-op-f8cf59d2-2d3c-4b00-b934-0ec364bd4aef",
@@ -922,11 +921,11 @@
       "https://egl.circlly.com/auctions/innocent-ribbon-lace-shirring-jsk-2024-series",
       "https://egl.circlly.com/auctions/ap-holy-red-jsk",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-hawase-doll-op-headdress-set-pink",
-      "https://egl.circlly.com/auctions/1-start-btssb-jsk"
+      "https://egl.circlly.com/auctions/1-start-btssb-jsk",
+      "https://egl.circlly.com/auctions/vintage-btssb-2002-old-school-fairy-print-jsk-in-red"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/angelic-pretty-fruity-lemon-mint-jsk-bow-hair-clip",
-      "https://egl.circlly.com/auctions/reserved-e192382c-2df0-4d7e-bdf6-973c70c2bcaf",
       "https://egl.circlly.com/auctions/angelic-pretty-maiden-s-tutu-doll-otome-tutu-doll-jsk-kc-sax-nwt",
       "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-high-waist-jsk-lavender-modified",
       "https://egl.circlly.com/auctions/creamy-soda-pop-op-f8cf59d2-2d3c-4b00-b934-0ec364bd4aef",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-hawase-doll-op-headdress-set-pink",
       "https://egl.circlly.com/auctions/1-start-btssb-jsk",
       "https://egl.circlly.com/auctions/vintage-btssb-2002-old-school-fairy-print-jsk-in-red",
+      "https://egl.circlly.com/auctions/reserved-e192382c-2df0-4d7e-bdf6-973c70c2bcaf",
       "https://egl.circlly.com/auctions/angelic-pretty-little-witch-op-pink-0613c778-ce23-4cad-a606-c90b54ae501a",
       "https://egl.circlly.com/auctions/reserved-for-trade-43d2928d-1744-445f-85d9-52b10db466df",
       "https://egl.circlly.com/auctions/angelic-pretty-fantastic-dolly-high-waist-jsk-white-2010-matching-bow",
