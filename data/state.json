@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-30T17:31:01.002Z",
+  "lastSuccessfulCheckAt": "2026-10-30T17:41:11.272Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,8 +915,6 @@
       "https://egl.circlly.com/auctions/ap-sweetie-violet-pink-jsk-kc-3b2775ae-99de-45fd-b7c0-a389ed5eb5ee",
       "https://egl.circlly.com/auctions/ap-holy-theater-jsk-in-navy-15e6728a-3dd6-471e-aab4-689567dd2782",
       "https://egl.circlly.com/auctions/angelic-pretty-cat-s-tea-party-grey-2020",
-      "https://egl.circlly.com/auctions/plus-size-friendly-bnwt-classic-old-school-cotton-lace-ribbon-skirt-161f3753-0cb3-4446-b8ae-c6b0c5fe703a",
-      "https://egl.circlly.com/auctions/nwt-angelic-pretty-day-dream-carnival-tigths-in-sax-blue-95888035-1756-4f98-b512-a1f9afeeb87a",
       "https://egl.circlly.com/auctions/angelic-pretty-fruity-lemon-mint-jsk-bow-hair-clip",
       "https://egl.circlly.com/auctions/angelic-pretty-maiden-s-tutu-doll-otome-tutu-doll-jsk-kc-sax-nwt",
       "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-high-waist-jsk-lavender-modified",
@@ -931,8 +929,6 @@
       "https://egl.circlly.com/auctions/ap-sweetie-violet-pink-jsk-kc-3b2775ae-99de-45fd-b7c0-a389ed5eb5ee",
       "https://egl.circlly.com/auctions/ap-holy-theater-jsk-in-navy-15e6728a-3dd6-471e-aab4-689567dd2782",
       "https://egl.circlly.com/auctions/angelic-pretty-cat-s-tea-party-grey-2020",
-      "https://egl.circlly.com/auctions/plus-size-friendly-bnwt-classic-old-school-cotton-lace-ribbon-skirt-161f3753-0cb3-4446-b8ae-c6b0c5fe703a",
-      "https://egl.circlly.com/auctions/nwt-angelic-pretty-day-dream-carnival-tigths-in-sax-blue-95888035-1756-4f98-b512-a1f9afeeb87a",
       "https://egl.circlly.com/auctions/angelic-pretty-fruity-lemon-mint-jsk-bow-hair-clip",
       "https://egl.circlly.com/auctions/angelic-pretty-maiden-s-tutu-doll-otome-tutu-doll-jsk-kc-sax-nwt",
       "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-high-waist-jsk-lavender-modified",
@@ -941,6 +937,8 @@
       "https://egl.circlly.com/auctions/angelic-pretty-a-la-carte-jsk-head-bow",
       "https://egl.circlly.com/auctions/innocent-ribbon-lace-shirring-jsk-2024-series",
       "https://egl.circlly.com/auctions/ap-holy-red-jsk",
+      "https://egl.circlly.com/auctions/plus-size-friendly-bnwt-classic-old-school-cotton-lace-ribbon-skirt-161f3753-0cb3-4446-b8ae-c6b0c5fe703a",
+      "https://egl.circlly.com/auctions/nwt-angelic-pretty-day-dream-carnival-tigths-in-sax-blue-95888035-1756-4f98-b512-a1f9afeeb87a",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-hawase-doll-op-headdress-set-pink",
       "https://egl.circlly.com/auctions/jane-marple-british-chocolate-bar-square-jsk-df6e0ebb-1fed-4450-9c74-3e8a96f32b6a",
       "https://egl.circlly.com/auctions/summer-tales-boutique-nostalgia-royal-stewart-tartan-florence-blouse-plus-size-friendly",
