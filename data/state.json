@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-10-31T04:40:48.129Z",
+  "lastSuccessfulCheckAt": "2026-10-31T04:51:10.913Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/holy-lantern-op-9faf7061-35c7-4719-bccd-2abcb38794f0",
       "https://egl.circlly.com/auctions/urgent-sale-nwt-angelic-pretty-vintage-tulle-pink-op-hat",
       "https://egl.circlly.com/auctions/btssb-little-kitten-luluna-op-kc",
       "https://egl.circlly.com/auctions/ap-sweetie-violet-pink-jsk-kc-3b2775ae-99de-45fd-b7c0-a389ed5eb5ee",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/creamy-soda-pop-op-f8cf59d2-2d3c-4b00-b934-0ec364bd4aef",
       "https://egl.circlly.com/auctions/ap-cupid-cafe-op-in-pink",
       "https://egl.circlly.com/auctions/angelic-pretty-a-la-carte-jsk-head-bow",
-      "https://egl.circlly.com/auctions/innocent-ribbon-lace-shirring-jsk-2024-series",
-      "https://egl.circlly.com/auctions/ap-holy-red-jsk"
+      "https://egl.circlly.com/auctions/innocent-ribbon-lace-shirring-jsk-2024-series"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/holy-lantern-op-9faf7061-35c7-4719-bccd-2abcb38794f0",
       "https://egl.circlly.com/auctions/urgent-sale-nwt-angelic-pretty-vintage-tulle-pink-op-hat",
       "https://egl.circlly.com/auctions/btssb-little-kitten-luluna-op-kc",
       "https://egl.circlly.com/auctions/ap-sweetie-violet-pink-jsk-kc-3b2775ae-99de-45fd-b7c0-a389ed5eb5ee",
