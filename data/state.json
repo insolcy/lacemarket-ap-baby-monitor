@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-01T20:12:22.203Z",
+  "lastSuccessfulCheckAt": "2026-11-01T20:21:25.822Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,8 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-cream-cookie-collection-op-2021",
+      "https://egl.circlly.com/auctions/btssb-koitsukihime-stained-glass-angel-print-high-waist-op",
       "https://egl.circlly.com/auctions/btssb-milk-chan-and-snow-strawberry-ribbon-jsk-kc-pink",
       "https://egl.circlly.com/auctions/velveteen-lace-frill-jsk-baby-the-stars-shine-bright",
       "https://egl.circlly.com/auctions/holy-lantern-op-9faf7061-35c7-4719-bccd-2abcb38794f0",
@@ -920,11 +922,11 @@
       "https://egl.circlly.com/auctions/ap-holy-theater-jsk-in-navy-15e6728a-3dd6-471e-aab4-689567dd2782",
       "https://egl.circlly.com/auctions/angelic-pretty-fruity-lemon-mint-jsk-bow-hair-clip",
       "https://egl.circlly.com/auctions/angelic-pretty-maiden-s-tutu-doll-otome-tutu-doll-jsk-kc-sax-nwt",
-      "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-high-waist-jsk-lavender-modified",
-      "https://egl.circlly.com/auctions/creamy-soda-pop-op-f8cf59d2-2d3c-4b00-b934-0ec364bd4aef",
-      "https://egl.circlly.com/auctions/ap-cupid-cafe-op-in-pink"
+      "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-high-waist-jsk-lavender-modified"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-cream-cookie-collection-op-2021",
+      "https://egl.circlly.com/auctions/btssb-koitsukihime-stained-glass-angel-print-high-waist-op",
       "https://egl.circlly.com/auctions/btssb-milk-chan-and-snow-strawberry-ribbon-jsk-kc-pink",
       "https://egl.circlly.com/auctions/velveteen-lace-frill-jsk-baby-the-stars-shine-bright",
       "https://egl.circlly.com/auctions/holy-lantern-op-9faf7061-35c7-4719-bccd-2abcb38794f0",
