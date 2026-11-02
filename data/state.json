@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-02T01:01:26.832Z",
+  "lastSuccessfulCheckAt": "2026-11-02T01:11:06.186Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/ap-fancy-stationery-jsk-e4ee1a35-6bb6-4f17-837e-0a9c8b04a1d2",
       "https://egl.circlly.com/auctions/angelic-pretty-cream-cookie-collection-op-2021",
       "https://egl.circlly.com/auctions/btssb-koitsukihime-stained-glass-angel-print-high-waist-op",
       "https://egl.circlly.com/auctions/btssb-milk-chan-and-snow-strawberry-ribbon-jsk-kc-pink",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/ap-sweetie-violet-pink-jsk-kc-3b2775ae-99de-45fd-b7c0-a389ed5eb5ee",
       "https://egl.circlly.com/auctions/ap-holy-theater-jsk-in-navy-15e6728a-3dd6-471e-aab4-689567dd2782",
       "https://egl.circlly.com/auctions/angelic-pretty-fruity-lemon-mint-jsk-bow-hair-clip",
-      "https://egl.circlly.com/auctions/angelic-pretty-maiden-s-tutu-doll-otome-tutu-doll-jsk-kc-sax-nwt",
-      "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-high-waist-jsk-lavender-modified"
+      "https://egl.circlly.com/auctions/angelic-pretty-maiden-s-tutu-doll-otome-tutu-doll-jsk-kc-sax-nwt"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/ap-fancy-stationery-jsk-e4ee1a35-6bb6-4f17-837e-0a9c8b04a1d2",
       "https://egl.circlly.com/auctions/angelic-pretty-cream-cookie-collection-op-2021",
       "https://egl.circlly.com/auctions/btssb-koitsukihime-stained-glass-angel-print-high-waist-op",
       "https://egl.circlly.com/auctions/btssb-milk-chan-and-snow-strawberry-ribbon-jsk-kc-pink",
