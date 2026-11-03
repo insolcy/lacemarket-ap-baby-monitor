@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-03T01:40:51.150Z",
+  "lastSuccessfulCheckAt": "2026-11-03T01:52:29.940Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/creamy-soda-pop-op-d2541892-e028-48c9-9368-52060c359966",
       "https://egl.circlly.com/auctions/dolly-cross-jsk-6580d6af-7bbb-4c71-bfda-8546599a5460",
       "https://egl.circlly.com/auctions/angelic-pretty-victorian-waltz-op-red-7c1f118c-a373-4a83-a88e-a5c7e54b3f1b",
       "https://egl.circlly.com/auctions/angelic-pretty-cherry-stamp-jsk-headbow-black",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/holy-lantern-op-9faf7061-35c7-4719-bccd-2abcb38794f0",
       "https://egl.circlly.com/auctions/urgent-sale-nwt-angelic-pretty-vintage-tulle-pink-op-hat",
       "https://egl.circlly.com/auctions/btssb-little-kitten-luluna-op-kc",
-      "https://egl.circlly.com/auctions/ap-sweetie-violet-pink-jsk-kc-3b2775ae-99de-45fd-b7c0-a389ed5eb5ee",
-      "https://egl.circlly.com/auctions/ap-holy-theater-jsk-in-navy-15e6728a-3dd6-471e-aab4-689567dd2782"
+      "https://egl.circlly.com/auctions/ap-sweetie-violet-pink-jsk-kc-3b2775ae-99de-45fd-b7c0-a389ed5eb5ee"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/creamy-soda-pop-op-d2541892-e028-48c9-9368-52060c359966",
       "https://egl.circlly.com/auctions/dolly-cross-jsk-6580d6af-7bbb-4c71-bfda-8546599a5460",
       "https://egl.circlly.com/auctions/angelic-pretty-victorian-waltz-op-red-7c1f118c-a373-4a83-a88e-a5c7e54b3f1b",
       "https://egl.circlly.com/auctions/angelic-pretty-cherry-stamp-jsk-headbow-black",
