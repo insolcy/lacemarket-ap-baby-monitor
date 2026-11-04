@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-04T19:51:06.053Z",
+  "lastSuccessfulCheckAt": "2026-11-04T20:01:16.756Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,8 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/closet-cleaning-btssb-ribbon-scallop-jsk-2025-in-sax",
+      "https://egl.circlly.com/auctions/closet-cleaning-btssb-marie-antoinette-splendid-portrait-of-a-beautiful-queen-jsk-ii-in-navy",
       "https://egl.circlly.com/auctions/closet-cleaning-ap-romantic-tiered-jsk-in-red",
       "https://egl.circlly.com/auctions/angelic-pretty-astro-regimen-special-jsk-set-barrette-some-damage-read-description",
       "https://egl.circlly.com/auctions/floral-op-sale-trade",
@@ -920,11 +922,11 @@
       "https://egl.circlly.com/auctions/creamy-soda-pop-op-d2541892-e028-48c9-9368-52060c359966",
       "https://egl.circlly.com/auctions/dolly-cross-jsk-6580d6af-7bbb-4c71-bfda-8546599a5460",
       "https://egl.circlly.com/auctions/angelic-pretty-victorian-waltz-op-red-7c1f118c-a373-4a83-a88e-a5c7e54b3f1b",
-      "https://egl.circlly.com/auctions/angelic-pretty-cherry-stamp-jsk-headbow-black",
-      "https://egl.circlly.com/auctions/ap-fancy-stationery-jsk-e4ee1a35-6bb6-4f17-837e-0a9c8b04a1d2",
-      "https://egl.circlly.com/auctions/angelic-pretty-cream-cookie-collection-op-2021"
+      "https://egl.circlly.com/auctions/angelic-pretty-cherry-stamp-jsk-headbow-black"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/closet-cleaning-btssb-ribbon-scallop-jsk-2025-in-sax",
+      "https://egl.circlly.com/auctions/closet-cleaning-btssb-marie-antoinette-splendid-portrait-of-a-beautiful-queen-jsk-ii-in-navy",
       "https://egl.circlly.com/auctions/closet-cleaning-ap-romantic-tiered-jsk-in-red",
       "https://egl.circlly.com/auctions/angelic-pretty-astro-regimen-special-jsk-set-barrette-some-damage-read-description",
       "https://egl.circlly.com/auctions/floral-op-sale-trade",
