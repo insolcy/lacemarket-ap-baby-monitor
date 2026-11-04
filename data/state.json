@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-04T16:21:23.290Z",
+  "lastSuccessfulCheckAt": "2026-11-04T16:31:14.028Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/floral-op-sale-trade",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-my-little-baby-girl-jumperskirt-pink",
       "https://egl.circlly.com/auctions/day-dream-carnival-op-and-meow-carousel-plush-bag",
       "https://egl.circlly.com/auctions/tartan-check-hem-scallop-2006-re-release",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/ap-fancy-stationery-jsk-e4ee1a35-6bb6-4f17-837e-0a9c8b04a1d2",
       "https://egl.circlly.com/auctions/angelic-pretty-cream-cookie-collection-op-2021",
       "https://egl.circlly.com/auctions/btssb-koitsukihime-stained-glass-angel-print-high-waist-op",
-      "https://egl.circlly.com/auctions/btssb-milk-chan-and-snow-strawberry-ribbon-jsk-kc-pink",
-      "https://egl.circlly.com/auctions/holy-lantern-op-9faf7061-35c7-4719-bccd-2abcb38794f0"
+      "https://egl.circlly.com/auctions/btssb-milk-chan-and-snow-strawberry-ribbon-jsk-kc-pink"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/floral-op-sale-trade",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-my-little-baby-girl-jumperskirt-pink",
       "https://egl.circlly.com/auctions/day-dream-carnival-op-and-meow-carousel-plush-bag",
       "https://egl.circlly.com/auctions/tartan-check-hem-scallop-2006-re-release",
