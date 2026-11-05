@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-05T16:20:55.294Z",
+  "lastSuccessfulCheckAt": "2026-11-05T16:30:53.664Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,6 +915,8 @@
       "https://egl.circlly.com/auctions/ap-astro-academy-jsk-sax-mlt-kc",
       "https://egl.circlly.com/auctions/marie-antoinette-jsk-d3e70b1c-9226-40f2-85b0-fee70a8ced8a",
       "https://egl.circlly.com/auctions/closet-cleaning-btssb-ribbon-scallop-jsk-2025-in-sax",
+      "https://egl.circlly.com/auctions/triple-fortune-lace-bonnet-2025",
+      "https://egl.circlly.com/auctions/angelic-pretty-toys-museum-op",
       "https://egl.circlly.com/auctions/closet-cleaning-btssb-marie-antoinette-splendid-portrait-of-a-beautiful-queen-jsk-ii-in-navy",
       "https://egl.circlly.com/auctions/closet-cleaning-ap-romantic-tiered-jsk-in-red",
       "https://egl.circlly.com/auctions/angelic-pretty-astro-regimen-special-jsk-set-barrette-some-damage-read-description",
@@ -929,6 +931,8 @@
       "https://egl.circlly.com/auctions/ap-astro-academy-jsk-sax-mlt-kc",
       "https://egl.circlly.com/auctions/marie-antoinette-jsk-d3e70b1c-9226-40f2-85b0-fee70a8ced8a",
       "https://egl.circlly.com/auctions/closet-cleaning-btssb-ribbon-scallop-jsk-2025-in-sax",
+      "https://egl.circlly.com/auctions/triple-fortune-lace-bonnet-2025",
+      "https://egl.circlly.com/auctions/angelic-pretty-toys-museum-op",
       "https://egl.circlly.com/auctions/closet-cleaning-btssb-marie-antoinette-splendid-portrait-of-a-beautiful-queen-jsk-ii-in-navy",
       "https://egl.circlly.com/auctions/closet-cleaning-ap-romantic-tiered-jsk-in-red",
       "https://egl.circlly.com/auctions/angelic-pretty-astro-regimen-special-jsk-set-barrette-some-damage-read-description",
@@ -937,7 +941,6 @@
       "https://egl.circlly.com/auctions/day-dream-carnival-op-and-meow-carousel-plush-bag",
       "https://egl.circlly.com/auctions/tartan-check-hem-scallop-2006-re-release",
       "https://egl.circlly.com/auctions/creamy-soda-pop-op-d2541892-e028-48c9-9368-52060c359966",
-      "https://egl.circlly.com/auctions/triple-fortune-lace-bonnet-2025",
       "https://egl.circlly.com/auctions/aatp-nwt-mystery-adventures-the-gate-towards-the-unknown-world-mini-jacket-op",
       "https://egl.circlly.com/auctions/dolly-cross-jsk-6580d6af-7bbb-4c71-bfda-8546599a5460",
       "https://egl.circlly.com/auctions/angelic-pretty-victorian-waltz-op-red-7c1f118c-a373-4a83-a88e-a5c7e54b3f1b",
