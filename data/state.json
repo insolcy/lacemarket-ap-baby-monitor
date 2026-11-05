@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-05T14:01:20.048Z",
+  "lastSuccessfulCheckAt": "2026-11-05T14:12:17.077Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/ap-charlotte-s-bear-jsk-in-ivory-d6520c62-f8d6-4b82-b97a-b9486363d84f",
       "https://egl.circlly.com/auctions/ap-astro-academy-jsk-sax-mlt-kc",
       "https://egl.circlly.com/auctions/marie-antoinette-jsk-d3e70b1c-9226-40f2-85b0-fee70a8ced8a",
       "https://egl.circlly.com/auctions/closet-cleaning-btssb-ribbon-scallop-jsk-2025-in-sax",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-my-little-baby-girl-jumperskirt-pink",
       "https://egl.circlly.com/auctions/day-dream-carnival-op-and-meow-carousel-plush-bag",
       "https://egl.circlly.com/auctions/tartan-check-hem-scallop-2006-re-release",
-      "https://egl.circlly.com/auctions/creamy-soda-pop-op-d2541892-e028-48c9-9368-52060c359966",
-      "https://egl.circlly.com/auctions/dolly-cross-jsk-6580d6af-7bbb-4c71-bfda-8546599a5460"
+      "https://egl.circlly.com/auctions/creamy-soda-pop-op-d2541892-e028-48c9-9368-52060c359966"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/ap-charlotte-s-bear-jsk-in-ivory-d6520c62-f8d6-4b82-b97a-b9486363d84f",
       "https://egl.circlly.com/auctions/ap-astro-academy-jsk-sax-mlt-kc",
       "https://egl.circlly.com/auctions/marie-antoinette-jsk-d3e70b1c-9226-40f2-85b0-fee70a8ced8a",
       "https://egl.circlly.com/auctions/closet-cleaning-btssb-ribbon-scallop-jsk-2025-in-sax",
