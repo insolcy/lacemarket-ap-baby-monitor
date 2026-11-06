@@ -1587,5 +1587,11 @@
     ],
     "lastPagesScanned": 1
   },
-  "combinedNewUnitedStatesBaselineAt": "2026-11-03T22:40:41.119Z"
+  "combinedNewUnitedStatesBaselineAt": "2026-11-03T22:40:41.119Z",
+  "connectivityOutage": {
+    "kind": "cloudflare-blocked",
+    "startedAt": "2026-11-06T22:12:52.159Z",
+    "lastFailureReportedAt": "2026-11-06T22:12:52.159Z",
+    "lastProbeAt": "2026-11-06T22:12:52.159Z"
+  }
 }
