@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-07T04:00:46.169Z",
+  "lastSuccessfulCheckAt": "2026-11-07T04:10:42.548Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,7 +911,6 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
-      "https://egl.circlly.com/auctions/reserved-for-haezeh-whip-factory",
       "https://egl.circlly.com/auctions/ap-cinema-doll-jsk-headbow-set",
       "https://egl.circlly.com/auctions/ap-fruity-lemon-jsk-set-in-blue",
       "https://egl.circlly.com/auctions/ap-sailor-marine-kitten-op-kc-otks-set-in-sax",
@@ -922,10 +921,10 @@
       "https://egl.circlly.com/auctions/closet-cleaning-btssb-marie-antoinette-splendid-portrait-of-a-beautiful-queen-jsk-ii-in-navy",
       "https://egl.circlly.com/auctions/closet-cleaning-ap-romantic-tiered-jsk-in-red",
       "https://egl.circlly.com/auctions/angelic-pretty-astro-regimen-special-jsk-set-barrette-some-damage-read-description",
-      "https://egl.circlly.com/auctions/floral-op-sale-trade"
+      "https://egl.circlly.com/auctions/floral-op-sale-trade",
+      "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-my-little-baby-girl-jumperskirt-pink"
     ],
     "seen": [
-      "https://egl.circlly.com/auctions/reserved-for-haezeh-whip-factory",
       "https://egl.circlly.com/auctions/ap-cinema-doll-jsk-headbow-set",
       "https://egl.circlly.com/auctions/ap-fruity-lemon-jsk-set-in-blue",
       "https://egl.circlly.com/auctions/ap-sailor-marine-kitten-op-kc-otks-set-in-sax",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/angelic-pretty-astro-regimen-special-jsk-set-barrette-some-damage-read-description",
       "https://egl.circlly.com/auctions/floral-op-sale-trade",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-my-little-baby-girl-jumperskirt-pink",
+      "https://egl.circlly.com/auctions/reserved-for-haezeh-whip-factory",
       "https://egl.circlly.com/auctions/day-dream-carnival-op-and-meow-carousel-plush-bag",
       "https://egl.circlly.com/auctions/closet-cleaning-btssb-ribbon-scallop-jsk-2025-in-sax",
       "https://egl.circlly.com/auctions/tartan-check-hem-scallop-2006-re-release",
