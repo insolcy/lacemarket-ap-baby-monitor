@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-08T03:15:59.930Z",
+  "lastSuccessfulCheckAt": "2026-11-08T03:20:55.989Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/btssb-angel-s-whisper-in-the-holy-night-melody-michael-jsk-an-half-bonnet-set-in-noel-black",
       "https://egl.circlly.com/auctions/angelic-pretty-charlotte-s-bear-jsk-in-black-87f81018-919a-481d-a45a-8df2b8822b4a",
       "https://egl.circlly.com/auctions/1-bid-start-angelic-pretty-milky-planet-jsk-head-bow-yellow-mto",
       "https://egl.circlly.com/auctions/fleur-cat-jsk-0822d18a-57f8-4928-8914-07c9a78cf29c",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/angelic-pretty-little-witch-pink-op-and-lyrical-bunny-jewelry-3-piece-set-nwot-19cf35b3-e2d0-48df-9a3c-f73579612e66",
       "https://egl.circlly.com/auctions/angelic-pretty-strawberry-doll-op-kc-red-x-white",
       "https://egl.circlly.com/auctions/ap-charlotte-s-bear-jsk-in-ivory-d6520c62-f8d6-4b82-b97a-b9486363d84f",
-      "https://egl.circlly.com/auctions/marie-antoinette-jsk-d3e70b1c-9226-40f2-85b0-fee70a8ced8a",
-      "https://egl.circlly.com/auctions/closet-cleaning-btssb-marie-antoinette-splendid-portrait-of-a-beautiful-queen-jsk-ii-in-navy"
+      "https://egl.circlly.com/auctions/marie-antoinette-jsk-d3e70b1c-9226-40f2-85b0-fee70a8ced8a"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/btssb-angel-s-whisper-in-the-holy-night-melody-michael-jsk-an-half-bonnet-set-in-noel-black",
       "https://egl.circlly.com/auctions/angelic-pretty-charlotte-s-bear-jsk-in-black-87f81018-919a-481d-a45a-8df2b8822b4a",
       "https://egl.circlly.com/auctions/1-bid-start-angelic-pretty-milky-planet-jsk-head-bow-yellow-mto",
       "https://egl.circlly.com/auctions/fleur-cat-jsk-0822d18a-57f8-4928-8914-07c9a78cf29c",
