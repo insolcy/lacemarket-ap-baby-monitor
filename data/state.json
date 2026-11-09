@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-09T05:50:36.314Z",
+  "lastSuccessfulCheckAt": "2026-11-09T06:00:36.516Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-day-dream-carnival-tiered-jsk-mto-44190031-5849-4fa5-a4f7-33ad83dafb4e",
       "https://egl.circlly.com/auctions/lot-of-3-sugary-carnival-jsk-head-bow-marshmallow-border-otks-angelic-pretty",
       "https://egl.circlly.com/auctions/sheep-garden-op-angelic-pretty-15eb0ae2-1fce-4bc0-ae79-f7d6655d9cb8",
       "https://egl.circlly.com/auctions/gingham-rumine-op-btssb-major-damage",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/fallin-ribbon-jsk-btssb",
       "https://egl.circlly.com/auctions/ap-caferteria-op-set-missing-apron-minor-damage-on-kc",
       "https://egl.circlly.com/auctions/melty-chocolate-jsk-3e92947f-80d0-4c04-8fe4-4bdd7cfc434d",
-      "https://egl.circlly.com/auctions/ap-eternal-doll-op-tartan",
-      "https://egl.circlly.com/auctions/btssb-gingham-rose-ribbon-op-2007-71c9d70d-a1a0-447a-843c-685ffaab270b"
+      "https://egl.circlly.com/auctions/ap-eternal-doll-op-tartan"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-day-dream-carnival-tiered-jsk-mto-44190031-5849-4fa5-a4f7-33ad83dafb4e",
       "https://egl.circlly.com/auctions/lot-of-3-sugary-carnival-jsk-head-bow-marshmallow-border-otks-angelic-pretty",
       "https://egl.circlly.com/auctions/sheep-garden-op-angelic-pretty-15eb0ae2-1fce-4bc0-ae79-f7d6655d9cb8",
       "https://egl.circlly.com/auctions/gingham-rumine-op-btssb-major-damage",
