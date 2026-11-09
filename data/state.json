@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-09T22:11:02.682Z",
+  "lastSuccessfulCheckAt": "2026-11-09T22:20:47.951Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/magical-trick-school-jsk-de58bc6a-893a-49c7-9bea-83222ea5e694",
       "https://egl.circlly.com/auctions/jewelry-jelly-1c09e612-953f-431a-aaa5-3694c192a273",
       "https://egl.circlly.com/auctions/angelic-pretty-melty-sky-op-in-pink-c5608e96-05c2-41ce-9004-991571796599",
       "https://egl.circlly.com/auctions/ap-sugar-decoration-jsk-in-white-af26e40a-21bf-4287-9ac8-5677bad9c850",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/sheep-garden-op-angelic-pretty-15eb0ae2-1fce-4bc0-ae79-f7d6655d9cb8",
       "https://egl.circlly.com/auctions/gingham-rumine-op-btssb-major-damage",
       "https://egl.circlly.com/auctions/bunny-picnic-party-jsk-angelic-pretty-9cd86764-48e6-4493-ab10-4ed5f238cf28",
-      "https://egl.circlly.com/auctions/romantic-cat-jsk-angelic-pretty",
-      "https://egl.circlly.com/auctions/moonlit-castle-jsk-angelic-pretty"
+      "https://egl.circlly.com/auctions/romantic-cat-jsk-angelic-pretty"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/magical-trick-school-jsk-de58bc6a-893a-49c7-9bea-83222ea5e694",
       "https://egl.circlly.com/auctions/jewelry-jelly-1c09e612-953f-431a-aaa5-3694c192a273",
       "https://egl.circlly.com/auctions/angelic-pretty-melty-sky-op-in-pink-c5608e96-05c2-41ce-9004-991571796599",
       "https://egl.circlly.com/auctions/ap-sugar-decoration-jsk-in-white-af26e40a-21bf-4287-9ac8-5677bad9c850",
