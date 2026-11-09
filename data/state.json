@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-09T02:50:42.796Z",
+  "lastSuccessfulCheckAt": "2026-11-09T03:00:32.842Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -917,12 +917,12 @@
       "https://egl.circlly.com/auctions/ap-eternal-doll-op-tartan",
       "https://egl.circlly.com/auctions/btssb-gingham-rose-ribbon-op-2007-71c9d70d-a1a0-447a-843c-685ffaab270b",
       "https://egl.circlly.com/auctions/angelic-pretty-toy-drops-op-white",
-      "https://egl.circlly.com/auctions/velveteen-lace-frill-jsk-baby-the-stars-shine-bright-7b419d74-0f41-424f-904e-d80e33d4b55c",
       "https://egl.circlly.com/auctions/elizabeth-op-92cec6d3-defc-40a8-9613-e1135b13c75a",
       "https://egl.circlly.com/auctions/angelic-pretty-pastel-toys-theater-collar-jsk-kc-in-white",
       "https://egl.circlly.com/auctions/sunny-smile-laundry-by-angelic-pretty",
       "https://egl.circlly.com/auctions/angelic-pretty-romantic-dot-op-white-hair-accessory",
-      "https://egl.circlly.com/auctions/angelic-pretty-charlotte-s-bear-jsk-in-black-87f81018-919a-481d-a45a-8df2b8822b4a"
+      "https://egl.circlly.com/auctions/angelic-pretty-charlotte-s-bear-jsk-in-black-87f81018-919a-481d-a45a-8df2b8822b4a",
+      "https://egl.circlly.com/auctions/1-bid-start-angelic-pretty-milky-planet-jsk-head-bow-yellow-mto"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/angelic-pretty-shadow-dream-carnival-white-jsk",
@@ -931,13 +931,13 @@
       "https://egl.circlly.com/auctions/ap-eternal-doll-op-tartan",
       "https://egl.circlly.com/auctions/btssb-gingham-rose-ribbon-op-2007-71c9d70d-a1a0-447a-843c-685ffaab270b",
       "https://egl.circlly.com/auctions/angelic-pretty-toy-drops-op-white",
-      "https://egl.circlly.com/auctions/velveteen-lace-frill-jsk-baby-the-stars-shine-bright-7b419d74-0f41-424f-904e-d80e33d4b55c",
       "https://egl.circlly.com/auctions/elizabeth-op-92cec6d3-defc-40a8-9613-e1135b13c75a",
       "https://egl.circlly.com/auctions/angelic-pretty-pastel-toys-theater-collar-jsk-kc-in-white",
       "https://egl.circlly.com/auctions/sunny-smile-laundry-by-angelic-pretty",
       "https://egl.circlly.com/auctions/angelic-pretty-romantic-dot-op-white-hair-accessory",
       "https://egl.circlly.com/auctions/angelic-pretty-charlotte-s-bear-jsk-in-black-87f81018-919a-481d-a45a-8df2b8822b4a",
       "https://egl.circlly.com/auctions/1-bid-start-angelic-pretty-milky-planet-jsk-head-bow-yellow-mto",
+      "https://egl.circlly.com/auctions/velveteen-lace-frill-jsk-baby-the-stars-shine-bright-7b419d74-0f41-424f-904e-d80e33d4b55c",
       "https://egl.circlly.com/auctions/fleur-cat-jsk-0822d18a-57f8-4928-8914-07c9a78cf29c",
       "https://egl.circlly.com/auctions/set-angelic-pretty-travel-bear-pink-jsk-and-bear-ears-headdresses",
       "https://egl.circlly.com/auctions/ap-cinema-doll-jsk-headbow-set",
