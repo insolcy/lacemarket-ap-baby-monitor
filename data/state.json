@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-12T19:40:40.445Z",
+  "lastSuccessfulCheckAt": "2026-11-12T19:50:36.344Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,7 +911,6 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
-      "https://egl.circlly.com/auctions/btssb-shirring-princess-jsk-in-sax-7eff4d9e-fba9-4e1f-9a88-51f74702ccc8",
       "https://egl.circlly.com/auctions/happy-garden-jsk-black-angelic-pretty",
       "https://egl.circlly.com/auctions/rose-dress-up-jsk-2014",
       "https://egl.circlly.com/auctions/ap-dolly-heart-long-op-and-kc-and-clip-in-pink-shibuya-exclusive",
@@ -922,10 +921,10 @@
       "https://egl.circlly.com/auctions/coat-of-arms-tartan-switching-jsk-2627abd7-4333-45cc-962f-d0a806e97548",
       "https://egl.circlly.com/auctions/free-ship-angelic-pretty-decoration-strawberry-op-and-otks",
       "https://egl.circlly.com/auctions/lapin-de-neige-jumperskirt-blackxpink",
-      "https://egl.circlly.com/auctions/magical-trick-school-jsk-de58bc6a-893a-49c7-9bea-83222ea5e694"
+      "https://egl.circlly.com/auctions/magical-trick-school-jsk-de58bc6a-893a-49c7-9bea-83222ea5e694",
+      "https://egl.circlly.com/auctions/jewelry-jelly-1c09e612-953f-431a-aaa5-3694c192a273"
     ],
     "seen": [
-      "https://egl.circlly.com/auctions/btssb-shirring-princess-jsk-in-sax-7eff4d9e-fba9-4e1f-9a88-51f74702ccc8",
       "https://egl.circlly.com/auctions/happy-garden-jsk-black-angelic-pretty",
       "https://egl.circlly.com/auctions/rose-dress-up-jsk-2014",
       "https://egl.circlly.com/auctions/ap-dolly-heart-long-op-and-kc-and-clip-in-pink-shibuya-exclusive",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/lapin-de-neige-jumperskirt-blackxpink",
       "https://egl.circlly.com/auctions/magical-trick-school-jsk-de58bc6a-893a-49c7-9bea-83222ea5e694",
       "https://egl.circlly.com/auctions/jewelry-jelly-1c09e612-953f-431a-aaa5-3694c192a273",
+      "https://egl.circlly.com/auctions/btssb-shirring-princess-jsk-in-sax-7eff4d9e-fba9-4e1f-9a88-51f74702ccc8",
       "https://egl.circlly.com/auctions/angelic-pretty-melty-sky-op-in-pink-c5608e96-05c2-41ce-9004-991571796599",
       "https://egl.circlly.com/auctions/miss-point-louise-op-aurora-ariel-sound-of-music-hat",
       "https://egl.circlly.com/auctions/ap-ribbon-shirring-jsk-kc-headdress-set-on-hold",
