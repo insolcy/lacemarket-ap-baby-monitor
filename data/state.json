@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-13T23:12:13.595Z",
+  "lastSuccessfulCheckAt": "2026-11-13T23:22:34.041Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/ap-strawberry-parlour-tiered-jsk-in-pink-missing-shirring",
       "https://egl.circlly.com/auctions/free-ship-us-toy-s-donut-diner-jsk-set-op-kc-angelic-pretty",
       "https://egl.circlly.com/auctions/rose-tea-garden-op-b4dc216c-23de-4168-8b59-efb6ba165973",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-jsk-otks-in-lavender-free-us-shipping",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/ice-cream-parlor-jsk-8c21b8fa-6019-4d3e-9b96-86fd6e283202",
       "https://egl.circlly.com/auctions/nursery-tartan-jsk-37f111b1-7c86-4deb-b313-fb77b926f12b",
       "https://egl.circlly.com/auctions/girly-sticker-jsk-hot-pink",
-      "https://egl.circlly.com/auctions/coat-of-arms-tartan-switching-jsk-2627abd7-4333-45cc-962f-d0a806e97548",
-      "https://egl.circlly.com/auctions/lapin-de-neige-jumperskirt-blackxpink"
+      "https://egl.circlly.com/auctions/coat-of-arms-tartan-switching-jsk-2627abd7-4333-45cc-962f-d0a806e97548"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/ap-strawberry-parlour-tiered-jsk-in-pink-missing-shirring",
       "https://egl.circlly.com/auctions/free-ship-us-toy-s-donut-diner-jsk-set-op-kc-angelic-pretty",
       "https://egl.circlly.com/auctions/rose-tea-garden-op-b4dc216c-23de-4168-8b59-efb6ba165973",
       "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-jsk-otks-in-lavender-free-us-shipping",
