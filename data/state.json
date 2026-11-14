@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-14T16:10:26.754Z",
+  "lastSuccessfulCheckAt": "2026-11-14T16:12:43.645Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,8 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/btssb-sugar-bouquet-shirring-princess-jsk-halter-neck-b380aa57-9174-48eb-8651-c257440f0c6f",
+      "https://egl.circlly.com/auctions/salon-de-the-rose-jsk",
       "https://egl.circlly.com/auctions/nwt-french-cafe-jsk-and-headbow-kc-angelic-pretty",
       "https://egl.circlly.com/auctions/lyrical-bunny-parlor",
       "https://egl.circlly.com/auctions/sheep-garden-jsk-kc",
@@ -920,11 +922,11 @@
       "https://egl.circlly.com/auctions/btssb-royal-kingdom-velveteen-jsk-brown-2f324659-f627-42d4-af9f-db1da7badc31",
       "https://egl.circlly.com/auctions/free-ship-us-flower-garden-teatime-jsk-kc-angelic-pretty",
       "https://egl.circlly.com/auctions/free-ship-us-toy-s-donut-diner-jsk-set-op-kc-angelic-pretty",
-      "https://egl.circlly.com/auctions/rose-tea-garden-op-b4dc216c-23de-4168-8b59-efb6ba165973",
-      "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-jsk-otks-in-lavender-free-us-shipping",
-      "https://egl.circlly.com/auctions/fancy-candy-special-jsk-set"
+      "https://egl.circlly.com/auctions/rose-tea-garden-op-b4dc216c-23de-4168-8b59-efb6ba165973"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/btssb-sugar-bouquet-shirring-princess-jsk-halter-neck-b380aa57-9174-48eb-8651-c257440f0c6f",
+      "https://egl.circlly.com/auctions/salon-de-the-rose-jsk",
       "https://egl.circlly.com/auctions/nwt-french-cafe-jsk-and-headbow-kc-angelic-pretty",
       "https://egl.circlly.com/auctions/lyrical-bunny-parlor",
       "https://egl.circlly.com/auctions/sheep-garden-jsk-kc",
