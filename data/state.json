@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-14T06:31:11.160Z",
+  "lastSuccessfulCheckAt": "2026-11-14T06:41:03.810Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -912,21 +912,6 @@
   "combined": {
     "frontier": [
       "https://egl.circlly.com/auctions/damaged-angelic-pretty-whip-jacquard-op-in-ivory",
-      "https://egl.circlly.com/auctions/kumya-s-doki-doki-christmas-party-jumper-skirt-i-echarpe",
-      "https://egl.circlly.com/auctions/polkadot-love-jsk",
-      "https://egl.circlly.com/auctions/ap-wrapping-heart-jsk-barrette-lavender-1-start",
-      "https://egl.circlly.com/auctions/btssb-royal-kingdom-velveteen-jsk-brown-2f324659-f627-42d4-af9f-db1da7badc31",
-      "https://egl.circlly.com/auctions/free-ship-us-flower-garden-teatime-jsk-kc-angelic-pretty",
-      "https://egl.circlly.com/auctions/free-ship-us-toy-s-donut-diner-jsk-set-op-kc-angelic-pretty",
-      "https://egl.circlly.com/auctions/rose-tea-garden-op-b4dc216c-23de-4168-8b59-efb6ba165973",
-      "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-jsk-otks-in-lavender-free-us-shipping",
-      "https://egl.circlly.com/auctions/fancy-candy-special-jsk-set",
-      "https://egl.circlly.com/auctions/rose-dress-up-jsk-2014",
-      "https://egl.circlly.com/auctions/ap-dolly-heart-long-op-and-kc-and-clip-in-pink-shibuya-exclusive"
-    ],
-    "seen": [
-      "https://egl.circlly.com/auctions/damaged-angelic-pretty-whip-jacquard-op-in-ivory",
-      "https://egl.circlly.com/auctions/kumya-s-doki-doki-christmas-party-jumper-skirt-i-echarpe",
       "https://egl.circlly.com/auctions/polkadot-love-jsk",
       "https://egl.circlly.com/auctions/ap-wrapping-heart-jsk-barrette-lavender-1-start",
       "https://egl.circlly.com/auctions/btssb-royal-kingdom-velveteen-jsk-brown-2f324659-f627-42d4-af9f-db1da7badc31",
@@ -937,9 +922,24 @@
       "https://egl.circlly.com/auctions/fancy-candy-special-jsk-set",
       "https://egl.circlly.com/auctions/rose-dress-up-jsk-2014",
       "https://egl.circlly.com/auctions/ap-dolly-heart-long-op-and-kc-and-clip-in-pink-shibuya-exclusive",
+      "https://egl.circlly.com/auctions/btssb-dot-millefeuille-jsk-a915fa21-85e0-4c87-b465-1800f1f75b93"
+    ],
+    "seen": [
+      "https://egl.circlly.com/auctions/damaged-angelic-pretty-whip-jacquard-op-in-ivory",
+      "https://egl.circlly.com/auctions/polkadot-love-jsk",
+      "https://egl.circlly.com/auctions/ap-wrapping-heart-jsk-barrette-lavender-1-start",
+      "https://egl.circlly.com/auctions/btssb-royal-kingdom-velveteen-jsk-brown-2f324659-f627-42d4-af9f-db1da7badc31",
+      "https://egl.circlly.com/auctions/free-ship-us-flower-garden-teatime-jsk-kc-angelic-pretty",
+      "https://egl.circlly.com/auctions/free-ship-us-toy-s-donut-diner-jsk-set-op-kc-angelic-pretty",
+      "https://egl.circlly.com/auctions/rose-tea-garden-op-b4dc216c-23de-4168-8b59-efb6ba165973",
+      "https://egl.circlly.com/auctions/angelic-pretty-happy-treat-party-jsk-otks-in-lavender-free-us-shipping",
+      "https://egl.circlly.com/auctions/fancy-candy-special-jsk-set",
+      "https://egl.circlly.com/auctions/rose-dress-up-jsk-2014",
+      "https://egl.circlly.com/auctions/ap-dolly-heart-long-op-and-kc-and-clip-in-pink-shibuya-exclusive",
+      "https://egl.circlly.com/auctions/btssb-dot-millefeuille-jsk-a915fa21-85e0-4c87-b465-1800f1f75b93",
+      "https://egl.circlly.com/auctions/kumya-s-doki-doki-christmas-party-jumper-skirt-i-echarpe",
       "https://egl.circlly.com/auctions/plus-size-meta-retro-cherry-set-jsk-headdress-socks",
       "https://egl.circlly.com/auctions/miss-point-louise-op-aurora-ariel-sound-of-music-hat",
-      "https://egl.circlly.com/auctions/btssb-dot-millefeuille-jsk-a915fa21-85e0-4c87-b465-1800f1f75b93",
       "https://egl.circlly.com/auctions/ice-cream-parlor-jsk-8c21b8fa-6019-4d3e-9b96-86fd6e283202",
       "https://egl.circlly.com/auctions/nursery-tartan-jsk-37f111b1-7c86-4deb-b313-fb77b926f12b",
       "https://egl.circlly.com/auctions/girly-sticker-jsk-hot-pink",
