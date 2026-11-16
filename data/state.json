@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-16T09:11:01.071Z",
+  "lastSuccessfulCheckAt": "2026-11-16T09:19:59.503Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,6 +915,7 @@
       "https://egl.circlly.com/auctions/holy-lantern-jsk-angelic-pretty",
       "https://egl.circlly.com/auctions/angelic-pretty-space-lollipop-op-head-bow-set-navy",
       "https://egl.circlly.com/auctions/free-ship-angelic-pretty-decoration-strawberry-op-with-otks",
+      "https://egl.circlly.com/auctions/blue-unicorn-yilia-jsk",
       "https://egl.circlly.com/auctions/angelic-pretty-2010-holy-night-story-switch-jsk-in-wine-with-headbow",
       "https://egl.circlly.com/auctions/ap-lucky-key-jsk-in-black",
       "https://egl.circlly.com/auctions/sugary-tartan",
@@ -929,6 +930,7 @@
       "https://egl.circlly.com/auctions/holy-lantern-jsk-angelic-pretty",
       "https://egl.circlly.com/auctions/angelic-pretty-space-lollipop-op-head-bow-set-navy",
       "https://egl.circlly.com/auctions/free-ship-angelic-pretty-decoration-strawberry-op-with-otks",
+      "https://egl.circlly.com/auctions/blue-unicorn-yilia-jsk",
       "https://egl.circlly.com/auctions/angelic-pretty-2010-holy-night-story-switch-jsk-in-wine-with-headbow",
       "https://egl.circlly.com/auctions/ap-lucky-key-jsk-in-black",
       "https://egl.circlly.com/auctions/sugary-tartan",
@@ -937,7 +939,6 @@
       "https://egl.circlly.com/auctions/lyrical-bunny-parlor",
       "https://egl.circlly.com/auctions/sheep-garden-jsk-kc",
       "https://egl.circlly.com/auctions/damaged-angelic-pretty-whip-jacquard-op-in-ivory",
-      "https://egl.circlly.com/auctions/blue-unicorn-yilia-jsk",
       "https://egl.circlly.com/auctions/angelic-pretty-toy-parade-op-in-lavender-read-desc-041502c1-468e-424f-ba3d-a3d9174f3d18",
       "https://egl.circlly.com/auctions/angelic-pretty-toy-parade-op-in-lavender-read-desc",
       "https://egl.circlly.com/auctions/polkadot-love-jsk",
