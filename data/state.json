@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-17T04:51:11.120Z",
+  "lastSuccessfulCheckAt": "2026-11-17T05:00:54.381Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-toy-parade-op-read-description",
       "https://egl.circlly.com/auctions/angelic-pretty-lovely-snow-fantasy-op-kc-set-in-lavender",
       "https://egl.circlly.com/auctions/baby-best-wishes-bssb-op-set",
       "https://egl.circlly.com/auctions/my-advent-calendar-magic-of-the-happiness-over-the-special-day-cutsew-op-544cab9b-471d-4607-bb83-685dd4c3f51f",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/angelic-pretty-2010-holy-night-story-switch-jsk-in-wine-with-headbow",
       "https://egl.circlly.com/auctions/ap-lucky-key-jsk-in-black",
       "https://egl.circlly.com/auctions/sugary-tartan",
-      "https://egl.circlly.com/auctions/salon-de-the-rose-jsk",
-      "https://egl.circlly.com/auctions/nwt-french-cafe-jsk-and-headbow-kc-angelic-pretty"
+      "https://egl.circlly.com/auctions/salon-de-the-rose-jsk"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-toy-parade-op-read-description",
       "https://egl.circlly.com/auctions/angelic-pretty-lovely-snow-fantasy-op-kc-set-in-lavender",
       "https://egl.circlly.com/auctions/baby-best-wishes-bssb-op-set",
       "https://egl.circlly.com/auctions/my-advent-calendar-magic-of-the-happiness-over-the-special-day-cutsew-op-544cab9b-471d-4607-bb83-685dd4c3f51f",
