@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-18T23:01:21.857Z",
+  "lastSuccessfulCheckAt": "2026-11-18T23:11:30.870Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/damaged-angelic-pretty-dress-for-seller",
       "https://egl.circlly.com/auctions/kumya-s-doki-doki-christmas-party-green-jumperskirt-i-echarpe",
       "https://egl.circlly.com/auctions/girly-apple-with-kc",
       "https://egl.circlly.com/auctions/btssb-floral-print-classical-jsk-brown-e558d2e5-e3db-4a39-92ec-bc9d0bb6918d",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/holy-lantern-jsk-angelic-pretty",
       "https://egl.circlly.com/auctions/angelic-pretty-space-lollipop-op-head-bow-set-navy",
       "https://egl.circlly.com/auctions/free-ship-angelic-pretty-decoration-strawberry-op-with-otks",
-      "https://egl.circlly.com/auctions/angelic-pretty-2010-holy-night-story-switch-jsk-in-wine-with-headbow",
-      "https://egl.circlly.com/auctions/ap-lucky-key-jsk-in-black"
+      "https://egl.circlly.com/auctions/angelic-pretty-2010-holy-night-story-switch-jsk-in-wine-with-headbow"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/damaged-angelic-pretty-dress-for-seller",
       "https://egl.circlly.com/auctions/kumya-s-doki-doki-christmas-party-green-jumperskirt-i-echarpe",
       "https://egl.circlly.com/auctions/girly-apple-with-kc",
       "https://egl.circlly.com/auctions/btssb-floral-print-classical-jsk-brown-e558d2e5-e3db-4a39-92ec-bc9d0bb6918d",
