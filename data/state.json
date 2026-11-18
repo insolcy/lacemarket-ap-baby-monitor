@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-18T21:41:19.301Z",
+  "lastSuccessfulCheckAt": "2026-11-18T21:50:58.273Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -915,7 +915,6 @@
       "https://egl.circlly.com/auctions/btssb-floral-print-classical-jsk-brown-e558d2e5-e3db-4a39-92ec-bc9d0bb6918d",
       "https://egl.circlly.com/auctions/angelic-pretty-lovely-snow-fantasy-op-kc-set-in-lavender",
       "https://egl.circlly.com/auctions/baby-best-wishes-bssb-op-set",
-      "https://egl.circlly.com/auctions/star-rose-babydoll-jsk",
       "https://egl.circlly.com/auctions/my-advent-calendar-magic-of-the-happiness-over-the-special-day-cutsew-op-544cab9b-471d-4607-bb83-685dd4c3f51f",
       "https://egl.circlly.com/auctions/ap-jewel-marine-tiered-jsk-0dd36207-8e86-4413-b82b-4851d916387f",
       "https://egl.circlly.com/auctions/holy-lantern-jsk-angelic-pretty",
@@ -930,7 +929,6 @@
       "https://egl.circlly.com/auctions/btssb-floral-print-classical-jsk-brown-e558d2e5-e3db-4a39-92ec-bc9d0bb6918d",
       "https://egl.circlly.com/auctions/angelic-pretty-lovely-snow-fantasy-op-kc-set-in-lavender",
       "https://egl.circlly.com/auctions/baby-best-wishes-bssb-op-set",
-      "https://egl.circlly.com/auctions/star-rose-babydoll-jsk",
       "https://egl.circlly.com/auctions/my-advent-calendar-magic-of-the-happiness-over-the-special-day-cutsew-op-544cab9b-471d-4607-bb83-685dd4c3f51f",
       "https://egl.circlly.com/auctions/ap-jewel-marine-tiered-jsk-0dd36207-8e86-4413-b82b-4851d916387f",
       "https://egl.circlly.com/auctions/holy-lantern-jsk-angelic-pretty",
@@ -939,6 +937,7 @@
       "https://egl.circlly.com/auctions/angelic-pretty-2010-holy-night-story-switch-jsk-in-wine-with-headbow",
       "https://egl.circlly.com/auctions/ap-lucky-key-jsk-in-black",
       "https://egl.circlly.com/auctions/sugary-tartan",
+      "https://egl.circlly.com/auctions/star-rose-babydoll-jsk",
       "https://egl.circlly.com/auctions/taobao-sweet-dress",
       "https://egl.circlly.com/auctions/ap-melody-toys-never-worn",
       "https://egl.circlly.com/auctions/ap-dolly-cat-mto-full-set-extra-otks",
