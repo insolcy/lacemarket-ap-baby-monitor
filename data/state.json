@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-18T12:21:04.859Z",
+  "lastSuccessfulCheckAt": "2026-11-18T12:30:49.398Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,7 +911,6 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
-      "https://egl.circlly.com/auctions/ap-dolly-cat-mto-full-set-extra-otks",
       "https://egl.circlly.com/auctions/girly-apple-with-kc",
       "https://egl.circlly.com/auctions/btssb-floral-print-classical-jsk-brown-e558d2e5-e3db-4a39-92ec-bc9d0bb6918d",
       "https://egl.circlly.com/auctions/angelic-pretty-lovely-snow-fantasy-op-kc-set-in-lavender",
@@ -922,10 +921,10 @@
       "https://egl.circlly.com/auctions/angelic-pretty-space-lollipop-op-head-bow-set-navy",
       "https://egl.circlly.com/auctions/free-ship-angelic-pretty-decoration-strawberry-op-with-otks",
       "https://egl.circlly.com/auctions/angelic-pretty-2010-holy-night-story-switch-jsk-in-wine-with-headbow",
-      "https://egl.circlly.com/auctions/ap-lucky-key-jsk-in-black"
+      "https://egl.circlly.com/auctions/ap-lucky-key-jsk-in-black",
+      "https://egl.circlly.com/auctions/sugary-tartan"
     ],
     "seen": [
-      "https://egl.circlly.com/auctions/ap-dolly-cat-mto-full-set-extra-otks",
       "https://egl.circlly.com/auctions/girly-apple-with-kc",
       "https://egl.circlly.com/auctions/btssb-floral-print-classical-jsk-brown-e558d2e5-e3db-4a39-92ec-bc9d0bb6918d",
       "https://egl.circlly.com/auctions/angelic-pretty-lovely-snow-fantasy-op-kc-set-in-lavender",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/angelic-pretty-2010-holy-night-story-switch-jsk-in-wine-with-headbow",
       "https://egl.circlly.com/auctions/ap-lucky-key-jsk-in-black",
       "https://egl.circlly.com/auctions/sugary-tartan",
+      "https://egl.circlly.com/auctions/ap-dolly-cat-mto-full-set-extra-otks",
       "https://egl.circlly.com/auctions/relisted-btssb-milk-chan-and-snow-strawberry-ribbon-jsk-kc-pink",
       "https://egl.circlly.com/auctions/lucienne-dream-jsk-812e8049-fa37-4a38-862b-8207be73dccf",
       "https://egl.circlly.com/auctions/salon-de-the-rose-jsk",
