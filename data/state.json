@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-19T21:31:23.396Z",
+  "lastSuccessfulCheckAt": "2026-11-19T21:40:42.010Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -912,7 +912,6 @@
   "combined": {
     "frontier": [
       "https://egl.circlly.com/auctions/ap-british-keys-special-jsk-set-in-grey",
-      "https://egl.circlly.com/auctions/small-project-piece-ap-dreaming-macaron-jsk-black",
       "https://egl.circlly.com/auctions/project-piece-ap-wonder-memories-op-to-jsk-project-black",
       "https://egl.circlly.com/auctions/antique-lady-jsk",
       "https://egl.circlly.com/auctions/bnwt-angelic-pretty-cupid-cafe-op-head-bow-in-sax",
@@ -922,11 +921,11 @@
       "https://egl.circlly.com/auctions/ap-cinema-lady-jsk-pink",
       "https://egl.circlly.com/auctions/2nd-release-vierge-vampur-alice-jsk-2020",
       "https://egl.circlly.com/auctions/ap-flower-kitten-jsk",
-      "https://egl.circlly.com/auctions/damaged-angelic-pretty-dress-for-seller"
+      "https://egl.circlly.com/auctions/damaged-angelic-pretty-dress-for-seller",
+      "https://egl.circlly.com/auctions/kumya-s-doki-doki-christmas-party-green-jumperskirt-i-echarpe"
     ],
     "seen": [
       "https://egl.circlly.com/auctions/ap-british-keys-special-jsk-set-in-grey",
-      "https://egl.circlly.com/auctions/small-project-piece-ap-dreaming-macaron-jsk-black",
       "https://egl.circlly.com/auctions/project-piece-ap-wonder-memories-op-to-jsk-project-black",
       "https://egl.circlly.com/auctions/antique-lady-jsk",
       "https://egl.circlly.com/auctions/bnwt-angelic-pretty-cupid-cafe-op-head-bow-in-sax",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/ap-flower-kitten-jsk",
       "https://egl.circlly.com/auctions/damaged-angelic-pretty-dress-for-seller",
       "https://egl.circlly.com/auctions/kumya-s-doki-doki-christmas-party-green-jumperskirt-i-echarpe",
+      "https://egl.circlly.com/auctions/small-project-piece-ap-dreaming-macaron-jsk-black",
       "https://egl.circlly.com/auctions/btssb-floral-print-classical-jsk-brown-e558d2e5-e3db-4a39-92ec-bc9d0bb6918d",
       "https://egl.circlly.com/auctions/angelic-pretty-lovely-snow-fantasy-op-kc-set-in-lavender",
       "https://egl.circlly.com/auctions/tall-friendly-ap-magical-etoile-2009-sax",
