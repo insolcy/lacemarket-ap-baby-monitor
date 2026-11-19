@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-19T16:51:20.322Z",
+  "lastSuccessfulCheckAt": "2026-11-19T17:01:20.269Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,8 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-brilliant-ella-op-brilliant-jewel-long-gloves",
+      "https://egl.circlly.com/auctions/reserved-fruits-parlor-high-waisted-jsk-fully-shirred-with-otk-s",
       "https://egl.circlly.com/auctions/angelic-pretty-cream-cookie-parade-op-head-bow-in-blue",
       "https://egl.circlly.com/auctions/ap-cinema-lady-jsk-pink",
       "https://egl.circlly.com/auctions/2nd-release-vierge-vampur-alice-jsk-2020",
@@ -920,11 +922,11 @@
       "https://egl.circlly.com/auctions/btssb-floral-print-classical-jsk-brown-e558d2e5-e3db-4a39-92ec-bc9d0bb6918d",
       "https://egl.circlly.com/auctions/angelic-pretty-lovely-snow-fantasy-op-kc-set-in-lavender",
       "https://egl.circlly.com/auctions/baby-best-wishes-bssb-op-set",
-      "https://egl.circlly.com/auctions/my-advent-calendar-magic-of-the-happiness-over-the-special-day-cutsew-op-544cab9b-471d-4607-bb83-685dd4c3f51f",
-      "https://egl.circlly.com/auctions/ap-jewel-marine-tiered-jsk-0dd36207-8e86-4413-b82b-4851d916387f",
-      "https://egl.circlly.com/auctions/holy-lantern-jsk-angelic-pretty"
+      "https://egl.circlly.com/auctions/my-advent-calendar-magic-of-the-happiness-over-the-special-day-cutsew-op-544cab9b-471d-4607-bb83-685dd4c3f51f"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-brilliant-ella-op-brilliant-jewel-long-gloves",
+      "https://egl.circlly.com/auctions/reserved-fruits-parlor-high-waisted-jsk-fully-shirred-with-otk-s",
       "https://egl.circlly.com/auctions/angelic-pretty-cream-cookie-parade-op-head-bow-in-blue",
       "https://egl.circlly.com/auctions/ap-cinema-lady-jsk-pink",
       "https://egl.circlly.com/auctions/2nd-release-vierge-vampur-alice-jsk-2020",
