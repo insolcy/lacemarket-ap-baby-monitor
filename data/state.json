@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-20T17:31:03.877Z",
+  "lastSuccessfulCheckAt": "2026-11-20T17:41:26.798Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-dream-doll-op-white-x-pink-dress-only",
       "https://egl.circlly.com/auctions/romantic-tiered-jsk-2022",
       "https://egl.circlly.com/auctions/btssb-hanamomo-shangri-la-oriental-jsk-taobao-hair-clips",
       "https://egl.circlly.com/auctions/ap-british-keys-special-jsk-set-in-grey",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/angelic-pretty-brilliant-ella-op-brilliant-jewel-long-gloves",
       "https://egl.circlly.com/auctions/angelic-pretty-cream-cookie-parade-op-head-bow-in-blue",
       "https://egl.circlly.com/auctions/ap-cinema-lady-jsk-pink",
-      "https://egl.circlly.com/auctions/2nd-release-vierge-vampur-alice-jsk-2020",
-      "https://egl.circlly.com/auctions/ap-flower-kitten-jsk"
+      "https://egl.circlly.com/auctions/2nd-release-vierge-vampur-alice-jsk-2020"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-dream-doll-op-white-x-pink-dress-only",
       "https://egl.circlly.com/auctions/romantic-tiered-jsk-2022",
       "https://egl.circlly.com/auctions/btssb-hanamomo-shangri-la-oriental-jsk-taobao-hair-clips",
       "https://egl.circlly.com/auctions/ap-british-keys-special-jsk-set-in-grey",
