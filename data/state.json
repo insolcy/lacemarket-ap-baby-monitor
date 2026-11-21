@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-21T17:51:19.670Z",
+  "lastSuccessfulCheckAt": "2026-11-21T18:01:25.276Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/nwt-pastel-toys-theater-heart-jsk-otk",
       "https://egl.circlly.com/auctions/tartan-check-jsk-2000-1st-release-in-red",
       "https://egl.circlly.com/auctions/angelic-pretty-little-bunny-strawberry-op-one-piece-dress-headbow-2021-second-release-white-ver",
       "https://egl.circlly.com/auctions/ap-day-dream-carnival-set-b4dadc22-8ef9-4df8-bd8c-c37f9edf1eac",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/romantic-tiered-jsk-2022",
       "https://egl.circlly.com/auctions/btssb-hanamomo-shangri-la-oriental-jsk-taobao-hair-clips",
       "https://egl.circlly.com/auctions/ap-british-keys-special-jsk-set-in-grey",
-      "https://egl.circlly.com/auctions/project-piece-ap-wonder-memories-op-to-jsk-project-black",
-      "https://egl.circlly.com/auctions/antique-lady-jsk"
+      "https://egl.circlly.com/auctions/project-piece-ap-wonder-memories-op-to-jsk-project-black"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/nwt-pastel-toys-theater-heart-jsk-otk",
       "https://egl.circlly.com/auctions/tartan-check-jsk-2000-1st-release-in-red",
       "https://egl.circlly.com/auctions/angelic-pretty-little-bunny-strawberry-op-one-piece-dress-headbow-2021-second-release-white-ver",
       "https://egl.circlly.com/auctions/ap-day-dream-carnival-set-b4dadc22-8ef9-4df8-bd8c-c37f9edf1eac",
