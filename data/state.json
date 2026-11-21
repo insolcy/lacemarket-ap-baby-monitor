@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-21T01:41:05.939Z",
+  "lastSuccessfulCheckAt": "2026-11-21T01:51:24.890Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,9 +911,11 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/btssb-dot-millefeuille-jsk-18998b01-2ff7-4af0-b732-2aab5af06fdf",
       "https://egl.circlly.com/auctions/chocolate-rosette-special-jsk-set-2018-4e92904c-af07-40fb-9b33-847b68b4db55",
       "https://egl.circlly.com/auctions/angelic-pretty-toy-fantasy-pink",
       "https://egl.circlly.com/auctions/nwt-angelic-pretty-girly-apples-detachable-sleeve-op-special-set",
+      "https://egl.circlly.com/auctions/new-cotton-lace-frill-and-ruffle-jumper-skirt-71c1c97e-c813-44b6-979b-428bc3c66d68",
       "https://egl.circlly.com/auctions/romantic-tiered-jsk-2022",
       "https://egl.circlly.com/auctions/btssb-hanamomo-shangri-la-oriental-jsk-taobao-hair-clips",
       "https://egl.circlly.com/auctions/ap-british-keys-special-jsk-set-in-grey",
@@ -921,13 +923,14 @@
       "https://egl.circlly.com/auctions/antique-lady-jsk",
       "https://egl.circlly.com/auctions/bnwt-angelic-pretty-cupid-cafe-op-head-bow-in-sax",
       "https://egl.circlly.com/auctions/white-ohanami-bunny-jsk-ohanami-bunny-headdress",
-      "https://egl.circlly.com/auctions/angelic-pretty-brilliant-ella-op-brilliant-jewel-long-gloves",
-      "https://egl.circlly.com/auctions/angelic-pretty-cream-cookie-parade-op-head-bow-in-blue"
+      "https://egl.circlly.com/auctions/angelic-pretty-brilliant-ella-op-brilliant-jewel-long-gloves"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/btssb-dot-millefeuille-jsk-18998b01-2ff7-4af0-b732-2aab5af06fdf",
       "https://egl.circlly.com/auctions/chocolate-rosette-special-jsk-set-2018-4e92904c-af07-40fb-9b33-847b68b4db55",
       "https://egl.circlly.com/auctions/angelic-pretty-toy-fantasy-pink",
       "https://egl.circlly.com/auctions/nwt-angelic-pretty-girly-apples-detachable-sleeve-op-special-set",
+      "https://egl.circlly.com/auctions/new-cotton-lace-frill-and-ruffle-jumper-skirt-71c1c97e-c813-44b6-979b-428bc3c66d68",
       "https://egl.circlly.com/auctions/romantic-tiered-jsk-2022",
       "https://egl.circlly.com/auctions/btssb-hanamomo-shangri-la-oriental-jsk-taobao-hair-clips",
       "https://egl.circlly.com/auctions/ap-british-keys-special-jsk-set-in-grey",
@@ -938,7 +941,6 @@
       "https://egl.circlly.com/auctions/angelic-pretty-brilliant-ella-op-brilliant-jewel-long-gloves",
       "https://egl.circlly.com/auctions/angelic-pretty-cream-cookie-parade-op-head-bow-in-blue",
       "https://egl.circlly.com/auctions/ap-cinema-lady-jsk-pink",
-      "https://egl.circlly.com/auctions/new-cotton-lace-frill-and-ruffle-jumper-skirt-71c1c97e-c813-44b6-979b-428bc3c66d68",
       "https://egl.circlly.com/auctions/2nd-release-vierge-vampur-alice-jsk-2020",
       "https://egl.circlly.com/auctions/angelic-pretty-dream-doll-op-white-x-pink-dress-only",
       "https://egl.circlly.com/auctions/ap-flower-kitten-jsk",
