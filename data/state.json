@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-23T06:40:48.879Z",
+  "lastSuccessfulCheckAt": "2026-11-23T06:50:39.816Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/nwt-btssb-kuma-kumya-s-marine-island-jsk",
       "https://egl.circlly.com/auctions/velveteen-babydoll-jsk-headdress-2024",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-millefeuille-cotton-sateen-jsk-lavender-x-black",
       "https://egl.circlly.com/auctions/btssb-elizabeth-op-headdress-bag",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/angelic-pretty-little-bunny-strawberry-op-one-piece-dress-headbow-2021-second-release-white-ver",
       "https://egl.circlly.com/auctions/ap-day-dream-carnival-set-b4dadc22-8ef9-4df8-bd8c-c37f9edf1eac",
       "https://egl.circlly.com/auctions/btssb-dot-millefeuille-jsk-18998b01-2ff7-4af0-b732-2aab5af06fdf",
-      "https://egl.circlly.com/auctions/chocolate-rosette-special-jsk-set-2018-4e92904c-af07-40fb-9b33-847b68b4db55",
-      "https://egl.circlly.com/auctions/angelic-pretty-toy-fantasy-pink"
+      "https://egl.circlly.com/auctions/chocolate-rosette-special-jsk-set-2018-4e92904c-af07-40fb-9b33-847b68b4db55"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/nwt-btssb-kuma-kumya-s-marine-island-jsk",
       "https://egl.circlly.com/auctions/velveteen-babydoll-jsk-headdress-2024",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-millefeuille-cotton-sateen-jsk-lavender-x-black",
       "https://egl.circlly.com/auctions/btssb-elizabeth-op-headdress-bag",
