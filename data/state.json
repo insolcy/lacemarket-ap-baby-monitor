@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-24T16:01:01.038Z",
+  "lastSuccessfulCheckAt": "2026-11-24T16:10:46.544Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,7 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-high-waist-jsk-lavender-modified-c23b85e6-b839-4b53-a612-8b719569bf1e",
       "https://egl.circlly.com/auctions/angelic-pretty-sweet-frill-jsk-from-2008-white",
       "https://egl.circlly.com/auctions/nwt-pink-ap-dressy-ribbon-poodle-collar-jsk",
       "https://egl.circlly.com/auctions/eternal-rose-bouquet-jsk-half-bonnet-set",
@@ -921,10 +922,10 @@
       "https://egl.circlly.com/auctions/angelic-pretty-chess-emblem-op-beret",
       "https://egl.circlly.com/auctions/dark-clothing-lot-free-shipping",
       "https://egl.circlly.com/auctions/nwt-pastel-toys-theater-heart-jsk-otk",
-      "https://egl.circlly.com/auctions/tartan-check-jsk-2000-1st-release-in-red",
-      "https://egl.circlly.com/auctions/angelic-pretty-little-bunny-strawberry-op-one-piece-dress-headbow-2021-second-release-white-ver"
+      "https://egl.circlly.com/auctions/tartan-check-jsk-2000-1st-release-in-red"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/angelic-pretty-dreamy-girl-high-waist-jsk-lavender-modified-c23b85e6-b839-4b53-a612-8b719569bf1e",
       "https://egl.circlly.com/auctions/angelic-pretty-sweet-frill-jsk-from-2008-white",
       "https://egl.circlly.com/auctions/nwt-pink-ap-dressy-ribbon-poodle-collar-jsk",
       "https://egl.circlly.com/auctions/eternal-rose-bouquet-jsk-half-bonnet-set",
