@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-24T15:31:05.512Z",
+  "lastSuccessfulCheckAt": "2026-11-24T15:40:31.520Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,11 +911,9 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
-      "https://egl.circlly.com/auctions/reserved-felicia-angelic-pretty-milky-berry-jsk",
       "https://egl.circlly.com/auctions/angelic-pretty-sweet-frill-jsk-from-2008-white",
       "https://egl.circlly.com/auctions/nwt-pink-ap-dressy-ribbon-poodle-collar-jsk",
       "https://egl.circlly.com/auctions/eternal-rose-bouquet-jsk-half-bonnet-set",
-      "https://egl.circlly.com/auctions/jenny-fax-x-angelic-pretty-tea-party-moon-ii-in-baby-blue-with-tag",
       "https://egl.circlly.com/auctions/soap-bubbles-angelic-pretty-jsk-kc-set-2023",
       "https://egl.circlly.com/auctions/velveteen-babydoll-jsk-headdress-2024",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-millefeuille-cotton-sateen-jsk-lavender-x-black",
@@ -923,14 +921,13 @@
       "https://egl.circlly.com/auctions/angelic-pretty-chess-emblem-op-beret",
       "https://egl.circlly.com/auctions/dark-clothing-lot-free-shipping",
       "https://egl.circlly.com/auctions/nwt-pastel-toys-theater-heart-jsk-otk",
-      "https://egl.circlly.com/auctions/tartan-check-jsk-2000-1st-release-in-red"
+      "https://egl.circlly.com/auctions/tartan-check-jsk-2000-1st-release-in-red",
+      "https://egl.circlly.com/auctions/angelic-pretty-little-bunny-strawberry-op-one-piece-dress-headbow-2021-second-release-white-ver"
     ],
     "seen": [
-      "https://egl.circlly.com/auctions/reserved-felicia-angelic-pretty-milky-berry-jsk",
       "https://egl.circlly.com/auctions/angelic-pretty-sweet-frill-jsk-from-2008-white",
       "https://egl.circlly.com/auctions/nwt-pink-ap-dressy-ribbon-poodle-collar-jsk",
       "https://egl.circlly.com/auctions/eternal-rose-bouquet-jsk-half-bonnet-set",
-      "https://egl.circlly.com/auctions/jenny-fax-x-angelic-pretty-tea-party-moon-ii-in-baby-blue-with-tag",
       "https://egl.circlly.com/auctions/soap-bubbles-angelic-pretty-jsk-kc-set-2023",
       "https://egl.circlly.com/auctions/velveteen-babydoll-jsk-headdress-2024",
       "https://egl.circlly.com/auctions/baby-the-stars-shine-bright-millefeuille-cotton-sateen-jsk-lavender-x-black",
@@ -940,6 +937,8 @@
       "https://egl.circlly.com/auctions/nwt-pastel-toys-theater-heart-jsk-otk",
       "https://egl.circlly.com/auctions/tartan-check-jsk-2000-1st-release-in-red",
       "https://egl.circlly.com/auctions/angelic-pretty-little-bunny-strawberry-op-one-piece-dress-headbow-2021-second-release-white-ver",
+      "https://egl.circlly.com/auctions/reserved-felicia-angelic-pretty-milky-berry-jsk",
+      "https://egl.circlly.com/auctions/jenny-fax-x-angelic-pretty-tea-party-moon-ii-in-baby-blue-with-tag",
       "https://egl.circlly.com/auctions/meta-royal-ornament-princess-op-brown",
       "https://egl.circlly.com/auctions/ap-day-dream-carnival-set-b4dadc22-8ef9-4df8-bd8c-c37f9edf1eac",
       "https://egl.circlly.com/auctions/velveteen-standing-collar-op-2002",
