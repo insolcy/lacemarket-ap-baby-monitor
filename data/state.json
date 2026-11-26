@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-26T22:31:04.862Z",
+  "lastSuccessfulCheckAt": "2026-11-26T22:42:33.207Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,6 +911,8 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
+      "https://egl.circlly.com/auctions/closet-cleaning-btssb-heart-apron-in-white",
+      "https://egl.circlly.com/auctions/closet-cleaning-ap-wonder-story-round-jsk-in-black",
       "https://egl.circlly.com/auctions/closet-cleaning-btssb-bambi-de-la-foret-secrete-petite-princesse-de-la-foret-jsk-i-in-brown",
       "https://egl.circlly.com/auctions/closet-cleaning-btssb-clockwork-tea-party-lumiere-jsk-kc-set-in-red",
       "https://egl.circlly.com/auctions/bless-from-michael-black-x-black-jsk-headdress",
@@ -920,11 +922,11 @@
       "https://egl.circlly.com/auctions/black-friday-free-ship-nwt-daisy-doll-op-in-ivory-with-matching-headdress-by-angelic-pretty",
       "https://egl.circlly.com/auctions/black-friday-free-ship-nwt-marquise-jsk-in-lavender-by-angelic-pretty",
       "https://egl.circlly.com/auctions/black-friday-free-ship-dressy-tulle-jsk-in-lavender-by-angelic-pretty",
-      "https://egl.circlly.com/auctions/lady-victorian-rose-jewelry-a-wish-on-the-rose-petals-long-jsk-d476427b-03c9-41ca-8647-47b23859bde5",
-      "https://egl.circlly.com/auctions/nwt-btssb-sa-ku-ra-tea-time-oriental-jsk-red",
-      "https://egl.circlly.com/auctions/btssb-sister-maria-s-humming-bird-op-brown"
+      "https://egl.circlly.com/auctions/lady-victorian-rose-jewelry-a-wish-on-the-rose-petals-long-jsk-d476427b-03c9-41ca-8647-47b23859bde5"
     ],
     "seen": [
+      "https://egl.circlly.com/auctions/closet-cleaning-btssb-heart-apron-in-white",
+      "https://egl.circlly.com/auctions/closet-cleaning-ap-wonder-story-round-jsk-in-black",
       "https://egl.circlly.com/auctions/closet-cleaning-btssb-bambi-de-la-foret-secrete-petite-princesse-de-la-foret-jsk-i-in-brown",
       "https://egl.circlly.com/auctions/closet-cleaning-btssb-clockwork-tea-party-lumiere-jsk-kc-set-in-red",
       "https://egl.circlly.com/auctions/bless-from-michael-black-x-black-jsk-headdress",
