@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-28T14:50:32.176Z",
+  "lastSuccessfulCheckAt": "2026-11-28T15:00:27.490Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,7 +911,6 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
-      "https://egl.circlly.com/auctions/reserved-for-melochrome",
       "https://egl.circlly.com/auctions/angelic-pretty-nakayoshi-ginger-cookie-salopette-ivory",
       "https://egl.circlly.com/auctions/fancy-candy-special-set-jsk-kc",
       "https://egl.circlly.com/auctions/angelic-pretty-castle-mirage-with-cannotier",
@@ -922,10 +921,10 @@
       "https://egl.circlly.com/auctions/free-us-shipping-angelic-pretty-angelina-jsk-in-pink",
       "https://egl.circlly.com/auctions/ap-magical-milk-cats-jsk-lavender-magical-lyrical-bunny-jewelery",
       "https://egl.circlly.com/auctions/black-friday-free-ship-nwt-marquise-jsk-in-lavender-by-angelic-pretty",
-      "https://egl.circlly.com/auctions/black-friday-free-ship-dressy-tulle-jsk-in-lavender-by-angelic-pretty"
+      "https://egl.circlly.com/auctions/black-friday-free-ship-dressy-tulle-jsk-in-lavender-by-angelic-pretty",
+      "https://egl.circlly.com/auctions/lady-victorian-rose-jewelry-a-wish-on-the-rose-petals-long-jsk-d476427b-03c9-41ca-8647-47b23859bde5"
     ],
     "seen": [
-      "https://egl.circlly.com/auctions/reserved-for-melochrome",
       "https://egl.circlly.com/auctions/angelic-pretty-nakayoshi-ginger-cookie-salopette-ivory",
       "https://egl.circlly.com/auctions/fancy-candy-special-set-jsk-kc",
       "https://egl.circlly.com/auctions/angelic-pretty-castle-mirage-with-cannotier",
@@ -938,6 +937,7 @@
       "https://egl.circlly.com/auctions/black-friday-free-ship-nwt-marquise-jsk-in-lavender-by-angelic-pretty",
       "https://egl.circlly.com/auctions/black-friday-free-ship-dressy-tulle-jsk-in-lavender-by-angelic-pretty",
       "https://egl.circlly.com/auctions/lady-victorian-rose-jewelry-a-wish-on-the-rose-petals-long-jsk-d476427b-03c9-41ca-8647-47b23859bde5",
+      "https://egl.circlly.com/auctions/reserved-for-melochrome",
       "https://egl.circlly.com/auctions/nwt-btssb-sa-ku-ra-tea-time-oriental-jsk-red",
       "https://egl.circlly.com/auctions/ap-day-dream-carnival-jsk-headdress-headbow-set",
       "https://egl.circlly.com/auctions/eternal-rose-bouquet-jsk-half-bonnet-set",
