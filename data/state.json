@@ -1,7 +1,7 @@
 {
   "version": 3,
   "baselineCreatedAt": "2026-08-18T16:00:23.225Z",
-  "lastSuccessfulCheckAt": "2026-11-28T05:20:51.560Z",
+  "lastSuccessfulCheckAt": "2026-11-28T05:30:46.156Z",
   "brands": {
     "ap": {
       "inventoryCountAtBaseline": 529,
@@ -911,21 +911,6 @@
   "newUnitedStatesBaselineAt": "2026-08-27T14:38:27.035Z",
   "combined": {
     "frontier": [
-      "https://egl.circlly.com/auctions/ap-day-dream-carnival-jsk-headdress-headbow-set",
-      "https://egl.circlly.com/auctions/fancy-candy-special-set-jsk-kc",
-      "https://egl.circlly.com/auctions/angelic-pretty-castle-mirage-with-cannotier",
-      "https://egl.circlly.com/auctions/romantic-little-garden-jsk-with-otk-s",
-      "https://egl.circlly.com/auctions/dreamy-parfait-jsk-angelic-pretty",
-      "https://egl.circlly.com/auctions/2016-plus-size-angelic-pretty-antique-chocolaterie-switching-jsk-set",
-      "https://egl.circlly.com/auctions/new-with-tag-angelic-pretty-honey-cake-jsk-kc-necklace-ring",
-      "https://egl.circlly.com/auctions/free-us-shipping-angelic-pretty-angelina-jsk-in-pink",
-      "https://egl.circlly.com/auctions/ap-magical-milk-cats-jsk-lavender-magical-lyrical-bunny-jewelery",
-      "https://egl.circlly.com/auctions/black-friday-free-ship-nwt-marquise-jsk-in-lavender-by-angelic-pretty",
-      "https://egl.circlly.com/auctions/black-friday-free-ship-dressy-tulle-jsk-in-lavender-by-angelic-pretty",
-      "https://egl.circlly.com/auctions/lady-victorian-rose-jewelry-a-wish-on-the-rose-petals-long-jsk-d476427b-03c9-41ca-8647-47b23859bde5"
-    ],
-    "seen": [
-      "https://egl.circlly.com/auctions/ap-day-dream-carnival-jsk-headdress-headbow-set",
       "https://egl.circlly.com/auctions/fancy-candy-special-set-jsk-kc",
       "https://egl.circlly.com/auctions/angelic-pretty-castle-mirage-with-cannotier",
       "https://egl.circlly.com/auctions/romantic-little-garden-jsk-with-otk-s",
@@ -937,10 +922,25 @@
       "https://egl.circlly.com/auctions/black-friday-free-ship-nwt-marquise-jsk-in-lavender-by-angelic-pretty",
       "https://egl.circlly.com/auctions/black-friday-free-ship-dressy-tulle-jsk-in-lavender-by-angelic-pretty",
       "https://egl.circlly.com/auctions/lady-victorian-rose-jewelry-a-wish-on-the-rose-petals-long-jsk-d476427b-03c9-41ca-8647-47b23859bde5",
+      "https://egl.circlly.com/auctions/nwt-btssb-sa-ku-ra-tea-time-oriental-jsk-red"
+    ],
+    "seen": [
+      "https://egl.circlly.com/auctions/fancy-candy-special-set-jsk-kc",
+      "https://egl.circlly.com/auctions/angelic-pretty-castle-mirage-with-cannotier",
+      "https://egl.circlly.com/auctions/romantic-little-garden-jsk-with-otk-s",
+      "https://egl.circlly.com/auctions/dreamy-parfait-jsk-angelic-pretty",
+      "https://egl.circlly.com/auctions/2016-plus-size-angelic-pretty-antique-chocolaterie-switching-jsk-set",
+      "https://egl.circlly.com/auctions/new-with-tag-angelic-pretty-honey-cake-jsk-kc-necklace-ring",
+      "https://egl.circlly.com/auctions/free-us-shipping-angelic-pretty-angelina-jsk-in-pink",
+      "https://egl.circlly.com/auctions/ap-magical-milk-cats-jsk-lavender-magical-lyrical-bunny-jewelery",
+      "https://egl.circlly.com/auctions/black-friday-free-ship-nwt-marquise-jsk-in-lavender-by-angelic-pretty",
+      "https://egl.circlly.com/auctions/black-friday-free-ship-dressy-tulle-jsk-in-lavender-by-angelic-pretty",
+      "https://egl.circlly.com/auctions/lady-victorian-rose-jewelry-a-wish-on-the-rose-petals-long-jsk-d476427b-03c9-41ca-8647-47b23859bde5",
+      "https://egl.circlly.com/auctions/nwt-btssb-sa-ku-ra-tea-time-oriental-jsk-red",
+      "https://egl.circlly.com/auctions/ap-day-dream-carnival-jsk-headdress-headbow-set",
       "https://egl.circlly.com/auctions/eternal-rose-bouquet-jsk-half-bonnet-set",
       "https://egl.circlly.com/auctions/black-friday-free-ship-nwt-daisy-doll-op-in-ivory-with-matching-headdress-by-angelic-pretty",
       "https://egl.circlly.com/auctions/soap-bubbles-angelic-pretty-jsk-kc-set-2023",
-      "https://egl.circlly.com/auctions/nwt-btssb-sa-ku-ra-tea-time-oriental-jsk-red",
       "https://egl.circlly.com/auctions/alice-s-marchin-cookie-flavour-milky-jsk-set",
       "https://egl.circlly.com/auctions/no-sash-kumya-chan-s-sweet-baby-love-heart-pink-op-ff28be65-f4bb-4670-a4aa-766a88db4c36",
       "https://egl.circlly.com/auctions/btssb-sister-maria-s-humming-bird-op-brown",
